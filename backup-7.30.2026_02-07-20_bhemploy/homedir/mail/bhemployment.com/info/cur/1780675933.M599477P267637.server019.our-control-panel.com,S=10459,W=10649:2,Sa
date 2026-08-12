@@ -1,0 +1,190 @@
+Return-Path: <oliver.gracearchitectures8@gmail.com>
+Delivered-To: info@bhemployment.com
+Received: from server019.our-control-panel.com
+	by server019.our-control-panel.com with LMTP
+	id i1h0Il31Imp1FQQAaDcOIg
+	(envelope-from <oliver.gracearchitectures8@gmail.com>)
+	for <info@bhemployment.com>; Fri, 05 Jun 2026 21:57:13 +0545
+Return-path: <oliver.gracearchitectures8@gmail.com>
+Envelope-to: info@bhemployment.com
+Delivery-date: Fri, 05 Jun 2026 21:57:13 +0545
+Received: from mail-lj1-f175.google.com ([209.85.208.175]:38318)
+	by server019.our-control-panel.com with esmtps  (TLS1.3) tls TLS_AES_128_GCM_SHA256
+	(Exim 4.99.4)
+	(envelope-from <oliver.gracearchitectures8@gmail.com>)
+	id 1wVX9X-000000017NT-1QfC
+	for info@bhemployment.com;
+	Fri, 05 Jun 2026 21:57:13 +0545
+Received: by mail-lj1-f175.google.com with SMTP id 38308e7fff4ca-3967720c093so2014571fa.1
+        for <info@bhemployment.com>; Fri, 05 Jun 2026 09:11:51 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1780675890; cv=none;
+        d=google.com; s=arc-20240605;
+        b=h3iSKQojw8XUwuMa/OZskfFhGFHytefr6TakP4UTN/9LBABsSH/OigC6Eq0X4PwSUm
+         hCPFLx6ydCrnl+kEuO9Q1uyFw6Cqe2MNWeXhO2KR4mpVZxmIQ4APNHRYRLGEt/DX0xUp
+         PHERqYpHMi2Kr4HOXpYpoOYZzJPtyHlqcYlNW4cuSMP2mroJajxY+w/YydFjmEP2/GsL
+         Ia8ecAtNjvDGunYl+jPUCmGqnNX7OEwtMciOCYMhTALraf3E2LDz9ooLfvbFD79Sy4HE
+         tFKerX5ZFuKqiKzU9gZgxbn9lbK1PfIa26VVDperpSTCadSrnSK1Wb6FUB51qBqt5q+L
+         pFQg==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20240605;
+        h=to:subject:message-id:date:from:mime-version:dkim-signature;
+        bh=FobkAJnbpoRcoOOqWeqyoMR81M8gyKatpUxD+5zijkU=;
+        fh=X3gXPMPQ6Bn3lXKtRXnlX+rX5SIw07GipyuCWX+ZRU0=;
+        b=hlgCJsDIQ7v2d085HeB2JNOFQACYocLDPg4RBYqrwmYxN0/rkEb0Q2CnabRD+DoKaQ
+         HfqXWvlhSlvgYg5fcY4caCxFlnRkWe0Gjxbg8xbLUc8hjq2MTOffeIRJDGr8OULIUAjg
+         +qTjfBev69VjsdlfKnehEqanJhm3zMTsNN5msy3ybP0tOzXsG/0K0q5zDS9iGmSNHdM4
+         npjYMX89xaz20NUblMzKWdWAsqAXGiApNcyepQajknpMs/OG+g0spQYqBwxjCT2Brd8Y
+         y1JYI2fSWD6ivWKmXQr9+1qsXsBAmZlOHCCgHx5eivGGxF34t3Kt/PFWONeh3d1hkbD0
+         qbew==;
+        darn=bhemployment.com
+ARC-Authentication-Results: i=1; mx.google.com; arc=none
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20251104; t=1780675890; x=1781280690; darn=bhemployment.com;
+        h=to:subject:message-id:date:from:mime-version:from:to:cc:subject
+         :date:message-id:reply-to;
+        bh=FobkAJnbpoRcoOOqWeqyoMR81M8gyKatpUxD+5zijkU=;
+        b=akG/426X5Edj1fP4X9JjkEfNk6JtO5Krr9BW13c5XoENOKnTh7I+YhGFyAM1RxbNWk
+         0JO3t9+Mp0QP5x0iuV0xm0KzYFANMofqfVB+gWwjTaZ2kyZb6hYoYo9dmQgD9poe84z5
+         SoSC5C+xOAQfyc6N4jO6R1nPK0phjTf640LW87yyezk2F8lUobfhb5xmleNMuv0Fq3Q1
+         x2gp9SdTUUh+d0LNG3FItTm3X3k4EMBwlxnUX/gXieD8uNX77lvB8GfOXB4Cc0VGaZkb
+         21WUUXUb+U2hZyd7ssPPQuSfz5tN1hfM5ozdGwqi6yF49svTvAhSAwfEwlnWsUAk4x6/
+         U57w==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20251104; t=1780675890; x=1781280690;
+        h=to:subject:message-id:date:from:mime-version:x-gm-gg
+         :x-gm-message-state:from:to:cc:subject:date:message-id:reply-to;
+        bh=FobkAJnbpoRcoOOqWeqyoMR81M8gyKatpUxD+5zijkU=;
+        b=YhdV/N8tAKjv6qQy2q+G4/QAaCbY8wa0rNFdcoGlS3D/djGA4D14umdlXCQq/BeTtD
+         NwQKxMz7NZzzYmYfJJXuCl2AHJi5CAak+op5I2APTljjfNmcErzJxf5CU/wFMZ4fwlW4
+         E956PdZMDvmHeXPCCqM4bPAUnQKJ3G1d4cw928JPEY+D7eAKizMm1Eu0WjokRbtBkBVO
+         R/hiQneehcSz0nDEhHCaqhAsckkJrebWzCpN26MHcYIXBlyVVv3pbTy+2G1tkYxiKkMw
+         jPiNclQiXfsTQcNDnNRf1NyXo3ZJ5yeDb7kFSp5d1YmwHPkvhNAdiPU7oL7+Cb0zreOM
+         EJ9w==
+X-Gm-Message-State: AOJu0YyFgKzRhCAWvWRDM7FKv24l+Rz4q6VG9zpvse9p/oKrZ1qJWgVQ
+	pXysuqv0pY3Xg1QCx6t+rIa/ibD1kQsmP9IIHs3fcjYVeo31S9+kYVTLroApi1c5S8iVggDYCpz
+	qXoydcNrLJTPzDPpxJwuMy/w/SD1bKDezcZay
+X-Gm-Gg: Acq92OF8ydTir7fMRWDpWX/Re2jgbQqg8cjN40oT+nYhH3uxgVO9jnK9zyCvN/0DyJA
+	PVn7/czn19xe7NGyPJQjwPsFpvyxsR8p5HgnGWaaTtMCe7KguTB/8slm/nwDX2BQN8eVIXXOgOp
+	plXxXeYXyZiYEJWbVcNeySmFbvbVxWfzGMg7f3IB8uBxLUnNwTfURgB2yAEPTwYq74m+higW7oT
+	Y8ueoMj2nUFEwRxg6zrDRrYNhx1nGrjQcEMjzPxas2fELjj37B4MlDoRTBNOC8F6PBS2221kQUc
+	FKN++uOSkpdGDL0rgDlxpqBZlBvhfBijqrB55gt41Yj1MYohOSTUx2s=
+X-Received: by 2002:a2e:a10b:0:b0:396:7eba:a8 with SMTP id 38308e7fff4ca-396d0a66b42mr5940711fa.8.1780675890184;
+ Fri, 05 Jun 2026 09:11:30 -0700 (PDT)
+MIME-Version: 1.0
+From: Oliver Jaxon <oliver.gracearchitectures8@gmail.com>
+Date: Fri, 5 Jun 2026 21:11:15 +0500
+X-Gm-Features: AVVi8CdgFKQ5RSogdZm1gbLg09c-u1mmtEz2G2VbhMYkQd09TbnGuuMwS581peI
+Message-ID: <CALTPOeVpzwgvQ8o1EGxjUCwd5cc8wsQ9gCFnedzTbBsv2wDK3w@mail.gmail.com>
+Subject: Building the Connection Between Vision and Execution
+To: info@bhemployment.com
+Content-Type: multipart/alternative; boundary="000000000000e5087e065383e94f"
+X-Spam-Status: No, score=1.8
+X-Spam-Score: 18
+X-Spam-Bar: +
+X-Ham-Report: Spam detection software, running on the system "server019.our-control-panel.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  *Hi there,* We understand the frustration of repeated county
+    comments or permit rejections _ it is not just annoying, it is costly.
+   At Grace Architectures & Estimation, we specialize in eliminating exactly
+   that [...] 
+ Content analysis details:   (1.8 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 RCVD_IN_DNSWL_BLOCKED  RBL: ADMINISTRATOR NOTICE: The query to DNSWL
+                             was blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#DnsBlocklists-dnsbl-block
+                              for more information.
+                             [209.85.208.175 listed in list.dnswl.org]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from author's
+                             domain
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily valid
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+  0.0 FREEMAIL_FROM          Sender email is commonly abused enduser mail provider
+                             [oliver.gracearchitectures8(at)gmail.com]
+  1.0 FREEMAIL_ENVFROM_END_DIGIT Envelope-from freemail username ends in
+                             digit
+                             [oliver.gracearchitectures8(at)gmail.com]
+  1.0 FORGED_GMAIL_RCVD      'From' gmail.com does not match 'Received' headers
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  0.0 RCVD_IN_MSPIKE_H2      RBL: Average reputation (+2)
+                             [209.85.208.175 listed in wl.mailspike.net]
+X-Spam-Flag: NO
+
+--000000000000e5087e065383e94f
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+*Hi there,*
+
+We understand the frustration of repeated county comments or permit
+rejections =E2=80=94 it is not just annoying, it is costly. At Grace Archit=
+ectures
+& Estimation, we specialize in eliminating exactly that by making sure
+every drawing set is fully code-compliant from day one.
+
+Our licensed architects and engineers meticulously design and review every
+detail =E2=80=94 from concept to construction =E2=80=94 so your project sta=
+ys on track and
+on budget.
+
+Here is what we can do for you:
+
+   - Sketch to professional drawing set
+   - Foundation to finish permit-ready sets
+   - 3D renders turned into full drawing sets
+   - Complete architectural drawing sets with fast turnaround
+
+What makes Grace the right choice:
+
+   - Precision & Compliance =E2=80=94 Every detail built to meet county req=
+uirements
+   - Unlimited Revisions =E2=80=94 We refine until everything is exactly ri=
+ght
+   - Fast Turnaround =E2=80=94 Your timeline stays intact
+   - Competitive Pricing =E2=80=94 High quality work at rates that make sen=
+se
+
+If you have a project that is active or coming up soon, we are ready to
+step in and get it done right.
+
+Sincerely,
+*Grace Architectures & Estimation*
+
+--000000000000e5087e065383e94f
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><div dir=3D"ltr"><div><br clear=3D"all"></div><div><div di=
+r=3D"ltr" class=3D"gmail_signature" data-smartmail=3D"gmail_signature"><div=
+ dir=3D"ltr"><div style=3D"color:rgb(34,34,34)"><b>Hi there,</b></div><div =
+style=3D"color:rgb(34,34,34)"><div dir=3D"ltr"><div dir=3D"ltr"><div><div d=
+ir=3D"ltr"><div dir=3D"ltr"><div><div dir=3D"ltr"><div dir=3D"ltr"><p>We un=
+derstand the frustration of repeated county comments or permit rejections =
+=E2=80=94 it is not just annoying, it is costly. At Grace Architectures &am=
+p; Estimation, we specialize in eliminating exactly that by making sure eve=
+ry drawing set is fully code-compliant from day one.</p><p>Our licensed arc=
+hitects and engineers meticulously design and review every detail =E2=80=94=
+ from concept to construction =E2=80=94 so your project stays on track and =
+on budget.</p><p>Here is what we can do for you:</p><ul><li style=3D"margin=
+-left:15px">Sketch to professional drawing set</li><li style=3D"margin-left=
+:15px">Foundation to finish permit-ready sets</li><li style=3D"margin-left:=
+15px">3D renders turned into full drawing sets</li><li style=3D"margin-left=
+:15px">Complete architectural drawing sets with fast turnaround</li></ul><p=
+>What makes Grace the right choice:</p><ul><li style=3D"margin-left:15px">P=
+recision &amp; Compliance =E2=80=94 Every detail built to meet county requi=
+rements</li><li style=3D"margin-left:15px">Unlimited Revisions =E2=80=94 We=
+ refine until everything is exactly right</li><li style=3D"margin-left:15px=
+">Fast Turnaround =E2=80=94 Your timeline stays intact</li><li style=3D"mar=
+gin-left:15px">Competitive Pricing =E2=80=94 High quality work at rates tha=
+t make sense</li></ul><p>If you have a project that is active or coming up =
+soon, we are ready to step in and get it done right.</p><p>Sincerely,<br><b=
+>Grace Architectures &amp; Estimation</b></p></div></div></div></div></div>=
+</div></div></div></div></div></div></div></div>
+</div>
+
+--000000000000e5087e065383e94f--

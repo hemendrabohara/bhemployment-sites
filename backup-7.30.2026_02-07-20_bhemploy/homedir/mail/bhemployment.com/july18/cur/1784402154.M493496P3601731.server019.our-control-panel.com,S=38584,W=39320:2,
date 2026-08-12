@@ -1,0 +1,736 @@
+Return-Path: <bounce+3ff332.2568ca-july18=bhemployment.com@comm3.sulekhainfo.com>
+Delivered-To: july18@bhemployment.com
+Received: from server019.our-control-panel.com
+	by server019.our-control-panel.com with LMTP
+	id IEQvHOrQW2pD9TYAaDcOIg
+	(envelope-from <bounce+3ff332.2568ca-july18=bhemployment.com@comm3.sulekhainfo.com>)
+	for <july18@bhemployment.com>; Sun, 19 Jul 2026 01:00:54 +0545
+Return-path: <bounce+3ff332.2568ca-july18=bhemployment.com@comm3.sulekhainfo.com>
+Envelope-to: july18@bhemployment.com
+Delivery-date: Sun, 19 Jul 2026 01:00:54 +0545
+Received: from k22.kb8c70eb.use4.send.mailgun.net ([204.220.184.22]:62554)
+	by server019.our-control-panel.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+	(Exim 4.99.4)
+	(envelope-from <bounce+3ff332.2568ca-july18=bhemployment.com@comm3.sulekhainfo.com>)
+	id 1wlAVu-0000000F6aJ-37Dl
+	for july18@bhemployment.com;
+	Sun, 19 Jul 2026 01:00:54 +0545
+DKIM-Signature: a=rsa-sha256; v=1; c=relaxed/relaxed; d=sulekhainfo.com; q=dns/txt; s=acl; t=1784402111; x=1784409311;
+ h=Reply-To: Message-Id: Mime-Version: Date: To: To: Content-Type: From: From: Subject: Subject: Sender: Sender;
+ bh=x+cVXMV4zf9Zt7O3yWirAutVPFNxJLnbemCk8XyTFuQ=;
+ b=SGjEQIBLPRedzDM0B7d5Ecyt+6E0rc8NxvYDwa7XUonGhEvkOkEUIZ2K6eUhUSnEOsohCYHGJDAm/tiGpBm5EjO2/hq7zR3AJE9nG6QweFe1fv824vCLJi/8qb2X2TACew7Vky18WvHx2/o3/qSQ8WaDjfHCrhNYlC8jQ5qsuwg=
+X-Mailgun-Sid: WyI5N2Y2ZCIsImp1bHkxOEBiaGVtcGxveW1lbnQuY29tIiwiMjU2OGNhIl0=
+Received: from o130.smtp-out.aclmobile.net (o130.smtp-out.aclmobile.net
+ [103.54.236.130]) by
+ 466666f19cebe0440eed9726e83fbe3ebf36d1096d299e9fb8456dbec604580f with SMTP id
+ 6a5bd0bf7e96d0367e229d2f (version=TLS1.3, cipher=TLS_AES_128_GCM_SHA256);
+ Sat, 18 Jul 2026 19:15:11 GMT
+X-Mailgun-Sending-Ip: 204.220.184.22
+Sender: sulekha.care@sulekhainfo.com
+Subject: Just One More Step to Find the Perfect Caregiver!
+From: Sulekha Care Services  <sulekha.care@sulekhainfo.com>
+X-Unique-Id: A.1784402111347115227.2430.1167.5.1.0.0.1#july18@bhemployment.com#{"XAPIheader":"xapi-1344ad9f-d282-448e-970e-490fe5570efa"}
+Content-Type: multipart/alternative;
+ boundary=18090d4a1c8d62296938eca26994d78e57a3db5a14b75787a03672195af2
+To: july18@bhemployment.com
+Date: Sun, 19 Jul 2026 00:45:11 +0530
+Mime-Version: 1.0
+Message-Id: A.1784402111347115227.2430.1167.5.1.0.0.1#july18@bhemployment.com
+Reply-To: SenthilKumarMU@sulekha.com
+X-Spam-Status: No, score=1.6
+X-Spam-Score: 16
+X-Spam-Bar: +
+X-Ham-Report: Spam detection software, running on the system "server019.our-control-panel.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  EmailTemplate-Responsive Dear Bh Employment, 
+ Content analysis details:   (1.6 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 RCVD_IN_DNSWL_BLOCKED  RBL: ADMINISTRATOR NOTICE: The query to DNSWL
+                             was blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#DnsBlocklists-dnsbl-block
+                              for more information.
+                             [204.220.184.22 listed in list.dnswl.org]
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was blocked.
+                             See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URI: fonts.googleapis.com]
+                             [URI: sulekha.io]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily valid
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from author's
+                             domain
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+  0.1 TRACKER_ID             BODY: Incorporates a tracking ID number
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  0.1 MIME_HTML_ONLY         BODY: Message only has text/html MIME parts
+  0.3 MPART_ALT_DIFF         BODY: HTML and text parts are different
+  1.2 INVALID_MSGID          Message-Id is not valid, according to RFC 2822
+  0.0 T_REMOTE_IMAGE         Message contains an external image
+X-Spam-Flag: NO
+
+--18090d4a1c8d62296938eca26994d78e57a3db5a14b75787a03672195af2
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset=UTF-8
+
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns:v=3D"urn:schemas-microso=
+ft-com:vml" xmlns:o=3D"urn:schemas-microsoft-com:office:office">
+  <head>
+    <link rel=3D"preconnect" href=3D"https://fonts.googleapis.com" />
+    <link rel=3D"preconnect" href=3D"https://fonts.gstatic.com" crossorigin=
+=3D"" />
+    <link href=3D"https://fonts.googleapis.com/css2?family=3DGriffy&family=
+=3DOutfit:wght@100..900&family=3DPacifico&family=3DPlaywrite+FR+Moderne:wgh=
+t@100..400&family=3DPoppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0=
+,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&disp=
+lay=3Dswap" rel=3D"stylesheet" />
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DUTF-8=
+" />
+    <meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=
+=3D1.0" />
+    <meta name=3D"x-apple-disable-message-reformatting" />
+    <meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge" />
+    <title>EmailTemplate-Responsive</title>
+    <style type=3D"text/css">
+                        /* What it does: Remove spaces around the email des=
+ign added by some email clients. */
+                        /* Beware: It can remove the padding / margin and a=
+dd a background color to the compose a reply window. */
+                        html, body {
+                        margin: 0 !important;
+                        padding: 0 !important;
+                        height: 100% !important;
+                        width: 100% !important;
+                        }
+                        /* What it does: Stops email clients resizing small=
+ text. */
+                        * {
+                        -ms-text-size-adjust: 100%;
+                        -webkit-text-size-adjust: 100%;
+                        }
+                        /* What it does: Forces Outlook.com to display emai=
+ls full width. */
+                        .ExternalClass {
+                        width: 100%;
+                        }
+                        /* What is does: Centers email on Android 4.4 */
+                        div[style*=3D"margin: 16px 0"] {
+                        margin: 0 !important;
+                        }
+                        /* What it does: Stops Outlook from adding extra sp=
+acing to tables. */
+                        table, td {
+                        mso-table-lspace: 0pt !important;
+                        mso-table-rspace: 0pt !important;
+                        }
+                        /* What it does: Fixes webkit padding issue. Fix fo=
+r Yahoo mail table alignment bug. Applies table-layout to the first 2 table=
+s then removes for anything nested deeper. */
+                        table {
+                        border-spacing: 0 !important;
+                        border-collapse: collapse !important;
+                        table-layout: fixed !important;
+                        margin: 0 auto !important;
+                        }
+                        table table table {
+                        table-layout: auto;
+                        }
+                        /* What it does: Uses a better rendering method whe=
+n resizing images in IE. */
+                        img {
+                        -ms-interpolation-mode: bicubic;
+                        }
+                        /* What it does: Overrides styles added when Yahoo'=
+s auto-senses a link. */
+                        .yshortcuts a {
+                        border-bottom: none !important;
+                        }
+                        /* What it does: Another work-around for iOS meddli=
+ng in triggered links. */
+                        a[x-apple-data-detectors] {
+                        color: inherit !important;
+                        }
+                      </style>
+    <style type=3D"text/css">
+                        /* What it does: Hover styles for buttons */
+                        .button-td, .button-a {
+                        transition: all 100ms ease-in;
+                        }
+
+                        /*
+                        .button-td:hover,
+                        .button-a:hover {
+                        background: #ee313b !important;
+                        border-color: #ee313b !important;
+                        color: #fff !important;
+                        }*/
+
+                        /* Media Queries */
+                        @media screen and (max-width: 600px) {
+                        .email-container {
+                        width: 100% !important;
+                        }
+                        /* What it does: Forces elements to resize to the f=
+ull width of their container. Useful for resizing images beyond their max-w=
+idth. */
+                        .fluid, .fluid-centered {
+                        width: 100% !important;
+                        height: auto !important;
+                        margin-left: auto !important;
+                        margin-right: auto !important;
+                        }
+                        /* And center justify these ones. */
+                        .fluid-centered {
+                        margin-left: auto !important;
+                        margin-right: auto !important;
+                        }
+                        /* What it does: Forces table cells into full-width=
+ rows. */
+                        .stack-column, .stack-column-center {
+                        display: block !important;
+                        width: 100% !important;
+                        max-width: 100% !important;
+                        direction: ltr !important;
+                        }
+                        /* And center justify these ones. */
+                        .stack-column-center {
+                        text-align: center !important;
+                        }
+                        .mobi-left{text-align: left!important;}
+                        /* What it does: Generic utility class for centerin=
+g. Useful for images, buttons, and nested tables. */
+                        .center-on-narrow {
+                        text-align: center !important;
+                        display: block !important;
+                        margin-left: auto !important;
+                        margin-right: auto !important;
+                        float: none !important;
+                        }
+                        table.center-on-narrow {
+                        display: inline-block !important;
+                        }
+                        .pad-rt-50 {
+                        padding-right: 0px !important;
+                        }
+                        .fluid-artist {
+                        width: 80px!important;
+                        height: 80px!important;
+                        }
+                        .artist-blk {
+                        width: 33%!important;
+                        display: inline-block!important;
+                        }
+                        .mobi-hide {
+                        display: none!important;
+                        }
+                        .trending-blk {
+                        width: 48%!important;
+                        display: inline-block!important;
+                        }
+                        .mob-responses-width {
+                        min-width: 320px !important;
+                        }
+                        .logo-width{width: 35%!important;}
+                        .nri-width{width: 20%!important;}
+                        .pad-mob-10{padding: 10px!important;display: block!=
+important;}
+                        .pad-mob-5-0{padding: 5px 0!important;}
+                        .pad-mob-thank{padding:10px 5px 10px!important;}
+                        .pad-mob-thank p{font-size:25px!important;line-heig=
+ht:32px!important;}
+                        .pad-mob-paragraph{padding:0px 5px 10px!important;}
+                        .pad-mob-offer{padding:10px 5px 10px!important;}
+                        .pad-mob-offer p{font-size: 18px!important;}
+                        .pad-mob-30-10{padding: 30px 10px!important;}
+                        .mob-pad-border{padding: 10px 0px!important;border-=
+bottom: 2px #fff solid!important;}
+                        }
+                      </style>
+  </head>
+  <body bgcolor=3D"#e0e0e0" width=3D"100%" style=3D"margin: 0;" yahoo=3D"ya=
+hoo">
+    <table bgcolor=3D"#e0e0e0" cellpadding=3D"0" cellspacing=3D"0" border=
+=3D"0" height=3D"100%" width=3D"100%" style=3D"border-collapse:collapse;">
+      <tr>
+        <td valign=3D"top" align=3D"center">
+          <center style=3D"width: 100%;">
+            <table cellspacing=3D"0" cellpadding=3D"0" border=3D"0" align=
+=3D"center" bgcolor=3D"#fff" width=3D"600" class=3D"email-container" style=
+=3D"width: 600px;background-color: #fff!important;">
+              <tbody>
+                <tr>
+                  <td align=3D"center" valign=3D"top" bgcolor=3D"#fff" styl=
+e=3D"padding: 10px 0px;background-color: #fff;border-bottom: 1px #ddd solid=
+;">
+                    <table style=3D"font-family:'Raleway',sans-serif;max-wi=
+dth: 600px;min-width: 300px;margin: 0 !important;" align=3D"center" cellpad=
+ding=3D"0" cellspacing=3D"0" border=3D"0">
+                      <tbody>
+                        <tr>
+                          <td class=3D"logo-width" width=3D"60%" style=3D""=
+>
+                            <table cellspacing=3D"0" cellpadding=3D"0" bord=
+er=3D"0" class=3D"fluid" align=3D"left" style=3D"">
+                              <tbody>
+                                <tr>
+                                  <td align=3D"center" border=3D"0" style=
+=3D" text-align: center;">
+                                    <a href=3D"https://trkt.aclemails.com/v=
+1/r/TZ2cmwfNbRcpqMHmctxwJ3feEKseMUMkqgmNMy%2FZYOLArlrjzzJYVBw0Hx9ffMFPKL2xw=
+Bv5SK3y%2FPuKv2ikDdnwjHU7uoc0xeL3kILPOd3mpcPeYB%2B5YyKfsDIldVtyJR1hhnx%2F2F=
+CxtslSBgmWZCA7rFegt4jX42lp%2FTOBU3iEptaxNMdWiaEwfup0Yvo8nVCQEZJw6EZHhhsJWxI=
+ppO9Hm2%2FDgusU1XFcHxAqiK%2BeE9us9cNQXQfRS9jzJ3oYRSovR6jzeqoX219OPkloibEWiZ=
+eGbWaPUkIB7icjsA9ZdKLyFFLjnoubL1Ifr%2BHScdCWqnMFVkYqHng%3D" target=3D"_blan=
+k" title=3D"Sulekha Daycare">
+                                      <img src=3D"https://usimg.sulekha.io/=
+cdn/day-care/promotions/day-care_2024-01-05-06-38-19-943.png" width=3D"135"=
+ height=3D"40" alt=3D"Daycare Logo" border=3D"0" />
+                                    </a>
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </td>
+                          <td class=3D"nri-width" width=3D"18%" style=3D"">
+                            <table cellspacing=3D"0" cellpadding=3D"0" bord=
+er=3D"0" align=3D"right" style=3D"">
+                              <tbody>
+                                <tr>
+                                  <td style=3D"text-align: center">
+                                    <a href=3D"https://trkt.aclemails.com/v=
+1/r/KR53VgAimACaNjWsIfDNMjkYZ9p2U5gf%2FgKTLfGLYgRNGaDMDoqNEVDXlGh97jh5VwJNS=
+iz%2B0LXiixJ6Jn0AO7AM0W%2Bu62Y5RoAORnTeCvjx6K%2B0dAPD5AVuZjTmdQKiuIx6bfL8P4=
+%2BwxObTlRJWhk9woT7cx7L7SrjzMiaQemn8TDRq4fo%2FOuWuPzQ1yu5DADFCJk1bBe9MYOMkt=
+4MZ3yaRlDYImuxTVc59N0cXYNNC1tJ7AhSfv%2FfYtb6fsR7kZuJ4tL1D5pwompDsGx1LTRUy0N=
+fCPdILeP2c1mAOkSBDDhlCZwVZVzUmh06zMmjIxKU96XI6%2BhnGCbrHn1jNVOL%2Bl3yQpq3%2=
+BRn9IepZirTS19hRAr3Dr6GwV" title=3D"Google Play" target=3D"_blank">
+                                      <img src=3D"https://usimg.sulekha.io/=
+cdn/events/promotions/events_2024-10-23-05-08-55-539.png" width=3D"100" hei=
+ght=3D"35" alt=3D"Google Play" border=3D"0" class=3D"fluid" />
+                                    </a>
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </td>
+                          <td class=3D"nri-width" width=3D"18%" style=3D"">
+                            <table cellspacing=3D"0" cellpadding=3D"0" bord=
+er=3D"0" align=3D"right" style=3D"">
+                              <tbody>
+                                <tr>
+                                  <td style=3D"text-align: center">
+                                    <a href=3D"https://trkt.aclemails.com/v=
+1/r/vJdUI8mQfb6bmssi5uyMZR%2BdV0dA1XLu8X22PstKNKPFZng5I0kYJhDO00Vd7xpkOBWns=
+iRXn5vs6%2B9%2FYm5Mh0zJQBi0JmWZUREGOULLH1S19cQPX%2BdoozQ6xB0FFewOEqrRdKSrJs=
+cD8xVSXyTTpeXNdv0TjXnwLtz5hd9J26bT%2B8EtPPVZGLQ1raJsjEJ2WET7Gu3Q0qgFPv6YMCx=
+BV3b9eGvRtRYDLYE3tFJO9BkCLjLIHnw9uTzvUMo5HGlsTArR7WOv7AfKzzjwsdketyMW76jXJL=
+EJOcf0DQCbLthZEVxAXXtuFr36n5EccAPbMUWvzwcddFE1lS6Yl%2FQJqZ%2B8FxhT9hKZ9v44e=
+ih602lOsgb5EQcCeY47vWRAHermCg%3D%3D" title=3D"App Store" target=3D"_blank">
+                                      <img src=3D"https://usimg.sulekha.io/=
+cdn/events/promotions/events_2024-11-04-05-55-34-100.png" width=3D"100" hei=
+ght=3D"35" alt=3D"App Store" border=3D"0" class=3D"fluid" />
+                                    </a>
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </td>
+                </tr>
+                <tr>
+                  <td align=3D"center" valign=3D"top" style=3D"background-c=
+olor: #fff;">
+                    <table bgcolor=3D"#fff" style=3D"font-family:'Raleway',=
+sans-serif;max-width: 600px;min-width: 300px;padding:0px;display: inline-bl=
+ock;background-color: #fff;" align=3D"center" cellpadding=3D"0" cellspacing=
+=3D"0" border=3D"0">
+                      <tbody>
+                        <tr>
+                          <td style=3D"padding: 20px 0 0; text-align: cente=
+r;">
+                            <p style=3D"font-size: 16px;margin: 0;">Dear Bh=
+ Employment,</p>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style=3D"padding:10px 0; text-align: center;"=
+>
+                            <h2 style=3D"color: #1fab71;margin: 0;padding:5=
+px;">Thank you for choosing Sulekha Care Services.</h2>
+                            <h2 style=3D"color: #333;margin: 0;">You're alm=
+ost there!</h2>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style=3D"padding:10px 0; text-align: center;"=
+>
+                            <p style=3D"font-size: 16px; color: #444;margin=
+: 0;line-height: 25px;">
+                                  To start receiving caregiver responses, p=
+lease complete your care requirement details. This helps us match you with =
+the most suitable professionals in your area.
+                                </p>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td dir=3D"ltr" valign=3D"top" align=3D"center" s=
+tyle=3D"padding-top: 10px;">
+                            <table cellspacing=3D"0" cellpadding=3D"0" alig=
+n=3D"center" border=3D"0" class=3D"center-on-narrow">
+                              <tbody>
+                                <tr>
+                                  <td align=3D"center" style=3D"display: bl=
+ock;border: 2px solid #fff;border-radius:7px;text-align: center;" class=3D"=
+button-td">
+                                    <a href=3D"https://trkt.aclemails.com/v=
+1/r/CXZvKdQeNUvW4aDQmqExhuFotAO2UEm1bF19w0ONErRJ6vT9br7JJ4gN%2BF8kekq256MQy=
+KAoUWorWTdjWj23LemC1NyJhKnpyeccb9U1xHCtFHxYRaBrkXO4YsrHn1UhqViu7q4NbPfjqU%2=
+FX%2FfsTdDEvwXrWJ6NsUE2BONB%2FMp3Udckwq5%2BlxrJhxvq0SXel0YCJD6Plk9HcCrpspEI=
+OQyUF4vXVlJLEb9HTaDv657Ia1GC8vN41OMhd1n5ZE35qVfBhO34JCAfMTYFGYVzrNJRO34RaOE=
+WyCV%2B9SUjnOPUZi%2BF1zmxDNOdZ%2FC68" target=3D"_blank" title=3D"Complete Y=
+our Care Request" style=3D"background: #1fab71;border: 15px solid #1fab71;p=
+adding: 0 30px;color: #fff;font-family: sans-serif;font-size: 16px;line-hei=
+ght: 10px;text-align: center;text-decoration: none;display: block;border-ra=
+dius: 3px;font-weight: 600;" class=3D"button-a">Complete Your Care Request<=
+/a>
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td align=3D"center" style=3D"text-align: center;=
+padding: 20px 0 15px;">
+                            <span style=3D"color: #212121;font-size: 20px;f=
+ont-weight: 600;display: block;">=F0=9F=92=A1 Find the Right Care, Fast</sp=
+an>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td align=3D"center" style=3D"">
+                            <table align=3D"center" width=3D"100%" cellpadd=
+ing=3D"0" cellspacing=3D"0" style=3D"background-color: #e6ffe4;border-radiu=
+s: 10px;padding:15px 20px 5px;display: block;max-width: 560px;">
+                              <tbody>
+                                <tr>
+                                  <td class=3D"stack-column-center mobi-hid=
+e" width=3D"10%" valign=3D"top" style=3D"display: inline-block;padding-bott=
+om: 10px;">
+                                    <img src=3D"https://usimg.sulekha.io/cd=
+n/day-care/promotions/day-care_2025-07-04-06-35-14-483.png" width=3D"30" />
+                                  </td>
+                                  <td class=3D"stack-column-center mob-pad-=
+border" width=3D"90%" style=3D"text-align: left;display: inline-block;paddi=
+ng-bottom: 10px;">
+                                    <strong style=3D"color: #1fab71;font-si=
+ze: 18px;padding-bottom: 5px;display: block;">Instant Access to Trusted Car=
+egivers</strong>
+                                    <span style=3D"font-size: 14px;color: #=
+333;">Browse verified caregiver profiles nearby and connect in minutes.</sp=
+an>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td class=3D"stack-column-center mobi-hid=
+e" width=3D"10%" valign=3D"top" style=3D"display: inline-block;padding-bott=
+om: 10px;">
+                                    <img src=3D"https://usimg.sulekha.io/cd=
+n/day-care/promotions/day-care_2025-07-04-06-35-14-483.png" width=3D"30" />
+                                  </td>
+                                  <td class=3D"stack-column-center mob-pad-=
+border" width=3D"90%" style=3D"text-align: left;display: inline-block;paddi=
+ng-bottom: 10px;">
+                                    <strong style=3D"color: #1fab71;font-si=
+ze: 18px;padding-bottom: 5px;display: block;">See Who=E2=80=99s Available N=
+ow</strong>
+                                    <span style=3D"font-size: 14px;color: #=
+333;">Check real-time availability to match with caregivers ready to help.<=
+/span>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td class=3D"stack-column-center mobi-hid=
+e" width=3D"10%" valign=3D"top" style=3D"display: inline-block;padding-bott=
+om: 10px;">
+                                    <img src=3D"https://usimg.sulekha.io/cd=
+n/day-care/promotions/day-care_2025-07-04-06-35-14-483.png" width=3D"30" />
+                                  </td>
+                                  <td class=3D"stack-column-center mob-pad-=
+border" width=3D"90%" style=3D"text-align: left;display: inline-block;paddi=
+ng-bottom: 10px;">
+                                    <strong style=3D"color: #1fab71;font-si=
+ze: 18px;padding-bottom: 5px;display: block;">Detailed Profiles with Rating=
+s</strong>
+                                    <span style=3D"font-size: 14px;color: #=
+333;">Make informed decisions with background info, experience, and user re=
+views</span>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td class=3D"stack-column-center mobi-hid=
+e" width=3D"10%" valign=3D"top" style=3D"display: inline-block;padding-bott=
+om: 10px;">
+                                    <img src=3D"https://usimg.sulekha.io/cd=
+n/day-care/promotions/day-care_2025-07-04-06-35-14-483.png" width=3D"30" />
+                                  </td>
+                                  <td class=3D"stack-column-center mob-pad-=
+border" width=3D"90%" style=3D"text-align: left;display: inline-block;paddi=
+ng-bottom: 10px;">
+                                    <strong style=3D"color: #1fab71;font-si=
+ze: 18px;padding-bottom: 5px;display: block;">Direct Communication</strong>
+                                    <span style=3D"font-size: 14px;color: #=
+333;">Call or message caregivers instantly through our secure platform.</sp=
+an>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td class=3D"stack-column-center mobi-hid=
+e" width=3D"10%" valign=3D"top" style=3D"display: inline-block;padding-bott=
+om: 10px;">
+                                    <img src=3D"https://usimg.sulekha.io/cd=
+n/day-care/promotions/day-care_2025-07-04-06-35-14-483.png" width=3D"30" />
+                                  </td>
+                                  <td class=3D"stack-column-center mob-pad-=
+border" width=3D"90%" style=3D"text-align: left;display: inline-block;paddi=
+ng-bottom: 10px;">
+                                    <strong style=3D"color: #1fab71;font-si=
+ze: 18px;padding-bottom: 5px;display: block;">Post & Match Effortlessly</st=
+rong>
+                                    <span style=3D"font-size: 14px;color: #=
+333;">List your care needs and get fast responses from qualified profession=
+als.</span>
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style=3D"text-align: center; padding:10px 30p=
+x 20px 30px; font-size: 16px; color: #333;">
+                            <p style=3D"line-height: 25px;margin: 0;">
+                              <strong>Don=E2=80=99t miss out on opportuniti=
+es!</strong>
+                              <br />
+         The sooner your job is complete, the sooner you can get matched.
+                                </p>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td dir=3D"ltr" valign=3D"top" align=3D"center" s=
+tyle=3D"">
+                            <table cellspacing=3D"0" cellpadding=3D"0" alig=
+n=3D"center" border=3D"0" class=3D"center-on-narrow">
+                              <tbody>
+                                <tr>
+                                  <td align=3D"center" style=3D"display: bl=
+ock;border: 2px solid #fff;border-radius:7px;text-align: center;" class=3D"=
+button-td">
+                                    <a href=3D"https://trkt.aclemails.com/v=
+1/r/Q1a4%2FnORcpkXMggMdzj%2BWiGODOC1WG1gUBJ%2FUqQScWUJ2%2BMLd6vRKoWSkpDfliF=
+fqDP5rjjWWXUCDzVyEWJb%2FcufDXk9jZF53hR6TdfwCXAZ7KDBFr9MdH6MOCak7tsE58QbhnsR=
+8jl8rTH7PefsAop5MzMDsJQHgRkfncLwB%2FP5%2BBiqL8J%2BcO0L6xfbLhFCaYHA8ArbxgRbZ=
+U9AzRg%2BT%2F5VlzNlgNDVKSMnIPs1ytYo8gLcfhQYEP2H6%2BoVfrhN4nnSr5Z0iVAf6r2K1d=
+QhAg4y0%2BDYK30SSV9hdnMPNcnLcHU7HhNMkaWm3mlc" target=3D"_blank" title=3D"Co=
+mplete Your Care Request" style=3D"background: #1fab71;border: 15px solid #=
+1fab71;padding: 0 30px;color: #fff;font-family: sans-serif;font-size: 16px;=
+line-height: 10px;text-align: center;text-decoration: none;display: block;b=
+order-radius: 3px;font-weight: 600;" class=3D"button-a">Complete Your Care =
+Request</a>
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style=3D"text-align: left; padding:10px 30px =
+20px 30px; font-size: 16px; color: #333;">
+                            <p style=3D"font-size: 16px;margin: 0;">
+                                  Warm Regards,<br />
+                              <strong style=3D"padding-top: 5px;display: bl=
+ock;">Sulekha Care Services Team</strong>
+                            </p>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <table cellspacing=3D"0" cellpadding=3D"0" border=3D"0" align=
+=3D"center" bgcolor=3D"#f8f5ee" width=3D"600" class=3D"email-container" sty=
+le=3D"width:600px;border-top: 1px #ddd solid;">
+              <tr>
+                <td dir=3D"ltr" align=3D"center" valign=3D"top" width=3D"60=
+0" style=3D"padding:0px;width: 100%;">
+                  <table align=3D"center" bgcolor=3D"#fff" border=3D"0" cel=
+lpadding=3D"0" cellspacing=3D"0" width=3D"600" style=3D"width: 100%;backgro=
+und-color: #fff;">
+                    <tr>
+                      <td align=3D"center" width=3D"600" valign=3D"middle" =
+style=3D"padding: 10px 0px 10px;text-align: center;width: 100%;">
+                        <h4 style=3D"color: #666666;margin: 0px;font-family=
+: 'Roboto', sans-serif; font-weight: 500;">Follow us :</h4>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td align=3D"center" width=3D"600" valign=3D"middle" =
+style=3D"width:  100%;">
+                        <table cellspacing=3D"0" cellpadding=3D"0">
+                          <tbody>
+                            <tr>
+                              <td style=3D"padding: 0px 10px;" width=3D"40"=
+ align=3D"center" valign=3D"middle">
+                                <a target=3D"_blank" href=3D"https://trkt.a=
+clemails.com/v1/r/7iw1rAY7J%2FVWtGhTM%2B76FyG%2BVqAztVqJF6dFipqClTmpKUotP0z=
+JWGQwCpKjV4sprEFHCoCKw5I10I%2FefqjYahXMzMqOvxH2xF3A5SbRmS1X1I6EXaRCnvW5AnJ0=
+YXkCP1mFF4doevII4X2qLQHqILmF6hcmzu0YurYPI3WdG1SE4v5qqGLDwXp7YsPKqKZ%2FZG66P=
+ECrNapH9MZy2XJd33hlJoQy7kXt%2Bjm%2FoxNnSE%2Famblj0FW%2Bqs4%2FgzfiBg42aq85zr=
+Wcp5GSQjtjZbnP8iQqntwf9kt5BpqrOR9ZIDyGBT%2Fbwgc4ZYLvh8xDLZeZBgEbFAzn1iWrF3J=
+7Wb8TsrX3nK1LcA%3D%3D">
+                                  <img title=3D"Facebook" src=3D"https://lo=
+calservices.sulekha.com/common/images/mailer/facebook.png" alt=3D"Fb" width=
+=3D"32" height=3D"32" />
+                                </a>
+                              </td>
+                              <td style=3D"padding: 0px 10px;" width=3D"40"=
+ align=3D"center" valign=3D"middle">
+                                <a target=3D"_blank" href=3D"https://trkt.a=
+clemails.com/v1/r/dpGw8dGFY3oil1eLnIbX3fE4I672KCCN8nCYCQkwh6SavwFUj3mf8HS6d=
+Syiq0AytiZFun9U15mHb%2FWKbedpOENojJieUs0oWrINHzEkj7ej4MwbhIEBPti4Yr7Gcdy5uM=
+7C8z%2FPf9jsUeskY90OiFMeL5w4Gs5Wcs1KJ2g9BhOQ6fdW49skXPiy9xyqIygnG3fDHqHd0r8=
+oUIreDl%2BMrN7aTE7qHFMrHtS02NMCB%2BznopRmRe32qYdGvpuc4cgCtArcI%2Fm4yS1vgR6R=
+e8443DQrDdXAu2bdH7SR4qr2nR66emzzKG4kAR7Q91OemERuswc%3D">
+                                  <img title=3D"X" src=3D"https://localserv=
+ices.sulekha.com/common/images/mailer/twiter.png" alt=3D"x" width=3D"32" he=
+ight=3D"32" />
+                                </a>
+                              </td>
+                              <td style=3D"padding: 0px 10px;" width=3D"40"=
+ align=3D"center" valign=3D"middle">
+                                <a target=3D"_blank" href=3D"https://trkt.a=
+clemails.com/v1/r/aTr8NO2U80O9LiRSnLMnLfvJaFdq6wmVB%2BApelLsLt8siAacva5CjNS=
+i2PZjIMuXS4LCQQkHLl3jeMb332Qqdaa8TfMrWWR5e5HBLQ2IG7xJ5zx2VJRYQL5htQcGtahM0o=
+FjcuEYmrEQ2uhDUgd914q4o5ugdq277LEP3L7OOYMYQHb%2BGXOdJDzBsWdphs2pZQOuFM5Y9tn=
+nywsKnlpG%2FD5XMUFVaNX7QXOAiLMMC1XV%2F8aRZw%2Bs7BE7e%2F2hAvF6SCTMKfVzV7MM1W=
+%2FJmQgwDvLhFpkTFmWtXwpx96EGpAOyJLy8hNMkRCPgYAoIVOo6ns83PYPauadsi8AVYppA59I=
+n0PL9XUE%3D">
+                                  <img title=3D"Instagram" src=3D"https://l=
+ocalservices.sulekha.com/common/images/mailer/instagram.png" alt=3D"Inst" w=
+idth=3D"32" height=3D"32" />
+                                </a>
+                              </td>
+                              <td style=3D"padding: 0px 10px;" width=3D"40"=
+ align=3D"center" valign=3D"middle">
+                                <a target=3D"_blank" href=3D"https://trkt.a=
+clemails.com/v1/r/fHDkVujGL%2Byw6LKVDHlVTQJReWscMsGBRNBoJ03%2BA03XLAhFgmPm9=
+%2F7EQxqb2EpEo0AhL9ltQzu1a0GpvL5w1GrWlxNQkyMjRp1sr2eu9ZKQq3ZorZEP3dUrQDzGO6=
+BrxDbkkcwGXhh1oLBv3fhXxhfLDncspMVb2MdZlRvv9YO1kXrwGUtdn4Vy30TplONwBB%2Fvmbc=
+Fqng%2F7UW%2Fw%2FWY8yv7fVGOA8EvIU8XNx%2Fjp2%2FZEpmiJ%2BZmd0VjN3GCWrDWYvL49Y=
+LV9mdZOjhDNCof2lZdNYpcQpGdKU4RcXbWnWmff84LDcyCU2U1oX2XAJc9IvSIuwyCtx8%2BUnV=
+ImoT9HREgRotd">
+                                  <img title=3D"Youtube" src=3D"https://loc=
+alservices.sulekha.com/common/images/mailer/youtube.png" alt=3D"P" width=3D=
+"32" height=3D"32" />
+                                </a>
+                              </td>
+                              <td style=3D"padding: 0px 10px;" width=3D"40"=
+ align=3D"center" valign=3D"middle">
+                                <a target=3D"_blank" href=3D"https://trkt.a=
+clemails.com/v1/r/%2F%2BhrO01QgsA9SOyTyeiLP2QFgwuQW69nc6vzB0lrlcD4Qc6W6wZzO=
+ququAmS3GRIL39s7BxnITT77McWlPM9Egb6Sopni%2B4TLTgbqr%2FVO8o2ofmUA6fkV42KHgPq=
+P2UgxyUE7mzL4spSL8Qt%2BNRrsnMH3%2BYTXAn3Xcm0q6S1QgrK1mDXyUiDqhZQxb494H2VMlK=
+3Ush19Z39It3P9q2iNg2C%2B%2FjDT6lCeSy8TtaXQwuWucwV9pdmmEJ5cIZ8vIopGFu%2FFFJo=
+M%2B0gnYoHGTWCmz1vf0KP%2Fknzf84rRDCHSC%2BFnbyVcLeQ5lEdC7nJ4oWFuiZMyGy0iLrRq=
+psWBwVNxGi%2FCjls">
+                                  <img title=3D"Pinterest" src=3D"https://l=
+ocalservices.sulekha.com/common/images/mailer/pinterest.png" alt=3D"P" widt=
+h=3D"32" height=3D"32" />
+                                </a>
+                              </td>
+                              <td style=3D"padding: 0px 10px;" width=3D"40"=
+ align=3D"center" valign=3D"middle">
+                                <a target=3D"_blank" href=3D"https://trkt.a=
+clemails.com/v1/r/kBAvNub4TFqyUajSEKivUg4Zys2qjcBYSVmcmmc7pzYs9CVsD%2FaEbBc=
+MEbkw2YGpQV7Kzl3rDSXCyt1iIy1dn%2FlpGHmmS8FyTO8UJ0I%2BoHB6BSZogGAa4Tcd0l4bLt=
+uTm6YxAi4LIMjS0c5ggyeKsUgKXRzT8in8L8WPX15eu17S3e8ikotSUKUSgQmp9zWAQubgJNOCL=
+sxCd%2FMyDKNMJhNnKDA%2B77o7GWyJmsbWiEjJhAH7WK7gXDtT%2FIUCyg9ZTwaEsWXasdfqIp=
+PNR1bEQDujzISSoyiRAouSzNS5S4LpL0maK39bBfxrKk%2BzlrTFn7O2GEvM7fnzy3c9y6aLgTM=
+Kv4ZKAJjqkOoSyDJm7LqHVQ%3D%3D">
+                                  <img title=3D"LinkedIn" src=3D"https://us=
+img.sulekha.io/cdn/ittraining/promotions/ittraining_2024-01-22-08-31-00-670=
+.png" alt=3D"LinkedIn" width=3D"32" height=3D"32" />
+                                </a>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td align=3D"center" width=3D"600" valign=3D"middle" =
+style=3D"padding: 5px 0px;width:  100%;">
+                        <h5 style=3D"color: #666666;margin: 0px;font-family=
+:BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;font-=
+weight: 500;">
+                              Contact us: <a style=3D"color: #666666;text-d=
+ecoration: underline;" target=3D"_blank" href=3D"mailto:us.sulekha@sulekha.=
+com">us.sulekha@sulekha.com </a>=C2=A0=C2=A0<a style=3D"color: #666666;text=
+-decoration: underline;font-family:BlinkMacSystemFont, 'Segoe UI', Roboto, =
+Helvetica, Arial, sans-serif;font-weight: 500;" target=3D"_blank" href=3D"t=
+el:+1-512-788-5300">+1-512-788-5300</a>
+                        </h5>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td width=3D"600" align=3D"center" colspan=3D"2" styl=
+e=3D"background:#f0f0f0; border-bottom:solid 1px #ddd; width:  100%;">
+                        <p style=3D"color:#000; font-family:Arial, Helvetic=
+a, sans-serif;;font-size:11px;margin:10px;text-align:center;">
+                              &copy; 2026 Copyright Sulekha.com | <a href=
+=3D"https://trkt.aclemails.com/v1/r/sRytCQ4JlnG36%2Bu%2BAlzKKqDr79lprcT8rJz=
+WRokCAzxQJCfd5dxJWkm54OlqTMYQtLy7gV%2FLpw815voHyrmG1zlQjHDLiPOnISFlQM6POVVJ=
+zfPqulbMfeGBkr%2FQXpOp6b5jUrGedb2%2FtolSGlkuVHDSwhez1Z0ElN1NUDOin94LHk7Diwv=
+TXDQekvA3gmV4ib7EKItmdJzeGHGv%2BXkq9WFAIXyYkrCKXSAeTVW1VhrmUXlGxwjY1SOoJqWg=
+sxvaBhF2NnlNeDXpQfWILTXyS3Yj53nXFOmMQFemQw%3D%3D" style=3D"color:#30A4EA;fo=
+nt-weight: normal;text-decoration: none;">Privacy Policy</a> | <a href=3D"h=
+ttps://trkt.aclemails.com/v1/r/a9Y%2Fdnn9s6IyAbj5%2B9YIvG%2Fp5wYv4hxygfuAd8=
+Hk3Mq3PgQLFa81Kzta%2BhgYDXuNqcu68gGmI8AaaxEMeJiTQOtqPvmosFnQKiWodz9GSIHTTig=
+As8b%2BSllB%2BOXSbyoJZnSMBLyT0c9xf054vbu7JPrCLeVrbUWwZLbTLVnqkke%2B7APia3n%=
+2BHIQUzFgGZYtGjIBZ38cOzw95lhh2OTXt%2F1%2FwlBkHzbL0EZoBIcZ0a9zYMCvJx0ILSEPne=
+YiMqT7Y8%2FGwlGt4hpaSgo%2FsuG%2FReOrILkw%3D" style=3D"color:#30A4EA;font-we=
+ight: normal;text-decoration: none;">Terms & Conditions</a> | All Rights Re=
+served
+                            </p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td align=3D"center" valign=3D"middle">
+                        <h5 style=3D"color: #666666;margin: 0px;" />
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </table>
+          </center>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html><img src=3D"https://trkt.aclemails.com/v1/w/Aok74l%2FMns2JJbtg78SYJS=
+zzi5yJesPf1pea7fmOdClgslfCQJff0tAEaHLEdbIPXfSWrAinX7l9ehkvY5jmo7shcsfLfys7b=
+hvOfSmj6KZHo8W0R8%2Ft3LD49AGo5UQYMCisPG7Iocx%2FLypSiXS5Pmmdnv5s0yoJUc9zicU5=
+aMgjdD9gOCvum8omm%2Fq8PKxJkPXXB2zbBrLnBGefLGDI"  width=3D"1" height=3D"1" b=
+order=3D"0">
+--18090d4a1c8d62296938eca26994d78e57a3db5a14b75787a03672195af2--

@@ -1,0 +1,261 @@
+Return-Path: <matt.henry2311@outlook.com>
+Delivered-To: info@bhemployment.com
+Received: from server019.our-control-panel.com
+	by server019.our-control-panel.com with LMTP
+	id 1ZdUOw6CY2oBBioAaDcOIg
+	(envelope-from <matt.henry2311@outlook.com>)
+	for <info@bhemployment.com>; Fri, 24 Jul 2026 21:02:34 +0545
+Return-path: <matt.henry2311@outlook.com>
+Envelope-to: info@bhemployment.com
+Delivery-date: Fri, 24 Jul 2026 21:02:34 +0545
+Received: from mail-westusazolkn19012055.outbound.protection.outlook.com ([52.103.2.55]:40208 helo=SJ2PR03CU001.outbound.protection.outlook.com)
+	by server019.our-control-panel.com with esmtps  (TLS1.3) tls TLS_AES_256_GCM_SHA384
+	(Exim 4.99.4)
+	(envelope-from <matt.henry2311@outlook.com>)
+	id 1wnHeX-0000000BY4f-2LhD
+	for info@bhemployment.com;
+	Fri, 24 Jul 2026 21:02:34 +0545
+ARC-Seal: i=1; a=rsa-sha256; s=arcselector10001; d=microsoft.com; cv=none;
+ b=C7lYHaz3T2+s5NKAuHvVvPnRKy4wTv/I5T5NvSHY1I6ZQIMLRFAq2+u6VLnB1Yqro4JXWseTKwwK0bi29K32MLcqok3MHsQiT+A08f0i5rUPDITplJBjyT/6E/Xa9ahYfecFR143OIrjWPnYRBWueq2fj0N2LTXgZ2nt64Xpcy/EVcmSc5vIAZbnAaca5uezOXdRJ0NKOdZrjLatj1Zlx7zVBw9g+rW48jEh+4rY3gXHH+y5atM03zykO+dns2Qlw9DhozQ7B/XYb9bOHlMvv1LV85Y/QwW0hMdiI1dbyfoWmMYuWuQG/L3KbPz0Kb3p+aqWIjpOkIKBgIDPU3/GDA==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector10001;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-AntiSpam-MessageData-ChunkCount:X-MS-Exchange-AntiSpam-MessageData-0:X-MS-Exchange-AntiSpam-MessageData-1;
+ bh=IGsTFnV+TuTemB6+RUynW1mgUk4IMWUsvLD90Lua6bk=;
+ b=rqXHSh0hBkW0OHPdzGTTdUOm65LMoxcuNHMaHJg/ccJzs06HMKlDQvt+Q5HiJzlWLJ/e29ObOi/0+TvOP1iHCyaQbiORJE++LY/iKUA60eSSBF93EGUpVoNeBhnTigiKubgVoslB3jWWyUAT+AMHvT3u+TZTtKsG7KR7quGWIxcXXOVgAfZj1vFkWLn+sXpQkaRDl7RLCuEh/C7z7OmgOQXuC/IZUngQY5UKUEF46TqlcwlDNtJCjw7psVftyO98li0jpNd3MR4FbrahTVtS6J/YTQX0IBho0DkvTQ2EQ/0QKY8I3q5sr9Xpb9EXMIn2lREjdIhSg0a7AjrA5tN3Ow==
+ARC-Authentication-Results: i=1; mx.microsoft.com 1; spf=none; dmarc=none;
+ dkim=none; arc=none
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=outlook.com;
+ s=selector1;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=IGsTFnV+TuTemB6+RUynW1mgUk4IMWUsvLD90Lua6bk=;
+ b=TwEL9U0lfralMPSFHvfNuzVNUYE5yFVWhZ9vCGVMYSMmxnfBrIumEIqRrtjulHrFnGW5VdP1Hs73PNcq+McLUD+5q1/onz73bewPF0qvbL5WWpRFMWvkfmd1h94G6Wkfk9nlrxMwJSA2yJzBBZ7195N65ICHdm3y5/ynB3UaD1Dy6tyWKgzGppFMV2S84aIU4S6F8H4/aszWcxXbF1kpt2oM4tdP7oOooYgKl5zXZsr83/I9LP7r5HYdKDrxWGGxJJtSraXbKiRfhTSgwnTitqVlkCDwBeIHWBe5fdc+m15ePSt5H/FJSmYLnTKyZ8LpmyxPlC5MltbxMkxWH3Oliw==
+Received: from PH7PR14MB5946.namprd14.prod.outlook.com (2603:10b6:510:1ed::17)
+ by SABPR14MB958826.namprd14.prod.outlook.com (2603:10b6:806:509::13) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.21.245.11; Fri, 24 Jul
+ 2026 15:16:44 +0000
+Received: from PH7PR14MB5946.namprd14.prod.outlook.com
+ ([fe80::8db0:cbb:4ae6:ee6b]) by PH7PR14MB5946.namprd14.prod.outlook.com
+ ([fe80::8db0:cbb:4ae6:ee6b%4]) with mapi id 15.21.0245.009; Fri, 24 Jul 2026
+ 15:16:44 +0000
+From: Matt Henry <matt.henry2311@outlook.com>
+Subject: =?Windows-1252?Q?Re:_Hire_a_Bookkeeper_=96_Full-Time_/_Part-Time?=
+Thread-Topic: =?Windows-1252?Q?Hire_a_Bookkeeper_=96_Full-Time_/_Part-Time?=
+Thread-Index: AQHdG39p1RFRqJFxjUKOOEbj91KG9w==
+Date: Fri, 24 Jul 2026 15:16:43 +0000
+Message-ID:
+ <PH7PR14MB5946A422EF712B1A4EBA43E697CF2@PH7PR14MB5946.namprd14.prod.outlook.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach:
+X-MS-TNEF-Correlator:
+msip_labels:
+x-ms-publictraffictype: Email
+x-ms-traffictypediagnostic: PH7PR14MB5946:EE_|SABPR14MB958826:EE_
+x-ms-office365-filtering-correlation-id: b5f94b7d-268c-4961-c8ef-08dee9969211
+x-microsoft-antispam:
+ BCL:0;ARA:14566002|8060799015|19110799012|15080799012|16051099003|55001999006|39105399006|2604032031799003|704163111799003|8062599012|31061999003|15001099006|2604031031799003|15030799006|37102599003|4140399003|25010399006|37011999003|40105399003|41105399003|39145399003|18071099003|12091999003|56899033|102099032|440099028|3412199025;
+x-microsoft-antispam-message-info:
+ =?Windows-1252?Q?TmyiaxjLGVjAkDC/AzdF8bxjExtIbD2XwTZs3Z9Tvkoxbgp0kTlslHDt?=
+ =?Windows-1252?Q?0TQCXLi4hyVJ96tm+3YRbdNtkyaz3Ql0CKWgeUwY52zCDYsy30Dq4FM6?=
+ =?Windows-1252?Q?yArIfCyak+/lBra156oZoISwXNYZDid3WBfwke5/4n7JHKVTjRxTP6eQ?=
+ =?Windows-1252?Q?SWK3uUtnpN6l60qh2hg1PPRKAvVohTBkGbI5mFwNg1Xu9jNC/Aq9T3c9?=
+ =?Windows-1252?Q?2F/zgWdb02K0XKueLlJKfjyq3iZ+qqVJDypzAcq15+hAE/KKSHOlgT0V?=
+ =?Windows-1252?Q?2ND4IQSvmRB/WdSlp+I4ZEFysCatIX91epQQ7gLP+0hnVnKbfPwsn+8L?=
+ =?Windows-1252?Q?J7oKjoadF6+aWEJtfQiow3Jg2CjdfCA8b6+I1ArX/gwzVJBLmmpFvzJ3?=
+ =?Windows-1252?Q?mkRFd8WLRUYZ+gnFleNS5v6FrQALPWQOAmkHLjujENqEfJ23+9orL6WX?=
+ =?Windows-1252?Q?w6+wFS7NBL9KZRKd47uLw5eDCdh05cduAXnnX/E59uBnjfc+Hq159LQu?=
+ =?Windows-1252?Q?DgQ5i59sBiUBvJwGC3fTTl/26lJ/ak6qw7c2TlxBuwhWeUUqE/V2AZJe?=
+ =?Windows-1252?Q?w7L307u9Kj+geDPhVdKn6tVJuGBvfcqC9cCxcqU4vVTnLVHjx0vre5KD?=
+ =?Windows-1252?Q?jektDjfPYOdX5TcHroVSCjBXLFkq/x9u7WpBSQNzeLGnMf3wMAGeq4Ui?=
+ =?Windows-1252?Q?zOZxicWpj0pBJI3E7FELRxgA6AVNh8Lb88EKsaEcid8UocplK1M0/sWQ?=
+ =?Windows-1252?Q?YKY6+uHf9SjYfP58L7rPtyNXaMHlZiFS8vQKiJ/jTXavvstml98Cq5cd?=
+ =?Windows-1252?Q?G2Ub3raCwoR3JT9DI1+Sp4PZjzwnQ/OUHPrVL28K9sAxXrwftMnU/V1P?=
+ =?Windows-1252?Q?TKGpvXc14VXt1l0JIp4+fS4ujwkPb2ornc26uhDoMPDRm9bNCNY8USlf?=
+ =?Windows-1252?Q?zgMYn46JHFcW+lcCsNsVVnxhnTc1iwbQBr93CbQ1ztLsZX/gj8Q+a3qy?=
+ =?Windows-1252?Q?NO3G+HacxepNwOa+gyczm0DNag3kDQQqf83RV9UyIjArFfMbZDV364zV?=
+ =?Windows-1252?Q?HHHH+amC1J6yRUm5K0wY9UoC+Vw0nA0o6q9h/diaD0Onb/hq/OugLisb?=
+ =?Windows-1252?Q?VZ6KnzBaO0VNCdjgWP5AvctUxWqdpH8cevYk6hDRjb9cLIFjeyQ/rDGl?=
+ =?Windows-1252?Q?2j4V+uS5F/ndjuVb/DaZWIHfVbqsB6nS/Nk984ev/qiUwQVPWQ0WLSVh?=
+ =?Windows-1252?Q?kMB1qIvvW8uMA2eF6Doxf6z2/vQF2E5iI/S46tbR/XCu5xO52OFAaWAh?=
+ =?Windows-1252?Q?xXBB5rlzl53zXzceunh64+RGP3zt8KaXlqMugyEuXSGDO9xPC+fdxT87?=
+ =?Windows-1252?Q?9ri9MqpV+YvgFqLqHz5Y0vSh6pDPcBQnuGG6+ZvJf4/OdYQC6hP7UsfM?=
+ =?Windows-1252?Q?ASJd8xkxhpTTl+Q9UInkRX8eFPC13QaNtRdWo9h5ymg=3D?=
+x-ms-exchange-antispam-messagedata-chunkcount: 1
+x-ms-exchange-antispam-messagedata-0:
+ =?Windows-1252?Q?bjPzsEDOiT/e1jcQMb8gKkjhovUV8Z7Mi4OlHICnzOrkm/TSpag5alh8?=
+ =?Windows-1252?Q?reGcd97jLm2+QEJHAYQXOCjaNI5pNVVyo0ALNK5H4mlWYrvzuLA3AXQb?=
+ =?Windows-1252?Q?GySkiv62eQbWt9ACRLWscBnrWV18ceEmrfkz7MPWqnekwP9Bxntvpv7E?=
+ =?Windows-1252?Q?0iqUT2qFoqtakUqrvREpByfkUj5s/ch2KqVgrvrAJVaGVPQtT306WJRv?=
+ =?Windows-1252?Q?oYcOfG0EI49JZVxaEW5olOq31titBtZYCi979g4Akw8kk7NKpJzr46Ly?=
+ =?Windows-1252?Q?pHD/fjIW5NfHLzpHi3TSPEwleltM21oOloQ7bAIaW+ucVYfPRKcYwodb?=
+ =?Windows-1252?Q?cIJ7iiHL2Ptha6+S5uSdjuJpcr/m21zolZlaDyZBrG5DkoQ6ALNqqwQu?=
+ =?Windows-1252?Q?90zJaQPV6Kg1YsWMOcg1rd6iCy+BhzWbV8RxoTAk4EhkyIzttDaXHfCS?=
+ =?Windows-1252?Q?IDm+21oAdFDZMnoCST24c0dOI0ycz0UPrGGJQs3UwXcRPv+bBiFryG8m?=
+ =?Windows-1252?Q?HS4ki4jVYh/ZTdZptnHwUu4Sm3kGXw8qhqYrsRfaRcqbIB6yqfAlDhDz?=
+ =?Windows-1252?Q?fsys91fIFvDwMLPeXzho43lFJo6h01n1gae3SQSKJJBHrEEO3fzEgSmn?=
+ =?Windows-1252?Q?l8kxXwn2GsYFJo0GNen5SRO3CB8GItd181s1Vv7ETHY+zztG4qODvr3i?=
+ =?Windows-1252?Q?XNJH2tsnt+IaVVXTJ91V+KM3NJV13y8zI8C6P+bB+Mmkku9qGVW1iDEN?=
+ =?Windows-1252?Q?Rd8I1Td/AxTLg47PoTm55K8T+JToQFPAq7PtwvWnQQCL5qhvWGZbGFZu?=
+ =?Windows-1252?Q?tpcZieZRQg830htFhv2eerMmyu+yb6lSHO3xYS4DeJlsQXyccO98Rkng?=
+ =?Windows-1252?Q?ZoOSyC+6dohP53xc5V3upcWKeUKtvi9ERRYuEzSuF/3i8hwEbIObltlu?=
+ =?Windows-1252?Q?jRnh6ba9UKFNpY7ADKOL2U1KIqe1atnRbLHkg36k6SFHPHlBQexpuKaf?=
+ =?Windows-1252?Q?BOl9aRcILO9e6HBNfX4nohzcK+goeNMRffdn/1gYsgCjvPQ1ub5EHues?=
+ =?Windows-1252?Q?gfB8ifSkp7OooGLFBUlFVkRhJ0AcsZuuL/FDFHqRCMysRbAYYBezVaBP?=
+ =?Windows-1252?Q?YzQUd7HHnYuXJk631Yn9hvQ2iO4ApCAyy0YZwR3Q5LzNjerH3MwKU8bV?=
+ =?Windows-1252?Q?s4CbbrLW7p09ngS6oeDNunSlcuxKZKOkU+mmwaBygHqNHfHu/QNxCrYf?=
+ =?Windows-1252?Q?q2M4frtD5XZ57zu+Vi+/HnhaMthiHBOgCmyZZhXQu74FOZmi5hB4p0qw?=
+ =?Windows-1252?Q?ue/oLXU1e6BY8J2jB5nisEGYIkMnou4X5qgCjLSkdfRLRihvSHgPUcSM?=
+ =?Windows-1252?Q?fkDGBFXWHnPIRGF4fVo/CadVKkFBipyiFOW5jy7AddXq4unyPkmpws+9?=
+ =?Windows-1252?Q?gGm8Js4L/sIpuJUqMH9HFAJQquvSAadEABfqlsdQRBgTMxwdcbFbSsNh?=
+ =?Windows-1252?Q?PkGYvWsk?=
+Content-Type: multipart/alternative;
+	boundary="_000_PH7PR14MB5946A422EF712B1A4EBA43E697CF2PH7PR14MB5946namp_"
+MIME-Version: 1.0
+X-OriginatorOrg: outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Internal
+X-MS-Exchange-CrossTenant-AuthSource: PH7PR14MB5946.namprd14.prod.outlook.com
+X-MS-Exchange-CrossTenant-RMS-PersistedConsumerOrg: 00000000-0000-0000-0000-000000000000
+X-MS-Exchange-CrossTenant-Network-Message-Id: b5f94b7d-268c-4961-c8ef-08dee9969211
+X-MS-Exchange-CrossTenant-originalarrivaltime: 24 Jul 2026 15:16:43.7521
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Hosted
+X-MS-Exchange-CrossTenant-id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+X-MS-Exchange-CrossTenant-rms-persistedconsumerorg: 00000000-0000-0000-0000-000000000000
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: SABPR14MB958826
+X-Spam-Status: No, score=2.1
+X-Spam-Score: 21
+X-Spam-Bar: ++
+X-Ham-Report: Spam detection software, running on the system "server019.our-control-panel.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Hi, I hope you're doing well. Are you currently exploring
+   Accounting & Bookkeeping support for your business? 
+ Content analysis details:   (2.1 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 RCVD_IN_DNSWL_BLOCKED  RBL: ADMINISTRATOR NOTICE: The query to DNSWL
+                             was blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#DnsBlocklists-dnsbl-block
+                              for more information.
+                             [52.103.2.55 listed in list.dnswl.org]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+ -0.0 SPF_HELO_PASS          SPF: HELO matches SPF record
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from author's
+                             domain
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily valid
+  1.0 FREEMAIL_ENVFROM_END_DIGIT Envelope-from freemail username ends in
+                             digit
+                             [matt.henry2311(at)outlook.com]
+  1.2 MISSING_HEADERS        Missing To: header
+  0.0 FREEMAIL_FROM          Sender email is commonly abused enduser mail provider
+                             [matt.henry2311(at)outlook.com]
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  0.1 MALFORMED_FREEMAIL     Bad headers on message from free email service
+X-Spam-Flag: NO
+
+--_000_PH7PR14MB5946A422EF712B1A4EBA43E697CF2PH7PR14MB5946namp_
+Content-Type: text/plain; charset="Windows-1252"
+Content-Transfer-Encoding: quoted-printable
+
+Hi,
+
+I hope you're doing well.
+
+Are you currently exploring Accounting & Bookkeeping support for your busin=
+ess?
+
+We offer experienced accounting professionals to help with bookkeeping, pay=
+roll, AP/AR, reconciliations, financial reporting, and other routine accoun=
+ting tasks.
+
+I'd be happy to share more information if you're interested.
+
+Best Regards
+Matt Henry
+
+
+
+--_000_PH7PR14MB5946A422EF712B1A4EBA43E697CF2PH7PR14MB5946namp_
+Content-Type: text/html; charset="Windows-1252"
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DWindows-1=
+252">
+<style type=3D"text/css" style=3D"display:none;"> P {margin-top:0;margin-bo=
+ttom:0;} </style>
+</head>
+<body dir=3D"ltr">
+<div class=3D"elementToProof" style=3D"font-family: Aptos, Aptos_EmbeddedFo=
+nt, Aptos_MSFontService, Calibri, Helvetica, sans-serif; font-size: 12pt; c=
+olor: rgb(0, 0, 0);">
+Hi,</div>
+<div class=3D"elementToProof" style=3D"font-family: Aptos, Aptos_EmbeddedFo=
+nt, Aptos_MSFontService, Calibri, Helvetica, sans-serif; font-size: 12pt; c=
+olor: rgb(0, 0, 0);">
+<br>
+</div>
+<div class=3D"elementToProof" style=3D"font-family: Aptos, Aptos_EmbeddedFo=
+nt, Aptos_MSFontService, Calibri, Helvetica, sans-serif; font-size: 12pt; c=
+olor: rgb(0, 0, 0);">
+I hope you're doing well.</div>
+<div class=3D"elementToProof" style=3D"font-family: Aptos, Aptos_EmbeddedFo=
+nt, Aptos_MSFontService, Calibri, Helvetica, sans-serif; font-size: 12pt; c=
+olor: rgb(0, 0, 0);">
+<br>
+</div>
+<div class=3D"elementToProof" style=3D"font-family: Aptos, Aptos_EmbeddedFo=
+nt, Aptos_MSFontService, Calibri, Helvetica, sans-serif; font-size: 12pt; c=
+olor: rgb(0, 0, 0);">
+Are you currently exploring Accounting &amp; Bookkeeping support for your b=
+usiness?</div>
+<div class=3D"elementToProof" style=3D"font-family: Aptos, Aptos_EmbeddedFo=
+nt, Aptos_MSFontService, Calibri, Helvetica, sans-serif; font-size: 12pt; c=
+olor: rgb(0, 0, 0);">
+<br>
+</div>
+<div class=3D"elementToProof" style=3D"font-family: Aptos, Aptos_EmbeddedFo=
+nt, Aptos_MSFontService, Calibri, Helvetica, sans-serif; font-size: 12pt; c=
+olor: rgb(0, 0, 0);">
+We offer experienced accounting professionals to help with bookkeeping, pay=
+roll, AP/AR, reconciliations, financial reporting, and other routine accoun=
+ting tasks.</div>
+<div class=3D"elementToProof" style=3D"font-family: Aptos, Aptos_EmbeddedFo=
+nt, Aptos_MSFontService, Calibri, Helvetica, sans-serif; font-size: 12pt; c=
+olor: rgb(0, 0, 0);">
+<br>
+</div>
+<div class=3D"elementToProof" style=3D"font-family: Aptos, Aptos_EmbeddedFo=
+nt, Aptos_MSFontService, Calibri, Helvetica, sans-serif; font-size: 12pt; c=
+olor: rgb(0, 0, 0);">
+I'd be happy to share more information if you're interested.</div>
+<div class=3D"elementToProof" style=3D"font-family: Aptos, Aptos_EmbeddedFo=
+nt, Aptos_MSFontService, Calibri, Helvetica, sans-serif; font-size: 12pt; c=
+olor: rgb(0, 0, 0);">
+<br>
+</div>
+<div class=3D"elementToProof" style=3D"font-family: Aptos, Aptos_EmbeddedFo=
+nt, Aptos_MSFontService, Calibri, Helvetica, sans-serif; font-size: 12pt; c=
+olor: rgb(0, 0, 0);">
+Best Regards</div>
+<div class=3D"elementToProof" style=3D"font-family: Aptos, Aptos_EmbeddedFo=
+nt, Aptos_MSFontService, Calibri, Helvetica, sans-serif; font-size: 12pt; c=
+olor: rgb(0, 0, 0);">
+Matt Henry</div>
+<div class=3D"elementToProof" style=3D"font-family: Aptos, Aptos_EmbeddedFo=
+nt, Aptos_MSFontService, Calibri, Helvetica, sans-serif; font-size: 12pt; c=
+olor: rgb(0, 0, 0);">
+<br>
+<br>
+</div>
+</body>
+</html>
+
+--_000_PH7PR14MB5946A422EF712B1A4EBA43E697CF2PH7PR14MB5946namp_--

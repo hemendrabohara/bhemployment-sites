@@ -1,0 +1,171 @@
+Return-Path: <dqamstammhmd@gmail.com>
+Delivered-To: info@bhemployment.com
+Received: from server019.our-control-panel.com
+	by server019.our-control-panel.com with LMTP
+	id qonRGBbLSmo07j8AaDcOIg
+	(envelope-from <dqamstammhmd@gmail.com>)
+	for <info@bhemployment.com>; Mon, 06 Jul 2026 03:07:30 +0545
+Return-path: <dqamstammhmd@gmail.com>
+Envelope-to: info@bhemployment.com
+Delivery-date: Mon, 06 Jul 2026 03:07:30 +0545
+Received: from mail-yw1-f179.google.com ([209.85.128.179]:45239)
+	by server019.our-control-panel.com with esmtps  (TLS1.3) tls TLS_AES_128_GCM_SHA256
+	(Exim 4.99.4)
+	(envelope-from <dqamstammhmd@gmail.com>)
+	id 1wgUIF-0000000HZS7-3udU
+	for info@bhemployment.com;
+	Mon, 06 Jul 2026 03:07:30 +0545
+Received: by mail-yw1-f179.google.com with SMTP id 00721157ae682-80e46c00f3bso28329357b3.2
+        for <info@bhemployment.com>; Sun, 05 Jul 2026 14:22:07 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1783286506; cv=none;
+        d=google.com; s=arc-20260327;
+        b=C2wbIu27aPDVCHVA/moG+RBmIO2WgwCowvzZAN8V3eHJFIeKBSooI+9TlNrmNRNxWw
+         qcpJSQeq5evpCMV8ndcLWjqc5CUGwEIzMFUhXJ+ZlCAO9XJEzZH1kAPLw4m+YddHBjTY
+         CC/o82GMLfB3+KY+2ei+lbC7WNACJ0nHCSY72VUi5uj+FFwyk+fW80Ql3ss7Av7F+RuC
+         SxUXyE9Sbq6RVOqFEGwqx+operyKShOn0hrk7Nwc8ha6dyAYQ0d3WfepI9ZtVHA6Gzh6
+         7LnIBXLRUU59ZlE6eSDKMOYnNJ0A1Oo4bg7o8Yz9nlvdQS9yJ0uzYxEOlSqiHQIXlo5R
+         RKSQ==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20260327;
+        h=to:subject:message-id:date:from:mime-version:dkim-signature;
+        bh=Mkf1Cxqa1yJCHb4Bt4rW0mpZ0/N9obtsFbq6eorNSjE=;
+        fh=YmMTWwsaW15e/neb1EUrwoJ0VIB18L8xqj6/w9vWzks=;
+        b=PRg7mhX/EKFZ2GS2+/wimep62Pzb9YllVazqA0ZqpWOOstZ3Ndjt5ASIgpsxehiGW0
+         WRu8asir82WhK2T1E43dmbbFRyIR/lB1xhBQ1/x3tWAA2NuhWW06hznicO9JcEshjIpu
+         7izFHYMNxoLsdGXkJBszgaGCKuPYQBPEXEP82G5oYcP+UrF4weFRCauVgst8qg0oXQSs
+         A8SM/quNFPVRLlngV6oXb1KusUwZPhsl3ceZ2oJZeLYNJgIoECiRFH4HJDxy/c3BldVi
+         yIIyIZ5NVYjeexsVIIA/YK3xXoswXgLQjCFtKNmEUNtU9X0PgVWOJB4/XHyX7FAUXkMK
+         9WNQ==;
+        darn=bhemployment.com
+ARC-Authentication-Results: i=1; mx.google.com; arc=none
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20251104; t=1783286506; x=1783891306; darn=bhemployment.com;
+        h=to:subject:message-id:date:from:mime-version:from:to:cc:subject
+         :date:message-id:reply-to;
+        bh=Mkf1Cxqa1yJCHb4Bt4rW0mpZ0/N9obtsFbq6eorNSjE=;
+        b=smd4zeOZn2eUcdHMs2R6uGRo1aQpybsoNg5+Prd8/lT27aDg4WiW4rmSf8y1UobnKG
+         uvdhHi6dODqG3NnheGhwhkohFcUUtNhU8EvqMTZ8O7jLN5QAZlNVQB85B9yIqSuNb9T5
+         WbDByRZO0fHyaGBqvESk7U8lZGiAl9QV9dHzoZVRe+X0mNvp+xPP3k4V3/QjLlxTbBVh
+         dM2udyKM2k8enoK9IPSzUmd6vq0L63XpbPDe+KTwNeqhPFLDOTCvVuLzBV62+i955sy1
+         pV8KdDyOzFdexChaYd8IHTHTRFjzDUQc1W4MQvEXzWqyvQXF8h5rDKTW4wxjdjlt3Kvd
+         q/0Q==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20251104; t=1783286506; x=1783891306;
+        h=to:subject:message-id:date:from:mime-version:x-gm-gg
+         :x-gm-message-state:from:to:cc:subject:date:message-id:reply-to;
+        bh=Mkf1Cxqa1yJCHb4Bt4rW0mpZ0/N9obtsFbq6eorNSjE=;
+        b=DQkqbSx46YIijezqmxMmBTRYBD6yABTLiRlFTYGihZHz3YktGgy2wvW3hC5BDYR+4t
+         Vbx4HNwWvGtvesWTtxrMjDAclO6f6mhGMTuJGWxr2GHq/cW2oS5O1JWlxsPEzB3+12bh
+         AnMCoX3B7dx8jRKtt+NbHA7YUzVUfZ/a60JYE0+8fMmU7DF9qyYHc5uoHO6AEqMfdiun
+         eoaVQ6fVgtE3EdhxSY3aiUnv65hhpvWTc6ybO9yYi0nIT0MEQWJTWV5lzERmQyVaGDon
+         V2ox79w5ecgvX9Kjxf7je7SnTIqQc7vwTpiAbVvtm5LZLu1+5nRhjQEQ5WwZ3+XnoywX
+         KyIg==
+X-Forwarded-Encrypted: i=1; AHgh+Rq/vooTVFLgL4p73DUENahLUPhh4DCIhdlhKtnNcG6rUmSuIeYLiqrWBuWPL6FNaWobr//I@bhemployment.com
+X-Gm-Message-State: AOJu0YyTd0mbJVD7MkoOiP0MUXyZErOjknbz58sXIizllUtLrl1ul9Yy
+	Q0p5DnWMG+UaG1DkGqKiQO58A25iauGcsjCjD+l7o3M8lqRDqw/P2wYHm4FBUjbGK/legviCqTL
+	xRRG71YlCtmCtIce8Jh02jdEzs0NFpTE=
+X-Gm-Gg: AfdE7ckCv0HAuwzcK7+rHGs4ejumydn+D1R+B8X77+5T6Wo39QKtZPnsqUyTjZoMADn
+	XQvFrIiM6e+OPpELi1dRy47NRIeflJxBYtmFRJI36m/hBlr2rRctm5kHmK9Ix/01vVkEHPt7UK2
+	7QjrRIj5geH6+YxTc1z8KjPWWgnw8sdG9aElBciAv78F0RYtX4j6wvHuXbqJFiXxrqbLR3dSS9V
+	CLM6ANs88lN30OG5CgB/L1LPYAwNAORO8cLLm8/dLe1cUdQzuN2V2g/hO68iCpNSD85kHnrTXI1
+	wH2tYTybHATk6ta1yiJ7QqobdJQ8bNrwG0YdSwMI
+X-Received: by 2002:a05:690c:6502:b0:80c:8596:4656 with SMTP id
+ 00721157ae682-8173a6cd135mr87151647b3.72.1783286506464; Sun, 05 Jul 2026
+ 14:21:46 -0700 (PDT)
+MIME-Version: 1.0
+From: Jennifer Alverson <dqamstammhmd@gmail.com>
+Date: Mon, 6 Jul 2026 06:51:13 +0930
+X-Gm-Features: AVVi8CcMzVgpE2_IF4qH8Kyhq9utiWGbR4tSftoDxouLm8X4iBlkIZoJSbs7hn4
+Message-ID: <CAAvR+oZFd5t9hyexBFSmkTj=36iyVfb2sOaNwOncjBqDnaMrPA@mail.gmail.com>
+Subject: Review
+To: bh.jobagency@gmail.com, info@bhemployment.com
+Content-Type: multipart/alternative; boundary="000000000000c029110655e3bed2"
+X-Spam-Status: No, score=1.6
+X-Spam-Score: 16
+X-Spam-Bar: +
+X-Ham-Report: Spam detection software, running on the system "server019.our-control-panel.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Hello, Dear Do you want positive reviews on your Google maps
+    or local service business page? Another special advantage is that you don't
+    have to pay $0.10 upfront, so there's no risk of losing money. 
+ Content analysis details:   (1.6 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 RCVD_IN_DNSWL_BLOCKED  RBL: ADMINISTRATOR NOTICE: The query to DNSWL
+                             was blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#DnsBlocklists-dnsbl-block
+                              for more information.
+                             [209.85.128.179 listed in list.dnswl.org]
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was blocked.
+                             See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URI: wa.me]
+                             [URI: freelancerhasanur.com]
+  0.0 RCVD_IN_MSPIKE_H2      RBL: Average reputation (+2)
+                             [209.85.128.179 listed in wl.mailspike.net]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily valid
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from author's
+                             domain
+  0.0 FREEMAIL_FROM          Sender email is commonly abused enduser mail provider
+                             [dqamstammhmd(at)gmail.com]
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  0.0 KAM_SHORT              Use of a URL Shortener for very short URL
+  0.8 KAM_INFOUSMEBIZ        Prevalent use of
+                             .info|.us|.me|.me.uk|.biz|xyz|id|rocks|life
+                             domains in spam/malware
+  1.0 FREEMAIL_REPLY         From and body contain different freemails
+X-Spam-Flag: NO
+
+--000000000000c029110655e3bed2
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hello,  Dear
+Do you want positive reviews on your Google maps  or local service business
+page?
+
+Another special advantage is that you don't have to pay $0.10 upfront, so
+there's no risk of losing money.
+
+My main goal is to grow my clients' businesses. Affordable, fast, and
+effective. I have a website about my work where I have personalized reviews
+and write about my work experience.
+
+Contact me for a quick solution to any Google Maps-related problem.
+
+My Contact information :
+ My website : freelancerhasanur.com/
+
+=E2=98=8E WhatsApp: (+8801342303770)
+
+=F0=9F=93=A7 WhatsApp: wa.me/8801342303770
+
+=E2=9C=89 E-mail: rahiislam1052@gmail.com
+
+Thanks
+
+--000000000000c029110655e3bed2
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">Hello, =C2=A0Dear <br>Do you want positive reviews on your=
+ Google maps =C2=A0or local service business page?<br><br>Another special a=
+dvantage is that you don&#39;t have to pay $0.10 upfront, so there&#39;s no=
+ risk of losing money.<br><br>My main goal is to grow my clients&#39; busin=
+esses. Affordable, fast, and effective. I have a website about my work wher=
+e I have personalized reviews and write about my work experience.<br><br>Co=
+ntact me for a quick solution to any Google Maps-related problem.<br><br>My=
+ Contact information : <br>=C2=A0My website : <a href=3D"http://freelancerh=
+asanur.com/">freelancerhasanur.com/</a><br><br>=E2=98=8E WhatsApp: (+880134=
+2303770)<br><br>=F0=9F=93=A7 WhatsApp: <a href=3D"http://wa.me/880134230377=
+0">wa.me/8801342303770</a><br><br>=E2=9C=89 E-mail: <a href=3D"mailto:rahii=
+slam1052@gmail.com">rahiislam1052@gmail.com</a><br><br>Thanks</div>
+
+--000000000000c029110655e3bed2--

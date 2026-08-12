@@ -1,0 +1,365 @@
+Return-Path: <support@sittercity.com>
+Delivered-To: info@bhemployment.com
+Received: from server019.our-control-panel.com
+	by server019.our-control-panel.com with LMTP
+	id vWMfLIqeZ2pyrxsAaDcOIg
+	(envelope-from <support@sittercity.com>)
+	for <info@bhemployment.com>; Mon, 27 Jul 2026 23:53:10 +0545
+Return-path: <support@sittercity.com>
+Envelope-to: info@bhemployment.com
+Delivery-date: Mon, 27 Jul 2026 23:53:10 +0545
+Received: from mta-out3.pod27.use2.zdsys.com ([192.161.152.33]:46874)
+	by server019.our-control-panel.com with esmtps  (TLS1.3) tls TLS_AES_256_GCM_SHA384
+	(Exim 4.99.4)
+	(envelope-from <support@sittercity.com>)
+	id 1woPkG-00000007bjh-37Jy
+	for info@bhemployment.com;
+	Mon, 27 Jul 2026 23:53:10 +0545
+Received: from zendesk.com (unknown [127.0.0.6])
+	by mta-out15.pod27.use2.zdsys.com (Zendesk) with ESMTP
+	id bd9ce28e-bd6f-4306-963c-9533c34d4a13
+	for <info@bhemployment.com>;
+	Mon, 27 Jul 2026 18:07:27 +0000 (UTC)
+Date: Mon, 27 Jul 2026 18:07:27 +0000
+From: Support - Sittercity <support@sittercity.com>
+Reply-To: Support - Sittercity <support@sittercity.com>
+To: B&H Employment & Consultancy Inc <info@bhemployment.com>
+Message-ID: <Z69M45Z1KGW_6a679e5ef1d6e_1c7ebe15e4db5f_sprut@zendesk.com>
+In-Reply-To: <178517562936.24396.4441058570032186927@bhemployment.com>
+ <Z69M45Z1KGW_6a679e57cb143_ddd2b50080a0a6_sprut@zendesk.com>
+References: <Z69M45Z1KGW@zendesk.com>
+ <178517562936.24396.4441058570032186927@bhemployment.com>
+Subject: [Support - Sittercity] Re: Free household and nanny candidate
+ referrals for your New York listings
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_6a679e5f18ff7_187180812176b";
+ charset=utf-8
+Content-Transfer-Encoding: 7bit
+X-Delivery-Context: rule-2-event-id-53605427823515
+X-Zendesk-From-Account-Id: 4e6c0ce
+Auto-Submitted: auto-generated
+X-Auto-Response-Suppress: All
+X-Mailer: Zendesk Mailer
+X-Zendesk-Email-Id: 01KYJC58JE4PPSY7T4CRTZW7PR
+DKIM-Signature:  v=1; a=rsa-sha256; c=relaxed/relaxed; d=zendesk.com;
+ q=dns/txt; s=zendesk2; t=1785175647;
+ bh=JWgtGxw+MRRVlsRMP92PPc4gFvJhmD6zF8r+9KojZog=;
+ h=date:from:reply-to:to:message-id:in-reply-to:references:subject:mime-version:content-type:content-transfer-encoding;
+ b=lRz4rgQM/PLbylUU6gf+itUmHAMpBvb+7QJaseTg0K9w0OTZ7Y3iV9WES2Nb2XAq9ln9qGLiOl1QpaCnzZ4qnBqJVPzmfRFd62dC/m7qHSXI4vXBR7aVhPurWm939TH81gIt5pDW9zhSoEBJKlLGzGC+5BGNFiW2pJt7HVnojeVRrt7OgWA6r8LuyQr3rz1v8Mu6NjoicQlHoEFU6136fFCp/REBWKFa++N1kNHmRNq2060+zyQ7+q3lDCwJlvGWfZbN5vjKZ3Igoig0VkkO4NhrooFewkJVwQDtRkshBayTUrAD6PAj+VWoWP88FmhTw8FcBkulKUYbjTnng+1f5g==
+X-Spam-Status: No, score=-1.1
+X-Spam-Score: -10
+X-Spam-Bar: -
+X-Ham-Report: Spam detection software, running on the system "server019.our-control-panel.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  <a href="https://www.sittercity.com/" style="padding:20px
+   0px 10px 0px;"><img src="https://storage.googleapis.com/sittercity-zendesk-images/sc_logo%402x.png"
+    alt="Sittercity" border="0" width="263"></ [...] 
+ Content analysis details:   (-1.1 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 RCVD_IN_DNSWL_BLOCKED  RBL: ADMINISTRATOR NOTICE: The query to DNSWL
+                             was blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#DnsBlocklists-dnsbl-block
+                              for more information.
+                             [192.161.152.33 listed in list.dnswl.org]
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was blocked.
+                             See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URI: storage.googleapis.com]
+                             [URI: zendesk.com]
+                             [URI: bhemployment.com]
+                             [URI: sittercity.zendesk.com]
+                             [URI: sittercity.com]
+  0.0 RCVD_IN_MSPIKE_H5      RBL: Excellent reputation (+5)
+                             [192.161.152.33 listed in wl.mailspike.net]
+ -2.5 RCVD_IN_HOSTKARMA_W    RBL: Sender listed in HOSTKARMA-WHITE
+                       [192.161.152.33 listed in hostkarma.junkemailfilter.com]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily valid
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+  0.0 RCVD_IN_MSPIKE_WL      Mailspike good senders
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  0.0 HTML_FONT_LOW_CONTRAST BODY: HTML font color similar or identical to
+                             background
+  3.0 GOOG_STO_EMAIL_PHISH   Possible phishing with google hosted content URI
+                              having email address
+ -1.6 DKIMWL_WL_HIGH         DKIMwl.org - High trust sender
+X-Spam-Flag: NO
+
+
+----==_mimepart_6a679e5f18ff7_187180812176b
+Content-Type: text/plain;
+ charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<a href=3D"https://www.sittercity.com/" style=3D"padding:20px 0px 10px 0p=
+x;"><img src=3D"https://storage.googleapis.com/sittercity-zendesk-images/=
+sc_logo%402x.png" alt=3D"Sittercity" border=3D"0" width=3D"263"></a>
+
+Your Sittercity request has been updated - please see below. To respond, =
+simply reply to this email.
+
+----------------------------------------------
+
+System, Jul 27, 2026, 1:07=E2=80=AFPM CDT
+
+Hello -
+
+Thank you for reaching out to us!
+
+You have reached our Customer Success department, but it's best for you t=
+o connect with our Marketing Team. Please contact them at onlinemarketing=
+@sittercity.com. They will be happy to help you further.
+
+Have a great day!
+
+----------------------------------------------
+
+B&H Employment & Consultancy Inc, Jul 27, 2026, 1:07=E2=80=AFPM CDT
+
+Hi Team,
+
+With Sittercity actively listing New York families seeking caregiver supp=
+ort starting this August=E2=80=94including roles for preschool children a=
+nd infants=E2=80=94matching the right talent to these specific local need=
+s is critical. I am reaching out because B&H Employment & Consultancy can=
+ support your placement efforts by providing pre-screened household candi=
+dates directly to your agency. We would like to offer our experienced nan=
+nies, babysitters, and housekeepers to help fill your active New York lis=
+tings completely free of charge.
+
+My name is Bikas J Bohara, and I am the founder of B&H Employment & Consu=
+ltancy Inc, based in Jackson Heights, New York.
+
+I am reaching out to offer something that costs your agency nothing.
+
+We are an employment agency specializing exclusively in Nepali, Bhutanese=
+, Tibetan, and Hindi-speaking household workers. We charge our candidates=
+ a placement fee =E2=80=94 we do NOT charge any fee to employers or agenc=
+ies. Our candidates are available to your clients completely free of cost=
+ to you.
+
+If your agency ever has a client looking for:
+=E2=80=A2 A Nepali or Hindi-speaking nanny or babysitter
+=E2=80=A2 A live-in or live-out housekeeper
+=E2=80=A2 A home cook familiar with South Asian cuisine
+=E2=80=A2 A home cleaner
+
+=E2=80=94 we can refer a pre-screened, available candidate to you at no c=
+harge.
+
+About our candidates:
+=E2=9C=94 Nepali, Bhutanese, Tibetan & Hindi-speaking
+=E2=9C=94 Speak Nepali, Hindi & basic conversational English
+=E2=9C=94 Available for live-in and live-out positions
+=E2=9C=94 Open to placements anywhere in the USA
+=E2=9C=94 Experienced in childcare, housekeeping, cooking & cleaning
+=E2=9C=94 Hardworking, reliable, and culturally attuned to South Asian ho=
+useholds
+
+This is especially valuable if your clients include Indian, Nepali, Bangl=
+adeshi, or South Asian families who prefer a caregiver or housekeeper who=
+ speaks their language and understands their culture.
+
+There is no cost, no contract, and no obligation =E2=80=94 just a simple =
+referral whenever the right need arises.
+
+I would love to connect briefly and share more about the candidates we ha=
+ve available right now.
+
+Please feel free to reach me at:
+=F0=9F=93=9E (929) 385-6177
+=F0=9F=93=A7 bh.jobagency@gmail.com
+=F0=9F=8C=90 www.bhemployment.com
+=F0=9F=93=8D 37-51 75th St, Suite 1A, Jackson Heights, NY 11372
+
+Thank you for your time. I look forward to hearing from you.
+
+Warm regards,
+Bikas J Bohara
+
+---
+To opt-out of future candidate referrals, reply with "Unsubscribe".
+
+To unsubscribe from this group and stop receiving emails from it, send an=
+ email to support+unsubscribe@sittercity.com.
+
+--------------------------------
+This email is a service from Sittercity Support.
+
+
+
+
+
+
+
+
+
+[Z69M45-Z1KGW]=
+
+----==_mimepart_6a679e5f18ff7_187180812176b
+Content-Type: text/html;
+ charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html><html><head>
+        <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3D=
+utf-8">
+        <link href=3D"http://fonts.googleapis.com/css?family=3DRoboto" re=
+l=3D"stylesheet" type=3D"text/css">
+        <style type=3D"text/css">
+		@import url(http://fonts.googleapis.com/css?family=3DRoboto);
+          table td {
+            border-collapse: collapse;
+          }
+          body[dir=3Drtl] .directional_text_wrapper { direction: rtl; uni=
+code-bidi: embed; }
+
+        </style>
+      </head>
+      <body lang=3D"en-us" style=3D"width: 100%!important; margin: 0; pad=
+ding: 0;">
+        <div style=3D"padding: 10px ; line-height: 18px; font-family: 'Ro=
+boto', Helvetica, Arial, sans-serif; font-size: 12px; color:#565656;">
+          <div style=3D"color: #b5b5b5;"></div>
+           <p dir=3D"ltr"><a href=3D"https://www.sittercity.com/" style=3D=
+"padding:20px 0px 10px 0px;"><img src=3D"https://storage.googleapis.com/s=
+ittercity-zendesk-images/sc_logo%402x.png" alt=3D"Sittercity" border=3D"0=
+" width=3D"263"></a></p><p dir=3D"ltr">Your Sittercity request has been u=
+pdated - please see below. To respond, simply reply to this email.</p><p =
+dir=3D"ltr"></p><div style=3D"margin-top: 25px" data-version=3D"2"><table=
+ class=3D"zd-liquid-comment" width=3D"100%" cellpadding=3D"0" cellspacing=
+=3D"0" border=3D"0" role=3D"presentation">  <tbody><tr>    <td width=3D"1=
+00%" style=3D"padding: 15px 0; border-top: 1px dotted #c5c5c5;">      <ta=
+ble width=3D"100%" cellpadding=3D"0" cellspacing=3D"0" border=3D"0" style=
+=3D"table-layout:fixed;" role=3D"presentation">        <tbody><tr>       =
+               <td valign=3D"top" style=3D"padding: 0 15px 0 15px; width:=
+ 40px;">              <img width=3D"40" height=3D"40" alt=3D"" style=3D"h=
+eight: auto; line-height: 100%; outline: none; text-decoration: none; -we=
+bkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px;" sr=
+c=3D"https://assets.zendesk.com/images/2016/default-avatar-80.png">      =
+      </td>                    <td width=3D"100%" style=3D"padding: 0; ma=
+rgin: 0;" valign=3D"top">            <p style=3D"font-family:'Lucida Gran=
+de','Lucida Sans Unicode','Lucida Sans',Verdana,Tahoma,sans-serif; font-s=
+ize: 15px; line-height: 18px; margin-bottom: 0; margin-top: 0; padding: 0=
+; color:#1b1d1e;" dir=3D"ltr">                                           =
+     <strong>System</strong> (Sittercity Support)                        =
+                  </p>            <p style=3D"font-family:'Lucida Grande'=
+,'Lucida Sans Unicode','Lucida Sans',Verdana,Tahoma,sans-serif; font-size=
+: 13px; line-height: 25px; margin-bottom: 15px; margin-top: 0; padding: 0=
+; color:#bbbbbb;" dir=3D"ltr">              Jul 27, 2026, 1:07=E2=80=AFPM=
+ CDT            </p>                                    <div class=3D"zd-=
+comment" dir=3D"auto" style=3D"color: #2b2e2f; line-height: 22px; margin:=
+ 15px 0;"><p dir=3D"ltr" style=3D"color: #2b2e2f; line-height: 22px; marg=
+in: 15px 0;">Hello -</p><p dir=3D"ltr" style=3D"color: #2b2e2f; line-heig=
+ht: 22px; margin: 15px 0;">Thank you for reaching out to us!</p><p dir=3D=
+"ltr" style=3D"color: #2b2e2f; line-height: 22px; margin: 15px 0;">You ha=
+ve reached our Customer Success department, but it's best for you to conn=
+ect with our Marketing Team. Please contact them at <a href=3D"mailto:onl=
+inemarketing@sittercity.com" rel=3D"noreferrer">onlinemarketing@sittercit=
+y.com</a>. They will be happy to help you further.</p><p dir=3D"ltr" styl=
+e=3D"color: #2b2e2f; line-height: 22px; margin: 15px 0;">Have a great day=
+!</p></div><p dir=3D"ltr">                      </p></td>        </tr>   =
+   </tbody></table>    </td>  </tr></tbody></table><p dir=3D"ltr"></p><ta=
+ble class=3D"zd-liquid-comment" width=3D"100%" cellpadding=3D"0" cellspac=
+ing=3D"0" border=3D"0" role=3D"presentation">  <tbody><tr>    <td width=3D=
+"100%" style=3D"padding: 15px 0; border-top: 1px dotted #c5c5c5;">      <=
+table width=3D"100%" cellpadding=3D"0" cellspacing=3D"0" border=3D"0" sty=
+le=3D"table-layout:fixed;" role=3D"presentation">        <tbody><tr>     =
+                 <td valign=3D"top" style=3D"padding: 0 15px 0 15px; widt=
+h: 40px;">              <img width=3D"40" height=3D"40" alt=3D"" style=3D=
+"height: auto; line-height: 100%; outline: none; text-decoration: none; -=
+webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px;" =
+src=3D"https://sittercity.zendesk.com/images/2016/default-avatar-80.png">=
+            </td>                    <td width=3D"100%" style=3D"padding:=
+ 0; margin: 0;" valign=3D"top">            <p style=3D"font-family:'Lucid=
+a Grande','Lucida Sans Unicode','Lucida Sans',Verdana,Tahoma,sans-serif; =
+font-size: 15px; line-height: 18px; margin-bottom: 0; margin-top: 0; padd=
+ing: 0; color:#1b1d1e;" dir=3D"ltr">                              <strong=
+>B&amp;H Employment &amp; Consultancy Inc</strong>                       =
+   </p>            <p style=3D"font-family:'Lucida Grande','Lucida Sans U=
+nicode','Lucida Sans',Verdana,Tahoma,sans-serif; font-size: 13px; line-he=
+ight: 25px; margin-bottom: 15px; margin-top: 0; padding: 0; color:#bbbbbb=
+;" dir=3D"ltr">              Jul 27, 2026, 1:07=E2=80=AFPM CDT           =
+ </p>                                    <div class=3D"zd-comment" dir=3D=
+"auto" style=3D"color: #2b2e2f; line-height: 22px; margin: 15px 0;"><p di=
+r=3D"ltr" style=3D"color: #2b2e2f; line-height: 22px; margin: 15px 0;">Hi=
+ Team,</p><p dir=3D"ltr" style=3D"color: #2b2e2f; line-height: 22px; marg=
+in: 15px 0;">With Sittercity actively listing New York families seeking c=
+aregiver support starting this August=E2=80=94including roles for prescho=
+ol children and infants=E2=80=94matching the right talent to these specif=
+ic local needs is critical. I am reaching out because B&amp;H Employment =
+&amp; Consultancy can support your placement efforts by providing pre-scr=
+eened household candidates directly to your agency. We would like to offe=
+r our experienced nannies, babysitters, and housekeepers to help fill you=
+r active New York listings completely free of charge.</p><p dir=3D"ltr" s=
+tyle=3D"color: #2b2e2f; line-height: 22px; margin: 15px 0;">My name is Bi=
+kas J Bohara, and I am the founder of B&amp;H Employment &amp; Consultanc=
+y Inc, based in Jackson Heights, New York.</p><p dir=3D"ltr" style=3D"col=
+or: #2b2e2f; line-height: 22px; margin: 15px 0;">I am reaching out to off=
+er something that costs your agency nothing.</p><p dir=3D"ltr" style=3D"c=
+olor: #2b2e2f; line-height: 22px; margin: 15px 0;">We are an employment a=
+gency specializing exclusively in Nepali, Bhutanese, Tibetan, and Hindi-s=
+peaking household workers. We charge our candidates a placement fee =E2=80=
+=94 we do NOT charge any fee to employers or agencies. Our candidates are=
+ available to your clients completely free of cost to you.</p><p dir=3D"l=
+tr" style=3D"color: #2b2e2f; line-height: 22px; margin: 15px 0;">If your =
+agency ever has a client looking for:<br>=E2=80=A2 A Nepali or Hindi-spea=
+king nanny or babysitter<br>=E2=80=A2 A live-in or live-out housekeeper<b=
+r>=E2=80=A2 A home cook familiar with South Asian cuisine<br>=E2=80=A2 A =
+home cleaner</p><p dir=3D"ltr" style=3D"color: #2b2e2f; line-height: 22px=
+; margin: 15px 0;">=E2=80=94 we can refer a pre-screened, available candi=
+date to you at no charge.</p><p dir=3D"ltr" style=3D"color: #2b2e2f; line=
+-height: 22px; margin: 15px 0;">About our candidates:<br>=E2=9C=94 Nepali=
+, Bhutanese, Tibetan &amp; Hindi-speaking<br>=E2=9C=94 Speak Nepali, Hind=
+i &amp; basic conversational English<br>=E2=9C=94 Available for live-in a=
+nd live-out positions<br>=E2=9C=94 Open to placements anywhere in the USA=
+<br>=E2=9C=94 Experienced in childcare, housekeeping, cooking &amp; clean=
+ing<br>=E2=9C=94 Hardworking, reliable, and culturally attuned to South A=
+sian households</p><p dir=3D"ltr" style=3D"color: #2b2e2f; line-height: 2=
+2px; margin: 15px 0;">This is especially valuable if your clients include=
+ Indian, Nepali, Bangladeshi, or South Asian families who prefer a caregi=
+ver or housekeeper who speaks their language and understands their cultur=
+e.</p><p dir=3D"ltr" style=3D"color: #2b2e2f; line-height: 22px; margin: =
+15px 0;">There is no cost, no contract, and no obligation =E2=80=94 just =
+a simple referral whenever the right need arises.</p><p dir=3D"ltr" style=
+=3D"color: #2b2e2f; line-height: 22px; margin: 15px 0;">I would love to c=
+onnect briefly and share more about the candidates we have available righ=
+t now.</p><p dir=3D"ltr" style=3D"color: #2b2e2f; line-height: 22px; marg=
+in: 15px 0;">Please feel free to reach me at:<br>=F0=9F=93=9E (929) 385-6=
+177<br>=F0=9F=93=A7 <a href=3D"mailto:bh.jobagency@gmail.com" rel=3D"nore=
+ferrer">bh.jobagency@gmail.com</a><br>=F0=9F=8C=90 <a href=3D"http://www.=
+bhemployment.com" target=3D"_blank" rel=3D"nofollow noreferrer">www.bhemp=
+loyment.com</a><br>=F0=9F=93=8D 37-51 75th St, Suite 1A, Jackson Heights,=
+ NY 11372</p><p dir=3D"ltr" style=3D"color: #2b2e2f; line-height: 22px; m=
+argin: 15px 0;">Thank you for your time. I look forward to hearing from y=
+ou.</p><p dir=3D"ltr" style=3D"color: #2b2e2f; line-height: 22px; margin:=
+ 15px 0;">Warm regards,<br>Bikas J Bohara</p><p dir=3D"ltr" style=3D"colo=
+r: #2b2e2f; line-height: 22px; margin: 15px 0;">---<br>To opt-out of futu=
+re candidate referrals, reply with "Unsubscribe".</p><p dir=3D"ltr" style=
+=3D"color: #2b2e2f; line-height: 22px; margin: 15px 0;">To unsubscribe fr=
+om this group and stop receiving emails from it, send an email to <a href=
+=3D"mailto:support+unsubscribe@sittercity.com" rel=3D"noreferrer">support=
++unsubscribe@sittercity.com</a>.</p></div>                      </td>    =
+    </tr>      </tbody></table>    </td>  </tr></tbody></table></div>
+          <div style=3D"color: #aaaaaa; margin: 10px 0 14px 0; padding-to=
+p: 10px; border-top: 1px solid #eeeeee;">
+
+          </div>
+        </div>
+      <span style=3D"color:#FFFFFF" aria-hidden=3D"true" class=3D"zd_enco=
+ded_id">[Z69M45-Z1KGW]</span>
+      =
+
+<div itemscope=3D"" itemtype=3D"http://schema.org/EmailMessage" style=3D"=
+display:none">  <div itemprop=3D"action" itemscope=3D"" itemtype=3D"http:=
+//schema.org/ViewAction">    <link itemprop=3D"url" href=3D"https://suppo=
+rt.sittercity.com/hc/requests/14649363">    <meta itemprop=3D"name" conte=
+nt=3D"View ticket">  </div></div></body></html>=
+
+----==_mimepart_6a679e5f18ff7_187180812176b--

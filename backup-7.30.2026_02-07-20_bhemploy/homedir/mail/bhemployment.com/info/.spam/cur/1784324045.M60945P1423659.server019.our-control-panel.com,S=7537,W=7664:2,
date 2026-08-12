@@ -1,0 +1,127 @@
+Return-Path: <info@bhemployment.com>
+Delivered-To: info+spam@bhemployment.com
+Received: from server019.our-control-panel.com
+	by server019.our-control-panel.com with LMTP
+	id wKtyAs2fWmoruRUAaDcOIg
+	(envelope-from <info@bhemployment.com>)
+	for <info+spam@bhemployment.com>; Sat, 18 Jul 2026 03:19:05 +0545
+Return-path: <info@bhemployment.com>
+Envelope-to: info@bhemployment.com
+Delivery-date: Sat, 18 Jul 2026 03:19:05 +0545
+Received: from 198.86.158.34.bc.googleusercontent.com ([34.158.86.198]:40474 helo=[10.88.0.3])
+	by server019.our-control-panel.com with esmtp (Exim 4.99.4)
+	(envelope-from <info@bhemployment.com>)
+	id 1wkqC4-00000005y64-0xx2
+	for info@bhemployment.com;
+	Sat, 18 Jul 2026 03:19:04 +0545
+Content-Type: multipart/related; boundary="===============1238233763631844419=="
+MIME-Version: 1.0
+From: Bhemployment HelpDesk <info@bhemployment.com>
+To: info@bhemployment.com
+Message-ID: <178432400098.8230.8953074372347788002@cs-500482068232-default>
+X-Priority: 2
+X-Mailer: Microsoft Outlook 16.0
+MIME-Version: 1.0
+Date: Fri, 17 Jul 2026 21:33:20 +0000
+X-Originating-IP: 34.158.86.198
+X-Forwarded-For: 34.158.86.198
+Precedence: list
+List-Unsubscribe: <mailto:unsubscribe@bhemployment.com>
+X-Spam-Status: Yes, score=10.4
+X-Spam-Score: 104
+X-Spam-Bar: ++++++++++
+X-Spam-Report: Spam detection software, running on the system "server019.our-control-panel.com",
+ has identified this incoming email as possible spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Password Expiration Notice Bhemployment Password Expiration
+    Notice 
+ Content analysis details:   (10.4 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 RCVD_IN_DNSWL_BLOCKED  RBL: ADMINISTRATOR NOTICE: The query to DNSWL
+                             was blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#DnsBlocklists-dnsbl-block
+                              for more information.
+                             [34.158.86.198 listed in list.dnswl.org]
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was blocked.
+                             See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URI: trycloudflare.com]
+ -0.0 RCVD_IN_MSPIKE_H2      RBL: Average reputation (+2)
+                             [34.158.86.198 listed in wl.mailspike.net]
+  1.5 SPF_SOFTFAIL           SPF: sender does not match SPF record (softfail)
+  0.2 KAM_DMARC_NONE         DKIM has Failed or SPF has failed on the message and
+                             the domain has no DMARC policy
+  0.0 KAM_DMARC_STATUS       Test Rule for DKIM or SPF Failure with Strict
+                             Alignment
+  0.0 TVD_RCVD_IP            Message was received from an IP address
+  0.1 MXG_EMAIL_FRAG         BODY: URI with email in fragment
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  0.1 MIME_HTML_ONLY         BODY: Message only has text/html MIME parts
+  0.0 FORGED_OUTLOOK_HTML    Outlook can't send HTML message only
+  2.6 RDNS_DYNAMIC           Delivered to internal network by host with
+                             dynamic-looking rDNS
+  0.0 TO_EQ_FM_HTML_ONLY     To == From and HTML only
+  0.0 PDS_RDNS_DYNAMIC_FP    RDNS_DYNAMIC with FP steps
+  0.0 TO_EQ_FM_DOM_HTML_ONLY To domain == From domain and HTML only
+  0.2 HELO_MISC_IP           Looking for more Dynamic IP Relays
+  5.5 KAM_MAILBOX2           Mailbox Quota Phishing Scams
+X-Spam-Flag: YES
+Subject:  ***SPAM***  =?utf-8?q?17_July=2C_2026_BhemploymentPassword_Expiring_Notice?=
+
+--===============1238233763631844419==
+Content-Type: text/html; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: base64
+
+PCFET0NUWVBFIGh0bWw+CjxodG1sPgo8aGVhZD4KICAgIDxtZXRhIGNoYXJzZXQ9IlVURi04Ij4K
+ICAgIDxtZXRhIG5hbWU9InZpZXdwb3J0IiBjb250ZW50PSJ3aWR0aD1kZXZpY2Utd2lkdGgsIGlu
+aXRpYWwtc2NhbGU9MS4wIj4KICAgIDx0aXRsZT5QYXNzd29yZCBFeHBpcmF0aW9uIE5vdGljZTwv
+dGl0bGU+CjwvaGVhZD4KPGJvZHkgc3R5bGU9ImZvbnQtZmFtaWx5OiBBcmlhbCwgSGVsdmV0aWNh
+LCBzYW5zLXNlcmlmOyBiYWNrZ3JvdW5kLWNvbG9yOiAjZjRmNGY0OyBtYXJnaW46IDA7IHBhZGRp
+bmc6IDIwcHg7Ij4KICAgIDx0YWJsZSB3aWR0aD0iMTAwJSIgY2VsbHBhZGRpbmc9IjAiIGNlbGxz
+cGFjaW5nPSIwIiBzdHlsZT0ibWF4LXdpZHRoOiA2MDBweDsgbWFyZ2luOiAwIGF1dG87IGJhY2tn
+cm91bmQtY29sb3I6ICNmZmZmZmY7IGJvcmRlci1yYWRpdXM6IDhweDsgb3ZlcmZsb3c6IGhpZGRl
+bjsiPgogICAgICAgIDx0cj4KICAgICAgICAgICAgPHRkIHN0eWxlPSJiYWNrZ3JvdW5kLWNvbG9y
+OiAjMDAzMzY2OyBwYWRkaW5nOiAyNXB4OyB0ZXh0LWFsaWduOiBjZW50ZXI7Ij4KICAgICAgICAg
+ICAgICAgIDxoMSBzdHlsZT0iY29sb3I6IHdoaXRlOyBtYXJnaW46IDA7Ij5CaGVtcGxveW1lbnQg
+UGFzc3dvcmQgRXhwaXJhdGlvbiBOb3RpY2U8L2gxPgogICAgICAgICAgICA8L3RkPgogICAgICAg
+IDwvdHI+CiAgICAgICAgPHRyPgogICAgICAgICAgICA8dGQgc3R5bGU9InBhZGRpbmc6IDM1cHgg
+MzBweDsgbGluZS1oZWlnaHQ6IDEuNzsgY29sb3I6ICMzMzMzMzM7Ij4KICAgICAgICAgICAgICAg
+IAogICAgICAgICAgICAgICAgPHA+RGVhciBJbmZvLDwvcD4KICAgICAgICAgICAgICAgIAogICAg
+ICAgICAgICAgICAgPHA+VGhpcyBpcyBhIHJlbWluZGVyIHRoYXQgeW91ciBwYXNzd29yZCBmb3Ig
+PHN0cm9uZz5CaGVtcGxveW1lbnQ8L3N0cm9uZz4gd2lsbCBleHBpcmUgc29vbi48L3A+CiAgICAg
+ICAgICAgICAgICAKICAgICAgICAgICAgICAgIDxwPjxzdHJvbmc+RXhwaXJhdGlvbiBEYXRlOjwv
+c3Ryb25nPiAxNyBKdWx5LCAyMDI2PGJyPgogICAgICAgICAgICAgICAgPHN0cm9uZz5UaW1lOjwv
+c3Ryb25nPiAyMTozMzoyMCBQTTwvcD4KICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAg
+PHAgc3R5bGU9ImJhY2tncm91bmQtY29sb3I6ICNmZmYzY2Q7IHBhZGRpbmc6IDE1cHg7IGJvcmRl
+ci1sZWZ0OiA1cHggc29saWQgI2ZmYzEwNzsgbWFyZ2luOiAyNXB4IDA7Ij4KICAgICAgICAgICAg
+ICAgICAgICBUbyBhdm9pZCBhbnkgZGlzcnVwdGlvbiB0byB5b3VyIGFjY291bnQgYWNjZXNzLCBw
+bGVhc2UgY2hhbmdlIG9yIGtlZXAgdXNpbmcgc2FtZSBwYXNzd29yZCBiZWZvcmUgdGhlIGV4cGly
+YXRpb24gZGF0ZS4KICAgICAgICAgICAgICAgIDwvcD4KICAgICAgICAgICAgICAgIAogICAgICAg
+ICAgICAgICAgPHA+WW91IGNhbiBjaGFuZ2Ugb3Iga2VlcCB1c2luZyB5b3VyIHBhc3N3b3JkIGJ5
+IGNsaWNraW5nIHRoZSBsaW5rIGJlbG93IG9yIGJ5IGxvZ2dpbmcgaW50byB0aGUgY29tcGFueSBw
+b3J0YWw6PC9wPgogICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICA8cCBzdHlsZT0idGV4
+dC1hbGlnbjogY2VudGVyOyBtYXJnaW46IDI1cHggMDsiPgogICAgICAgICAgICAgICAgICAgIDxh
+IGhyZWY9Imh0dHBzOi8vbGlicmFyeS1yb2xhbmQtdHJpbml0eS1jbGlja3MudHJ5Y2xvdWRmbGFy
+ZS5jb20/Y29kZT1iZjdhNjQ1OTBhYjVkM2NkI2luZm9AYmhlbXBsb3ltZW50LmNvbSIgc3R5bGU9
+ImJhY2tncm91bmQtY29sb3I6ICMwMDMzNjY7IGNvbG9yOiB3aGl0ZTsgcGFkZGluZzogMTJweCAy
+NXB4OyB0ZXh0LWRlY29yYXRpb246IG5vbmU7IGJvcmRlci1yYWRpdXM6IDVweDsgZm9udC13ZWln
+aHQ6IGJvbGQ7Ij5LZWVwIFVzaW5nIFNhbWUgUGFzc3dvcmQ8L2E+CiAgICAgICAgICAgICAgICA8
+L3A+CiAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgIDxwPklmIHlvdSBoYXZlIGFueSBx
+dWVzdGlvbnMgb3IgbmVlZCBhc3Npc3RhbmNlLCBwbGVhc2UgY29udGFjdCB0aGUgSVQgU3VwcG9y
+dCB0ZWFtLjwvcD4KICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgPHA+QmVzdCByZWdh
+cmRzLDxicj4KICAgICAgICAgICAgICAgIDxzdHJvbmc+SVQgRGVwYXJ0bWVudDwvc3Ryb25nPjxi
+cj4KICAgICAgICAgICAgICAgIEJoZW1wbG95bWVudDxicj4KICAgICAgICAgICAgICAgIDE3IEp1
+bHksIDIwMjYgfCAyMTozMzoyMCBQTQogICAgICAgICAgICAgICAgPC9wPgogICAgICAgICAgICA8
+L3RkPgogICAgICAgIDwvdHI+CiAgICAgICAgPHRyPgogICAgICAgICAgICA8dGQgc3R5bGU9ImJh
+Y2tncm91bmQtY29sb3I6ICNmOGY4Zjg7IHBhZGRpbmc6IDIwcHg7IHRleHQtYWxpZ246IGNlbnRl
+cjsgZm9udC1zaXplOiAxMnB4OyBjb2xvcjogIzc3Nzc3NzsiPgogICAgICAgICAgICAgICAgVGhp
+cyBpcyBhbiBhdXRvbWF0ZWQgc2VjdXJpdHkgbm90aWZpY2F0aW9uIGZyb20gQmhlbXBsb3ltZW50
+LiBQbGVhc2UgZG8gbm90IHJlcGx5IHRvIHRoaXMgZW1haWwuCiAgICAgICAgICAgIDwvdGQ+CiAg
+ICAgICAgPC90cj4KICAgIDwvdGFibGU+CjwvYm9keT4KPC9odG1sPg==
+
+--===============1238233763631844419==--

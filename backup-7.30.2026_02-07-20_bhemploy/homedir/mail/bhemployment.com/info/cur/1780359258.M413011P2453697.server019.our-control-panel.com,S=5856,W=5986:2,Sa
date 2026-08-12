@@ -1,0 +1,130 @@
+Return-Path: <>
+Delivered-To: info@bhemployment.com
+Received: from server019.our-control-panel.com
+	by server019.our-control-panel.com with LMTP
+	id 4zhkF1ogHmrBcCUAaDcOIg
+	(envelope-from <>)
+	for <info@bhemployment.com>; Tue, 02 Jun 2026 05:59:18 +0545
+Return-path: <>
+Envelope-to: info@bhemployment.com
+Delivery-date: Tue, 02 Jun 2026 05:59:18 +0545
+Received: from mailnull by server019.our-control-panel.com with local (Exim 4.99.2)
+	id 1wUClu-0000000AIJa-0d8U
+	for info@bhemployment.com;
+	Tue, 02 Jun 2026 05:59:18 +0545
+X-Failed-Recipients: info@morganmallet.agency
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@server019.our-control-panel.com>
+To: info@bhemployment.com
+References: <8fa1d5f3ec72a295e0a10795753db0c5@bhemployment.com>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1780359258-eximdsn-422784462
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1wUClu-0000000AIJa-0d8U@server019.our-control-panel.com>
+Date: Tue, 02 Jun 2026 05:59:18 +0545
+
+--1780359258-eximdsn-422784462
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  info@morganmallet.agency
+    host mx2-usg1.ppe-hosted.com [54.166.32.169]
+    SMTP error from remote mail server after RCPT TO:<info@morganmallet.agency>:
+    550 5.1.1 <info@morganmallet.agency>: Recipient address rejected:
+    undeliverable address: host dispatchdc1.mdlocal[10.241.171.149] said:
+    550 5.1.1 <info@morganmallet.agency>: Recipient address rejected:
+    undeliverable address: host morganmallet-agency.mail.protection.outlook.com[52.101.166.0] said:
+    550 5.4.1 Recipient address rejected: Access denied. For more information see https://aka.ms/EXOSmtpErrors [PA1PEPF000CC3FB.FRAP264.PROD.OUTLOOK.COM 2026-06-01T19:54:10.221Z 08DEBCCE092FC1EB] (in reply to RCPT TO command) (in reply to RCPT TO command)
+
+--1780359258-eximdsn-422784462
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; server019.our-control-panel.com
+
+Action: failed
+Final-Recipient: rfc822;info@morganmallet.agency
+Status: 5.0.0
+Remote-MTA: dns; mx2-usg1.ppe-hosted.com
+Diagnostic-Code: smtp; 550 5.1.1 <info@morganmallet.agency>: Recipient address rejected: undeliverable address: host dispatchdc1.mdlocal[10.241.171.149] said: 550 5.1.1 <info@morganmallet.agency>: Recipient address rejected: undeliverable address: host morganmallet-agency.mail.protection.outlook.com[52.101.166.0] said: 550 5.4.1 Recipient address rejected: Access denied. For more information see https://aka.ms/EXOSmtpErrors [PA1PEPF000CC3FB.FRAP264.PROD.OUTLOOK.COM 2026-06-01T19:54:10.221Z 08DEBCCE092FC1EB] (in reply to RCPT TO command) (in reply to RCPT TO command)
+
+--1780359258-eximdsn-422784462
+Content-type: message/rfc822
+
+Return-path: <info@bhemployment.com>
+Received: from mailnull by server019.our-control-panel.com with spam-scanner (Exim 4.99.2)
+	(envelope-from <info@bhemployment.com>)
+	id 1wU8i1-00000007dF8-3ABl
+	for info@morganmallet.agency;
+	Tue, 02 Jun 2026 01:39:01 +0545
+X-ImunifyEmail-Filter-Score: 0.00
+X-ImunifyEmail-Filter-Info: UkNWRF9OT19UTFNfTEFTVCBSQ1ZEX1ZJQV9TTVRQX0FVVEgg
+	VE9fRE5
+		fTk9ORSBGUk9NX0VRX0VOVkZST00gTUlEX1JIU19NQVRDSF9GUk9NIE
+		lFX1ZMX0FHRV9FTUFJTF8yVyBJRV9WTF9BR0VfRE9NQUlOXzJXIE1JT
+		UVfVU5LTk9XTiBSQ1BUX0NPVU5UX09ORSBNSU1FX1RSQUNFIElFX1ZM
+		X0FHRV9BQ0NPVU5UXzJXIFJDVkRfQ09VTlRfT05FIEZST01fTk9fRE4
+		gQkFZRVNfSEFNIFRPX01BVENIX0VOVlJDUFRfQUxMIEFSQ19OQSBWRV
+		JJTE9DS19DQg==
+X-ImunifyEmail-Filter-Action: no action
+X-ImunifyEmail-Filter-Version: 3.8.24/202605270816
+Received: from [127.0.0.1] (port=60082 helo=server019.our-control-panel.com)
+	by server019.our-control-panel.com with esmtpa (Exim 4.99.2)
+	(envelope-from <info@bhemployment.com>)
+	id 1wU8i1-00000007dE5-3hQE
+	for info@morganmallet.agency;
+	Tue, 02 Jun 2026 01:39:01 +0545
+MIME-Version: 1.0
+Date: Tue, 02 Jun 2026 01:39:01 +0545
+From: info@bhemployment.com
+To: info@morganmallet.agency
+Subject: Partner Proposal: Free Bilingual Nanny & Domestic Applicants (NYC)
+User-Agent: Roundcube Webmail/1.6.15
+Message-ID: <8fa1d5f3ec72a295e0a10795753db0c5@bhemployment.com>
+X-Sender: info@bhemployment.com
+Content-Type: text/plain; charset=UTF-8;
+ format=flowed
+Content-Transfer-Encoding: 8bit
+
+Dear Morgan & Mallet Team,
+
+I hope this email finds you well.
+
+I am writing from B&H Employment & Consultancy Inc. here in New York. We 
+specialize in sourcing highly dependable, specialized domestic and 
+childcare talent, and I am reaching out to propose a mutually beneficial 
+partnership with your firm.
+
+Currently, we have a strong pool of experienced Nannies, Babysitters, 
+and Housekeepers who meet the following strict criteria:
+• Work Status: Fully authorized to work (Green Card holders and U.S. 
+Citizens).
+• Languages: Fluent in both Hindi and English.
+• Experience: All candidates come with 2 to 3 years of verified local 
+references.
+• Flexibility: Available for both live-in and live-out arrangements.
+
+We are looking to partner with established agencies like yours to help 
+place these qualified individuals. To make this partnership seamless, 
+B&H provides these applicants to your agency for free. You are welcome 
+to vet them and place them with your premium clients under your standard 
+fee structures.
+
+If you are interested in reviewing some of our available candidate 
+profiles or discussing how we can work together, please let me know. You 
+can reach me directly at +929-385-6177.
+
+Best regards,
+
+Bikash J. Bohara
+Managing Director
+B&H Employment & Consultancy Inc.
+Office: 37-51 75th St. 1A, Jackson Heights, NY 11372
+Phone: +929-385-6177 / +929-435-9005
+Website: www.bhemployment.com
+
+
+--1780359258-eximdsn-422784462--

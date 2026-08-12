@@ -1,0 +1,161 @@
+Return-Path: <>
+Delivered-To: hiring@bhemployment.com
+Received: from server019.our-control-panel.com
+	by server019.our-control-panel.com with LMTP
+	id PQVXJxzp6Wl/5z8AaDcOIg
+	(envelope-from <>)
+	for <hiring@bhemployment.com>; Thu, 23 Apr 2026 15:25:44 +0545
+Return-path: <>
+Envelope-to: hiring@bhemployment.com
+Delivery-date: Thu, 23 Apr 2026 15:25:44 +0545
+Received: from mailnull by server019.our-control-panel.com with local (Exim 4.99.1)
+	id 1wFqY8-0000000HZUl-1rG7
+	for hiring@bhemployment.com;
+	Thu, 23 Apr 2026 15:25:44 +0545
+X-Failed-Recipients: sulekha.care@sulekhainfo.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@server019.our-control-panel.com>
+To: hiring@bhemployment.com
+References: <dbc5e5291e6659aa34eefd0adbbb5125@bhemployment.com>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1776937244-eximdsn-391540779
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1wFqY8-0000000HZUl-1rG7@server019.our-control-panel.com>
+Date: Thu, 23 Apr 2026 15:25:44 +0545
+
+--1776937244-eximdsn-391540779
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  sulekha.care@sulekhainfo.com
+    host sulekhainfo.com [3.33.251.168]
+    SMTP error from remote mail server after RCPT TO:<sulekha.care@sulekhainfo.com>:
+    550-Please turn on SMTP Authentication in your mail client.
+    550-server019.our-control-panel.com [168.119.138.253]:55180 is not permitted to
+    550 relay through this server without authentication.
+
+--1776937244-eximdsn-391540779
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; server019.our-control-panel.com
+
+Action: failed
+Final-Recipient: rfc822;sulekha.care@sulekhainfo.com
+Status: 5.0.0
+Remote-MTA: dns; sulekhainfo.com
+Diagnostic-Code: smtp; 550-Please turn on SMTP Authentication in your mail client.
+ 550-server019.our-control-panel.com [168.119.138.253]:55180 is not permitted to
+ 550 relay through this server without authentication.
+
+--1776937244-eximdsn-391540779
+Content-type: message/rfc822
+
+Return-path: <hiring@bhemployment.com>
+Received: from mailnull by server019.our-control-panel.com with spam-scanner (Exim 4.99.1)
+	(envelope-from <hiring@bhemployment.com>)
+	id 1wFFmU-0000000FZ35-2X0C
+	for sulekha.care@sulekhainfo.com;
+	Wed, 22 Apr 2026 00:10:06 +0545
+X-ImunifyEmail-Filter-Score: -1.10
+X-ImunifyEmail-Filter-Version: 3.8.21/202604151429
+X-ImunifyEmail-Filter-Action: no action
+X-ImunifyEmail-Filter-Info: VkVSSUxPQ0tfQ0IgUkNWRF9OT19UTFNfTEFTVCBSQ1ZEX1ZJ
+	QV9TTVR
+		QX0FVVEggRlJPTV9IQVNfRE4gQkFZRVNfSEFNIFRPX0ROX0FMTCBGUk
+		9NX0VRX0VOVkZST00gUkNWRF9DT1VOVF9PTkUgUkNQVF9DT1VOVF9PT
+		kUgTUlNRV9VTktOT1dOIElFX1ZMX0FHRV9BQ0NPVU5UXzJXIElFX1ZM
+		X0FHRV9ET01BSU5fMlcgSUVfVkxfQUdFX0VNQUlMXzJXIElFX1ZMX0F
+		HRV9BQ0NPVU5UXzJEIElFX1ZMX0FHRV9ET01BSU5fMkQgTUlEX1JIU1
+		9NQVRDSF9GUk9NIE1JTUVfVFJBQ0UgSEFTX09SR19IRUFERVIgQVJDX
+		05BIFRPX01BVENIX0VOVlJDUFRfQUxMIElFX1ZMX0FHRV9FTUFJTF8y
+		RA==
+Received: from [127.0.0.1] (port=42894 helo=server019.our-control-panel.com)
+	by server019.our-control-panel.com with esmtpa (Exim 4.99.1)
+	(envelope-from <hiring@bhemployment.com>)
+	id 1wFFmW-0000000FZ2l-022Q
+	for sulekha.care@sulekhainfo.com;
+	Wed, 22 Apr 2026 00:10:06 +0545
+MIME-Version: 1.0
+Date: Wed, 22 Apr 2026 00:10:06 +0545
+From: B&H Employment & Consultancy <hiring@bhemployment.com>
+To: Sulekha Care Services <sulekha.care@sulekhainfo.com>
+Subject: Re: Response for your Profile 'B&H Employment & Consultancy INC'
+In-Reply-To: A.1771711241406442156.47877.1167.6.1.0.0.1#hiring@bhemployment.com
+References: A.1771711241406442156.47877.1167.6.1.0.0.1#hiring@bhemployment.com
+User-Agent: Roundcube Webmail/1.6.15
+Message-ID: <dbc5e5291e6659aa34eefd0adbbb5125@bhemployment.com>
+X-Sender: hiring@bhemployment.com
+Organization: B&H Employment & Consultancy Inc
+Content-Type: text/plain; charset=UTF-8;
+ format=flowed
+Content-Transfer-Encoding: 8bit
+
+On 2026-02-22 03:45, Sulekha Care Services wrote:
+> [1]
+> 
+>  		 Dear B&H Employment & Consultancy INC,
+> 
+>  		 You have received a Cook requirement from Medha Bhat.
+> 
+>  		Careseeker contact details:
+> 
+>  		Name: Medha Bhat
+> 
+>  		Email: medha.chiddu@gmail.com
+> 
+>  		Mobile No: +19784837745
+> 
+>  		Job Location: Secaucus,NJ
+> 
+>  		Message: I am looking for vegetarian south Indian cook who can come
+> and go on their own. I am looking for simple dishes. I live in
+> apartment. I can also refer to other people house so that you can
+> cover multiple houses
+> 
+>  		 To get more details of your Cook Profile, click on the dashboard
+> [2].
+> 
+>  		Thanks & Regards,
+> 
+>  		Sulekha Care Services [3]
+> 
+>  		 If you have any questions, please email to our friendly customer
+> support team on us.sulekha@sulekha.net or call us @ 1-512-788-5300 [4]
+> (Mon to Fri - 11am to 8pm – EST) and we'll be happy to help you.
+> 
+>  © 2026 Copyright Sulekha.com | Privacy Policy [5] | Terms &
+> Conditions [6] | All Rights Reserved
+> 
+> 
+> 
+> Links:
+> ------
+> [1] 
+> https://trkt.aclmails.in/v1/r/j7NilIPDror8z3NsteN53c66jQZfvcQAR3ljtHFC9aouPA%2FK%2F05u4jJsjFKvouQ4Fj%2BWzJsq1%2FEWCL937%2BqytpKSo5eYHCqLMbIdKvPXLIz5rEi6pRqL4tRBQcGN3MdSUExeh6QLlE9AfKBCTNvoBtPlOJqRyC%2FG4jrUvclal6sVYSAxSbXvSVczVeb%2BH3PtLp55oX2rMOqj8ibbEvpqxM0CHJDt20ZmTq%2Fib6AbqiFKvTd0xHw%2FNfx9RG6JkmR%2BFc%2FV
+> [2] 
+> https://trkt.aclmails.in/v1/r/nQVRjZ2eO6k7vjMsg0V3BX7EgHT%2BVLjIwwBEyw7tR945DJUJPeDzcpn5Dee078dBNrM87loAk9%2BfNSimxeoHQd%2Bh%2FKKFuyHbFxq%2BTPQ%2FDfHfLijq98xtrVV89rVN1f9Jyu0ZFN5ZL9dnL9%2BHUVA6MI4ETwB9MS3RkVyCNP%2FAAtpJ43q2rzu1Itz6en0IRHIIw2LTjfs%2BrURXl0RWDURelnFS%2B5fhL9IASSyqBWi4lWWzzvX4kVCIgQNcE1YzayYaSVNCev5B4%2FENdANB4EGJoshe%2FE8e0KQIbbITWbOpwGBEoeozsFnhMtIyVGNHSVbyISXxuQ%3D%3D
+> [3] 
+> https://trkt.aclmails.in/v1/r/O36IQRFZ97icjtCBolY5M0AnBkQoWKlAB9n6iV36j%2Bms%2BMpFmTB4c%2FMsV9covpW7t14k2AqyMmzqPvlO%2BExSlzPdExEaLftTMREfUOTnWiRCkDPxBnpxiDLKKLH9jMTg0CU6JUbILjkTws6aHtEq86PNmvjNoDfqKO61H2o5PB0RDOQUL8W1FIqkbvIcWRU660DhNwIY5a8Oj7RFqsaAy45IkalDs6kLlluWYR7%2BsiLGuRnnvvxS3mNhITZu6vbAUdn%2B
+> [4] tel:1-512-788-5300
+> [5] 
+> https://trkt.aclmails.in/v1/r/tcaX6KV%2Fc2ObjmAw0EMKOE7EA68u%2BRH3U8k6rsNi0Hr4MxPvFKonIXNXbiu700ry2yzQe5M9zxvoftdFgZWuE3oCfglei20zNcAw1OeTFMBqhTbfSOgIxKJEzbzJu3MupZAnWkPOcy%2FpQsPRjgxBavSZkR22Uo7vSurct0%2FmyessTLUHAlzPoUvVyO4ykz4vpQrAas1J1yz925oSGuRbwKhM3txKXrgbYhkHDiLK8LoaBEUdmLSYmA2trzGMb8r%2FdKO21lbdVCTxXYj1
+> [6] 
+> https://trkt.aclmails.in/v1/r/Jguq%2BNsmsfROEapYEpJHxht52To9UoApMssR1ZmhWm4kxCK7Ms8EYNaqIYBtJJJs7FM3Z3Zi%2BAJYJqFlj0vKWGLPEEDcVNRko9pL563%2FOVMGWpXftOs%2FwaJc%2F1fWzY%2BB%2FeH%2FHgox8Hh5Wd5JjZWtpZwcfgCQkvCDUCdhViI6kDsyHUgTSC%2FRG81mqq29gWO%2B12c5F6ELWP8n90DrE4pDL4N5FaByleNhby1KHjMCOT3RhBnfnvSs5XqmiKjyubuzgDY96Q%3D%3D
+I will let you know if i got someone
+
+-- 
+B&H Employment & Consultancy Inc
+Bikash J. Bohara
+Managing Director
+📞 +929-385-6177|+347-680-2869
+📧 hiring@bhemployment.com bh.jobagency@gmail.com
+🌐 www.bhemployment.com
+🏢 37-51 75th St. 1A, Jackson Heights, NY 11372
+"Right People, Right Job, Right Place"
+
+
+--1776937244-eximdsn-391540779--

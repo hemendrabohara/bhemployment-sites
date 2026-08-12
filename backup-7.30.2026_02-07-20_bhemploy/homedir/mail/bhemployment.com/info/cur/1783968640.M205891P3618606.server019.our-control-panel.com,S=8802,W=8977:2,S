@@ -1,0 +1,175 @@
+Return-Path: <hemendra.bohara@gmail.com>
+Delivered-To: info@bhemployment.com
+Received: from server019.our-control-panel.com
+	by server019.our-control-panel.com with LMTP
+	id NxUQC4AzVWouNzcAaDcOIg
+	(envelope-from <hemendra.bohara@gmail.com>)
+	for <info@bhemployment.com>; Tue, 14 Jul 2026 00:35:40 +0545
+Return-path: <hemendra.bohara@gmail.com>
+Envelope-to: info@bhemployment.com
+Delivery-date: Tue, 14 Jul 2026 00:35:40 +0545
+Received: from mail-yw1-f172.google.com ([209.85.128.172]:61495)
+	by server019.our-control-panel.com with esmtps  (TLS1.3) tls TLS_AES_128_GCM_SHA256
+	(Exim 4.99.4)
+	(envelope-from <hemendra.bohara@gmail.com>)
+	id 1wjLji-0000000FAsW-0rKr
+	for info@bhemployment.com;
+	Tue, 14 Jul 2026 00:35:40 +0545
+Received: by mail-yw1-f172.google.com with SMTP id 00721157ae682-80bb41f7f3cso2123567b3.2
+        for <info@bhemployment.com>; Mon, 13 Jul 2026 11:50:17 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1783968596; cv=none;
+        d=google.com; s=arc-20260327;
+        b=DCu+1UXvQ9Kqipa6Wf/FSSFs3oV0L/IKtGfnhWrwozY0bfL13g48Gjbt+qt4wAigbZ
+         Gk4X0Ofys0bo0EpwiKc+lS6JnCQoLw7TXWmhtCTkHDIAFfqGEsNGDbs49Dk2tLncZ0Ep
+         tDt2+W6T/mNseUrAkWyaYjYrLqyPj83HvJ1yGfDVhDWMiuTVOpKy7fyoOXOsSmEhCf5L
+         Bb3CQyH1Jl7ktn6Rl8ucF2mU5wuFXZOO42862Wvs6zixNQkVwj4BxQIRp5+wlXQkp0EP
+         wuPnw1KJqlS7tDlJa00QJTsr8KxUeH3ND74dE0z9VF3TiIIi+zgG2fIAOJ571GhAjsx8
+         Fmpg==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20260327;
+        h=to:subject:message-id:date:from:in-reply-to:references:mime-version
+         :dkim-signature;
+        bh=h5q1U3rDQ97j5WeTpghovFicDhNoPA7/Eo0XOzFsQm0=;
+        fh=cA14cGArc2dkXG7qCzzZvvMq363SNCr2zgqnRccpP8I=;
+        b=n2jBroPhlm4NRV0RwHtSTSBzsnNlDsmzDZfDxTB/08zCTkLFPX9u/NcN9G9YDYmxwW
+         C1LzBfaD2ogo0oM6FMpIK1v/zGM1fcQV8sQVb+yjcbOQyM7d0wMFQOA2NJ7HPWOcFHEB
+         gpbyRz94MPSLrte9ZDfYuz4hZIV71cHbMyaBF1x4zMZDIJJ2NanuJQy+I6wfAMhrHe7b
+         Umip7vA5XGv84To3eJALkp0Wc/m0FLUfioJ32wqOOEkVyhbL5InbH5fg5uUHWYtKY0gL
+         NxJHpYeIUHR7iz/yBDTAam5417K/sNtt1qwmcZeyArHESAJMWwP++FOPDZw6v8D9qGjQ
+         1sSQ==;
+        darn=bhemployment.com
+ARC-Authentication-Results: i=1; mx.google.com; arc=none
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20251104; t=1783968596; x=1784573396; darn=bhemployment.com;
+        h=content-type:to:subject:message-id:date:from:in-reply-to:references
+         :mime-version:from:to:cc:subject:date:message-id:reply-to
+         :content-type;
+        bh=h5q1U3rDQ97j5WeTpghovFicDhNoPA7/Eo0XOzFsQm0=;
+        b=RATe2QC61hUKKKZmMJdCDpS4MvDaZK6kcpDFidHhWsh39dZK++3CzVQiFHxkblIql1
+         f9TJyri6eVvyAnws3AzwakRlsn1zuVD7WmoU9ub8TWuF4BEBOz/E6fT2JQe4nyFJ7OTH
+         MUMM2wi5655cRv40s21kLeb8myF9CJpjEoFsp1/UJKjYZ2M14KAvvaWTLn4xiWxOu1r7
+         Uu4M7qHj3hc0J300AkZuaugxZpU+cICdoFM8p779OD0JEbBNxia0F9+jVSmYdZCz098H
+         K8bgII/QZL5nLDL7ouP28yann6mAqj39L4DZU43qNVUHjRhvE+3G7/sIg20JtyPnEK7n
+         9iyw==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20251104; t=1783968596; x=1784573396;
+        h=content-type:to:subject:message-id:date:from:in-reply-to:references
+         :mime-version:x-gm-gg:x-gm-message-state:from:to:cc:subject:date
+         :message-id:reply-to:content-type;
+        bh=h5q1U3rDQ97j5WeTpghovFicDhNoPA7/Eo0XOzFsQm0=;
+        b=CmoSWSoBd2qW5AYo++msHd/m74K0jaTvXLERx10M2/oNF1wVvQa8fsaVfJBy9QH6uK
+         4kf7VukQffnAWhOaELDchMR5nh2A2/Z3sgkPl6bx264Mo0aVZOdZUl8s4AmBkSFvajFU
+         ed+/6ZU/3jbtNmWj/TtlAPddvuLFj4A+yvUQlqR1j/L7hFA9Bs1kcMoHmI8DEx+q8EWo
+         ncTkuxcxQ9d92o+BqvAiMiBgn3jd4Xi5tClarlElNCFdwWbFHQMhZZQfoIncFa42pyQM
+         zd5a++bxinLt4Cx3QLgR7eAw11nEcSbONXwsYIYGI6ndNoBdpxuv3rXq5c7u6if66B0g
+         kHlg==
+X-Gm-Message-State: AOJu0YxD5c9TrEQd4qGbUaWVL9WnPQWXhs8COEmIdQHG8xh1Vwp4t1eK
+	fsddpCC72y89ElW0Rskvkxpd///YieQKI9uUUYpUrVl/QqUxJ2vRyHzMIoUrhUzxjuzfX+YUekN
+	RKa5DKSm3IyYIWlO8APadxJIRkAtOPSoUGg==
+X-Gm-Gg: AfdE7cnEbIqa5WBkdqb+OVGVhjdMpv3uhVJLSP8DOat8UWYHVrJsMzo8TJL4kMSiOff
+	iSUYd4bq2GKx457s4LQoc3vwwyWXQUUcauY3OoKFFmCmwVKsBl+/p0hPpk1LvPqAj4eGnONUSPD
+	fGRxEf2WkthUlkbsfRBNvdNC2FCFjlVl5bOioe/Ahq0ycks7SKidnJw0ZDSaHuMHztLu29pIVJ1
+	XWpoZaitSial0njEUQ8HWEwFCibo8rHg5fsq5gmJjWaxqIagLO+waneA9Gkyy3xtqaWKBXMLv7X
+	vWEzF+cZtTgmXsnxLfJnneEPYEM5usQDKl8nLejG8o2FZvwU4xZ85jjtYWg=
+X-Received: by 2002:a05:690c:4c05:b0:80c:85e5:8747 with SMTP id
+ 00721157ae682-81e902ded78mr73746297b3.69.1783968596403; Mon, 13 Jul 2026
+ 11:49:56 -0700 (PDT)
+MIME-Version: 1.0
+References: <178396647106.14532.17128237173518918577@bhemployment.com>
+In-Reply-To: <178396647106.14532.17128237173518918577@bhemployment.com>
+From: Himendra Bohara <hemendra.bohara@gmail.com>
+Date: Mon, 13 Jul 2026 14:49:44 -0400
+X-Gm-Features: AUfX_mx2QWzo0mh1SaLQGWd3tm_KOqp3NFGffWX0gUubBb-a_7hYCCg5xIywvWA
+Message-ID: <CA+9sWQUtSP8eJkdqOXr9xSv4LGBpdPB6=buPtToAx6Ydzdq5Mg@mail.gmail.com>
+Subject: Re: B&H Employment - Custom Webmail SMTP Connection Test
+To: "B&H Employment" <info@bhemployment.com>
+Content-Type: multipart/alternative; boundary="0000000000007aa7940656828e62"
+X-Spam-Status: No, score=-0.2
+X-Spam-Score: -1
+X-Spam-Bar: /
+X-Ham-Report: Spam detection software, running on the system "server019.our-control-panel.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  okay On Mon, Jul 13, 2026 at 2:14 PM B&H Employment wrote:
+    > Dear Hemendra, > > This is a test email sent from the Autonomous Lead Generation
+    & Outreach > System. > > It verifies that your custom Webmail SMTP server
+    configuration in your > .env file is correc [...] 
+ Content analysis details:   (-0.2 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 RCVD_IN_DNSWL_BLOCKED  RBL: ADMINISTRATOR NOTICE: The query to DNSWL
+                             was blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#DnsBlocklists-dnsbl-block
+                              for more information.
+                             [209.85.128.172 listed in list.dnswl.org]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from author's
+                             domain
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily valid
+  0.0 FREEMAIL_FROM          Sender email is commonly abused enduser mail provider
+                             [hemendra.bohara(at)gmail.com]
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+X-Spam-Flag: NO
+
+--0000000000007aa7940656828e62
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+okay
+
+On Mon, Jul 13, 2026 at 2:14=E2=80=AFPM B&H Employment <info@bhemployment.c=
+om>
+wrote:
+
+> Dear Hemendra,
+>
+> This is a test email sent from the Autonomous Lead Generation & Outreach
+> System.
+>
+> It verifies that your custom Webmail SMTP server configuration in your
+> .env file is correctly authenticated, secure, and capable of dispatching
+> outgoing messages.
+>
+> If you received this, your email configuration is 100% correct and ready
+> for live outreach!
+>
+> Sincerely,
+> System Setup Test Script
+
+
+
+--=20
+Himendra Bohara
+
+--0000000000007aa7940656828e62
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">okay</div><br><div class=3D"gmail_quote gmail_quote_contai=
+ner"><div dir=3D"ltr" class=3D"gmail_attr">On Mon, Jul 13, 2026 at 2:14=E2=
+=80=AFPM B&amp;H Employment &lt;<a href=3D"mailto:info@bhemployment.com">in=
+fo@bhemployment.com</a>&gt; wrote:<br></div><blockquote class=3D"gmail_quot=
+e" style=3D"margin:0px 0px 0px 0.8ex;border-left:1px solid rgb(204,204,204)=
+;padding-left:1ex">Dear Hemendra,<br>
+<br>
+This is a test email sent from the Autonomous Lead Generation &amp; Outreac=
+h System.<br>
+<br>
+It verifies that your custom Webmail SMTP server configuration in your .env=
+ file is correctly authenticated, secure, and capable of dispatching outgoi=
+ng messages.<br>
+<br>
+If you received this, your email configuration is 100% correct and ready fo=
+r live outreach!<br>
+<br>
+Sincerely,<br>
+System Setup Test Script</blockquote></div><div><br clear=3D"all"></div><di=
+v><br></div><span class=3D"gmail_signature_prefix">-- </span><br><div dir=
+=3D"ltr" class=3D"gmail_signature"><div dir=3D"ltr">Himendra Bohara</div></=
+div>
+
+--0000000000007aa7940656828e62--

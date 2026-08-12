@@ -1,0 +1,178 @@
+Return-Path: <bijaldt@gmail.com>
+Delivered-To: info@bhemployment.com
+Received: from server019.our-control-panel.com
+	by server019.our-control-panel.com with LMTP
+	id sOBtAW40PWpN4ykAaDcOIg
+	(envelope-from <bijaldt@gmail.com>)
+	for <info@bhemployment.com>; Thu, 25 Jun 2026 19:45:14 +0545
+Return-path: <bijaldt@gmail.com>
+Envelope-to: info@bhemployment.com
+Delivery-date: Thu, 25 Jun 2026 19:45:14 +0545
+Received: from mail-yx1-f45.google.com ([74.125.224.45]:60799)
+	by server019.our-control-panel.com with esmtps  (TLS1.3) tls TLS_AES_128_GCM_SHA256
+	(Exim 4.99.4)
+	(envelope-from <bijaldt@gmail.com>)
+	id 1wckcl-0000000BVUG-2vGg
+	for info@bhemployment.com;
+	Thu, 25 Jun 2026 19:45:13 +0545
+Received: by mail-yx1-f45.google.com with SMTP id 956f58d0204a3-662d484ff3bso2225590d50.1
+        for <info@bhemployment.com>; Thu, 25 Jun 2026 06:59:51 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1782395970; cv=none;
+        d=google.com; s=arc-20260327;
+        b=MsoPc7IZeH3pm/j5oHnkEaLHudeOVXFYLOlCb9Zq89hOwWa7EsrXjMSNVPQje9eNRF
+         UhOtkUYntzFX/y8ih+rTduA59JHLp1o1EW56CgFD+7pLoK2NP8c9SgqffKeAjVaLuPpU
+         VKtvczSdjvI47zwf5pmJC1IFhpEFXqpNRp5Hcmlvc3+9ynsHGAkfRKCuOoYuTidj5xcv
+         cx2SRmGEzV6srAxnquu6+SN58l0PALAFJg2GM789E7VrmMBQm2uTOuHhIBmpsxGi9Tep
+         i2xwARbQjBSMwATQ+mvMo88wuDOIqxkYuw+lakZlzAgS2JVuB+MPCxjAsuy9Toj1IyzF
+         pMuA==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20260327;
+        h=to:subject:message-id:date:from:mime-version:dkim-signature;
+        bh=lCbpDUPcdErgjEAccJ+t3s4zPEqTSjyPZodHCxk5mSY=;
+        fh=MlhU4hsr8zRvms0c3G7ks78tr5do2LKvLmv/jD9tXfk=;
+        b=VtsalYSS8Hfsx4IL/jnJvqCs9w2t57JwCjc3Cs2nWCaANlqnX1mnx1ryVaEheb41TX
+         4RyTHZiW8cQA6Db88bN0UBNlPohsvSQnGmAn9DWo0tElmerqeDEcFyGwAicQGczmgYHC
+         SfnUbbmFbt8MqStnnyV2zO2cITad7KkojitvHxNlRCjJBdC8JO5sAxKiQazB1YA0Jolk
+         Ro87qNrSrXpPPTxSJOeSLXsdmD42DvYOLlZZF1q7oJQRhONev/C64WGEzEn2IT23cA0h
+         phvBK/CfQEAJQmCKCrIrwU+GCDBGJKTZh3oFlGAVhln2t8QdCEPaInKYC5KKHPui06xw
+         VAcg==;
+        darn=bhemployment.com
+ARC-Authentication-Results: i=1; mx.google.com; arc=none
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20251104; t=1782395970; x=1783000770; darn=bhemployment.com;
+        h=to:subject:message-id:date:from:mime-version:from:to:cc:subject
+         :date:message-id:reply-to;
+        bh=lCbpDUPcdErgjEAccJ+t3s4zPEqTSjyPZodHCxk5mSY=;
+        b=rpd9n+d/cBZSl5sCzaGDyUAtglcHZv9oGZeTHA8ln03RqEtvh6vf698OFbqWdX2N+v
+         gx24n/72foN69Md1mbfgsJ1W9WBcx6Raou2jmuNktWoV6udx9EJvTIcToJieyqKnqAg4
+         +nv1QiI7dZLyLJWdOR14ZeYy8LxfQ9eP3KdgZTgWOH+p3+Z62Hopo5OLx7p7J8YYB7+A
+         /VuKXnJayH9CHrO2RJrOiRPKNtUw6DSESFeX5NzOlw+V/J94ESwtz5ZZ888hj/vwMTUV
+         OWI6uT9iyfWOCODcQMN0zfU6lXyUSmgxBks53A3xMTe93FRETKlYUTWdPRaSR1InaO2F
+         9bKQ==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20251104; t=1782395970; x=1783000770;
+        h=to:subject:message-id:date:from:mime-version:x-gm-gg
+         :x-gm-message-state:from:to:cc:subject:date:message-id:reply-to;
+        bh=lCbpDUPcdErgjEAccJ+t3s4zPEqTSjyPZodHCxk5mSY=;
+        b=VrvHgMxLXJYpIpD1BT/Rjil1S6i3U8VaNACDBHzh7Kwdj5PTG6Cn/1ZN1iS1fyVmu9
+         wETwuFZQB6CMK/TYDWR9IQRmp8rA1DPGUJcXVHI/BoQF9QT3y8UzDOBuP1U4YjVvWsSh
+         AAPHXqqBih96y1p0FTGGckxXVwAexSTydo5GDN2JVDH1TCQlDDxfzyPHDvg8ntVi3R5j
+         EQRVLnS6oxfa5JpshwVugQju0ZQa0z4ouqE7RcwbNmblG+9cJd8/h4R/yAtFxyBFHbvy
+         sk6SzgPVnXfm18Av1krFSB5CeTRnXlDw7MFydSiKy/giiN/Dxbj5qGlVR7ZzjRzgeGCk
+         ghlg==
+X-Forwarded-Encrypted: i=1; AHgh+Ro/m2FPwD6vrl1J9QhMeJStsOUU0pmdpvwFDS55MgHFSgMQAuiEw3mHSgONhnOZ/8yUi+6R@bhemployment.com
+X-Gm-Message-State: AOJu0YzoUQ/QJWXOJKOqL2yvdrlZ5FEBWnCeC/08AdNNhH0jVEPM4okQ
+	KT9uykTIUcih/SImoGYSrRRxyHSNX5PwAe2lfGrNIW9rdP1c0WZdxU+kE9VNxla287+EwtrUZ/X
+	5yKkldligA0i5JPphkR4Bkn53ymquL7A=
+X-Gm-Gg: AfdE7cn05kox4Aa38RUf4afCDBOQ03Q6hxNyRboGmcDvebTTzOPxtLwftr2kqjdjUpC
+	d4ZotEW5DwN3gEDaihkA+FHy6QitPSSEQufrbPFPPePdL2iDyCoshr4EnRflVZxGpPzaCESk0hR
+	mprYPukGGBCqZOZAN9CFUKuDNn32DEkWly8TGyhjAj0sY/vSLTLYSlgfWM3gNKOGi0Zd8G1jGKj
+	m2Ru6w7ARH3gS5ExnV5kAI67iDkYEe/QxYvsZQgV1pij0iSDOGP0PHuNxWplnz4GoovttE=
+X-Received: by 2002:a05:690e:4890:20b0:663:723f:134f with SMTP id
+ 956f58d0204a3-66487fe8c39mr1423824d50.46.1782395970221; Thu, 25 Jun 2026
+ 06:59:30 -0700 (PDT)
+MIME-Version: 1.0
+From: Bijal Desai Tulsidas <bijaldt@gmail.com>
+Date: Thu, 25 Jun 2026 09:59:19 -0400
+X-Gm-Features: AVVi8CfSkwkp2yB5xIDRFZi09wjti1Nktx_WQHcaB-QPEDaA4yvjuULspcXRXeE
+Message-ID: <CANrpXFAfaRsfbGz5t02pVAJcHBKhLDKgqrmw8cEF9_=MP4OVww@mail.gmail.com>
+Subject: Nanny/House Keeper needed in NJ
+To: bh.jobagency@gmail.com, info@bhemployment.com
+Content-Type: multipart/alternative; boundary="000000000000a77a1c0655146653"
+X-Spam-Status: No, score=-0.2
+X-Spam-Score: -1
+X-Spam-Bar: /
+X-Ham-Report: Spam detection software, running on the system "server019.our-control-panel.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Hello, I hope you are doing well. We are a family in Ridgewood,
+    New Jersey, looking for a reliable, long-term caregiver to support our family.
+    
+ Content analysis details:   (-0.2 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 RCVD_IN_DNSWL_BLOCKED  RBL: ADMINISTRATOR NOTICE: The query to DNSWL
+                             was blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#DnsBlocklists-dnsbl-block
+                              for more information.
+                             [74.125.224.45 listed in list.dnswl.org]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from author's
+                             domain
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily valid
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+  0.0 FREEMAIL_FROM          Sender email is commonly abused enduser mail provider
+                             [bijaldt(at)gmail.com]
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  0.0 RCVD_IN_MSPIKE_H2      RBL: Average reputation (+2)
+                             [74.125.224.45 listed in wl.mailspike.net]
+X-Spam-Flag: NO
+
+--000000000000a77a1c0655146653
+Content-Type: text/plain; charset="UTF-8"
+
+Hello,
+
+I hope you are doing well.
+
+We are a family in Ridgewood, New Jersey, looking for a reliable, long-term
+caregiver to support our family.
+
+We have a 6-year-old son who will be entering first grade, and we are
+seeking someone who is experienced with school-aged children and can help
+with housekeeping while the child is in school.
+
+We are looking for candidates who can provide a combination of childcare
+and household management support, including help with laundry, cooking.
+
+We are open to discussing both live-in and live-out arrangements for the
+right candidate and are hoping to find someone interested in a long-term
+position.
+
+Please let me know what information you need from us and whether you have
+candidates who may be a good fit.
+
+Thank you, and I look forward to hearing from you.
+
+Best regards,
+Bijal Tulsidas
+
+--000000000000a77a1c0655146653
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div style=3D"font-size:inherit"><div style=3D"font-size:inherit">
+
+<p>Hello,</p>
+<p>I hope you are doing well.</p>
+<p>We are a family in Ridgewood, New Jersey, looking for a reliable, long-t=
+erm caregiver to support our family.=C2=A0</p><p dir=3D"auto">We have a 6-y=
+ear-old son who will be entering first grade, and we are seeking someone wh=
+o is=C2=A0experienced with school-aged children and can help with housekeep=
+ing while the child is in school.</p><p dir=3D"auto"><div style=3D"font-siz=
+e:inherit"><div style=3D"font-size:inherit">
+
+<p dir=3D"auto">We are looking for candidates who can provide a combination=
+ of childcare and household management support, including help with laundry=
+, cooking.</p><p dir=3D"auto"><span style=3D"font-size:inherit">We are open=
+ to discussing both live-in and live-out arrangements for the right candida=
+te and are hoping to find someone interested in a long-term position.</span=
+><br></p></div></div></p><p dir=3D"auto"><div style=3D"font-size:inherit"><=
+div style=3D"font-size:inherit">
+<p>Please let me know what information you need from us and whether you hav=
+e candidates who may be a good fit.</p>
+
+</div></div><div style=3D"font-size:inherit"><div style=3D"font-size:inheri=
+t">
+
+<p>Thank you, and I look forward to hearing from you.</p>
+<p>Best regards,</p>
+
+</div></div>Bijal Tulsidas</p>
+
+</div></div>
+
+--000000000000a77a1c0655146653--

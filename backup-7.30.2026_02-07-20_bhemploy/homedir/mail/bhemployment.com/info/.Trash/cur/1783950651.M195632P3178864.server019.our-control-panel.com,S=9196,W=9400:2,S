@@ -1,0 +1,204 @@
+Return-Path: <tishuwebtechseo.bd1@gmail.com>
+Delivered-To: info@bhemployment.com
+Received: from server019.our-control-panel.com
+	by server019.our-control-panel.com with LMTP
+	id hkhdCjvtVGpwgTAAaDcOIg
+	(envelope-from <tishuwebtechseo.bd1@gmail.com>)
+	for <info@bhemployment.com>; Mon, 13 Jul 2026 19:35:51 +0545
+Return-path: <tishuwebtechseo.bd1@gmail.com>
+Envelope-to: info@bhemployment.com
+Delivery-date: Mon, 13 Jul 2026 19:35:51 +0545
+Received: from mail-oa1-f41.google.com ([209.85.160.41]:55697)
+	by server019.our-control-panel.com with esmtps  (TLS1.3) tls TLS_AES_128_GCM_SHA256
+	(Exim 4.99.4)
+	(envelope-from <tishuwebtechseo.bd1@gmail.com>)
+	id 1wjH3Z-0000000DKW2-2mDl
+	for info@bhemployment.com;
+	Mon, 13 Jul 2026 19:35:51 +0545
+Received: by mail-oa1-f41.google.com with SMTP id 586e51a60fabf-44868d6a066so815989fac.3
+        for <info@bhemployment.com>; Mon, 13 Jul 2026 06:50:29 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20251104; t=1783950608; x=1784555408; darn=bhemployment.com;
+        h=content-language:thread-index:content-type:mime-version:message-id
+         :date:subject:to:from:from:to:cc:subject:date:message-id:reply-to
+         :content-type;
+        bh=CUeCFOWJR9TA8Sxp7Em/MNT9Gjsv0klcxZC4NTyw7Zc=;
+        b=fd5yCTR/0GRcb8qf5z4Rs2SxFVelEz/HBdnrRlRwW7GwKMdxoKsFbAIx8yUy+Us4rd
+         w+XDWLBAMT3ABzyZMsPMYinSspxx0NO7hJb0oi2durwB5fBaY0AN4ysd7+aiZxBppKLl
+         d+pnhWFkO3rfmYvz4e505mFF+Nt68Mkbx+U3/jq6CqkBTOKUi9AHj7Q+dnD9cjSr25Pz
+         Gob10W3BVWwPqDDHfFrZigxU4EkLDvfuUPdyVMr6ouZ5aTWjWJGyPUrrk2B8R+8hHiYH
+         ECHraiyiHn+iaHMt5c81NlytHgX7tT0PEGHRy+4W1jTK49h3m2pL19iFDBXh3bWNYt97
+         lP4g==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20251104; t=1783950608; x=1784555408;
+        h=content-language:thread-index:content-type:mime-version:message-id
+         :date:subject:to:from:x-gm-gg:x-gm-message-state:from:to:cc:subject
+         :date:message-id:reply-to:content-type;
+        bh=CUeCFOWJR9TA8Sxp7Em/MNT9Gjsv0klcxZC4NTyw7Zc=;
+        b=YbV8DAzIiIrLrOH2f7JdQ+B4GxCvIn4aoVrvbWqu3b+yt/EvOxDgR89wmWheUnkK2c
+         w5WrS3L+8puZIjouB8FQi6/xKXkNYfaXH0mhfwrIuBeMw8hklJ3ZyfJhHMvkgG599OOY
+         HCf24zv7Bli45FoeuhNX51Pumv+XVZLki3vMGpVmyCKLFdbw5CAHYj3HVnJu3mFwVxOR
+         Bww00sTyZ9/bY5XA1wS2OYnkfd0qQ1mv7jQCjlLLCrMPQaAGw9KmlZJ8jlrX9rFjL5xf
+         zw8FkYUwnrmPwu1sNYdQV87TksmkurQCrDbEA8Sp5VQz//CD9qDXhkFbX7CUmkWzyp6Q
+         6/7Q==
+X-Gm-Message-State: AOJu0YyM6DaEqJU/Eq2nkqKQjVgY2NX9MTZk0El2jIdRFT6y+fpMTmUY
+	GFynpqqO69KZ4k6IH8b409gKi1fJ/51x3MzqUN0iKO6/9qO+Pd4ELCTGwJoC0iki
+X-Gm-Gg: AfdE7clip8b6K3120MgbvdmLEaA4v5v2ln6U2Wq8kQc4G35ur4Zg2CFYgVn3BwIDGXc
+	55tjF52tkz6hPbSnvaF0v7HV1CjUjm/qQHQ39jUJfVtMWwNTAx0VxTfXNAMmfLFI+8l8HdhFBbL
+	B1NHeL1MHzG6MFcyryM+JOQ78vYEiy8+PLUjLaSvBub/8b83g0/rudmI+DR0GHhcOv7GQ+s3Eiv
+	vzRY5DphzbyOCjDoL/QCtElYUFOHOB3gNQfMtEMsoeTQGEGmYcB5plze8P6fWqT1CndWWO173/9
+	FRhWXXvD+KVUfBrqNra0npjorl7S/EVByrHs1AGrXsJKWLWdSwLY8bkcUdDoHguhxAO67HZxBw8
+	3C8cZwu0LBIdvWrHwUt7ftQ3EV5c2Pvf4DhLVjCMc8hTazgmgSodMtay5DoMc0QlSy10ILcLqSA
+	ANi8qJA14C5tptAvbzltPfFSzkC0w5szhD6wrjGyI=
+X-Received: by 2002:a05:6870:1714:b0:447:9474:df1c with SMTP id 586e51a60fabf-451f1037911mr5521582fac.14.1783950607536;
+        Mon, 13 Jul 2026 06:50:07 -0700 (PDT)
+Received: from DESKTOPFD39SA9 ([122.184.94.190])
+        by smtp.gmail.com with ESMTPSA id 586e51a60fabf-451916d5cebsm13788752fac.15.2026.07.13.06.50.05
+        for <info@bhemployment.com>
+        (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128);
+        Mon, 13 Jul 2026 06:50:06 -0700 (PDT)
+From: Tishu <tishuwebtechseo.bd1@gmail.com>
+X-Google-Original-From: "Tishu" <tishuwebtechseo.Bd1@gmail.com>
+To: <info@bhemployment.com>
+Subject: Re: Flexible Bookkeeping at Affordable Pricing
+Date: Mon, 13 Jul 2026 19:19:06 +0530
+Message-ID: <095101dd12ce$835b13d0$8a113b70$@gmail.com>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_000_0952_01DD12FC.9D139DF0"
+X-Mailer: Microsoft Outlook 16.0
+Thread-Index: Ad0SzgWTNR5UIz84RiigEAcN6Y+EMA==
+Content-Language: en-in
+X-Spam-Status: No, score=0.8
+X-Spam-Score: 8
+X-Spam-Bar: /
+X-Ham-Report: Spam detection software, running on the system "server019.our-control-panel.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Hi info@bhemployment.com , Would you be interested in reliable
+    bookkeeping support from India? Our experienced team can help manage your
+    accounting efficiently. Would you be open to a brief discussion? 
+ Content analysis details:   (0.8 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 RCVD_IN_DNSWL_BLOCKED  RBL: ADMINISTRATOR NOTICE: The query to DNSWL
+                             was blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#DnsBlocklists-dnsbl-block
+                              for more information.
+                             [209.85.160.41 listed in list.dnswl.org]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from author's
+                             domain
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily valid
+  0.0 FREEMAIL_FROM          Sender email is commonly abused enduser mail provider
+                             [tishuwebtechseo.bd1(at)gmail.com]
+  1.0 FREEMAIL_ENVFROM_END_DIGIT Envelope-from freemail username ends in
+                             digit
+                             [tishuwebtechseo.bd1(at)gmail.com]
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+ -0.0 RCVD_IN_MSPIKE_H3      RBL: Good reputation (+3)
+                             [209.85.160.41 listed in wl.mailspike.net]
+ -0.0 RCVD_IN_MSPIKE_WL      Mailspike good senders
+X-Spam-Flag: NO
+
+This is a multipart message in MIME format.
+
+------=_NextPart_000_0952_01DD12FC.9D139DF0
+Content-Type: text/plain;
+	charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+
+Hi info@bhemployment.com ,
+
+ 
+
+Would you be interested in reliable bookkeeping support from India? Our
+experienced team can help manage your accounting efficiently.
+
+ 
+
+Would you be open to a brief discussion?
+
+ 
+
+Best Regards,
+
+Tishu
+
+
+------=_NextPart_000_0952_01DD12FC.9D139DF0
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" =
+xmlns:o=3D"urn:schemas-microsoft-com:office:office" =
+xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" =
+xmlns=3D"http://www.w3.org/TR/REC-html40"><head><META =
+HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; =
+charset=3Dus-ascii"><meta name=3DGenerator content=3D"Microsoft Word 15 =
+(filtered medium)"><style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:8.0pt;
+	margin-left:0cm;
+	line-height:115%;
+	font-size:12.0pt;
+	font-family:"Calibri",sans-serif;
+	mso-ligatures:standardcontextual;
+	mso-fareast-language:EN-US;}
+p.MsoNoSpacing, li.MsoNoSpacing, div.MsoNoSpacing
+	{mso-style-priority:1;
+	margin:0cm;
+	font-size:12.0pt;
+	font-family:"Calibri",sans-serif;
+	mso-ligatures:standardcontextual;
+	mso-fareast-language:EN-US;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-size:12.0pt;
+	font-family:"Calibri",sans-serif;
+	mso-fareast-language:EN-US;}
+.MsoPapDefault
+	{mso-style-type:export-only;
+	margin-bottom:8.0pt;
+	line-height:115%;}
+@page WordSection1
+	{size:595.3pt 841.9pt;
+	margin:72.0pt 72.0pt 72.0pt 72.0pt;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]--></head><body lang=3DEN-IN =
+style=3D'word-wrap:break-word'><div class=3DWordSection1><p =
+class=3DMsoNoSpacing>Hi info@bhemployment.com ,</p><p =
+class=3DMsoNoSpacing><o:p>&nbsp;</o:p></p><p class=3DMsoNoSpacing>Would =
+you be interested in reliable bookkeeping support from India? Our =
+experienced team can help manage your accounting efficiently.</p><p =
+class=3DMsoNoSpacing><o:p>&nbsp;</o:p></p><p =
+class=3DMsoNoSpacing><b><span =
+style=3D'background:yellow;mso-highlight:yellow'>Would you be open to a =
+brief discussion?</span><o:p></o:p></b></p><p =
+class=3DMsoNoSpacing><o:p>&nbsp;</o:p></p><p class=3DMsoNoSpacing>Best =
+Regards,</p><p class=3DMsoNormal>Tishu</p></div></body></html>
+------=_NextPart_000_0952_01DD12FC.9D139DF0--
+

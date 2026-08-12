@@ -1,0 +1,622 @@
+Return-Path: <17785251781535872-19804-1-bhemployment.com@subscribe.sulekhanotifications.com>
+Delivered-To: may5@bhemployment.com
+Received: from server019.our-control-panel.com
+	by server019.our-control-panel.com with LMTP
+	id CN+4LLsyA2pLjC0AaDcOIg
+	(envelope-from <17785251781535872-19804-1-bhemployment.com@subscribe.sulekhanotifications.com>)
+	for <may5@bhemployment.com>; Tue, 12 May 2026 19:46:31 +0545
+Return-path: <17785251781535872-19804-1-bhemployment.com@subscribe.sulekhanotifications.com>
+Envelope-to: may5@bhemployment.com
+Delivery-date: Tue, 12 May 2026 19:46:31 +0545
+Received: from mta15-66.226.ptransmail.com ([175.158.66.226]:38072)
+	by server019.our-control-panel.com with esmtps  (TLS1.3) tls TLS_AES_256_GCM_SHA384
+	(Exim 4.99.2)
+	(envelope-from <17785251781535872-19804-1-bhemployment.com@subscribe.sulekhanotifications.com>)
+	id 1wMnfu-0000000CWKp-10NC
+	for may5@bhemployment.com;
+	Tue, 12 May 2026 19:46:31 +0545
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+	d=sulekha.com; s=sulekha2016;
+	h=list-unsubscribe-post:feedback-id:reply-to:list-unsubscribe:
+	 content-transfer-encoding:content-type:mime-version:message-id:subject:from:to:
+	 from:to:subject;
+	bh=DCQoZLv5sPKAAWrSabOwprPrdXe7ge20RCh6SRxDy0M=;
+	b=hB89j1hzFXfZ+Dkd43Rp3DUK+myZBxM1WQMbvhtg73kKPE2DETF+fVQVWLmY4wtfT81pMEOH5vmCr
+	 XY9nuTrXMOIrV4Kcy4qYGHgS9B0QndY8Oi972jxGBSH+oNnEdQ+WST0upqp2knYFtpfwjqGR+wWkkb
+	 EZKuGs+3bnFwe/r0=
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+	d=sulekhanotifications.com; s=fnc;
+	h=list-unsubscribe-post:feedback-id:reply-to:list-unsubscribe:
+	 content-transfer-encoding:content-type:mime-version:message-id:subject:from:to:
+	 from:to:subject;
+	bh=DCQoZLv5sPKAAWrSabOwprPrdXe7ge20RCh6SRxDy0M=;
+	b=GBDl30X69gmROEBLMPSppP0OU0ZcOFEcHMIgbIfwO2wJ1WVgTGGxfoqQwBQP2ZZfI0fGjWclLF/0K
+	 ku7NP4+PJNhC77X48nijQ0XNcMqaMJazCiZ6JNkOA8MBDsO5JQAXMKxc1F+R7+qg1N0q+M1XpL2Zem
+	 da48H5N55Krn/MgU=
+Date: Tue, 12 May 2026 19:30:47 +0530
+To: may5@bhemployment.com
+From: =?UTF-8?B?U3VsZWtoYSBDYXJlIFNlcnZpY2Vz?= <usclassifieds@sulekhalive.com>
+Subject: =?UTF-8?B?WW91ciBGZWVkYmFjayBJcyBBcHByZWNpYXRlZCEh?=
+Message-Id: <xvhyza17785251781535872@sulekhalive.com>
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="_----------=_17785944413885090189"
+Content-Transfer-Encoding: binary
+List-Unsubscribe: <https://unsub-api.netcorecloud.net/YHNMJN?id=19804=NEoCAlIODAkFGEUWFRFEFUFBGBVGQxQREUQWQxkRGBFBFhISQxcUGRFERRYVEUQVQVFEWAcaAXFTDFMOSV1XSAxTXEZNVFtUTVVSAQ0EVgBQVgAEU1ABCQZWSgtNRUhCWxkdRw1EQVscBRVfG18BQQIOSlAFD1tEVUpYBk0eYXkve3h8XF5QRUdX>, <mailto:17785251781535872-19804-fncunsub@usub.ftrans03.com?subject=Unsubscribe>
+Reply-To: sruthis@sulekha.com
+Feedback-Id: 19804:202605:1:falconide
+X-Dkim-Options: 
+X-Fncid: 19804-17785251781535872-0
+X-Mta-Source: sulekhacofal_19804
+X-Injtime: 1778594442
+X-Traffic-Type: 19804-3
+X-Mailer: NetcoreCloud Mailer
+List-Unsubscribe-Post: List-Unsubscribe=One-Click
+X-Spam-Status: No, score=1.1
+X-Spam-Score: 11
+X-Spam-Bar: +
+X-Ham-Report: Spam detection software, running on the system "server019.our-control-panel.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Hi Bh Employment, We_re glad you have chosen Sulekha Care
+    Services. 
+ Content analysis details:   (1.1 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was blocked.
+                             See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URI: sulekha.com]
+                             [URI: sulekha.io]
+                             [URI: sulekhanotifications.com]
+  0.0 RCVD_IN_DNSWL_BLOCKED  RBL: ADMINISTRATOR NOTICE: The query to DNSWL
+                             was blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#DnsBlocklists-dnsbl-block
+                              for more information.
+                             [175.158.66.226 listed in list.dnswl.org]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily valid
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+  0.2 HEADER_FROM_DIFFERENT_DOMAINS From and EnvelopeFrom 2nd level mail
+                             domains are different
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  0.8 CPANEL_LOTS_OF_EMPTY_LINE RAW: Spam that has large block of empty
+                             lines
+  0.0 FROM_EXCESS_BASE64     From: base64 encoded unnecessarily
+  0.0 T_REMOTE_IMAGE         Message contains an external image
+X-Spam-Flag: NO
+
+This is a multi-part message in MIME format.
+
+--_----------=_17785944413885090189
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain; charset="utf-8"
+
+=0D
+    =0D
+        =0D
+            =0D
+                =0D
+                    =0D
+                        =0D
+                            =0D
+                        =0D
+                        =0D
+                            =0D
+                                =0D
+                                    =0D
+                                        =0D
+                                            =0D
+                                                =0D
+                                                    =0D
+                                                        =0D
+                                                            Hi Bh Employmen=
+t, =0D
+                                                        =0D
+                                                        =0D
+                                                            We=E2=80=99re g=
+lad you have chosen Sulekha Care Services.=0D
+                                                        =0D
+                                                        =0D
+                                                            Recently you po=
+sted an Ad for hiring a Care seeker.=0D
+                                                        =0D
+                                                        =0D
+                                                            =0D
+                                                                =0D
+                                                                    =0D
+                                                                        =0D
+                                                                           =
+ Is your need fulfilled?  =0D
+                                                                           =
+ =0D
+                                                                           =
+     =0D
+                                                                           =
+         =0D
+                                                                           =
+             =0D
+                                                                           =
+                 Yes=0D
+                                                                           =
+                 No=0D
+                                                                           =
+             =0D
+                                                                           =
+         =0D
+                                                                           =
+     =0D
+                                                                           =
+ =0D
+                                                                        =0D
+                                                                        =0D
+                                                                           =
+ Did you get your care service on time?=0D
+                                                                           =
+ =0D
+                                                                           =
+     =0D
+                                                                           =
+         =0D
+                                                                           =
+             =0D
+                                                                           =
+                 Yes=0D
+                                                                           =
+                 No=0D
+                                                                           =
+             =0D
+                                                                           =
+         =0D
+                                                                           =
+     =0D
+                                                                           =
+ =0D
+                                                                        =0D
+                                                                    =0D
+                                                                =0D
+                                                            =0D
+                                                        =0D
+                                                        =0D
+                                                            Tap a star to r=
+ate us=0D
+                                                        =0D
+                                                        =0D
+                                                            =0D
+                                                                =0D
+                                                                    =0D
+                                                                        =0D
+                                                                           =
+ =0D
+                                                                           =
+ =0D
+                                                                           =
+ =0D
+                                                                           =
+ =0D
+                                                                           =
+ =0D
+                                                                           =
+ =0D
+                                                                        =0D
+                                                                    =0D
+                                                                =0D
+                                                            =0D
+                                                        =0D
+                                                        =0D
+                                                            If you find our=
+ service helpful, we request you to write a review! =0D
+                                                        =0D
+                                                        =0D
+                                                            Reviews help us=
+ to not only improve our services but also let others know that we care abo=
+ut delivering the best quality. Leave your feedback on your experience with=
+ us.=0D
+                                                        =0D
+                                                        =0D
+                                                            =0D
+                                                                =0D
+                                                                    =0D
+                                                                        =0D
+                                                                           =
+ Team Regards,=0D
+                                                                        =0D
+                                                                        =0D
+                                                                           =
+ Sulekha-Care Services=0D
+                                                                        =0D
+                                                                    =0D
+                                                                =0D
+                                                            =0D
+                                                        =0D
+                                                    =0D
+                                                =0D
+                                            =0D
+                                        =0D
+                                    =0D
+                                =0D
+                            =0D
+                        =0D
+                        =0D
+                            =0D
+                                =0D
+                                    =0D
+                                        =0D
+                                            =0D
+                                                =0D
+                                                    =0D
+                                                        =0D
+                                                            If you have any=
+ questions, please email to our friendly customer support team on us.sulekh=
+a or call us  1-512-788-5300 (Mon to Fri - 11am to 8pm =E2=80=93 EST) and w=
+e'll be happy to help you. =0D
+                                                        =0D
+                                                    =0D
+                                                =0D
+                                            =0D
+                                        =0D
+                                    =0D
+                                =0D
+                            =0D
+                        =0D
+                    =0D
+                =0D
+            =0D
+        =0D
+        =0D
+            =0D
+                =C2=A9 2026 Copyright Sulekha.com | Privacy Policy | Terms =
+& Conditions | All Rights Reserved =0D
+            =0D
+        =0D
+    =0D
+=C2=A0=
+=
+
+--_----------=_17785944413885090189
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset="utf-8"
+
+<table class=3D"mailer-wid-mob" cellpadding=3D"0" cellspacing=3D"0" border=
+=3D"0" width=3D"650px" style=3D"margin:auto;">=0D
+    <tbody>=0D
+        <tr>=0D
+            <td style=3D"padding:0;">=0D
+                <table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpa=
+dding=3D"0" background=3D"#ffffff;">=0D
+                    <tbody>=0D
+                        <tr>=0D
+                            <td style=3D"background-color:#fff;padding:0 20=
+px 15px 20px;"><a href=3D"http://fapp1.sulekhanotifications.com/YRETCG?id=
+=3D19804=3DIkoCAlIODAkFGAFVVwBTVABYWgQAAA1UAQICVQFTXAhWBQMGWwACAVAGVlQEAFxR=
+AwREWAcaAXFTDFMOSV1XSAxTXEZNVFtUTVVSAQ0EVgBQVgAEU1ABCQZWSgtNRUgLThlUUxNHBRd=
+CEQlTXlkFWw4VUVMPAFVFWAtYEBdSV1xOb2B3N3RzBlgAGUAG&fl=3DCUJGQlkYG11QHQZXR1RK=
+RhQNXV4OAhpSXgkZ" target=3D"_blank" style=3D"width: 100%; font-size:14px;">=
+<img src=3D"https://usimg.sulekha.io/cdn/localservices/images/localservices=
+_2018-08-09-01-40-55-597.png" alt=3D"us.sulekha.com" title=3D"https://techj=
+obs.sulekha.com/"></a></td>=0D
+                        </tr>=0D
+                        <tr>=0D
+                            <td style=3D"padding:0 0 15px 0;border:solid 1p=
+x #fff;">=0D
+                                <table cellpadding=3D"0" cellspacing=3D"0" =
+border=3D"0" width=3D"100%">=0D
+                                    <tbody>=0D
+                                        <tr>=0D
+                                            <td style=3D"border:solid 1px #=
+e7e7e7;">=0D
+                                                <table cellpadding=3D"0" ce=
+llspacing=3D"0" border=3D"0" width=3D"100%">=0D
+                                                    <tbody>=0D
+                                                        <tr>=0D
+                                                            <td style=3D"fo=
+nt-family:Roboto,Helvetica,Arial,sans-serif;color:#333;font-size:18px;line-=
+height:20px;padding:15px 20px 2px 20px;font-weight:bold;text-align:left;">H=
+i Bh Employment, </td>=0D
+                                                        </tr>=0D
+                                                        <tr>=0D
+                                                            <td class=3D"re=
+d" style=3D"font-family:Roboto,Helvetica,Arial,sans-serif;color:#333;font-s=
+ize:15px;line-height:24px;color:#333;padding:5px 20px 0 20px;text-align:lef=
+t;">We=E2=80=99re glad you have chosen Sulekha Care Services.</td>=0D
+                                                        </tr>=0D
+                                                        <tr>=0D
+                                                            <td class=3D"re=
+d" style=3D"font-family:Roboto,Helvetica,Arial,sans-serif;color:#333;font-s=
+ize:15px;line-height:24px;color:#333;padding:10px 20px 0 20px;text-align:le=
+ft;">Recently you posted an Ad for hiring a Care seeker.</td>=0D
+                                                        </tr>=0D
+                                                        <tr>=0D
+                                                            <td style=3D"pa=
+dding:0 20px 5px 20px;">=0D
+                                                                <table cell=
+padding=3D"0" cellspacing=3D"0" border=3D"0" width=3D"100%">=0D
+                                                                    <tbody>=
+=0D
+                                                                        <tr=
+>=0D
+                                                                           =
+ <td style=3D"width:70%;text-align:left;padding:10px 20px;border:solid 1px =
+#ccbddb;border-right:none;background:#f9f9f9;color:#000;font-family:Roboto,=
+Helvetica,Arial,sans-serif;font-size:14px;border-bottom:none;">Is your need=
+ fulfilled?  </td>=0D
+                                                                           =
+ <td style=3D"width:30%;padding:10px 20px;border:solid 1px #ccbddb;backgrou=
+nd:#fff;color:#000;font-family:Roboto,Helvetica,Arial,sans-serif;font-size:=
+14px;border-bottom:none;">=0D
+                                                                           =
+     <table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" width=3D"100%"=
+>=0D
+                                                                           =
+         <tbody>=0D
+                                                                           =
+             <tr>=0D
+                                                                           =
+                 <td style=3D"text-align:center;padding:10px;background-col=
+or:#14bd11;border-right:solid 1px #fff;"><a href=3D"http://fapp1.sulekhanot=
+ifications.com/YRETCG?id=3D19804=3DIkoCAlIODAkFGAFVDAdXAFVXCAYCVlICUAcPVg4I=
+DgRWUwoDU1UHDlcBUwFUV1xXVlNEWAcaAXFTDFMOSV1XSAxTXEZNVFtUTVVSAQ0EVgBQVgAEU1A=
+BCQZWSgtNRUgLThlUUxNHBRdCEQlTXlkFWw4VUVMPAFVFWAtYEBdSV1xOb2B3N3RzBlgAGUAG&f=
+l=3DCUJGQhANGxZVBRxVVEMBGxIUVFANC1UfUgtbTE1US0UIW11cClZYSg=3D=3D&ext=3DYml6=
+aWQ9QnBpVzRXS2VLYUQvM3pwbnZHOUE2dz09" style=3D"color:#fff;font-family:Robot=
+o,Helvetica,Arial,sans-serif;font-size:14px;text-decoration:none;">Yes</a><=
+/td>=0D
+                                                                           =
+                 <td style=3D"text-align:center;padding:10px;background-col=
+or:#ccc;"><a href=3D"http://fapp1.sulekhanotifications.com/YRETCG?id=3D1980=
+4=3DIkoCAlIODAkFGAFVDAdXAFVXCAYCVlICUAcPVg4IDgRWUwoDU1UHDlcBUwFUV1xXVlNEWAc=
+aAXFTDFMOSV1XSAxTXEZNVFtUTVVSAQ0EVgBQVgAEU1ABCQZWSgtNRUgLThlUUxNHBRdCEQlTXl=
+kFWw4VUVMPAFVFWAtYEBdSV1xOb2B3N3RzBlgAGUAG&fl=3DCUJGQhANGxZVBRxVVEMBGxIUVFA=
+NC1UfUgtbTE1US0UIW11cClZYSg=3D=3D&ext=3DYml6aWQ9QnBpVzRXS2VLYUQvM3pwbnZHOUE=
+2dz09" style=3D"color:#333;font-family:Roboto,Helvetica,Arial,sans-serif;fo=
+nt-size:14px;text-decoration:none;">No</a></td>=0D
+                                                                           =
+             </tr>=0D
+                                                                           =
+         </tbody>=0D
+                                                                           =
+     </table>=0D
+                                                                           =
+ </td>=0D
+                                                                        </t=
+r>=0D
+                                                                        <tr=
+>=0D
+                                                                           =
+ <td style=3D"width:70%;text-align:left;padding:10px 20px;border:solid 1px =
+#ccbddb;border-right:none;background:#f9f9f9;color:#000;font-family:Roboto,=
+Helvetica,Arial,sans-serif;font-size:14px;">Did you get your care service o=
+n time?</td>=0D
+                                                                           =
+ <td style=3D"width:30%;padding:10px 20px;border:solid 1px #ccbddb;backgrou=
+nd:#fff;color:#000;font-family:Roboto,Helvetica,Arial,sans-serif;font-size:=
+14px;">=0D
+                                                                           =
+     <table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" width=3D"100%"=
+>=0D
+                                                                           =
+         <tbody>=0D
+                                                                           =
+             <tr>=0D
+                                                                           =
+                 <td style=3D"text-align:center;padding:10px;background-col=
+or:#14bd11;border-right:solid 1px #fff;"><a href=3D"http://fapp1.sulekhanot=
+ifications.com/YRETCG?id=3D19804=3DIkoCAlIODAkFGAFVDAdXAFVXCAYCVlICUAcPVg4I=
+DgRWUwoDU1UHDlcBUwFUV1xXVlNEWAcaAXFTDFMOSV1XSAxTXEZNVFtUTVVSAQ0EVgBQVgAEU1A=
+BCQZWSgtNRUgLThlUUxNHBRdCEQlTXlkFWw4VUVMPAFVFWAtYEBdSV1xOb2B3N3RzBlgAGUAG&f=
+l=3DCUJGQhANGxZVBRxVVEMBGxIUVFANC1UfUgtbTE1US0UIW11cClZYSg=3D=3D&ext=3DYml6=
+aWQ9QnBpVzRXS2VLYUQvM3pwbnZHOUE2dz09" style=3D"color:#fff;font-family:Robot=
+o,Helvetica,Arial,sans-serif;font-size:14px;text-decoration:none;">Yes</a><=
+/td>=0D
+                                                                           =
+                 <td style=3D"text-align:center;padding:10px;background-col=
+or:#ccc;"><a href=3D"http://fapp1.sulekhanotifications.com/YRETCG?id=3D1980=
+4=3DIkoCAlIODAkFGAFVDAdXAFVXCAYCVlICUAcPVg4IDgRWUwoDU1UHDlcBUwFUV1xXVlNEWAc=
+aAXFTDFMOSV1XSAxTXEZNVFtUTVVSAQ0EVgBQVgAEU1ABCQZWSgtNRUgLThlUUxNHBRdCEQlTXl=
+kFWw4VUVMPAFVFWAtYEBdSV1xOb2B3N3RzBlgAGUAG&fl=3DCUJGQhANGxZVBRxVVEMBGxIUVFA=
+NC1UfUgtbTE1US0UIW11cClZYSg=3D=3D&ext=3DYml6aWQ9QnBpVzRXS2VLYUQvM3pwbnZHOUE=
+2dz09" style=3D"color:#333;font-family:Roboto,Helvetica,Arial,sans-serif;fo=
+nt-size:14px;text-decoration:none;">No</a></td>=0D
+                                                                           =
+             </tr>=0D
+                                                                           =
+         </tbody>=0D
+                                                                           =
+     </table>=0D
+                                                                           =
+ </td>=0D
+                                                                        </t=
+r>=0D
+                                                                    </tbody=
+>=0D
+                                                                </table>=0D
+                                                            </td>=0D
+                                                        </tr>=0D
+                                                        <tr>=0D
+                                                            <td class=3D"re=
+d" style=3D"font-family:Roboto,Helvetica,Arial,sans-serif;color:#333;font-s=
+ize:15px;line-height:24px;color:#333;padding:5px 20px 5px 20px;text-align:l=
+eft;"><b>Tap a star to rate us</b></td>=0D
+                                                        </tr>=0D
+                                                        <tr>=0D
+                                                            <td style=3D"pa=
+dding:0 0 0 20px;">=0D
+                                                                <table cell=
+padding=3D"0" cellspacing=3D"0" border=3D"0">=0D
+                                                                    <tbody>=
+=0D
+                                                                        <tr=
+>=0D
+                                                                           =
+ <td style=3D"padding:2px;"><a href=3D"http://fapp1.sulekhanotifications.co=
+m/YRETCG?id=3D19804=3DIkoCAlIODAkFGAFVDAdXAFVXCAYCVlICUAcPVg4IDgRWUwoDU1UHD=
+lcBUwFUV1xXVlNEWAcaAXFTDFMOSV1XSAxTXEZNVFtUTVVSAQ0EVgBQVgAEU1ABCQZWSgtNRUgL=
+ThlUUxNHBRdCEQlTXlkFWw4VUVMPAFVFWAtYEBdSV1xOb2B3N3RzBlgAGUAG&fl=3DCUJGQhANG=
+xZVBRxVVEMBGxIUVFANC1UfUgtbTE1US0UIW11cClZYSg=3D=3D&ext=3DYml6aWQ9QnBpVzRXS=
+2VLYUQvM3pwbnZHOUE2dz09"><img src=3D"https://usimg.sulekha.io/cdn/others/im=
+ages/others_2021-02-25-05-40-40-680.png"></a></td>=0D
+                                                                           =
+ <td style=3D"padding:2px;"><a href=3D"http://fapp1.sulekhanotifications.co=
+m/YRETCG?id=3D19804=3DIkoCAlIODAkFGAFVDAdXAFVXCAYCVlICUAcPVg4IDgRWUwoDU1UHD=
+lcBUwFUV1xXVlNEWAcaAXFTDFMOSV1XSAxTXEZNVFtUTVVSAQ0EVgBQVgAEU1ABCQZWSgtNRUgL=
+ThlUUxNHBRdCEQlTXlkFWw4VUVMPAFVFWAtYEBdSV1xOb2B3N3RzBlgAGUAG&fl=3DCUJGQhANG=
+xZVBRxVVEMBGxIUVFANC1UfUgtbTE1US0UIW11cClZYSg=3D=3D&ext=3DYml6aWQ9QnBpVzRXS=
+2VLYUQvM3pwbnZHOUE2dz09"><img src=3D"https://usimg.sulekha.io/cdn/others/im=
+ages/others_2021-02-25-05-40-40-680.png"></a></td>=0D
+                                                                           =
+ <td style=3D"padding:2px;"><a href=3D"http://fapp1.sulekhanotifications.co=
+m/YRETCG?id=3D19804=3DIkoCAlIODAkFGAFVDAdXAFVXCAYCVlICUAcPVg4IDgRWUwoDU1UHD=
+lcBUwFUV1xXVlNEWAcaAXFTDFMOSV1XSAxTXEZNVFtUTVVSAQ0EVgBQVgAEU1ABCQZWSgtNRUgL=
+ThlUUxNHBRdCEQlTXlkFWw4VUVMPAFVFWAtYEBdSV1xOb2B3N3RzBlgAGUAG&fl=3DCUJGQhANG=
+xZVBRxVVEMBGxIUVFANC1UfUgtbTE1US0UIW11cClZYSg=3D=3D&ext=3DYml6aWQ9QnBpVzRXS=
+2VLYUQvM3pwbnZHOUE2dz09"><img src=3D"https://usimg.sulekha.io/cdn/others/im=
+ages/others_2021-02-25-05-40-40-680.png"></a></td>=0D
+                                                                           =
+ <td style=3D"padding:2px;"><a href=3D"http://fapp1.sulekhanotifications.co=
+m/YRETCG?id=3D19804=3DIkoCAlIODAkFGAFVDAdXAFVXCAYCVlICUAcPVg4IDgRWUwoDU1UHD=
+lcBUwFUV1xXVlNEWAcaAXFTDFMOSV1XSAxTXEZNVFtUTVVSAQ0EVgBQVgAEU1ABCQZWSgtNRUgL=
+ThlUUxNHBRdCEQlTXlkFWw4VUVMPAFVFWAtYEBdSV1xOb2B3N3RzBlgAGUAG&fl=3DCUJGQhANG=
+xZVBRxVVEMBGxIUVFANC1UfUgtbTE1US0UIW11cClZYSg=3D=3D&ext=3DYml6aWQ9QnBpVzRXS=
+2VLYUQvM3pwbnZHOUE2dz09"><img src=3D"https://usimg.sulekha.io/cdn/others/im=
+ages/others_2021-02-25-05-40-40-680.png"></a></td>=0D
+                                                                           =
+ <td style=3D"padding:2px;"><a href=3D"http://fapp1.sulekhanotifications.co=
+m/YRETCG?id=3D19804=3DIkoCAlIODAkFGAFVDAdXAFVXCAYCVlICUAcPVg4IDgRWUwoDU1UHD=
+lcBUwFUV1xXVlNEWAcaAXFTDFMOSV1XSAxTXEZNVFtUTVVSAQ0EVgBQVgAEU1ABCQZWSgtNRUgL=
+ThlUUxNHBRdCEQlTXlkFWw4VUVMPAFVFWAtYEBdSV1xOb2B3N3RzBlgAGUAG&fl=3DCUJGQhANG=
+xZVBRxVVEMBGxIUVFANC1UfUgtbTE1US0UIW11cClZYSg=3D=3D&ext=3DYml6aWQ9QnBpVzRXS=
+2VLYUQvM3pwbnZHOUE2dz09"><img src=3D"https://usimg.sulekha.io/cdn/others/im=
+ages/others_2021-02-25-05-40-40-680.png"></a></td>=0D
+                                                                           =
+ <!-- <td style=3D"padding:2px;"><a href=3D"#"><img src=3D"https://usimg.su=
+lekha.io/cdn/others/images/others_2021-02-25-05-50-34-627.png" /></a></td> =
+-->=0D
+                                                                        </t=
+r>=0D
+                                                                    </tbody=
+>=0D
+                                                                </table>=0D
+                                                            </td>=0D
+                                                        </tr>=0D
+                                                        <tr>=0D
+                                                            <td style=3D"fo=
+nt-family:Roboto,Helvetica,Arial,sans-serif;color:#333;font-size:15px;line-=
+height:24px;color:#333;padding:15px 20px 5px 20px;text-align:left;font-weig=
+ht:bold;">If you find our service helpful, we request you to write a review=
+! </td>=0D
+                                                        </tr>=0D
+                                                        <tr>=0D
+                                                            <td style=3D"fo=
+nt-family:Roboto,Helvetica,Arial,sans-serif;color:#333;font-size:15px;line-=
+height:24px;color:#333;padding:0 20px 5px 20px;text-align:left;">Reviews he=
+lp us to not only improve our services but also let others know that we car=
+e about delivering the best quality.<a href=3D"#" style=3D"margin:0 0 0 10p=
+x;color:#30A4EA;text-decoration:none;font-family:Roboto,Arial,sans-serif;fo=
+nt-size:16px;line-height:20px;font-weight:bold;">Leave your feedback on you=
+r experience with us.</a></td>=0D
+                                                        </tr>=0D
+                                                        <tr>=0D
+                                                            <td style=3D"pa=
+dding:0 20px 15px 20px;">=0D
+                                                                <table cell=
+padding=3D"0" cellspacing=3D"0" border=3D"0" width=3D"100%">=0D
+                                                                    <tbody>=
+=0D
+                                                                        <tr=
+>=0D
+                                                                           =
+ <td style=3D"padding:10px 20px 0 0;color:#212121;font-family:Roboto;Arial,=
+sans-serif;font-size:15px;line-height:22px;">Team Regards,</td>=0D
+                                                                        </t=
+r>=0D
+                                                                        <tr=
+>=0D
+                                                                           =
+ <td style=3D"padding:4px 20px 5px 0;color:#333;font-family:Roboto;Arial,sa=
+ns-serif;font-size:14px;line-height:20px;"><a href=3D"http://fapp1.sulekhan=
+otifications.com/YRETCG?id=3D19804=3DIkoCAlIODAkFGANQUAhXAwVWXFEHUVdVAwEBWw=
+1TDABVAFQAAlNRCAVVVFVUAAIFA1REWAcaAXFTDFMOSV1XSAxTXEZNVFtUTVVSAQ0EVgBQVgAEU=
+1ABCQZWSgtNRUgLThlUUxNHBRdCEQlTXlkFWw4VUVMPAFVFWAtYEBdSV1xOb2B3N3RzBlgAGUAG=
+&fl=3DCUJGQhANGxZVBRxVVEMBGxIUVFANC1UfUgtbTA=3D=3D" target=3D"_blank" style=
+=3D"color:#30A4EA;text-decoration:none;font-family:Roboto;Arial,sans-serif;=
+font-size:16px;line-height:20px;">Sulekha-Care Services</a></td>=0D
+                                                                        </t=
+r>=0D
+                                                                    </tbody=
+>=0D
+                                                                </table>=0D
+                                                            </td>=0D
+                                                        </tr>=0D
+                                                    </tbody>=0D
+                                                </table>=0D
+                                            </td>=0D
+                                        </tr>=0D
+                                    </tbody>=0D
+                                </table>=0D
+                            </td>=0D
+                        </tr>=0D
+                        <tr>=0D
+                            <td style=3D"padding:0 0 15px 0;">=0D
+                                <table cellpadding=3D"0" cellspacing=3D"0" =
+border=3D"0" width=3D"100%">=0D
+                                    <tbody>=0D
+                                        <tr>=0D
+                                            <td style=3D"border:solid 1px #=
+e7e7e7;">=0D
+                                                <table cellpadding=3D"0" ce=
+llspacing=3D"0" border=3D"0" width=3D"100%">=0D
+                                                    <tbody>=0D
+                                                        <tr>=0D
+                                                            <td style=3D"pa=
+dding:15px 20px 15px 20px;color:#777;font-family:Roboto;Arial,sans-serif;fo=
+nt-size:13px;line-height:20px;">If you have any questions, please email to =
+our friendly customer support team on <a href=3D"mailto:us.sulekha" style=
+=3D"font-family:Roboto, Arial, Helvetica, sans-serif;font-size:14px;color:#=
+30A4EA;text-decoration:none;">us.sulekha</a> or call us  <a style=3D"font-f=
+amily:Arial,sans-serif;font-size:14px;color:#30A4EA;text-decoration:none;" =
+href=3D"tel:1-512-788-5300">1-512-788-5300</a> (Mon to Fri - 11am to 8pm =
+=E2=80=93 EST) and we'll be happy to help you. </td>=0D
+                                                        </tr>=0D
+                                                    </tbody>=0D
+                                                </table>=0D
+                                            </td>=0D
+                                        </tr>=0D
+                                    </tbody>=0D
+                                </table>=0D
+                            </td>=0D
+                        </tr>=0D
+                    </tbody>=0D
+                </table>=0D
+            </td>=0D
+        </tr>=0D
+        <tr>=0D
+            <td style=3D"padding:5px;background-color:#e4e4e4;">=0D
+                <p style=3D"color:#666;font-family:Roboto;Arial,sans-serif;=
+font-size:12px;line-height:18px;margin:10px;text-align:center;">=C2=A9 2026=
+ Copyright Sulekha.com | <a href=3D"http://fapp1.sulekhanotifications.com/Y=
+RETCG?id=3D19804=3DIkoCAlIODAkFGF1SBlQFAwcEXgFRUAAHUFIBUV8BCVdXBgQGUVMNCAJc=
+AFAACFdTUlREWAcaAXFTDFMOSV1XSAxTXEZNVFtUTVVSAQ0EVgBQVgAEU1ABCQZWSgtNRUgLThl=
+UUxNHBRdCEQlTXlkFWw4VUVMPAFVFWAtYEBdSV1xOb2B3N3RzBlgAGUAG&fl=3DCUJGQhANGxZE=
+F0tFQF0BXgkAFlYJDhtBQw1AAlpISF4NX1FL" target=3D"_blank" style=3D"color:#30A=
+4EA;font-weight: normal;text-decoration: none;">Privacy Policy</a> | <a hre=
+f=3D"http://fapp1.sulekhanotifications.com/YRETCG?id=3D19804=3DIkoCAlIODAkF=
+GARTUQlSV1hXXAAEV1YFCFcDBVxTCAJTAQUEWlYFDgZRVAENAVwAUFJEWAcaAXFTDFMOSV1XSAx=
+TXEZNVFtUTVVSAQ0EVgBQVgAEU1ABCQZWSgtNRUgLThlUUxNHBRdCEQlTXlkFWw4VUVMPAFVFWA=
+tYEBdSV1xOb2B3N3RzBlgAGUAG&fl=3DCUJGQhANGxZEF0tFQF0BXgkAFlYJDhtFVBZbEA=3D=
+=3D" style=3D"color:#30A4EA;font-weight: normal;text-decoration: none;" tar=
+get=3D"_blank">Terms &amp; Conditions</a> | All Rights Reserved </p>=0D
+            </td>=0D
+        </tr>=0D
+    </tbody>=0D
+</table><p>&nbsp;<br></p><img src=3D'http://fapp1.sulekhanotifications.com/=
+YRETCG?id=3D19804=3DLkoCAlIODAkFGEUWFRFEFUFBGBVGQxQREUQWQxkRGBFBFhISQxcUGRF=
+ERRYVEUQVQVFEWAcaAXFTDFMOSV1XSAxTXEZNVFtUTVVSAQ0EVgBQVgAEU1ABCQZWSgtNRUgLTh=
+lUUxNHBRdCEQlTXlkFWw4VUVMPAFVFWAtYEBdSV1xOb2B3N3RzBlgAGUAG' alt=3D'' />=
+=
+
+--_----------=_17785944413885090189--
+

@@ -1,0 +1,297 @@
+Return-Path: <bounce+b3ef46.2568ca-junu15=bhemployment.com@comm3.sulekhainfo.com>
+Delivered-To: junu15@bhemployment.com
+Received: from server019.our-control-panel.com
+	by server019.our-control-panel.com with LMTP
+	id DdhqJwEPMGpg9hEAaDcOIg
+	(envelope-from <bounce+b3ef46.2568ca-junu15=bhemployment.com@comm3.sulekhainfo.com>)
+	for <junu15@bhemployment.com>; Mon, 15 Jun 2026 20:26:05 +0545
+Return-path: <bounce+b3ef46.2568ca-junu15=bhemployment.com@comm3.sulekhainfo.com>
+Envelope-to: junu15@bhemployment.com
+Delivery-date: Mon, 15 Jun 2026 20:26:05 +0545
+Received: from k22.kb8c70eb.use4.send.mailgun.net ([204.220.184.22]:33054)
+	by server019.our-control-panel.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+	(Exim 4.99.4)
+	(envelope-from <bounce+b3ef46.2568ca-junu15=bhemployment.com@comm3.sulekhainfo.com>)
+	id 1wZ8Uq-00000004w2C-1HZI
+	for junu15@bhemployment.com;
+	Mon, 15 Jun 2026 20:26:05 +0545
+DKIM-Signature: a=rsa-sha256; v=1; c=relaxed/relaxed; d=sulekhainfo.com; q=dns/txt; s=acl; t=1781534422; x=1781541622;
+ h=To: To: Message-Id: Content-Type: Mime-Version: Date: From: From: Subject: Subject: Sender: Sender;
+ bh=kHNZ3kpzE289cJ5vpn8E60XjZq1o7d+oLOCKXgHa6kY=;
+ b=OTSTCUTeM2I5OA+NnhKS2xu1jFutM7AvtWWGaTeVbkavTl09q0Fx9aq7i/TmzAhK3WTLlxRbuoaasBLHGRt7nbMxW36EOiFHJk73V07EAD1fZJ5oTtAMJAR/CwNEWDBVqO/pwl08ozTsuNN62FeLPw4e9abCkb+OGLW4wV/MYv0=
+X-Mailgun-Sid: WyIzYjczNSIsImp1bnUxNUBiaGVtcGxveW1lbnQuY29tIiwiMjU2OGNhIl0=
+Received: from o130.smtp-out.aclmobile.net (o130.smtp-out.aclmobile.net
+ [103.54.236.130]) by
+ 5d28074d0e6a44c6c474b4631088f2d086d7a83e04574f37094d7cf72f1ba82e with SMTP id
+ 6a300ed3d268774524ee40dc (version=TLS1.3, cipher=TLS_AES_128_GCM_SHA256);
+ Mon, 15 Jun 2026 14:40:19 GMT
+X-Mailgun-Sending-Ip: 204.220.184.22
+Sender: member.relations@sulekhainfo.com
+Subject: Sulekha Login with email OTP
+From: Sulekha <member.relations@sulekhainfo.com>
+Date: Mon, 15 Jun 2026 20:10:19 +0530
+Mime-Version: 1.0
+X-Unique-Id: A.1781534419564849107.29536.1167.6.1.0.0.1#junu15@bhemployment.com#{"XAPIheader":"xapi-6f54cab8-6c57-412e-8819-e5c8e20888e0"}
+Content-Type: multipart/alternative;
+ boundary=3758ee492ebe8b18e396efd7530119184f03dcc5a3bde78598562d49cea3
+Message-Id: A.1781534419564849107.29536.1167.6.1.0.0.1#junu15@bhemployment.com
+To: junu15@bhemployment.com
+X-Spam-Status: No, score=1.5
+X-Spam-Score: 15
+X-Spam-Bar: +
+X-Ham-Report: Spam detection software, running on the system "server019.our-control-panel.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Sulekha Login with Email OTP (Optional) This text will appear
+    in the inbox preview, but not the email body. Login with email OTP To authenticate,
+    please use the following One Time Password (OTP): 3677 Don't share this OTP
+    with a [...] 
+ Content analysis details:   (1.5 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 RCVD_IN_DNSWL_BLOCKED  RBL: ADMINISTRATOR NOTICE: The query to DNSWL
+                             was blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#DnsBlocklists-dnsbl-block
+                              for more information.
+                             [204.220.184.22 listed in list.dnswl.org]
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was blocked.
+                             See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URI: fonts.googleapis.com]
+                             [URI: aclmails.in]
+                             [URI: sulekha.com]
+                             [URI: sulekhainfo.com]
+                             [URI: lscdn.azureedge.net]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from author's
+                             domain
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily valid
+  0.1 MIME_HTML_ONLY         BODY: Message only has text/html MIME parts
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  0.3 MPART_ALT_DIFF         BODY: HTML and text parts are different
+  1.2 INVALID_MSGID          Message-Id is not valid, according to RFC 2822
+  0.0 T_REMOTE_IMAGE         Message contains an external image
+X-Spam-Flag: NO
+
+--3758ee492ebe8b18e396efd7530119184f03dcc5a3bde78598562d49cea3
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset=UTF-8
+
+<!doctype html>
+<html>
+<head>
+    <meta charset=3D'utf-8'>
+    <!-- utf-8 works for most cases -->
+    <meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=
+=3D1.0">
+    <!-- Forcing initial-scale shouldn't be necessary -->
+    <meta http-equiv=3D'X-UA-Compatible' content=3D'IE=3Dedge'>
+    <!-- Use the latest (edge) version of IE rendering engine -->
+    <title>Sulekha Login with Email OTP</title>
+    <link href=3D"https://fonts.googleapis.com/css?family=3DRoboto:300,400,=
+500,700,900" rel=3D"stylesheet">
+    <style type=3D"text/css" media=3D"screen">
+        .top-header-bg {
+            background: #7474BF;
+            background: -webkit-linear-gradient(to right, #348AC7, #7474BF)=
+ !important;
+            background: linear-gradient(to right, #348AC7, #7474BF) !import=
+ant;
+            padding: 20px;
+            color: #fff;
+        }
+
+         only screen and (max-device-width: 480px), only screen and (max-wi=
+dth: 480px) {
+            body {
+                font-family: Roboto, Helvetica, Arial, sans-serif;
+            }
+
+            .mob-wid {
+                width: 98% !important;
+                max-width: 100% !important;
+                float: left !important;
+                display: block !important;
+                margin: 0 0 10px 0;
+            }
+
+                .mob-wid a {
+                    display: block;
+                }
+
+            .mailer-wid-mob {
+                width: 100% !important;
+            }
+        }
+    </style>
+</head>
+
+<body class=3D"body" style=3D"padding:0 !important; margin:0 !important; di=
+splay:block !important; min-width:100% !important; width:100% !important; b=
+ackground:#fff; -webkit-text-size-adjust:none;">
+    <table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" width=3D"100%" =
+height=3D"100%" style=3D"border:none;background-color:#fff;">
+        <tr>
+            <td style=3D"padding:20px;">
+                <!-- Visually Hidden Preheader Text : BEGIN -->
+                <div style=3D"display:none;font-size:1px;line-height:1px;ma=
+x-height:0px;max-width:0px;opacity:0;overflow:hidden;mso-hide:all;font-fami=
+ly:Roboto, Arial, sans-serif;">
+                    (Optional) This text will appear in the inbox preview, =
+but not the email body.
+                </div>
+                <!-- Visually Hidden Preheader Text : END -->
+                <center>
+                    <table class=3D"mailer-wid-mob" cellpadding=3D"0" cells=
+pacing=3D"0" border=3D"0" width=3D"650" style=3D"margin:auto;width:650px;">
+                        <tr>
+                            <td style=3D"padding:0;">
+                                <table width=3D"100%" border=3D"0" cellspac=
+ing=3D"0" cellpadding=3D"0" background=3D"#ffffff;">
+                                    <tr>
+                                        <td style=3D"background-color:#fff;=
+padding:0 20px 15px 20px;"><a href=3D"https://trkt.aclmails.in/v1/r/1RerbXG=
+bycL6WPJdf2P5TIgRMSOwKOx7vpD6cfYYm4CmCMW7rbBPixOe5F9QeegLvOZVQSrtdIaCp%2BMJ=
+jwIafr%2FvI5Srq5Tgp0ghOMm4OCMal5GG95aye0Xak%2FeZgSBir2Xb%2Fz8iyDuEgycpeDffe=
+IEUU6BuL%2FWn3q5gHJ9yxVPB%2BKumuOzMJHhNz5zxTt7NyDMwLxe6La8teVswUq3yTuVPg9tu=
+jMb%2F2GSomUEOIRHsnzpPEdzN44Yto%2Fp%2BfKk%3D" target=3D"_blank" style=3D"wi=
+dth: 100%; font-size:14px;"><img src=3D"https://lscdn.azureedge.net/content=
+/myaccount/sulekha-logo-uswhite.png" alt=3D"us.sulekha.com" /></a></td>
+                                    </tr>
+                                    <tr>
+                                        <td style=3D"padding:0;border:solid=
+ 1px #fff;">
+                                            <table cellpadding=3D"0" cellsp=
+acing=3D"0" border=3D"0" width=3D"100%">
+                                                <tr>
+                                                    <td style=3D"border:sol=
+id 1px #e7e7e7;">
+                                                        <table cellpadding=
+=3D"0" cellspacing=3D"0" border=3D"0" width=3D"100%">
+                                                            <tr>
+                                                                <td style=
+=3D"font-family:Roboto,Helvetica,Arial,sans-serif;color:#333;font-size:18px=
+;line-height:20px;padding:20px 20px 15px 20px;font-weight:bold;text-align:c=
+enter;">Login with email OTP</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td style=
+=3D"font-family:Roboto,Helvetica,Arial,sans-serif;color:#000;font-size:15px=
+;line-height:24px;padding:5px 20px 15px 20px;text-align:center;">To authent=
+icate, please use the following One Time Password (OTP):</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td style=
+=3D"font-family:Roboto,Helvetica,Arial,sans-serif;color:#000;font-size:40px=
+;line-height:40px;padding:0 10px 10px 10px;text-align:center;color:#14C38E;=
+font-weight:bold;">3677</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td style=
+=3D"font-family:Roboto,Helvetica,Arial,sans-serif;color:#000;font-size:15px=
+;line-height:24px;padding:5px 20px 0 20px;text-align:center;">Don't share t=
+his OTP with anyone. Our customer service team will never ask you for your =
+password. We hope to see you again soon.</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td style=
+=3D"padding:0 20px 15px 20px;">
+                                                                    <table =
+cellpadding=3D"0" cellspacing=3D"0" border=3D"0" width=3D"100%">
+                                                                        <tr=
+>
+                                                                           =
+ <td style=3D"padding:15px 20px 0 0;color:#212121;font-family:Roboto;Arial,=
+sans-serif;font-size:15px;line-height:22px;">Best Regards,</td>
+                                                                        </t=
+r>
+                                                                        <tr=
+>
+                                                                           =
+ <td style=3D"padding:4px 20px 5px 0;color:#333;font-family:Roboto;Arial,sa=
+ns-serif;font-size:14px;line-height:20px;"><a href=3D"https://trkt.aclmails=
+.in/v1/r/G%2Fk6%2BkULhTzKQwYIbqtm6D2bi5tP3YMsQ3uKN9PJ5rMPo441Vk6OuwCja6difd=
+NZlpuUke0QQgb7GIPnUTfFYs7n%2FqlcKwd11F%2FPSsJIy4z1H8j8iLdMcq74PHClUUbmqKfVz=
+yfrn%2FFGcHj6W4ylKC8G5Vg3XbFBw79lJs%2FOd4HDQeONaPdQBAZ46hCMOy2Y8sfZ45wYIhuP=
+hrifmRV0n%2B2y3rkpPq7a5OJ1dS4opPOpas%2Fb024FXfMyrJRG9g4%3D" target=3D"_blan=
+k" style=3D"color:#30A4EA;text-decoration:none;font-family:Roboto;Arial,san=
+s-serif;font-size:16px;line-height:20px;">Sulekha services</a></td>
+                                                                        </t=
+r>
+                                                                    </table=
+>
+                                                                </td>
+                                                            </tr>
+                                                        </table>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style=3D"padding:0 0 15px 0;">
+                                            <table cellpadding=3D"0" cellsp=
+acing=3D"0" border=3D"0" width=3D"100%">
+                                                <tr>
+                                                    <td style=3D"border:sol=
+id 1px #e7e7e7;">
+                                                        <table cellpadding=
+=3D"0" cellspacing=3D"0" border=3D"0" width=3D"100%">
+                                                            <tr>
+                                                                <td style=
+=3D"padding:15px 20px 15px 20px;color:#777;font-family:Roboto,Arial,sans-se=
+rif;font-size:13px;line-height:20px;">If you have any questions, please ema=
+il to our friendly customer support team on <a href=3D"mailto:us.sulekha&#6=
+4;sulekha.com" style=3D"font-family:Roboto, Arial, Helvetica, sans-serif;fo=
+nt-size:14px;color:#30A4EA;text-decoration:none;">us.sulekha&#64;sulekha.co=
+m</a> or call us &#64; <a style=3D"font-family:Arial,sans-serif;font-size:1=
+4px;color:#30A4EA;text-decoration:none;" href=3D"tel:1-512-788-5300" style=
+=3D"color:#333;">1-512-788-5300</a> (Mon to Fri - 11am to 8pm =E2=80=93 EST=
+) and we'll be happy to help you.</td>
+                                                            </tr>
+                                                        </table>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style=3D"padding:5px;background-color:#e4e4=
+e4;">
+                                <p style=3D"color:#666;font-family:Roboto,A=
+rial,sans-serif;font-size:12px;line-height:18px;margin:10px;text-align:cent=
+er;">&#169; 2025 Copyright Sulekha.com | <a href=3D"https://trkt.aclmails.i=
+n/v1/r/d1dGbtFK4AkxeaZ%2FUB81HiGnIfIB3VHpzoEtxNEvReo7%2BDse6B5m3FowMTiRKzaT=
+rPWr8XudGXAAi3yzML09Pd5nljsvdwNApuMIocn6itD4p5tawvIDLiQ6Xpf6och6ZAA3DlbRQ2H=
+BaeIaFIn%2BLY%2FJ6CygkmI8fbHrcfgWTh7tWZc%2BQ1x4bAB4LgHHGUl3wBCcRFtfElg6lxXP=
+wp%2F0tQzCAkzOrBcuhOcw%2FnxPjtJW3r1nmS2klGForDSK0rMvzjB7TYWKClSweGZR" targe=
+t=3D"_blank" style=3D"color:#30A4EA;font-weight: normal;text-decoration: no=
+ne;">Privacy Policy</a> | <a href=3D"https://trkt.aclmails.in/v1/r/bHxvev3o=
+gY1ZyFMk0aSKVpEiwdPKbxfbUOkyfU%2B3H92hAslt%2Bnx2e0UOWSpoWiMQgWN4d6PBdsV4AZe=
+EBVeAoi%2F9cWwHyTU%2B4BQKuvgOigh3DBaWUtuZac%2F62jNdyB%2BEBWMafrfk9iMtuqQDZr=
+hwMUrIN71fkbDPQsku1NGNWKRez%2BUhKmWSlygwn9E%2FBLKl4c6A6Xqm9z32FBfePHLhOB3Kt=
+6rKCIkLznPaR0q5eLLiCDjavMMHB4slK%2F3Mrvy3CsLAEg%3D%3D" style=3D"color:#30A4=
+EA;font-weight: normal;text-decoration: none;" target=3D"_blank">Terms & Co=
+nditions</a> | All Rights Reserved </p>
+                            </td>
+                        </tr>
+                    </table>
+                </center>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
+<img src=3D"https://trkt.aclmails.in/v1/w/WlJicXPRNVmwB6GNwxxgcI9e0%2Ft5CTs=
+CyONyYqK8HL9KQrrFmhbNVy9Cw4rOxIi66Z3abfWr0H7bYEz41cHChcMsSs9s9TtgKI2v36%2Bh=
+404kF%2BZSj8S0vSAjbhrz2btL5cKiPYrNZTq4BiqOGP6ZvyQpopFqqfknvn2lAtiw3uRCdbPUM=
+9gO0DX6S32PMv9mj23kxSAaFNmAq6B5nqU1RA%3D%3D"  width=3D"1" height=3D"1" bord=
+er=3D"0">
+--3758ee492ebe8b18e396efd7530119184f03dcc5a3bde78598562d49cea3--

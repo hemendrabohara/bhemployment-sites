@@ -1,0 +1,117 @@
+Return-Path: <samilan533@gmail.com>
+Delivered-To: info+spam@bhemployment.com
+Received: from server019.our-control-panel.com
+	by server019.our-control-panel.com with LMTP
+	id PVp7L3F6Y2oX9igAaDcOIg
+	(envelope-from <samilan533@gmail.com>)
+	for <info+spam@bhemployment.com>; Fri, 24 Jul 2026 20:30:05 +0545
+Return-path: <samilan533@gmail.com>
+Envelope-to: info@bhemployment.com
+Delivery-date: Fri, 24 Jul 2026 20:30:05 +0545
+Received: from mail-oi1-f198.google.com ([209.85.167.198]:46308)
+	by server019.our-control-panel.com with esmtps  (TLS1.3) tls TLS_AES_128_GCM_SHA256
+	(Exim 4.99.4)
+	(envelope-from <samilan533@gmail.com>)
+	id 1wnH96-0000000BFtb-1sOJ
+	for info@bhemployment.com;
+	Fri, 24 Jul 2026 20:30:05 +0545
+Received: by mail-oi1-f198.google.com with SMTP id 5614622812f47-48e5de5a23cso213068b6e.0
+        for <info@bhemployment.com>; Fri, 24 Jul 2026 07:44:43 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20251104; t=1784904262; x=1785509062; darn=bhemployment.com;
+        h=content-type:to:from:subject:date:message-id:mime-version:from:to
+         :cc:subject:date:message-id:reply-to:content-type;
+        bh=DMsejQy6cwV+pGQZKJXBVeSHE2xTg5FYlfcJni7LVaI=;
+        b=AhyS1u1g8lSWgQKZI6HWXe5ctA2AkVgn3xuF1vuHZ2lIK17Rh+khqNEfTopcjXdh/U
+         YwldrobUwoTAxn64owgvAim6CCDt0c8D7v71i1n9OdO6nqvYjz8DRflNtoFvImg9DwS0
+         6uRchseCWXga43gAISxtVL289HdH2h/WKcltNWbS6RlnL07bYfWrygYNwwdMDZsZ4Pad
+         aK7wrcM/AqFt9X+hJijnIqvOKO7fODjVQWbcRoSOxQjC+ZG2L4GWB0o4tRz3Zjjfp5dN
+         keESoBGTHfi3BzuADZ5EqtUrH+mhJhQmELhnLRVgts1LhZvhYYJ5oBNaQcOewJ51sx5a
+         hN6g==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20251104; t=1784904262; x=1785509062;
+        h=content-type:to:from:subject:date:message-id:mime-version
+         :x-gm-message-state:from:to:cc:subject:date:message-id:reply-to
+         :content-type;
+        bh=DMsejQy6cwV+pGQZKJXBVeSHE2xTg5FYlfcJni7LVaI=;
+        b=ZQJkjXtdfg7Lb15WT4DaQwBzUEfYxdbpb8ioLSwreeMrV9XR1V59dvfP8YLJPoZvTM
+         i1qG/c6d3X6Lwt9t5EhXx0jdVlx9YFvyR1Vp3fww/qN/SaCDGwE2y5ZSz+wU9O1W/jhO
+         cJbt1sJ6YQ7VNR+mZjFzbGF+5UFj5epcygbuyQe6ypBb2Y7EcdcGZSbp9Igy3j8Dbq/j
+         N7Hafbg5rHO0HHpqHarjZ41biMEoCjQPTnROM2qY6N+1uqJeZtk0+n+6Ml/0Qrf0ggEJ
+         bfBYAYJswBhnijzSX9gg1Xjz333jksraLhl6gYb2j9kxvasX2Ndw1emJJA0X20eIXclI
+         mpaA==
+X-Gm-Message-State: AOJu0YzRF+xSm1eB62ZDPaYxHfwz/N9fvsOPACIbPUC+LIXoF9sx9m0A
+	doTIGFyRIq0MwNbulYIQstDojcmbSMbmLZMk0XGnxgFt0Zn3b0hzQlZYe0zfQfuagivldSq8UAs
+	SwNQ/Qg==
+MIME-Version: 1.0
+X-Received: by 2002:a05:6808:1b12:b0:4a3:58a6:8a5e with SMTP id
+ 5614622812f47-4ab35408824mr3973264b6e.26.1784904261898; Fri, 24 Jul 2026
+ 07:44:21 -0700 (PDT)
+Message-ID: <autogen-java-3f922891-c0e0-42b7-93f2-1b4de94988b4@google.com>
+Date: Fri, 24 Jul 2026 14:44:21 +0000
+From: samilan533@gmail.com
+To: info@bhemployment.com
+Content-Type: multipart/alternative; boundary="0000000000007d175c06575c681e"
+X-Spam-Status: Yes, score=6.1
+X-Spam-Score: 61
+X-Spam-Bar: ++++++
+X-Spam-Report: Spam detection software, running on the system "server019.our-control-panel.com",
+ has identified this incoming email as possible spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Have lovely day! I found your details on Google and I have
+    looked at your website! I would like to send you a Quote of your business
+    website! 
+ Content analysis details:   (6.1 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 RCVD_IN_DNSWL_BLOCKED  RBL: ADMINISTRATOR NOTICE: The query to DNSWL
+                             was blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#DnsBlocklists-dnsbl-block
+                              for more information.
+                             [209.85.167.198 listed in list.dnswl.org]
+  0.0 RCVD_IN_MSPIKE_H2      RBL: Average reputation (+2)
+                             [209.85.167.198 listed in wl.mailspike.net]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from author's
+                             domain
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily valid
+  1.0 FREEMAIL_ENVFROM_END_DIGIT Envelope-from freemail username ends in
+                             digit
+                             [samilan533(at)gmail.com]
+  0.0 FREEMAIL_FROM          Sender email is commonly abused enduser mail provider
+                             [samilan533(at)gmail.com]
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  4.5 KAM_SEO2               Spammers hawking SEO
+  0.8 GB_FREEMAIL_NUM        Freemail spammy address
+X-Spam-Flag: YES
+Subject:  ***SPAM***  Portfolio 
+
+--0000000000007d175c06575c681e
+Content-Type: text/plain; charset="UTF-8"; format=flowed; delsp=yes
+
+Have lovely day!
+
+I found your details on Google and I have looked at your website!
+
+I would like to send you a Quote of your business website!
+
+You can get your website on the 1st page of GOOGLE!
+
+Can I send you a portfolio and price?
+
+Thanks,
+
+--0000000000007d175c06575c681e
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+Have lovely day!<br> <br>I found your details on Google and I have looked a=
+t your website!<br> <br>I would like to send you a Quote of your business w=
+ebsite!<br> <br>You can get your website on the 1st page of GOOGLE!<br> <br=
+>Can I send you a portfolio and price?<br> <br>Thanks,<br>
+--0000000000007d175c06575c681e--

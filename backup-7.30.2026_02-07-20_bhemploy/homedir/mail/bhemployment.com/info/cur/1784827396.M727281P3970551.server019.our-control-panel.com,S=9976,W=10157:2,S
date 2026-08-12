@@ -1,0 +1,181 @@
+Return-Path: <smdc80@gmail.com>
+Delivered-To: info@bhemployment.com
+Received: from server019.our-control-panel.com
+	by server019.our-control-panel.com with LMTP
+	id URsAKgROYmr3lTwAaDcOIg
+	(envelope-from <smdc80@gmail.com>)
+	for <info@bhemployment.com>; Thu, 23 Jul 2026 23:08:16 +0545
+Return-path: <smdc80@gmail.com>
+Envelope-to: info@bhemployment.com
+Delivery-date: Thu, 23 Jul 2026 23:08:16 +0545
+Received: from mail-pj1-f42.google.com ([209.85.216.42]:55437)
+	by server019.our-control-panel.com with esmtps  (TLS1.3) tls TLS_AES_128_GCM_SHA256
+	(Exim 4.99.4)
+	(envelope-from <smdc80@gmail.com>)
+	id 1wmx8e-0000000GeR1-3yZX
+	for info@bhemployment.com;
+	Thu, 23 Jul 2026 23:08:16 +0545
+Received: by mail-pj1-f42.google.com with SMTP id 98e67ed59e1d1-381c51fde6bso993461a91.2
+        for <info@bhemployment.com>; Thu, 23 Jul 2026 10:22:54 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1784827352; cv=none;
+        d=google.com; s=arc-20260327;
+        b=RNA8dI8ztHVgcjtzHRIq9lUTa7H9v/g+2CohKZkhO+FASF+0yWGGBnnxJUYowyIPhW
+         Gd37WGMYWjWCdH7nU7WPgcGGQIzSQM85SADhl6HG/0oeaba4kMvtEcWrWWJ7B8Fn+Opk
+         QjgIdUm5BTnNwVJSiInPM1WmnlZX7EqzBETsQWna7jjEjdZOhdGoBR7RpTdYQobRucV8
+         ILTBo/6GwI7hdgNq8QjhzSMGMkMDcQHd3Q/FqLZnyuM6vNxHaM99oZBDoaoheUdQ9ZV3
+         zcSMw4iRkDEqIfSbdoHb/w8hHpFUoOpBbBlG5zBRIJFLk6sHukqHvphkYx+y4c3kyIVU
+         3MQw==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20260327;
+        h=to:subject:message-id:date:from:mime-version:dkim-signature;
+        bh=29DMln35T9LESB9/8DIIipO21G1TMj5ArPD/tWF6ryo=;
+        fh=X3gXPMPQ6Bn3lXKtRXnlX+rX5SIw07GipyuCWX+ZRU0=;
+        b=mr969zLWz83RQC6H6II438UyhXEZQndn+z6AZkkB4mky0mwkxRk9PPnxldoOb+M3vj
+         uByedO79fB7wVz5vXxO2QEb+ux8CTiABV0Xkf1PVG0V/CrDFQKD/tNLQHR009p1GL2Nl
+         BoPdkYy9MoYYXca5IJ05KjgdI86M0k3BXr/WEYuvlI2WAhTWs+OXzrDj53I5KUvPjzEf
+         lJZ1yHSHD8+GVgM1XdXZHfqdTwco7D9aVdaMXatJpUwbuXmfCuvNElsl/e2GUB+uhI6X
+         NPYYIiC6wnFeB5IG1iyIVq6w+8qTZXfj0S8bnx9d9S90coDVsYxVI0v4MpwzmcF5QsmY
+         xW/A==;
+        darn=bhemployment.com
+ARC-Authentication-Results: i=1; mx.google.com; arc=none
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20251104; t=1784827352; x=1785432152; darn=bhemployment.com;
+        h=content-type:to:subject:message-id:date:from:mime-version:from:to
+         :cc:subject:date:message-id:reply-to:content-type;
+        bh=29DMln35T9LESB9/8DIIipO21G1TMj5ArPD/tWF6ryo=;
+        b=cR31ch/sfvMIxKa5h7HU8TAEp0fAxyDnegn+tPbn2+McAeh/u+PHL1rOVysdHYP7I9
+         oYhIetyOs2Z0Qk/ZGqv/V7jsxHeDdt/gzAySiXu92R+RqVH6IW2jEKYd3FirTX5sc7hR
+         dig2em4sIwGaFz+j1pYvDVeMG8pUlvSl2RVOBPnQoA1xQHXWS43h//lz6jFy0XhDVUlK
+         n3Qd18x8o4SPlMO1fswvAmoIzYYFbpt647/B95a36Hb8QSwI4/mvAn+O2tmYdhNpQbvr
+         riDEr7jJ5AVABMfZ7s4TQFvh481sKcXwOv3S7gBbo033reAvmFezj2nmvN2FjTGJNhfk
+         1wDg==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20251104; t=1784827352; x=1785432152;
+        h=content-type:to:subject:message-id:date:from:mime-version:x-gm-gg
+         :x-gm-message-state:from:to:cc:subject:date:message-id:reply-to
+         :content-type;
+        bh=29DMln35T9LESB9/8DIIipO21G1TMj5ArPD/tWF6ryo=;
+        b=O3qoxLSFmbWOYRZcdewllMteqswLC756RGmbMZUpNE6CA+C7rGPKFmu9DFJ7NlaFws
+         C2H53rShDJrWxdeGGZa+whQYqDjbG3ZZX7eCVF827DmtUdWNpISOJAD2Imelo0aFQnho
+         rLFOAUtSSe8EzUJJr1Hmi4GxqWkC5ix8Bpmh3jCnXOgAiwa/UHMVeW9cN39hAsUYEjmW
+         AWNNdcPZGqK4VVsd1+BdcVmZvew3BCPAIV4YAPa8dzRkYV844ZHmgz5EmBrPhgcwsA4Q
+         BRjV+Zlk5kR71OGK5Vx60K5QgsfdmnnGYaYtgtN4vJaUG9lIgGSLJoLVPxLEPXToZdwJ
+         SARQ==
+X-Gm-Message-State: AOJu0Yy1KXyu/SwkDiJNijcIFI7YwUbBsceoDq46xgCE5UHUSWQJPs8X
+	nZz845D2WbCVx6A+OzJzECh/r8neMZhv3aOopH5+XuTaS74voUot5P36qsIJgutzPrfGE8J2Lyz
+	Y9Qs6c1Z4hR46jYzZMhTFfKlskWcv9UWHqoMa
+X-Gm-Gg: AR+sD13PoGjW1aY9rl4A1zo1VwYUN6pfUnrKQKsj8JzFCB3FiakdkuBWvYqVLe4Onxj
+	AImxxeVlkFMeSzOGwpu5pGHMBVmmKYzRmFAFm2lhO66Q4GXxMJtAii5zswXd2nXjlQZDtQvaC1h
+	LkEWCAVsgwUOqs4Xxl7D5GKMT83Tt+0L6EpbMJRLQ2z/BhRnxkqwKnjAqHfdmYJcSxWh80I7bVr
+	PxH+FMbGIJx8CvYMKgkk5PkVahAaTTtkYtpzJTfbtX5FfpA/q4zibUf++aALDRQR71uFJ1u2eTZ
+	dNdx7puZw05yJ9Y2AGev
+X-Received: by 2002:a17:90b:4a4e:b0:38d:f710:63f0 with SMTP id
+ 98e67ed59e1d1-38ec6610c82mr3573123a91.43.1784827352299; Thu, 23 Jul 2026
+ 10:22:32 -0700 (PDT)
+MIME-Version: 1.0
+From: sandra milena Duque <smdc80@gmail.com>
+Date: Thu, 23 Jul 2026 13:22:19 -0400
+X-Gm-Features: AUfX_mxWvMGR4U0VP7fMYg_WibpTCfNrL3VljlZALfVnYunISLvNyHOjN9jOUsM
+Message-ID: <CACSVc70wuzyzpTdm_EJskaTuA_uMTJRA7SmH2mhuWLYgubndzg@mail.gmail.com>
+Subject: Nanny position
+To: info@bhemployment.com
+Content-Type: multipart/alternative; boundary="00000000000051bcad06574a802c"
+X-Spam-Status: No, score=0.8
+X-Spam-Score: 8
+X-Spam-Bar: /
+X-Ham-Report: Spam detection software, running on the system "server019.our-control-panel.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Dear Hiring Manager, My name is Sandra Duque, and I am writing
+    to express my interest in any nanny positions you may have available. I have
+    over 10 years of experience providing loving, dependable childcare for children
+    of different ages. I am passionate about creating a safe, nurturing, and
+   engaging environment where children can [...] 
+ Content analysis details:   (0.8 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 RCVD_IN_DNSWL_BLOCKED  RBL: ADMINISTRATOR NOTICE: The query to DNSWL
+                             was blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#DnsBlocklists-dnsbl-block
+                              for more information.
+                             [209.85.216.42 listed in list.dnswl.org]
+ -0.0 RCVD_IN_MSPIKE_H3      RBL: Good reputation (+3)
+                             [209.85.216.42 listed in wl.mailspike.net]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily valid
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from author's
+                             domain
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+ -0.0 RCVD_IN_MSPIKE_WL      Mailspike good senders
+  1.0 FREEMAIL_ENVFROM_END_DIGIT Envelope-from freemail username ends in
+                             digit
+                             [smdc80(at)gmail.com]
+  0.0 FREEMAIL_FROM          Sender email is commonly abused enduser mail provider
+                             [smdc80(at)gmail.com]
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+X-Spam-Flag: NO
+
+--00000000000051bcad06574a802c
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+Dear Hiring Manager,
+
+My name is Sandra Duque, and I am writing to express my interest in any
+nanny positions you may have available.
+
+I have over 10 years of experience providing loving, dependable childcare
+for children of different ages. I am passionate about creating a safe,
+nurturing, and engaging environment where children can learn, grow, and
+feel supported. Families know me as a responsible, patient, trustworthy,
+and organized caregiver who is dedicated to each child=E2=80=99s well-being=
+.
+
+I am seeking a full-time or part-time nanny position in New York, Long
+Island, or the surrounding areas. I am available to start immediately and
+have flexible availability. I am fluent in both English and Spanish.
+
+Please find my resume attached for your review. I would greatly appreciate
+the opportunity to discuss how my experience can benefit your family or
+clients.
+
+Thank you for your time and consideration. I look forward to hearing from
+you.
+
+Sincerely,
+
+Sandra Duque
+Phone: +1 (929) 341-5892
+
+--00000000000051bcad06574a802c
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div><div style=3D"font-size:inherit">Dear Hiring Manager,<br style=3D"font=
+-size:inherit"><br style=3D"font-size:inherit">My name is Sandra Duque, and=
+ I am writing to express my interest in any nanny positions you may have av=
+ailable.<br style=3D"font-size:inherit"><br style=3D"font-size:inherit">I h=
+ave over 10 years of experience providing loving, dependable childcare for =
+children of different ages. I am passionate about creating a safe, nurturin=
+g, and engaging environment where children can learn, grow, and feel suppor=
+ted. Families know me as a responsible, patient, trustworthy, and organized=
+ caregiver who is dedicated to each child=E2=80=99s well-being.<br style=3D=
+"font-size:inherit"><br style=3D"font-size:inherit">I am seeking a full-tim=
+e or part-time nanny position in New York, Long Island, or the surrounding =
+areas. I am available to start immediately and have flexible availability. =
+I am fluent in both English and Spanish.<br style=3D"font-size:inherit"><br=
+ style=3D"font-size:inherit">Please find my resume attached for your review=
+. I would greatly appreciate the opportunity to discuss how my experience c=
+an benefit your family or clients.<br style=3D"font-size:inherit"><br style=
+=3D"font-size:inherit">Thank you for your time and consideration. I look fo=
+rward to hearing from you.<br style=3D"font-size:inherit"><br style=3D"font=
+-size:inherit">Sincerely,<br style=3D"font-size:inherit"><br style=3D"font-=
+size:inherit">Sandra Duque<br style=3D"font-size:inherit">Phone: +1 (929) 3=
+41-5892</div><br clear=3D"all"><br clear=3D"all"><div><div dir=3D"ltr" clas=
+s=3D"gmail_signature" data-smartmail=3D"gmail_signature"><div dir=3D"ltr"><=
+br><br><br></div></div></div></div>
+
+--00000000000051bcad06574a802c--

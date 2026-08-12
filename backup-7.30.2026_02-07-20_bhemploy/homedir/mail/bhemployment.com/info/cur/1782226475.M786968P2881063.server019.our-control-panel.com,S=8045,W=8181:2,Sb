@@ -1,0 +1,136 @@
+Return-Path: <andrei.antunes@acad.ufsm.br>
+Delivered-To: info@bhemployment.com
+Received: from server019.our-control-panel.com
+	by server019.our-control-panel.com with LMTP
+	id 6tzRLSueOmon9isAaDcOIg
+	(envelope-from <andrei.antunes@acad.ufsm.br>)
+	for <info@bhemployment.com>; Tue, 23 Jun 2026 20:39:35 +0545
+Return-path: <andrei.antunes@acad.ufsm.br>
+Envelope-to: info@bhemployment.com
+Delivery-date: Tue, 23 Jun 2026 20:39:35 +0545
+Received: from mail-wm1-f54.google.com ([209.85.128.54]:45272)
+	by server019.our-control-panel.com with esmtps  (TLS1.3) tls TLS_AES_128_GCM_SHA256
+	(Exim 4.99.4)
+	(envelope-from <andrei.antunes@acad.ufsm.br>)
+	id 1wc2WG-0000000C5I6-3djS
+	for info@bhemployment.com;
+	Tue, 23 Jun 2026 20:39:35 +0545
+Received: by mail-wm1-f54.google.com with SMTP id 5b1f17b1804b1-49249707788so25303875e9.2
+        for <info@bhemployment.com>; Tue, 23 Jun 2026 07:54:12 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=acad.ufsm.br; s=google; t=1782226432; x=1782831232; darn=bhemployment.com;
+        h=subject:to:from:mime-version:date:message-id:from:to:cc:subject
+         :date:message-id:reply-to;
+        bh=iixbeW2J/Eb5As6hUBld1u6qlDTsnwjr1i5XwJdZVeE=;
+        b=xPs0rSoBFbVJJ2EaKzWt4PiJzEF23QUqlwuYX64WtFHSbUijtTWggcT4jdHGWcImJU
+         flOwjWDuE56btTCMx/9zEVIV4CQGJYUbwNU2Y1FXJjubyQ/5AVOfKN+Iha7IIeELFVdw
+         erKqRDYxXac9ppuUbDjQSVEiE/vO1gCbihb2FthEYgqttMFWpU8vQFOLjqrpA9oHk9JO
+         o1XQEcRbotiwD2Ni/8HEVa/IsfDBcnpxrijllxg9jclpzRBL5lWogamn3O5IvBF0d5UQ
+         vkm4H1pX95oUKQ2ZPcoVPHAgJngS5GOc5CwVwf6LcVgm14OE5Vnbt30PKqas0X4DCpqz
+         Y8Qg==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20251104; t=1782226432; x=1782831232;
+        h=subject:to:from:mime-version:date:message-id:x-gm-gg
+         :x-gm-message-state:from:to:cc:subject:date:message-id:reply-to;
+        bh=iixbeW2J/Eb5As6hUBld1u6qlDTsnwjr1i5XwJdZVeE=;
+        b=cI6coV/n5jTS8+E97XSG5gCOmk1yY0iPNpcLr/YL6TP6zAXr3hIPUKR0CkXZWQuvpf
+         WiSucLuNLbsU9eE2IFQ4HeOGxFuc+26T36Vlr6QXoTsqgHGKavmyC9dH+zxIK8j2Zr8N
+         hB/4nDGm8M5ZSpLRpS6RWWLLO746mzDIHUUnlrxmxVN13c4OGsCidwJ01U9HvLOBbni9
+         8qjMVN0RyRNj045A0aIC/iHMSW1MJnvkK3Jha9fWMMNErBeX6WIDL39uROEfMJDOWCct
+         9B2s0jepV6zHkYFXd2eLdklNL9QtUdgBzjWuf2xGuhXlcLsxMvpi5f2TycERqNsMn7rS
+         ZMeA==
+X-Gm-Message-State: AOJu0YwAHV5Nrmm164Zdb/j87oI/DCXtgwBdwDByhK+EWO8gAYoaeoS9
+	JpVsmId5d/vszsf1AowZK0xdJLtFdf6Fy8SYvQUTKhH758md4G32et09qKvDf7yFjyx+3wsRDIX
+	wNElXQVMsq8xjfbaJ9wtGP5DZz7EoqWBovMeKI8uU678DfhhtLJnLfp4msDDXyoVcJPk02imLAb
+	cOGpq4VhLYJkw42KGeEgmCGjusf6E5djf3UP4/nl+alSmHQsb2
+X-Gm-Gg: AfdE7cnuFtfhITvhanw84JlsBqKzf7Xe/mYfibrHi6VwDrveelp3MCK+tWYYkWh8ez9
+	37bLPviyKhO13Nr+Eo1sbZ+4h541kBbEYqlOY2UUVa1s10QpEkeT/iZPSpV36FHfUUxR9MWtVXt
+	t8rx1Y4/epw0HnIFH63dW91wm3zUmP1ldvDupqhSt1gsWz+zrdYtmR+3YmrFr7j/Q5x6zCxEpx+
+	SQt0CMGsGp+rB7Lof5WDv/0Ypcfk8VV2mguSqYL/clmvsEgYTZ6xdBezppnmfPUNkclGgkfhnZ2
+	EJd+E9F4QyhluwQR+vqj4aq341zikvjPfAKsGbRGmD/oGxJP+zWpXdiPOwQSvoBcaFPWGuNHAVR
+	ZQZ0b47ZiWkCPG8YnHVVBeAX7+idIb8inwPxPv2gdKCw5dE938v8/p2poV47X2dzvD951Nf01GC
+	Hxeah+8uEloWz48ZYKJSp+CNPe+KZD3PXFhODig7hoT6ZdfAp8E+g=
+X-Received: by 2002:a05:600c:81c5:b0:492:408b:86e9 with SMTP id 5b1f17b1804b1-492490b7e7fmr203997495e9.34.1782226431749;
+        Tue, 23 Jun 2026 07:53:51 -0700 (PDT)
+Received: from [172.28.0.20] ([43.157.122.165])
+        by smtp.gmail.com with ESMTPSA id 5b1f17b1804b1-4923fe7b359sm367086895e9.9.2026.06.23.07.53.50
+        for <info@bhemployment.com>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Tue, 23 Jun 2026 07:53:50 -0700 (PDT)
+Message-ID: <6a3a9dfe.a1b3dc3f.25278b.91c9@mx.google.com>
+Date: Tue, 23 Jun 2026 07:53:50 -0700 (PDT)
+Content-Type: multipart/mixed; boundary="===============3306423819991508016=="
+MIME-Version: 1.0
+From: Mohammad Shafiq Dircio <andrei.antunes@acad.ufsm.br>
+To: info@bhemployment.com
+Subject: Open PDF file for Order.pdf and file the receipt
+X-Spam-Status: No, score=-0.2
+X-Spam-Score: -1
+X-Spam-Bar: /
+X-Ham-Report: Spam detection software, running on the system "server019.our-control-panel.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Order successful, info. All details included. 23 June 2026-Service
+    Team Number: +1(812) 266-8754 
+ Content analysis details:   (-0.2 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 RCVD_IN_DNSWL_BLOCKED  RBL: ADMINISTRATOR NOTICE: The query to DNSWL
+                             was blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#DnsBlocklists-dnsbl-block
+                              for more information.
+                             [209.85.128.54 listed in list.dnswl.org]
+  0.0 RCVD_IN_MSPIKE_H2      RBL: Average reputation (+2)
+                             [209.85.128.54 listed in wl.mailspike.net]
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was blocked.
+                             See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URI: ufsm.br]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily valid
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from author's
+                             domain
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+X-Spam-Flag: NO
+
+--===============3306423819991508016==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+
+Order successful, info. All details included. 23 June 2026-Service Team Number: +1(812) 266-8754
+--===============3306423819991508016==
+Content-Type: application/pdf
+MIME-Version: 1.0
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="Open PDF file for Order_pdf and file the receipt.pdf"
+
+JVBERi0xLjQKMSAwIG9iago8PAovVGl0bGUgKP7/KQovQ3JlYXRvciAo/v8AdwBrAGgAdABtAGwA
+dABvAHAAZABmACAAMAAuADEAMgAuADYpCi9Qcm9kdWNlciAo/v8AUQB0ACAANAAuADgALgA3KQov
+Q3JlYXRpb25EYXRlIChEOjIwMjYwNjIzMjI1MzQ5KzA4JzAwJykKPj4KZW5kb2JqCjMgMCBvYmoK
+PDwKL1R5cGUgL0V4dEdTdGF0ZQovU0EgdHJ1ZQovU00gMC4wMgovY2EgMS4wCi9DQSAxLjAKL0FJ
+UyBmYWxzZQovU01hc2sgL05vbmU+PgplbmRvYmoKNCAwIG9iagpbL1BhdHRlcm4gL0RldmljZVJH
+Ql0KZW5kb2JqCjYgMCBvYmoKPDwKL1R5cGUgL0NhdGFsb2cKL1BhZ2VzIDIgMCBSCj4+CmVuZG9i
+ago1IDAgb2JqCjw8Ci9UeXBlIC9QYWdlCi9QYXJlbnQgMiAwIFIKL0NvbnRlbnRzIDcgMCBSCi9S
+ZXNvdXJjZXMgOSAwIFIKL0Fubm90cyAxMCAwIFIKL01lZGlhQm94IFswIDAgNTk1IDg0Ml0KPj4K
+ZW5kb2JqCjkgMCBvYmoKPDwKL0NvbG9yU3BhY2UgPDwKL1BDU3AgNCAwIFIKL0NTcCAvRGV2aWNl
+UkdCCi9DU3BnIC9EZXZpY2VHcmF5Cj4+Ci9FeHRHU3RhdGUgPDwKL0dTYSAzIDAgUgo+PgovUGF0
+dGVybiA8PAo+PgovRm9udCA8PAo+PgovWE9iamVjdCA8PAo+Pgo+PgplbmRvYmoKMTAgMCBvYmoK
+WyBdCmVuZG9iago3IDAgb2JqCjw8Ci9MZW5ndGggOCAwIFIKL0ZpbHRlciAvRmxhdGVEZWNvZGUK
+Pj4Kc3RyZWFtCnic03cPTlRIL1bQdw4uUEiG0s7BXAZ65qYGEKAAgrrIAkYWelC2goWhMZStkJzL
+VahQyBXIFQgkYTRIby6XuaG5HkiNoSmQm4PMNTQwMdMzszS0tACKG6BzQYozuMK1FPK4kAxWCOQC
+ABQNJg4KZW5kc3RyZWFtCmVuZG9iago4IDAgb2JqCjEwOQplbmRvYmoKMiAwIG9iago8PAovVHlw
+ZSAvUGFnZXMKL0tpZHMgClsKNSAwIFIKXQovQ291bnQgMQovUHJvY1NldCBbL1BERiAvVGV4dCAv
+SW1hZ2VCIC9JbWFnZUNdCj4+CmVuZG9iagp4cmVmCjAgMTEKMDAwMDAwMDAwMCA2NTUzNSBmIAow
+MDAwMDAwMDA5IDAwMDAwIG4gCjAwMDAwMDA4NDAgMDAwMDAgbiAKMDAwMDAwMDE2MyAwMDAwMCBu
+IAowMDAwMDAwMjU4IDAwMDAwIG4gCjAwMDAwMDAzNDQgMDAwMDAgbiAKMDAwMDAwMDI5NSAwMDAw
+MCBuIAowMDAwMDAwNjM4IDAwMDAwIG4gCjAwMDAwMDA4MjEgMDAwMDAgbiAKMDAwMDAwMDQ2MyAw
+MDAwMCBuIAowMDAwMDAwNjE4IDAwMDAwIG4gCnRyYWlsZXIKPDwKL1NpemUgMTEKL0luZm8gMSAw
+IFIKL1Jvb3QgNiAwIFIKPj4Kc3RhcnR4cmVmCjkzOAolJUVPRgo=
+
+--===============3306423819991508016==--

@@ -1,0 +1,99 @@
+Return-Path: <naazyabi2@gmail.com>
+Delivered-To: info@bhemployment.com
+Received: from server019.our-control-panel.com
+	by server019.our-control-panel.com with LMTP
+	id NPlGISQAQWpo1QsAaDcOIg
+	(envelope-from <naazyabi2@gmail.com>)
+	for <info@bhemployment.com>; Sun, 28 Jun 2026 16:51:12 +0545
+Return-path: <naazyabi2@gmail.com>
+Envelope-to: info@bhemployment.com
+Delivery-date: Sun, 28 Jun 2026 16:51:12 +0545
+Received: from mail-yw1-f200.google.com ([209.85.128.200]:56368)
+	by server019.our-control-panel.com with esmtps  (TLS1.3) tls TLS_AES_128_GCM_SHA256
+	(Exim 4.99.4)
+	(envelope-from <naazyabi2@gmail.com>)
+	id 1wdnL0-00000003FaA-34pW
+	for info@bhemployment.com;
+	Sun, 28 Jun 2026 16:51:12 +0545
+Received: by mail-yw1-f200.google.com with SMTP id 00721157ae682-7ebbaaf1679so46320777b3.0
+        for <info@bhemployment.com>; Sun, 28 Jun 2026 04:05:50 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20251104; t=1782644729; x=1783249529; darn=bhemployment.com;
+        h=to:from:subject:date:message-id:mime-version:from:to:cc:subject
+         :date:message-id:reply-to;
+        bh=JAmzUt9rPLeEgjfyjdLjJCiMydZNw85a8CM4fErXWms=;
+        b=eW4YFYflzBa3h5ADNnaBL3fXDrGwQkNpSOFDPgnVGp17A5guWybVqFFrn58XBCvOXH
+         RzOYoBUvCZTi7SwhBCovk6Q4Oz46jYaSfIETtJqhxCZfa0hFddPho1s6BQKKazMqhhOi
+         zAiiLK0AWhZyyOIwm144iQJCO5iYKjF1ZbPbDswuNouX0Ddp4ko9lIUnpv8vPbw+He6W
+         VHCaytlyairdiqTCq8+zwoER6crb0PtsUPWSobvBiJUBqs4W8+F4uEE6PJWucc/s1u79
+         JtYZjHLtySpxeQI8iXl1UiepuYc9zgQIEL1hQH+wsJk9yZgAVM8Grf9GBV0Z+SMWSkb0
+         i3Ig==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20251104; t=1782644729; x=1783249529;
+        h=to:from:subject:date:message-id:mime-version:x-gm-message-state
+         :from:to:cc:subject:date:message-id:reply-to;
+        bh=JAmzUt9rPLeEgjfyjdLjJCiMydZNw85a8CM4fErXWms=;
+        b=s76vvO4pW2JWU8w+2GrlirEWueDd9npNMpaN/+LdsMZ5ZI4ot7+4Sndf7LLqUA/Yob
+         C8yvvt3YvTAfnwclwRyVygR/Y59u/l8KFDfEz/yAbUyK+1GX6W4niWqPVgMA1Sc0Y3Ks
+         Ab+Omod8ICrOGoPBI2GNx36pUCLn9+8qkK8NCgL8fpi9NRB/tH9W8msayZnBtqZzHDCU
+         AuM6v+P7lgOJVcssjEO2KNN2GqEB1FydCn+XFBIs2VUzAnjpOckMXNQotGO5ukYBDJnx
+         E7xC8K3bs0x6rdUn1zhxPQoCynkyKu6TCBP6FvM3HlwHN4EKgYfETj451JKImETjk3An
+         lwjQ==
+X-Gm-Message-State: AOJu0YzB3d0sj8uE7HYKfri7eGj0dQkBkhP3v+ZIm1NQWaEFZSUnI0uq
+	tUO9doUb7CKVynI/yc0DKsQAGcYEfLZlU3q1/3Y+HpJIP+HFP3NUU8vZFMhclz+1f4OBi+wmc5w
+	hr1M=
+MIME-Version: 1.0
+X-Received: by 2002:a05:690c:9b09:b0:7bd:7c16:1711 with SMTP id
+ 00721157ae682-80a6af8a195mr137751647b3.22.1782644729469; Sun, 28 Jun 2026
+ 04:05:29 -0700 (PDT)
+Message-ID: <autogen-java-524ece27-9987-4a0a-9e97-163b58112fd2@google.com>
+Date: Sun, 28 Jun 2026 11:05:29 +0000
+Subject: Good Morning 
+From: naazyabi2@gmail.com
+To: info@bhemployment.com
+Content-Type: multipart/alternative; boundary="000000000000dc607006554e51de"
+X-Spam-Status: No, score=0.8
+X-Spam-Score: 8
+X-Spam-Bar: /
+X-Ham-Report: Spam detection software, running on the system "server019.our-control-panel.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Good Morning Good Morning 
+ Content analysis details:   (0.8 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 RCVD_IN_DNSWL_BLOCKED  RBL: ADMINISTRATOR NOTICE: The query to DNSWL
+                             was blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#DnsBlocklists-dnsbl-block
+                              for more information.
+                             [209.85.128.200 listed in list.dnswl.org]
+  0.0 RCVD_IN_MSPIKE_H2      RBL: Average reputation (+2)
+                             [209.85.128.200 listed in wl.mailspike.net]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily valid
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from author's
+                             domain
+  0.0 FREEMAIL_FROM          Sender email is commonly abused enduser mail provider
+                             [naazyabi2(at)gmail.com]
+  1.0 FREEMAIL_ENVFROM_END_DIGIT Envelope-from freemail username ends in
+                             digit
+                             [naazyabi2(at)gmail.com]
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  0.0 TVD_SPACE_RATIO        No description available.
+X-Spam-Flag: NO
+
+--000000000000dc607006554e51de
+Content-Type: text/plain; charset="UTF-8"; format=flowed; delsp=yes
+
+Good Morning
+
+--000000000000dc607006554e51de
+Content-Type: text/html; charset="UTF-8"
+
+Good Morning
+--000000000000dc607006554e51de--

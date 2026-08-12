@@ -1,0 +1,18 @@
+---
+documentroot: /home/bhemploy/public_html
+group: bhemploy
+hascgi: 1
+homedir: /home/bhemploy
+ip: 136.243.117.33
+ipv6: ~
+owner: cheapestprotozoa
+phpopenbasedirprotect: ~
+port: 443
+secruleengineoff: ~
+serveradmin: webmaster@bhemployment.com
+serveralias: mail.bhemployment.com www.bhemployment.com
+servername: bhemployment.com
+ssl: 1
+usecanonicalname: 'Off'
+user: bhemploy
+userdirprotect: -1

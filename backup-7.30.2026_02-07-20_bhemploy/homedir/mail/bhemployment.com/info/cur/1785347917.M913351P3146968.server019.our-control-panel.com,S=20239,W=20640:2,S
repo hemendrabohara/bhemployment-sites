@@ -1,0 +1,401 @@
+Return-Path: <bh.jobagency@gmail.com>
+Delivered-To: info@bhemployment.com
+Received: from server019.our-control-panel.com
+	by server019.our-control-panel.com with LMTP
+	id M1M7Nk0/amrYBDAAaDcOIg
+	(envelope-from <bh.jobagency@gmail.com>)
+	for <info@bhemployment.com>; Wed, 29 Jul 2026 23:43:37 +0545
+Return-path: <bh.jobagency@gmail.com>
+Envelope-to: info@bhemployment.com
+Delivery-date: Wed, 29 Jul 2026 23:43:37 +0545
+Received: from mail-yx2-f3.google.com ([74.125.224.131]:41774)
+	by server019.our-control-panel.com with esmtps  (TLS1.3) tls TLS_AES_128_GCM_SHA256
+	(Exim 4.99.4)
+	(envelope-from <bh.jobagency@gmail.com>)
+	id 1wp8Y9-0000000DCPZ-1XsX
+	for info@bhemployment.com;
+	Wed, 29 Jul 2026 23:43:37 +0545
+Received: by mail-yx2-f3.google.com with SMTP id 00721157ae682-81e8f17ac11so3181407b3.0
+        for <info@bhemployment.com>; Wed, 29 Jul 2026 10:58:16 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1785347875; cv=none;
+        d=google.com; s=arc-20260327;
+        b=JaOy+0gDbIs41mWriuQBkH3wJFyP5QDEiicxVufH4KqG/wzZIjCU+GT8Qxpz9StYfE
+         AwTvrz33m1imVo98gdgO/rApDv37KodG7gjiAhoEos2/Eq05E3EebWrnCDBWSsvPf6yv
+         emqkyNH1f6aKhubAEO3FyX25olm3afD31rLxQP7MBlqnRTFKuzvVhuU1j5nFq2bu7NQP
+         vpjUbo68EFpIZ5JQdlZYEe7lTsJH3z+OTnDxsLJRLuQla/usjZ3cTRfj0lDpkLwHMFm6
+         /lwNw5jDV5UNesqu8EeoprE6r83r0IeFL3NAs/d85EbqBtNlvtl1Bu0D16n0VWWsh+eI
+         OnZA==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20260327;
+        h=cc:to:subject:message-id:date:from:in-reply-to:references
+         :mime-version:dkim-signature;
+        bh=dCXctv2U+zMoG6LjppwNIjU5RaCYFvdTG6eZlCVH1KE=;
+        fh=jWGxwyzLbXVyc0wa+s2GOS2SUeXoElVQQ6K3e+wJOTM=;
+        b=OfBm6z7wLg47aGMLGV7VUyxWKhZN4VG3Tutpe2FOaHrODHijD+SYOja4GWer6BD+X0
+         TzWU45h2l4eup0uYmKEP0ljS0o//fM/h5D/vX6y2r47RWcLUZrT9q1rXuxt4y+74Zo5x
+         F0rWqG7AgUsB2rurRx4P2LvAOI99vdmGdJZveqnB6D4AZz61nvHeDNCb1ajoW3pm0TJQ
+         tKJXDgAOcpJc9EWUQhrdojNd/YxbI8XcnEYjZWWaX7BFrtXJHrzWQD/S1+CI0WMagvBk
+         5yMYHsEsxfe9MUJc8Q1yvdCuaSnzuvM/NXIjm4zsI9I7124eWS5ouIJtJuQpa3oCTk0B
+         jiCQ==;
+        darn=bhemployment.com
+ARC-Authentication-Results: i=1; mx.google.com; arc=none
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20251104; t=1785347875; x=1785952675; darn=bhemployment.com;
+        h=content-type:cc:to:subject:message-id:date:from:in-reply-to
+         :references:mime-version:from:to:cc:subject:date:message-id:reply-to
+         :content-type;
+        bh=dCXctv2U+zMoG6LjppwNIjU5RaCYFvdTG6eZlCVH1KE=;
+        b=Sbkois6cHiAO4xNUC2BbN4hffKJu7bp/AVwlU1/D1KaMNpT29v6gbGnL2TfzMtDjVE
+         qN8ADxCfHCEHU8AjmHnoN++Z8VaBzIn18/LOYzEufjzgbwYu88Y1jr9xwelUhHd4EvSv
+         ZGdM+hcwZPD2IFcD7brZC0oNfM8UAeDP1RGFMHraxQH0WZKSqHCXCoWIzF5IXomW6q16
+         rlDD8qZzXyzt9TtjIFrPjcmdHf079zHXxmR6tE/WuFb+c7V9sGCksyiMgElnCMqwI0Cy
+         LKbiAmETzDkg5bVAFCdC9nk2vgArtnELmSxvxgjTTIPuY26nVO+0fqiRD1T4//teJgRA
+         META==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20251104; t=1785347875; x=1785952675;
+        h=content-type:cc:to:subject:message-id:date:from:in-reply-to
+         :references:mime-version:x-gm-gg:x-gm-message-state:from:to:cc
+         :subject:date:message-id:reply-to:content-type;
+        bh=dCXctv2U+zMoG6LjppwNIjU5RaCYFvdTG6eZlCVH1KE=;
+        b=lsho38P/g5W5asYmZEv4s7Rp88ZOkwYushNZuqHyyfIImeLgs46fnogOexttbtGDaX
+         ZTvVrjyQNpdUSLwk2mkS4Dhz3QtqvB0J46/mN8xkfgCmC8SpAn2SsyrKc0T34sWuzuam
+         qj+plmGHsmM9WaMVdmpA617W5Yccaa3H96TtRrNXYHXIK8VLrk0NbGL+UeIZ89LA0N7s
+         Xft2hya1CWiw5RafaDf/z41VjaQZ5C2dIalTCfUKxJbHF0WwQBWQQ4laJz+X6rguWZbl
+         W435x75m/N1FHTbyeLQZHvBiFrGYuL8Yln4xWH98SUThtGndlcL7Dx7CbNIjGOqEnn2o
+         H7cQ==
+X-Gm-Message-State: AOJu0Ywz5tO3n4dfWYC4MgbV4CUmtVx+bwI2aFBBlXpVA0nL6VD9DuIf
+	TNoWG/UF+QhjSTJ3oShdZ4kFupMosZ2g654/ixnnZnglfj0GuyjOv1/J24jvAVwG6ABGNJguAMJ
+	PMYcKMSb13Yw4+gg49ZoBFk2zGOLiktM=
+X-Gm-Gg: AR+sD12Urhgul2aQxcFnAB6x/zofBxTiqeTZXeK4T+F6GyGOuzC5g3ijoFZ5SsoNToo
+	yTPz6OmVvFj3hNbqFSiQZ/NLJ4NHkgw+lkz7qCGPzDSXz5iwP65t85py5TBjbBusudnE/zrPZDV
+	yXvzBnYEsdrjSG7CxMPjmNc0EE7pu7eI1tcjXFm70z/4PIelwnkwsBnJcnkSr5sMg1pzqFJ398C
+	kZGkSNk/I9tz7opi4J/5fVgMLV/jiYT4q6QAPjtx01Qsfp4zGvFJYBTz5wF0cL6DRrfpIaO5/6a
+	8kCyjrdZi3vaT4WkRhWUWEuOzhH3tgfF3ad2muUvlLw7PluQGJ9s5A9UIZcC5+D+qL3qE268dJC
+	WlEDoqT9zpYg=
+X-Received: by 2002:a05:690c:e526:b0:81f:a5c5:c4a3 with SMTP id
+ 00721157ae682-81fa5c5c668mr16426317b3.72.1785347875024; Wed, 29 Jul 2026
+ 10:57:55 -0700 (PDT)
+MIME-Version: 1.0
+References: <178517537201.24396.11090483448241868782@bhemployment.com>
+ <CAAuC0k+pEU1nhDwKzMPyy0U8tWmGaD31V2Bx=NbnWLRbWeBdHw@mail.gmail.com> <CAPDCcAd5pjhVuJPYd8k-1qqmkViZtzpbVP4Vp6C6hE+WyWGgOQ@mail.gmail.com>
+In-Reply-To: <CAPDCcAd5pjhVuJPYd8k-1qqmkViZtzpbVP4Vp6C6hE+WyWGgOQ@mail.gmail.com>
+From: "B&H Employment & Consultancy INC" <bh.jobagency@gmail.com>
+Date: Wed, 29 Jul 2026 13:57:44 -0400
+X-Gm-Features: AUfX_mz75yuAPXnaccuPe_ERYIQGN6ELQtpLLl5_DiUCn429OfEydqkH2NImQe4
+Message-ID: <CAM-dQ2a33FOhtjfNpWU8A-HCDw4fR1hf1=KYfqSjEF807iyp5g@mail.gmail.com>
+Subject: Re: Free Candidate Referrals (Nepali, Bhutanese, Tibetan & Hindi
+ Speaking) - B&H Employment
+To: Kristen Szapka <kristen@anannymatch.com>
+Cc: info@bhemployment.com, Info Info <info@anannymatch.com>
+Content-Type: multipart/alternative; boundary="000000000000e433480657c3b1af"
+X-Spam-Status: No, score=1.1
+X-Spam-Score: 11
+X-Spam-Bar: +
+X-Ham-Report: Spam detection software, running on the system "server019.our-control-panel.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Tuesday would be great! On Wed, Jul 29, 2026 at 1:54 PM Kristen
+    Szapka wrote: > Hi Bikas, > > Thank you for reaching out to us. I'd be happy
+    to speak with you. > > Is there a good time for you on Tuesday or Thursday
+    of next week between > around 1:00 - 3:00pm? > > *Warmly,* > > [...] 
+ Content analysis details:   (1.1 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  1.2 RCVD_IN_BL_SPAMCOP_NET RBL: Received via a relay in bl.spamcop.net
+              [Blocked - see <https://www.spamcop.net/bl.shtml?74.125.224.131>]
+  0.0 RCVD_IN_DNSWL_BLOCKED  RBL: ADMINISTRATOR NOTICE: The query to DNSWL
+                             was blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#DnsBlocklists-dnsbl-block
+                              for more information.
+                             [74.125.224.131 listed in list.dnswl.org]
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was blocked.
+                             See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URI: anannymatch.com]
+                             [URI: bhemployment.com]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from author's
+                             domain
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily valid
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+  0.0 FREEMAIL_FROM          Sender email is commonly abused enduser mail provider
+                             [bh.jobagency(at)gmail.com]
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  0.0 RCVD_IN_MSPIKE_H2      RBL: Average reputation (+2)
+                             [74.125.224.131 listed in wl.mailspike.net]
+X-Spam-Flag: NO
+
+--000000000000e433480657c3b1af
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+Tuesday would be great!
+
+On Wed, Jul 29, 2026 at 1:54=E2=80=AFPM Kristen Szapka <kristen@anannymatch=
+.com>
+wrote:
+
+> Hi Bikas,
+>
+> Thank you for reaching out to us. I'd be happy to speak with you.
+>
+> Is there a good time for you on Tuesday or Thursday of next week between
+> around 1:00 - 3:00pm?
+>
+> *Warmly,*
+>
+> Kristen Szapka
+> Founder & Owner
+> A Nanny Match
+>  + 1 917.703.2209
+> www.anannymatch.com
+>
+>
+>
+>
+> On Tue, Jul 28, 2026 at 11:45=E2=80=AFAM Info Info <info@anannymatch.com>=
+ wrote:
+>
+>>
+>> *Thank you,*
+>> *A Nanny Match Team*
+>>
+>> *A Nanny Match*
+>> New York, NY 10028
+>> T: 917.770.0142
+>> e: info@anannymatch.com
+>> www.anannymatch.com  <http://www.anannymatch.com/>
+>>
+>> Follow Us so We Can Connect With You!
+>> Instagram: https://www.instagram.com/a_nannymatch/
+>> Facebook: https://www.facebook.com/anannymatch/
+>> <https://www.facebook.com/anannymatch/>
+>> Twitter: https://twitter.com/aNannyMatch
+>>
+>>
+>> ---------- Forwarded message ---------
+>> From: B&H Employment & Consultancy Inc. <info@bhemployment.com>
+>> Date: Mon, Jul 27, 2026 at 2:02=E2=80=AFPM
+>> Subject: Free Candidate Referrals (Nepali, Bhutanese, Tibetan & Hindi
+>> Speaking) - B&H Employment
+>> To: <info@anannymatch.com>
+>>
+>>
+>> Hi Team,
+>>
+>> I noticed from your site that Premier Nanny Agency is actively working o=
+n
+>> household placements and nanny recruitment. I am reaching out to see if =
+we
+>> can support your active placement needs.
+>>
+>> My name is Bikas J Bohara, and I am the founder of B&H Employment &
+>> Consultancy Inc, based in Jackson Heights, New York.
+>>
+>> I am reaching out to offer something that costs your agency nothing.
+>>
+>> We are an employment agency specializing exclusively in Nepali,
+>> Bhutanese, Tibetan, and Hindi-speaking household workers. We charge our
+>> candidates a placement fee =E2=80=94 we do NOT charge any fee to employe=
+rs or
+>> agencies. Our candidates are available to your clients completely free o=
+f
+>> cost to you.
+>>
+>> If your agency ever has a client looking for:
+>> =E2=80=A2 A Nepali or Hindi-speaking nanny or babysitter
+>> =E2=80=A2 A live-in or live-out housekeeper
+>> =E2=80=A2 A home cook familiar with South Asian cuisine
+>> =E2=80=A2 A home cleaner
+>>
+>> =E2=80=94 we can refer a pre-screened, available candidate to you at no =
+charge.
+>>
+>> About our candidates:
+>> =E2=9C=94 Nepali, Bhutanese, Tibetan & Hindi-speaking
+>> =E2=9C=94 Speak Nepali, Hindi & basic conversational English
+>> =E2=9C=94 Available for live-in and live-out positions
+>> =E2=9C=94 Open to placements anywhere in the USA
+>> =E2=9C=94 Experienced in childcare, housekeeping, cooking & cleaning
+>> =E2=9C=94 Hardworking, reliable, and culturally attuned to South Asian h=
+ouseholds
+>>
+>> This is especially valuable if your clients include Indian, Nepali,
+>> Bangladeshi, or South Asian families who prefer a caregiver or housekeep=
+er
+>> who speaks their language and understands their culture.
+>>
+>> There is no cost, no contract, and no obligation =E2=80=94 just a simple=
+ referral
+>> whenever the right need arises.
+>>
+>> I would love to connect briefly and share more about the candidates we
+>> have available right now.
+>>
+>> Please feel free to reach me at:
+>> =F0=9F=93=9E (929) 385-6177
+>> =F0=9F=93=A7 bh.jobagency@gmail.com
+>> =F0=9F=8C=90 www.bhemployment.com
+>> =F0=9F=93=8D 37-51 75th St, Suite 1A, Jackson Heights, NY 11372
+>>
+>> Thank you for your time. I look forward to hearing from you.
+>>
+>> Warm regards,
+>> Bikas J Bohara
+>>
+>
+
+--=20
+B&H Employment & Consultancy Inc
+Bikash J. Bohara
+Managing Director
+=F0=9F=93=9E +929-385-6177|+347-680-2869
+=F0=9F=93=A7 hiring@bhemployment.com bh.jobagency@gmail.com
+=F0=9F=8C=90 www.bhemployment.com
+=F0=9F=8F=A2 37-51 75th St. 1A, Jackson Heights, NY 11372
+"Right People, Right Job, Right Place"
+
+--000000000000e433480657c3b1af
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">Tuesday would be great!=C2=A0</div><br><div class=3D"gmail=
+_quote gmail_quote_container"><div dir=3D"ltr" class=3D"gmail_attr">On Wed,=
+ Jul 29, 2026 at 1:54=E2=80=AFPM Kristen Szapka &lt;<a href=3D"mailto:krist=
+en@anannymatch.com">kristen@anannymatch.com</a>&gt; wrote:<br></div><blockq=
+uote class=3D"gmail_quote" style=3D"margin:0px 0px 0px 0.8ex;border-left:1p=
+x solid rgb(204,204,204);padding-left:1ex"><div dir=3D"ltr">Hi Bikas,<div><=
+br></div><div>Thank you for reaching out to us. I&#39;d be happy to speak=
+=C2=A0with you.</div><div><br></div><div>Is there a good time for you on Tu=
+esday or Thursday of next week between around 1:00 - 3:00pm?</div><div><br>=
+<div><div dir=3D"ltr" class=3D"gmail_signature"><div dir=3D"ltr"><div dir=
+=3D"ltr"><div dir=3D"ltr"><div dir=3D"ltr"><div dir=3D"ltr"><div dir=3D"ltr=
+"><div dir=3D"ltr"><div dir=3D"ltr"><div dir=3D"ltr"><div><i><font color=3D=
+"#000000" face=3D"times new roman, serif">Warmly,</font></i></div><div><fon=
+t color=3D"#000000" face=3D"times new roman, serif"><br></font></div><div><=
+font color=3D"#000000" face=3D"times new roman, serif">Kristen Szapka=C2=A0=
+<br></font></div><div><font color=3D"#000000" face=3D"times new roman, seri=
+f">Founder &amp; Owner</font></div><div><font face=3D"times new roman, seri=
+f"><span style=3D"color:rgb(0,0,0)">A Nanny Match</span><font color=3D"#000=
+000"><br></font></font></div><div><font color=3D"#000000" face=3D"times new=
+ roman, serif">=C2=A0+ 1 917.703.2209</font></div><div><a href=3D"http://ww=
+w.anannymatch.com/" target=3D"_blank"><font face=3D"times new roman, serif"=
+>www.anannymatch.com</font></a></div><div><br></div><div><br></div></div></=
+div></div></div></div></div></div></div></div></div></div><br></div></div><=
+br><div class=3D"gmail_quote"><div dir=3D"ltr" class=3D"gmail_attr">On Tue,=
+ Jul 28, 2026 at 11:45=E2=80=AFAM Info Info &lt;<a href=3D"mailto:info@anan=
+nymatch.com" target=3D"_blank">info@anannymatch.com</a>&gt; wrote:<br></div=
+><blockquote class=3D"gmail_quote" style=3D"margin:0px 0px 0px 0.8ex;border=
+-left:1px solid rgb(204,204,204);padding-left:1ex"><div dir=3D"ltr"><div><b=
+r clear=3D"all"></div><div><div dir=3D"ltr" class=3D"gmail_signature"><div =
+dir=3D"ltr"><div dir=3D"ltr"><div style=3D"color:rgb(34,34,34)"><i><b>Thank=
+ you,</b></i></div><div><i style=3D"color:rgb(34,34,34)"><b>A Nanny Match T=
+eam</b></i><span style=3D"color:rgb(34,34,34)">=C2=A0</span></div><div styl=
+e=3D"font-size:small"><span style=3D"font-family:arial,helvetica,sans-serif=
+">=C2=A0=C2=A0</span></div><div><font face=3D"georgia, serif"><b><font colo=
+r=3D"#c27ba0"><i>A Nanny Match</i></font></b><br></font></div><div><font fa=
+ce=3D"georgia, serif">New York, NY 10028<br></font></div><div><font face=3D=
+"georgia, serif">T:=C2=A0917.770.0142</font></div><div><font face=3D"georgi=
+a, serif">e:=C2=A0<a href=3D"mailto:info@anannymatch.com" style=3D"color:rg=
+b(17,85,204)" target=3D"_blank">info@anannymatch.com</a></font></div><div><=
+a href=3D"http://www.anannymatch.com/" style=3D"color:rgb(17,85,204)" targe=
+t=3D"_blank"><font face=3D"georgia, serif">www.anannymatch.com=C2=A0</font>=
+</a></div><div><font face=3D"georgia, serif"><br></font></div><div><div><fo=
+nt face=3D"georgia, serif" color=3D"#c27ba0">Follow Us so We Can Connect Wi=
+th You!</font></div><div><font face=3D"georgia, serif">Instagram:=C2=A0<a h=
+ref=3D"https://www.instagram.com/a_nannymatch/" style=3D"color:rgb(17,85,20=
+4)" target=3D"_blank">https://www.instagram.com/a_nannymatch/</a></font></d=
+iv><div><font face=3D"georgia, serif">Facebook:<a href=3D"https://www.faceb=
+ook.com/anannymatch/" style=3D"color:rgb(17,85,204)" target=3D"_blank">=C2=
+=A0https://www.facebook.com/anannymatch/</a></font></div><div><font face=3D=
+"georgia, serif">Twitter:=C2=A0</font><a href=3D"https://twitter.com/aNanny=
+Match" style=3D"color:rgb(17,85,204)" target=3D"_blank"><font face=3D"georg=
+ia, serif">https://twitter.com/aNannyMatch</font><br></a></div></div></div>=
+</div></div></div><br><br><div class=3D"gmail_quote"><div dir=3D"ltr" class=
+=3D"gmail_attr">---------- Forwarded message ---------<br>From: <strong cla=
+ss=3D"gmail_sendername" dir=3D"auto">B&amp;H Employment &amp; Consultancy I=
+nc.</strong> <span dir=3D"auto">&lt;<a href=3D"mailto:info@bhemployment.com=
+" target=3D"_blank">info@bhemployment.com</a>&gt;</span><br>Date: Mon, Jul =
+27, 2026 at 2:02=E2=80=AFPM<br>Subject: Free Candidate Referrals (Nepali, B=
+hutanese, Tibetan &amp; Hindi Speaking) - B&amp;H Employment<br>To:  &lt;<a=
+ href=3D"mailto:info@anannymatch.com" target=3D"_blank">info@anannymatch.co=
+m</a>&gt;<br></div><br><br>Hi Team,<br>
+<br>
+I noticed from your site that Premier Nanny Agency is actively working on h=
+ousehold placements and nanny recruitment. I am reaching out to see if we c=
+an support your active placement needs.<br>
+<br>
+My name is Bikas J Bohara, and I am the founder of B&amp;H Employment &amp;=
+ Consultancy Inc, based in Jackson Heights, New York.<br>
+<br>
+I am reaching out to offer something that costs your agency nothing.<br>
+<br>
+We are an employment agency specializing exclusively in Nepali, Bhutanese, =
+Tibetan, and Hindi-speaking household workers. We charge our candidates a p=
+lacement fee =E2=80=94 we do NOT charge any fee to employers or agencies. O=
+ur candidates are available to your clients completely free of cost to you.=
+<br>
+<br>
+If your agency ever has a client looking for:<br>
+=E2=80=A2 A Nepali or Hindi-speaking nanny or babysitter<br>
+=E2=80=A2 A live-in or live-out housekeeper<br>
+=E2=80=A2 A home cook familiar with South Asian cuisine<br>
+=E2=80=A2 A home cleaner<br>
+<br>
+=E2=80=94 we can refer a pre-screened, available candidate to you at no cha=
+rge.<br>
+<br>
+About our candidates:<br>
+=E2=9C=94 Nepali, Bhutanese, Tibetan &amp; Hindi-speaking<br>
+=E2=9C=94 Speak Nepali, Hindi &amp; basic conversational English<br>
+=E2=9C=94 Available for live-in and live-out positions<br>
+=E2=9C=94 Open to placements anywhere in the USA<br>
+=E2=9C=94 Experienced in childcare, housekeeping, cooking &amp; cleaning<br=
+>
+=E2=9C=94 Hardworking, reliable, and culturally attuned to South Asian hous=
+eholds<br>
+<br>
+This is especially valuable if your clients include Indian, Nepali, Banglad=
+eshi, or South Asian families who prefer a caregiver or housekeeper who spe=
+aks their language and understands their culture.<br>
+<br>
+There is no cost, no contract, and no obligation =E2=80=94 just a simple re=
+ferral whenever the right need arises.<br>
+<br>
+I would love to connect briefly and share more about the candidates we have=
+ available right now.<br>
+<br>
+Please feel free to reach me at:<br>
+=F0=9F=93=9E (929) 385-6177<br>
+=F0=9F=93=A7 <a href=3D"mailto:bh.jobagency@gmail.com" target=3D"_blank">bh=
+.jobagency@gmail.com</a><br>
+=F0=9F=8C=90 <a href=3D"http://www.bhemployment.com" rel=3D"noreferrer" tar=
+get=3D"_blank">www.bhemployment.com</a><br>
+=F0=9F=93=8D 37-51 75th St, Suite 1A, Jackson Heights, NY 11372<br>
+<br>
+Thank you for your time. I look forward to hearing from you.<br>
+<br>
+Warm regards,<br>
+Bikas J Bohara</div></div>
+</blockquote></div>
+</blockquote></div><div><br clear=3D"all"></div><div><br></div><span class=
+=3D"gmail_signature_prefix">-- </span><br><div dir=3D"ltr" class=3D"gmail_s=
+ignature"><div dir=3D"ltr"><a href=3D"http:///" target=3D"_blank"></a><div>=
+<img width=3D"96" height=3D"96" src=3D"https://ci3.googleusercontent.com/ma=
+il-sig/AIorK4yr8ltJBA8S3e-Y30Y-Tgm7AscCBp6YRmp0HspwrFdzGRpydSPc9it7z66Le0bm=
+ohxBWdUBI-ZJhtya"></div><div>B&amp;H Employment &amp; Consultancy Inc=C2=A0=
+=C2=A0</div><div><div>Bikash J. Bohara=C2=A0=C2=A0</div><div>Managing Direc=
+tor=C2=A0=C2=A0</div></div><div>=F0=9F=93=9E +929-385-6177|+347-680-2869=C2=
+=A0=C2=A0</div><div>=F0=9F=93=A7=C2=A0<a href=3D"mailto:hiring@bhemployment=
+.com" target=3D"_blank">hiring@bhemployment.com</a>=C2=A0<a href=3D"mailto:=
+bh.jobagency@gmail.com" target=3D"_blank">bh.jobagency@gmail.com</a>=C2=A0=
+=C2=A0</div><div>=F0=9F=8C=90 <a href=3D"http://www.bhemployment.com" targe=
+t=3D"_blank">www.bhemployment.com</a>=C2=A0=C2=A0</div><div>=F0=9F=8F=A2 37=
+-51 75th St. 1A, Jackson Heights, NY 11372=C2=A0=C2=A0</div><div>&quot;Righ=
+t People, Right Job, Right Place&quot;</div><div><br></div></div></div>
+
+--000000000000e433480657c3b1af--

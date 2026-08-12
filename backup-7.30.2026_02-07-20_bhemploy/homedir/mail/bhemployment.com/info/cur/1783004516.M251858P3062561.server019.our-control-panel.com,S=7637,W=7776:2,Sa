@@ -1,0 +1,139 @@
+Return-Path: <angela.schloer@clear-talent.com>
+Delivered-To: info@bhemployment.com
+Received: from server019.our-control-panel.com
+	by server019.our-control-panel.com with LMTP
+	id WsHlDWR9Rmohuy4AaDcOIg
+	(envelope-from <angela.schloer@clear-talent.com>)
+	for <info@bhemployment.com>; Thu, 02 Jul 2026 20:46:56 +0545
+Return-path: <angela.schloer@clear-talent.com>
+Envelope-to: info@bhemployment.com
+Delivery-date: Thu, 02 Jul 2026 20:46:56 +0545
+Received: from mail-ed1-f51.google.com ([209.85.208.51]:51705)
+	by server019.our-control-panel.com with esmtps  (TLS1.3) tls TLS_AES_128_GCM_SHA256
+	(Exim 4.99.4)
+	(envelope-from <angela.schloer@clear-talent.com>)
+	id 1wfIvK-0000000CqU1-04HJ
+	for info@bhemployment.com;
+	Thu, 02 Jul 2026 20:46:56 +0545
+Received: by mail-ed1-f51.google.com with SMTP id 4fb4d7f45d1cf-698beff7178so568058a12.3
+        for <info@bhemployment.com>; Thu, 02 Jul 2026 08:01:33 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1783004473; cv=none;
+        d=google.com; s=arc-20260327;
+        b=J1V61nSqohu1PED/kWoj3PL/u8lz53Zc1kbWDfdrFsOJufw/nfMAwgtLrKCSwmLU20
+         NQb+A1+UkdVdnCofJ2Bg/GP5sYAq0mytYz0BbMprujYunam1XfCyruKekf/WFGBLBRwA
+         7snm/Ne6UuzWCPYQPW4i7qIk/VsipkTGLjM18YlfdygqMpFM45Y2dKvsIzKG+f7kFixa
+         jy3aqMze6KyEX2S8CRbiXvUY4+sXoYhOBloJ8lGi/UqoloSGQM8iKkQgCXMSv0qTNTo0
+         sLbHx41WzIKUsNdv0B8ullu+6JRs1k/thtFZ+GT1Q/3BwYkysUF9ECEzwqYA7sZ2Z9+o
+         BjKg==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20260327;
+        h=content-transfer-encoding:to:subject:message-id:date
+         :list-unsubscribe:mime-version:from:dkim-signature;
+        bh=7j5oeGw/1kYX3wAQK3xP8RreH56Iu22iIvuqjb00Zp0=;
+        fh=X3gXPMPQ6Bn3lXKtRXnlX+rX5SIw07GipyuCWX+ZRU0=;
+        b=fYAkTIvX0d1aa9SSnk+HrMOZH/CqMeV3EUS0J8InkmqxEBQM+WqLdkhgv6vpOp2/lg
+         Mad+Kj4lwZQ+24MRS/jvWBQLTcXqOMsqnyGfeM3JT6orys6duoX1zfH+nB1NryMoH1F9
+         NhJF+PpF4z+14EjUCHv/KgFEuyH6V1nVSETd9VEZEhv4d/OklS1PpRZAHBYX6w8VJw1H
+         Ib9/PEXWxpI7OTQGn7fThu1IQ907c245wksXTTmOoR+KzZCRHGKWh59eW3Lj+qvpGGlA
+         3qAoW6w/facxRN98VFE2YI+Wa1QB8dFqfrSvY8wURfROIyMfDHPdnbogZQfUwsmehg+0
+         6hGQ==;
+        darn=bhemployment.com
+ARC-Authentication-Results: i=1; mx.google.com; arc=none
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=clear-talent-com.20251104.gappssmtp.com; s=20251104; t=1783004473; x=1783609273; darn=bhemployment.com;
+        h=content-transfer-encoding:to:subject:message-id:date
+         :list-unsubscribe:mime-version:from:from:to:cc:subject:date
+         :message-id:reply-to;
+        bh=7j5oeGw/1kYX3wAQK3xP8RreH56Iu22iIvuqjb00Zp0=;
+        b=A94LDKUBTmM6VeZVzT9b/jsOziNZ8M7axsu8gnvmMlAhHoUDm2Sx/wNF2xvfx9d1U2
+         bZxzdJDrE7orguYwp+/vvQz9xpA3zVgwo4dCCFRqUw7xjyljH2G4wrq6Tm3fLjx6lb67
+         fdMeDGbgR7/yP9JzWT+jCDYqe//W7H/gr3cuZ9nvMVZU5A0u4SksAL8xSp2Y5NaralYD
+         6TvhUQczeRu/3V8eiYMyh/yifJqHqIqall4YsJMFoNbLO0DwjrHhWRkVvPperoqnHG4X
+         vYIh78G6aDp52WtHMFqQLvwcUNsH19I4Ld4SAASBKU0X7bt/lbCnN/RR5Lxnjvjz+/7W
+         IJMA==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20251104; t=1783004473; x=1783609273;
+        h=content-transfer-encoding:to:subject:message-id:date
+         :list-unsubscribe:mime-version:from:x-gm-gg:x-gm-message-state:from
+         :to:cc:subject:date:message-id:reply-to;
+        bh=7j5oeGw/1kYX3wAQK3xP8RreH56Iu22iIvuqjb00Zp0=;
+        b=cbvjCGdtZBaCQ43zUlJzdm8FHkPEyMGdHTQztnWRPyuhzVZiTO7t5hBZI/1bs+QAht
+         wl9IyoBLFKDIRvpAs1jRLN/O1tN3451/NKrmNT4AnNafGOIi+CnTfc0Wmqu+spHr5HZj
+         PS1lAQ4SbOHeeT/araEI8iZ5tfgl2Q7ghL86stXK3n0ZoMQaN7U1u9puFHsaA2fzSdsj
+         K0Dtuz6GmHhfOz0q6lO3l7Q/2E62ecND7QmgLRQErVlNE24drQCeULYUBtn9cUoYKonl
+         dXvTxfks5iDu1O2fdwClmWL41GdStuytmZwfQ9Ga43rLdo9B4D3ZlGUMrebJ53riIwpL
+         1z1A==
+X-Gm-Message-State: AOJu0Yy7qRfxRL+AxFMYmfPTFhBBln6lLxEVR6OmG5ERaO1hCJpLUiqK
+	Fv+pEqxMuNFnrZCOik0W8z3XrUQldcYHT1q1q4/O+V0TXsMsUBz/uvpAya05R1xtMIqVzCm07dj
+	HtSUPdUJEWmdEGIfhaCmiexOEjuGG13HhHHSISoBahWWceaSh7Tj1toSS
+X-Gm-Gg: AfdE7cl8oCsMF4sKOjt8X6r4TuEJ54mlnYT+WoUatm+U8IHz6mf4qSgjhYT0QiwlUR3
+	JBQiFvFGEzQoIvZo3xtxOO91LIEEaBoZuZHU1PwXS86suQkuA/ZPbLXqvczvVp4/1PZuBceo74x
+	jhzhgNGD6iD7S7qh1sBViOGezFV3Czo0MO57ZeQTteIMGFO62d+G8g5wdwJFnhQTWZidx3EIRx9
+	HlrTP9GFxsiMz5W0hOCEe2R4BYWLDBiPUKf5XRI7q04TFHt3fnxLB8q+YQi49w6xCfFpfML
+X-Received: by 2002:a05:6402:a6d3:10b0:698:adfe:fc09 with SMTP id
+ 4fb4d7f45d1cf-698adff07e2mr915172a12.33.1783004473296; Thu, 02 Jul 2026
+ 08:01:13 -0700 (PDT)
+Received: from 215840348055 named unknown by gmailapi.google.com with
+ HTTPREST; Thu, 2 Jul 2026 10:01:12 -0500
+Received: from 215840348055 named unknown by gmailapi.google.com with
+ HTTPREST; Fri, 26 Jun 2026 07:11:15 -0500
+From: "Clear-Talent Inc." <angela.schloer@clear-talent.com>
+MIME-Version: 1.0
+List-Unsubscribe: <mailto:unsubscribe@clear-talent.com?subject=unsubscribe>
+Date: Thu, 2 Jul 2026 10:01:12 -0500
+X-Gm-Features: AVVi8Ce-HDM7XoXBjTeV59UIhJNjuggy1C7V6H11SWJ0LqX_Qal1J_YXh5zXtMQ
+Message-ID: <CAOPfW51Dcbg5t1i1vtW=W-W6dMALsObmvx7oTcgqKwtQQP3LfA@mail.gmail.com>
+Subject: Partnering on performance management for your clients
+To: info@bhemployment.com
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+X-Spam-Status: No, score=0.0
+X-Spam-Score: 0
+X-Spam-Bar: /
+X-Ham-Report: Spam detection software, running on the system "server019.our-control-panel.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Hi there, I reached out because B&H Employment&Consultancy
+    INC works in recruitment, and Clear-Talent is looking to partner with HR
+   professionals and recruiters who can introduce or deploy our AI-powered perfor
+    [...] 
+ Content analysis details:   (0.0 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 RCVD_IN_DNSWL_BLOCKED  RBL: ADMINISTRATOR NOTICE: The query to DNSWL
+                             was blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#DnsBlocklists-dnsbl-block
+                              for more information.
+                             [209.85.208.51 listed in list.dnswl.org]
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was blocked.
+                             See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URI: clear-talent.com]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily valid
+X-Spam-Flag: NO
+
+Hi there,
+
+I reached out because B&H Employment&Consultancy INC works in
+recruitment, and Clear-Talent is looking to partner with HR
+professionals and recruiters who can introduce or deploy our
+AI-powered performance management platform for their clients.
+
+It=E2=80=99s enterprise-ready and fully customizable for any competency
+framework, and the partner portal is here:
+http://partners.clear-talent.com/
+
+Would you be open to a brief 15-minute introduction call to show you
+the platform?
+
+--
+Clear-Talent Inc.
+
+You're receiving this because your firm is publicly listed as an
+HR/recruitment business. We contact relevant providers about
+Clear-Talent on a legitimate-interest basis and never share your
+details.

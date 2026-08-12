@@ -1,0 +1,130 @@
+Return-Path: <lindadibrahim@gmail.com>
+Delivered-To: info@bhemployment.com
+Received: from server019.our-control-panel.com
+	by server019.our-control-panel.com with LMTP
+	id +SsbGpb+VWrP+A0AaDcOIg
+	(envelope-from <lindadibrahim@gmail.com>)
+	for <info@bhemployment.com>; Tue, 14 Jul 2026 15:02:10 +0545
+Return-path: <lindadibrahim@gmail.com>
+Envelope-to: info@bhemployment.com
+Delivery-date: Tue, 14 Jul 2026 15:02:10 +0545
+Received: from mail-yx1-f72.google.com ([74.125.224.72]:43018)
+	by server019.our-control-panel.com with esmtps  (TLS1.3) tls TLS_AES_128_GCM_SHA256
+	(Exim 4.99.4)
+	(envelope-from <lindadibrahim@gmail.com>)
+	id 1wjZGH-00000003q2H-0jGS
+	for info@bhemployment.com;
+	Tue, 14 Jul 2026 15:02:10 +0545
+Received: by mail-yx1-f72.google.com with SMTP id 956f58d0204a3-667c40cd608so2019420d50.0
+        for <info@bhemployment.com>; Tue, 14 Jul 2026 02:16:48 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20251104; t=1784020587; x=1784625387; darn=bhemployment.com;
+        h=content-type:to:from:subject:date:message-id:mime-version:from:to
+         :cc:subject:date:message-id:reply-to:content-type;
+        bh=JkD5l7VXqjEgIksebyjLjeEwcxF6MrLIvB1Ez3VQdew=;
+        b=QzQ0fmI25HJZZPGfOeX7w2h+lLFU2VQVa+XJ90ImQZG2UpdAu8oCb2YdiZcTeO30zy
+         brDSyXkezLebH6wbw/xqT/lHKtjcRHGuvuJow1Waur2ZyVKhxPRhFsVavWDQe+9CvBF4
+         mJWHDzSUyE9k4rHk5GQeZpMNGwhTqomUZK8yyrAipHZwhQjZOseVI8fUEYaJi7o24I7T
+         oENUwzLqnQ8p32B+UNE50FcIsE7DKvvxMKIagI92AhjPRT22lklYa66gPbkiHzhppW8G
+         oGxJveTCikmhlZlbB2POAc1NXZ06OdaK/JMxO+17abvLg47FMPtjkVEHBA3VB5zcmgLP
+         1Hvw==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20251104; t=1784020587; x=1784625387;
+        h=content-type:to:from:subject:date:message-id:mime-version
+         :x-gm-message-state:from:to:cc:subject:date:message-id:reply-to
+         :content-type;
+        bh=JkD5l7VXqjEgIksebyjLjeEwcxF6MrLIvB1Ez3VQdew=;
+        b=EefqELbiyBTObTfJ2EbkoUFZjohFOV5vR+gEKssXv5ve9Fl/wC/Rg0woUJcK8uXu7i
+         evGal46XwAD3UmZCfL6CyA/aPWzehc7HSV4DGOimR3Y6J1ksm74zVZVZmRylT3u/1x1g
+         Qi2xN2GivlVnerC+TMORsU2RVZ8LKAzl87ZOjqr5SEzRWh0rsYvOv8Y5x8DSoLtmlsDF
+         mQLKvkH+8A2gIRvBMGEu4gDgCRDx0tIsAfTpRRqNed0NLLRtNefrarwB9YGCkXLopwVx
+         nRkw1PEDtK3hqzu3pkmWMb911uCLvOKQNY+PSvfgp1cMqpw05Naj0Ib1xraMXOWySD/C
+         VecA==
+X-Gm-Message-State: AOJu0Yxm8RrQPO1z2BdLHhe8wOg66rJ2+DcNtUR9wZIoWmeOMmKzPLJN
+	ZW3Mhr2YS9a/3/6NLeQg/6MbVc1G1ub02xVwsCvk3/Fz8b8PyCRWk77Qf5TXjf2EgpjoXmwC9EQ
+	kdPySjA==
+MIME-Version: 1.0
+X-Received: by 2002:a05:690e:d5c:b0:667:6ed4:bf8f with SMTP id
+ 956f58d0204a3-667c5bf76bcmr10476101d50.30.1784020586918; Tue, 14 Jul 2026
+ 02:16:26 -0700 (PDT)
+Message-ID: <autogen-java-293e67d3-e6ab-4e24-99d3-73784c5a92ee@google.com>
+Date: Tue, 14 Jul 2026 09:16:26 +0000
+Subject: Re: Full-Service Bookkeeping Needs - info@bhemployment.com 
+From: lindadibrahim@gmail.com
+To: info@bhemployment.com
+Content-Type: multipart/alternative; boundary="0000000000005af69506568ea95f"
+X-Spam-Status: No, score=-0.2
+X-Spam-Score: -1
+X-Spam-Bar: /
+X-Ham-Report: Spam detection software, running on the system "server019.our-control-panel.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Hi info@bhemployment.com, I'm still waiting for your response.
+    Let me know if you are interested, I will send you our cost and company details.
+    Thank You, Linda D. Ibrahim 
+ Content analysis details:   (-0.2 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 RCVD_IN_DNSWL_BLOCKED  RBL: ADMINISTRATOR NOTICE: The query to DNSWL
+                             was blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#DnsBlocklists-dnsbl-block
+                              for more information.
+                             [74.125.224.72 listed in list.dnswl.org]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from author's
+                             domain
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily valid
+  0.0 FREEMAIL_FROM          Sender email is commonly abused enduser mail provider
+                             [lindadibrahim(at)gmail.com]
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+ -0.0 RCVD_IN_MSPIKE_H2      RBL: Average reputation (+2)
+                             [74.125.224.72 listed in wl.mailspike.net]
+X-Spam-Flag: NO
+
+--0000000000005af69506568ea95f
+Content-Type: text/plain; charset="UTF-8"; format=flowed; delsp=yes
+
+Hi info@bhemployment.com,
+
+I'm still waiting for your response. Let me know if you are interested, I  
+will send you our cost and company details.
+
+Thank You,
+Linda D. Ibrahim
+
+On Fri, Jun 12, 2026 at 9:37 AM wrote:
+
+Hi info@bhemployment.com,
+
+I hope this email finds you well.
+
+Would you be open to exploring remote accountants or bookkeepers on a  
+full-time, part-time, or hourly basis at a cost-effective rate?
+
+If you're interested, I'd be happy to share our pricing and available times  
+for a brief call.
+
+I look forward to hearing from you.
+
+Best regards,
+Linda D. Ibrahim
+
+--0000000000005af69506568ea95f
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hi info@bhemployment.com, <br><br>I=E2=80=99m still waiting for your respon=
+se. Let me know if you are interested, I will send you our cost and company=
+ details.<br><br>Thank You,<br>Linda D. Ibrahim<br><br>On Fri, Jun 12, 2026=
+ at 9:37=E2=80=AFAM wrote:<br><br>Hi info@bhemployment.com,<br><br>I hope t=
+his email finds you well.<br><br>Would you be open to exploring remote acco=
+untants or bookkeepers on a full-time, part-time, or hourly basis at a cost=
+-effective rate?<br><br>If you're interested, I'd be happy to share our pri=
+cing and available times for a brief call.<br><br>I look forward to hearing=
+ from you.<br><br>Best regards,<br>Linda D. Ibrahim<br>
+--0000000000005af69506568ea95f--

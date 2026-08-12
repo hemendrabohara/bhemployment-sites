@@ -1,0 +1,240 @@
+Return-Path: <abhijitsharmaworldseogroup@outlook.com>
+Delivered-To: info@bhemployment.com
+Received: from server019.our-control-panel.com
+	by server019.our-control-panel.com with LMTP
+	id 69jaDz2+ZWppNRcAaDcOIg
+	(envelope-from <abhijitsharmaworldseogroup@outlook.com>)
+	for <info@bhemployment.com>; Sun, 26 Jul 2026 13:43:53 +0545
+Return-path: <abhijitsharmaworldseogroup@outlook.com>
+Envelope-to: info@bhemployment.com
+Delivery-date: Sun, 26 Jul 2026 13:43:53 +0545
+Received: from mail-koreacentralazolkn19013085.outbound.protection.outlook.com ([52.103.74.85]:3729 helo=SEYPR02CU001.outbound.protection.outlook.com)
+	by server019.our-control-panel.com with esmtps  (TLS1.3) tls TLS_AES_256_GCM_SHA384
+	(Exim 4.99.4)
+	(envelope-from <abhijitsharmaworldseogroup@outlook.com>)
+	id 1wntl5-00000006NED-0gQV
+	for info@bhemployment.com;
+	Sun, 26 Jul 2026 13:43:53 +0545
+ARC-Seal: i=1; a=rsa-sha256; s=arcselector10001; d=microsoft.com; cv=none;
+ b=PxAybAMRx416Y8eI4fo9nPlZmK743ZVtMUU7VzXv4f8ze5GBrmIY3G7RKiwk0mIOl1KSTyH4dd7sJM1pYVY+BlqpnyHJ3PcQkdczLytkpcY+oVbN9ir6Y1ciHu02zEXUoDhyYd8KnSavbrODF7snfImJoXW2QYjU7GWiov6vJItHNfWBkszzrgfEzSHMbP45sib20kN1hPS/TgXKVfykptuPzeZVET4rrA6yaxDzozaxOvZrU4kVutjR6CCfeZ9jBcuiQa7A+awHgmcEe8JD9R+MPOw7DlM+NO4uf1pOTSO4np5qbSu6c1d9aIUwHfuaP9vIcah8ievOvxa9ZfxyVg==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector10001;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-AntiSpam-MessageData-ChunkCount:X-MS-Exchange-AntiSpam-MessageData-0:X-MS-Exchange-AntiSpam-MessageData-1;
+ bh=CtS0I6hWM3W73YwVKUOEInf9BAUelLbIj3zmSbohtS4=;
+ b=HNgwz8MgO7KvAFSAkJtfve/M8yTY7XlYNmT9r15ZYuusi7MKxOYF2NjkDikQZFM/UI72JNEL4iDXuHDU7P4uAnOnxmtImpO4S71ln9jsaNYw9ncKOoNcOcw51gjsvW5oDvCWPQJxTVrVkxubZ+kH7yV4asXheMSZYXc32IYAStvPWcu5o6NGsduCIjOI9dCx9hZ1i/O65friY/YuLIfcw2ZDML0726ECC/+EimB4+EOn+fsqcyB2hxTH/g89fsK5X0Zda7Chmxk6t03ppUth9o63/EZUNrwkW49j2UaLxPef2/BgQA5BoBe/cXEYsyrX4ln4xUkfNyQlKumn5E6OaA==
+ARC-Authentication-Results: i=1; mx.microsoft.com 1; spf=none; dmarc=none;
+ dkim=none; arc=none
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=outlook.com;
+ s=selector1;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=CtS0I6hWM3W73YwVKUOEInf9BAUelLbIj3zmSbohtS4=;
+ b=mDRPnVYvE8kUdCbUrDWRdXe/H0OXuCHqwP168gtI2hNAyKi5zgQcuKRaxk8DP7Fewqr4hOLOmUC8a/OfMaVNM/xjQjJBvbyeJJOITuwWZD+lavFkKVyN5AU0p7FFADqmI8XIalvnIjbxvZYrwy1psCnLLw63or7pvY90wcTAVc+hB7E8Zpsqbt7883gIhXVlkYFgTaSV9szYsjb/s86eocnrzRliE7AXvl4v0om8CBtIjwIyQ4EyCtjH5oAEX/LEmLXhKwo3rJ6nTKlNXgc/miw0Nioou58QDHSCPI8T86NY+tKoPEWHhT7st/8BZbD7fm8rVB/KFStH5f7dvKMpVQ==
+Received: from SI2PPF4D31AF25D.apcprd04.prod.outlook.com
+ (2603:1096:f:fff6::7d2) by SE3PR04MB8978.apcprd04.prod.outlook.com
+ (2603:1096:101:2e1::11) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.21.270.8; Sun, 26 Jul
+ 2026 07:57:34 +0000
+Received: from SI2PPF4D31AF25D.apcprd04.prod.outlook.com
+ ([fe80::f7a1:8672:9240:4cd7]) by SI2PPF4D31AF25D.apcprd04.prod.outlook.com
+ ([fe80::f7a1:8672:9240:4cd7%8]) with mapi id 15.21.0270.006; Sun, 26 Jul 2026
+ 07:57:34 +0000
+From: Abhijit Sharma <abhijitsharmaworldseogroup@outlook.com>
+Subject: Full-Time Recruiter
+Thread-Topic: Full-Time Recruiter
+Thread-Index: Ad0c02PTWMccWpCTTSGGz/XNR0BRXw==
+Date: Sun, 26 Jul 2026 07:57:23 +0000
+Message-ID:
+ <SI2PPF4D31AF25D8F19D0640C1F34BDCF56C9CD2@SI2PPF4D31AF25D.apcprd04.prod.outlook.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach:
+X-MS-TNEF-Correlator:
+x-ms-publictraffictype: Email
+x-ms-traffictypediagnostic: SI2PPF4D31AF25D:EE_|SE3PR04MB8978:EE_
+x-ms-office365-filtering-correlation-id: c31955b7-d694-4fce-3b96-08deeaeb8cf2
+x-microsoft-antispam:
+ BCL:0;ARA:14566002|2604032031799003|704163111799003|8062599012|8060799015|31061999003|19110799012|13091999003|37011999003|25010399006|24121999003|22091999003|16051099003|24021099003|55001999006|8022599003|15080799012|3071699003|102099032|440099028|3412199025;
+x-microsoft-antispam-message-info:
+ =?us-ascii?Q?t380SGmL1wLFSEdB6oCMzXTMvCWMwFi39eD9716amzaQm5irMZkYOcfVTL9d?=
+ =?us-ascii?Q?KInq+IcDebVpnZeZe5taXu1kApniY6BL1bu2uyOOdb+I3V0GAfO/jRHs9t5Z?=
+ =?us-ascii?Q?pImVpes2iJmSmc009s8bTiSbnAsm2b1+AMK7BjDbuWc8bYMvcFX2vwW5uhsA?=
+ =?us-ascii?Q?wiO6m/Qada2iU1zz9N3+JRmU6m5l8M87/Z+uOYaeG428VnCcZcv4YDZuYQj8?=
+ =?us-ascii?Q?42xo30Hx9CJqVmoUAESMJnKqePcOAZbCF2Fzwt/rl+QfdULqK7uOhv1Dh9ke?=
+ =?us-ascii?Q?5yk6FSz10cY82z1wZ2+3sPtXlVg/wyRbyk2GoAwNWUG9Bd8pWHpIeAoePEIi?=
+ =?us-ascii?Q?8YXotFuXXP60hl5UpzF1x599svQmZXiaHYx/01RfGT2P96p2WhY8hhQB6yPc?=
+ =?us-ascii?Q?ZQb9duh8SZzzKj7Rsk2LSnKzktYpsxSslvwDIyQYHU+r604V4PlNYWPzqU++?=
+ =?us-ascii?Q?k5Xe4ix2Zi6C6cXcwgCkFhJu4B1Q97nnMG3CbadtSFw7pmth53pjzRXXu7Gz?=
+ =?us-ascii?Q?+D5urOJrkcOCJQ6UmzF3YrvQHwu7z96yAmpGftS8dUwatuCRVpwzb1ue4Xgk?=
+ =?us-ascii?Q?tbQsT18nmTPTFs9vWoOwbQroWGZ2X6cnN4G9IMSd/hJThH7ApiPEFqutCwQW?=
+ =?us-ascii?Q?6L2AOB8R2l9rJXF7WCn6PA4SdxjEBqfWYUuGJXSHpv+xLu4a0IvH4BCO6CNa?=
+ =?us-ascii?Q?qfqrI8nEkzoBlWKbFzXNBVokVxy2GLSUniT8LJf481JWGmJ+kDsX4SLssYuj?=
+ =?us-ascii?Q?5UHGWWqopUv2MIcD2MIyudToXzftoFxf/Facf6DJt8jMstgJe3EgMp4NkcPB?=
+ =?us-ascii?Q?GdYJlostoW1oOF3HGEWYmOOuKOnfBFniyYSJfO2g4q1OvlwCSWkNLhIh1VU5?=
+ =?us-ascii?Q?Y3TzYGKT2CZtCaoWypg2Xr75w54OJjJA4Xsx6jlsiK/ZkNL1MJEpLvtC0Bnz?=
+ =?us-ascii?Q?BUTMBTSNLBdyELBPdANYBYS2bSU3ekXzlKgbSzFxk2tIsWv77np7SZ7bsbM9?=
+ =?us-ascii?Q?QfnYm206mFJrKL6kLaDOceh7llw+U4hz6c1356Wrt6iVX6kn+2HZLrMQ5u4j?=
+ =?us-ascii?Q?SMnlbD0zkI0cI1cM+6mNDoQoy04n5s02Out/O4e4f2SqNWAM1CVHVtFPwI3V?=
+ =?us-ascii?Q?kzWGboJ8pgu2f5v59XKU7Ehv0J0T2fBYH9Ji3e3OmiEjz3E/bb5aRThWxnr+?=
+ =?us-ascii?Q?EiTdUPk4X699WACw2ur/MXBiDoSrqj7vXZuxjw=3D=3D?=
+x-ms-exchange-antispam-messagedata-chunkcount: 1
+x-ms-exchange-antispam-messagedata-0:
+ =?us-ascii?Q?Psyv0L/Op68OYkj4DAqpWMN0Mz7nV2dUzEhBFggEIaZ4VB0CQdLDHRhQPhwI?=
+ =?us-ascii?Q?WLpLTogoJvrAWaaFcIEvw2Uggauo9gRKcpBl3fGpDuJWvosYjukewukoHlrt?=
+ =?us-ascii?Q?2Vk9ThQuR4XDs4BLCPS4kGlG8/1TGOc7wnTxdv5A/kRi8O5XPIdZas38PCU1?=
+ =?us-ascii?Q?3itmOjNmSaRsfM1M+Ta6hfeume/M3Y7blCC9LdEc/FMiSodvCjr5nOyumQZR?=
+ =?us-ascii?Q?woAVhaFqDntFa4Houp/x+RzyWHXJsrhZ6V8EhAi+QHUrE7XxFLfPMJ2yVSSI?=
+ =?us-ascii?Q?N4LzQiHGh+dqCsEV472NRxlqfqknrXxBriaTUiYLJw38vGMGqtjjv9HI3AQq?=
+ =?us-ascii?Q?RFAmRdxP+gevVTJO8E2d0DW2CfJ7sfSJMnj2Vwi+WeXPuHq4KdRV3zjPn6b2?=
+ =?us-ascii?Q?yCaNVi/iJ8hE+LnL+LxPF2E7ZYzr+UEhoXdYSXZvfp4yaaRSfvYbyF4C47aS?=
+ =?us-ascii?Q?GvK0iUCflK9z3vw/vTKeUYzSJM6SFfAcvDSb3xLamRZRg6lzkvTB0sZj8e2g?=
+ =?us-ascii?Q?E4whUtSmdurwKJfmTW7sfkO7LczgMnmdLCmUx2G8yP7rYHLQiw9VfGAyI+p+?=
+ =?us-ascii?Q?b+hS1KslIq/aDqEx0/sXRpkH1cFEW2aKpS/TUueppsMXV1koTlQj+Ctdz1sc?=
+ =?us-ascii?Q?CmFF4NZfjPz/X+Ncxh9zyWukNbm/rSzAuAMe/KlP7avXRNVopJqiwd65b5IN?=
+ =?us-ascii?Q?81ZN04wdDlacIkH4DlfbkesP6BD5nA3tsQjdJ6RHQdVsPg6kR6O8ODV707eY?=
+ =?us-ascii?Q?f1gHw8w3LONUBoNNiOOVptn46Gu9fwAzf3alZbusU5V3/Yg7iaN6Bm58hJf9?=
+ =?us-ascii?Q?KAsuQH+9DoxxYBYYH9EBokM/HS63XDKehKqO2Da14r+9x6N7zxjBKp8e7DuV?=
+ =?us-ascii?Q?6xGMANYQ+vr1uDLjX76vrFF6CLVbVUCIKjxZismW95M81x2NStm/tHbkc1Qm?=
+ =?us-ascii?Q?dfDzoDDA6+oECEkgU+k82F8o6G8DJFlKCBlTueLi2nv/RVto5M1j5QDIPGvI?=
+ =?us-ascii?Q?ooD1UcQZa48oh7H2PflD07C+P6AVk5C9tI+DXhwRhsPNloHvMRjqFEUFR4wV?=
+ =?us-ascii?Q?zISsnDznb08AgWCJhYP5aLS7kqmF6O1S3g/aEdpBPFN12PrNyKiuC8GU7aCf?=
+ =?us-ascii?Q?dmV6jfIqn3/abhRKkyLVdlnm7lEZrc0e/ffpelRTuxZcIH3OdClkOG+C37Z2?=
+ =?us-ascii?Q?W6WPRspIA+R+Egb+7uaCDUL6kF7jBLGT4/HpBFZV7YBg6mJJSgWxC/ZNgQRj?=
+ =?us-ascii?Q?BdeW0hhBmrzLUdtG5d0JfFXmvjBbrLqWrd+WpuRnZfIoOwS0Whq+KH1sFrVQ?=
+ =?us-ascii?Q?Vmh4wU9NaGsnP8v3xlchHSsbCik4kXbYObsL8fxIiBt12PqgYkRB77ehrP7O?=
+ =?us-ascii?Q?8F+7zI7dqxWmUuuugGuvpU9VR/MGp3y0ZEjJpZDOAvg/hs9khHAL52pWhLLl?=
+ =?us-ascii?Q?OP9GM+BTzuY=3D?=
+Content-Type: multipart/alternative;
+	boundary="_000_SI2PPF4D31AF25D8F19D0640C1F34BDCF56C9CD2SI2PPF4D31AF25D_"
+MIME-Version: 1.0
+X-OriginatorOrg: outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Internal
+X-MS-Exchange-CrossTenant-AuthSource: SI2PPF4D31AF25D.apcprd04.prod.outlook.com
+X-MS-Exchange-CrossTenant-RMS-PersistedConsumerOrg: 00000000-0000-0000-0000-000000000000
+X-MS-Exchange-CrossTenant-Network-Message-Id: c31955b7-d694-4fce-3b96-08deeaeb8cf2
+X-MS-Exchange-CrossTenant-originalarrivaltime: 26 Jul 2026 07:57:23.5813
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Hosted
+X-MS-Exchange-CrossTenant-id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+X-MS-Exchange-CrossTenant-rms-persistedconsumerorg: 00000000-0000-0000-0000-000000000000
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: SE3PR04MB8978
+X-Spam-Status: No, score=1.1
+X-Spam-Score: 11
+X-Spam-Bar: +
+X-Ham-Report: Spam detection software, running on the system "server019.our-control-panel.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Hi Hope you are doing great! Could you let me know whether
+    you are interested to hire a Dedicated Remote Recruiter/Source at a reasonable
+    price? 
+ Content analysis details:   (1.1 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 RCVD_IN_DNSWL_BLOCKED  RBL: ADMINISTRATOR NOTICE: The query to DNSWL
+                             was blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#DnsBlocklists-dnsbl-block
+                              for more information.
+                             [52.103.74.85 listed in list.dnswl.org]
+  0.0 RCVD_IN_MSPIKE_H2      RBL: Average reputation (+2)
+                             [52.103.74.85 listed in wl.mailspike.net]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+ -0.0 SPF_HELO_PASS          SPF: HELO matches SPF record
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from author's
+                             domain
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily valid
+  1.2 MISSING_HEADERS        Missing To: header
+  0.0 FREEMAIL_FROM          Sender email is commonly abused enduser mail provider
+                             [abhijitsharmaworldseogroup(at)outlook.com]
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  0.1 MALFORMED_FREEMAIL     Bad headers on message from free email service
+X-Spam-Flag: NO
+
+--_000_SI2PPF4D31AF25D8F19D0640C1F34BDCF56C9CD2SI2PPF4D31AF25D_
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+Hi
+
+Hope you are doing great!
+
+Could you let me know whether you are interested to hire a Dedicated Remote=
+ Recruiter/Source at a reasonable price?
+
+Let's set up a time to chat to discuss the further steps if this is somethi=
+ng you are looking for!
+
+Sincerely,
+Abhijit Sharma
+
+--_000_SI2PPF4D31AF25D8F19D0640C1F34BDCF56C9CD2SI2PPF4D31AF25D_
+Content-Type: text/html; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:o=3D"urn:schemas-micr=
+osoft-com:office:office" xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" xmlns=3D"http:=
+//www.w3.org/TR/REC-html40">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dus-ascii"=
+>
+<meta name=3D"Generator" content=3D"Microsoft Word 15 (filtered medium)">
+<style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0cm;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;
+	mso-ligatures:standardcontextual;
+	mso-fareast-language:EN-US;}
+span.EmailStyle17
+	{mso-style-type:personal-compose;
+	font-family:"Calibri",sans-serif;
+	color:windowtext;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-size:11.0pt;
+	mso-fareast-language:EN-US;}
+@page WordSection1
+	{size:612.0pt 792.0pt;
+	margin:72.0pt 72.0pt 72.0pt 72.0pt;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]-->
+</head>
+<body lang=3D"EN-GB" link=3D"#0563C1" vlink=3D"#954F72" style=3D"word-wrap:=
+break-word">
+<div class=3D"WordSection1">
+<p class=3D"MsoNormal">Hi <o:p></o:p></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal">Hope you are doing great!<o:p></o:p></p>
+<p class=3D"MsoNormal">&nbsp;<o:p></o:p></p>
+<p class=3D"MsoNormal">Could you let me know whether you are interested to =
+hire a&nbsp;Dedicated Remote Recruiter/Source at a reasonable price?<o:p></=
+o:p></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal">Let&#8217;s set up a time to chat to discuss&nbsp;th=
+e further steps if this is something you are looking for!<o:p></o:p></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal">Sincerely,<o:p></o:p></p>
+<p class=3D"MsoNormal">Abhijit Sharma<o:p></o:p></p>
+</div>
+</body>
+</html>
+
+--_000_SI2PPF4D31AF25D8F19D0640C1F34BDCF56C9CD2SI2PPF4D31AF25D_--

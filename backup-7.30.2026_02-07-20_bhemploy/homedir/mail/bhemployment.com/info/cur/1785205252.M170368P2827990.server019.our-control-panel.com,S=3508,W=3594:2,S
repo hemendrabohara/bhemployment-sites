@@ -1,0 +1,86 @@
+Return-Path: <>
+Delivered-To: info@bhemployment.com
+Received: from server019.our-control-panel.com
+	by server019.our-control-panel.com with LMTP
+	id /HP7CQQSaGrWJisAaDcOIg
+	(envelope-from <>)
+	for <info@bhemployment.com>; Tue, 28 Jul 2026 08:05:52 +0545
+Return-path: <>
+Envelope-to: info@bhemployment.com
+Delivery-date: Tue, 28 Jul 2026 08:05:52 +0545
+Received: from mailnull by server019.our-control-panel.com with local (Exim 4.99.4)
+	id 1woXR5-0000000BrgP-2bfA
+	for info@bhemployment.com;
+	Tue, 28 Jul 2026 08:05:51 +0545
+X-Failed-Recipients: postmaster@newfold.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@server019.our-control-panel.com>
+To: info@bhemployment.com
+References: <1785205249.3pvSQ87EpEsa5bvZ@server019.our-control-panel.com>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1785205251-eximdsn-822293027
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1woXR5-0000000BrgP-2bfA@server019.our-control-panel.com>
+Date: Tue, 28 Jul 2026 08:05:51 +0545
+
+--1785205251-eximdsn-822293027
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  postmaster@newfold.com
+    host newfold-com.mail.eo.outlook.com [52.101.10.5]
+    SMTP error from remote mail server after RCPT TO:<postmaster@newfold.com>:
+    550 5.4.1 Recipient address rejected: Access denied. For more information see https://aka.ms/EXOSmtpErrors [BN2PEPF000044A8.namprd04.prod.outlook.com 2026-07-28T02:20:51.332Z 08DEE8728C554D0A]
+
+--1785205251-eximdsn-822293027
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; server019.our-control-panel.com
+
+Action: failed
+Final-Recipient: rfc822;postmaster@newfold.com
+Status: 5.0.0
+Remote-MTA: dns; newfold-com.mail.eo.outlook.com
+Diagnostic-Code: smtp; 550 5.4.1 Recipient address rejected: Access denied. For more information see https://aka.ms/EXOSmtpErrors [BN2PEPF000044A8.namprd04.prod.outlook.com 2026-07-28T02:20:51.332Z 08DEE8728C554D0A]
+
+--1785205251-eximdsn-822293027
+Content-type: message/rfc822
+
+Return-path: <info@bhemployment.com>
+Received: from bhemploy by server019.our-control-panel.com with local (Exim 4.99.4)
+	(envelope-from <info@bhemployment.com>)
+	id 1woXR3-0000000Bre6-2SKS
+	for postmaster@newfold.com;
+	Tue, 28 Jul 2026 08:05:49 +0545
+Date: Tue, 28 Jul 2026 02:20:49 GMT
+From: "B&H Employment & Consultancy Inc." <info@bhemployment.com>
+Message-Id: <1785205249.3pvSQ87EpEsa5bvZ@server019.our-control-panel.com>
+Precedence: auto_reply
+Subject: Thank you for contacting B&H Employment - Re: Undeliverable: Candidate referrals for New York Nanny Agency
+To: <postmaster@newfold.com>
+X-Autorespond: Undeliverable: Candidate referrals for New York Nanny Agency
+X-Loop: postmaster@newfold.com
+X-Precedence: auto_reply
+Mime-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+Thank you for contacting B&H Employment & Consultancy Inc. We have received=
+ your email and our team will get back to you as soon as possible.=0D
+=0D
+For urgent inquiries, you can also reach us at +929-385-6177.=0D
+=0D
+Best regards,=0D
+B&H Employment & Consultancy Inc  =0D
+=0D
+Bikash J. Bohara  =0D
+Managing Director  =0D
++1(929)-385-6177=0D
+www.bhemployment.com  =0D
+37-51 75th St , Jackson Heights, NY 11372 =0D
+
+--1785205251-eximdsn-822293027--

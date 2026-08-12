@@ -1,0 +1,211 @@
+Return-Path: <judeannw@thelindquistgroup.com>
+Delivered-To: info@bhemployment.com
+Received: from server019.our-control-panel.com
+	by server019.our-control-panel.com with LMTP
+	id C/fBIAkGYWrgOBMAaDcOIg
+	(envelope-from <judeannw@thelindquistgroup.com>)
+	for <info@bhemployment.com>; Wed, 22 Jul 2026 23:48:53 +0545
+Return-path: <judeannw@thelindquistgroup.com>
+Envelope-to: info@bhemployment.com
+Delivery-date: Wed, 22 Jul 2026 23:48:53 +0545
+Received: from dispatch1-us1.ppe-hosted.com ([148.163.129.49]:22362)
+	by server019.our-control-panel.com with esmtps  (TLS1.3) tls TLS_AES_256_GCM_SHA384
+	(Exim 4.99.4)
+	(envelope-from <judeannw@thelindquistgroup.com>)
+	id 1wmbIP-00000005HV7-1k99
+	for info@bhemployment.com;
+	Wed, 22 Jul 2026 23:48:53 +0545
+Received: from dispatch1-us1.ppe-hosted.com (ip6-localhost [127.0.0.1])
+	by dispatch1-us1.ppe-hosted.com (PPE Hosted ESMTP Server) with ESMTP id C571C20314D
+	for <info@bhemployment.com>; Wed, 22 Jul 2026 18:03:09 +0000 (UTC)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=thelindquistgroup.com;
+ h=content-transfer-encoding:content-transfer-encoding:content-type:content-type:date:date:from:from:in-reply-to:in-reply-to:message-id:message-id:mime-version:mime-version:references:references:subject:subject:to:to;
+ s=selector-1711455454; bh=OrnOOtnb3dXmcSsZjVLmwN9XigOaA0zRnnSamePh8zo=;
+ b=DBeOCRXJTHcvqY6CT6qVt4RNFEPv2eqQWVKymsFUBon3kUVs7aX7Ko27XWf7OvcXw3YH0hsE3ajhkT7V2WalAO2yWKysKQy2FYiO0oSSLdWPvR/cH+CpjBxeQ23cnU/ZHbg+MsFaNkXCU9Jlsvi+2Z2+4d6k/wvZRzfJKN9exixpsKT25rsewC6TYMCt4/bOCB+l6QkA+Xa2KFsRnrQQBYAyUDX+/VVO4OlfHLaaTthDxfBkI2e5PuOABlP9Z5KQR5LFdRts6aZ2y8eMmVh7HMOVxuq+/F/XvTav3tRwXps/H1YWZBr9huRAMxnaDNWEyn60/2MVOu11Dl4oProULQ==
+X-Virus-Scanned: Proofpoint Essentials engine
+Received: from CH1PR05CU001.outbound.protection.outlook.com (mail-northcentralusazon11020080.outbound.protection.outlook.com [52.101.193.80])
+	(using TLSv1.3 with cipher TLS_AES_256_GCM_SHA384 (256/256 bits)
+	 key-exchange ECDHE (P-384) server-signature RSA-PSS (4096 bits) server-digest SHA256)
+	(No client certificate requested)
+	by mx1-us1.ppe-hosted.com (PPE Hosted ESMTP Server) with ESMTPS id 42C7FA80070
+	for <info@bhemployment.com>; Wed, 22 Jul 2026 18:02:57 +0000 (UTC)
+ARC-Seal: i=1; a=rsa-sha256; s=arcselector10001; d=microsoft.com; cv=none;
+ b=H8ZNo0PyGSvEtgAAhLYnYIPg5DhrV2Xp+CZ0faeeclbdflQtc7qNImDPxHymWAFHnLiVuzTvXBbKuh3mM0nLVzzGn1c5CBmL/8/43yMEfhDmNrRKO81DPfc9l6X5APGuHsgcP5P88TU1lGHLsevzMIj0g5I+thWg1/cnKQMdZRM1yUul+fmEnRMDkhBLZjswAn7YGdwYLLJ0sWqFToRpddyH9/p25umpjJshZkTOpyAfdo3orAzYhSZ3EkjZ+S1deuLg7BzBJ2XmDOpyDKe96dwtuerDyTP2dMBlNBX//94ndeVd5JQPlRIQpirfPeVCYfqESje1iqiydelwFSY+MA==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector10001;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-AntiSpam-MessageData-ChunkCount:X-MS-Exchange-AntiSpam-MessageData-0:X-MS-Exchange-AntiSpam-MessageData-1;
+ bh=OrnOOtnb3dXmcSsZjVLmwN9XigOaA0zRnnSamePh8zo=;
+ b=WW6iXSwuIZ79lho5pViqNqxGgTurgLamIavA21+oGUy9hrvUzw1Um4bLqt5aSpq1zG+CeWlY9Oai4EWUgXR2o/+VxvbAREmfGDwyWG6optiutXkjI4eu1MjaIfV62DRK8rzMpArWk2qnowByrg1K3LXKhNlh7dKG5rGWpy+6npMvCp8AtzVdYBw3J3e939G2ZboL9LHL3GPXULFEDZH7ieU0KlUAX34zq8zjK4bKZRAz8mlBmZzjP5uW/d4FgFaJnpciAFY9B66B6TWECrtM6CITKigNWNieDUhmjsHXZi27BpP7BDVZjRJfW/qZZSTOt8HA9Y73lLEwfPSMDC0qyg==
+ARC-Authentication-Results: i=1; mx.microsoft.com 1; spf=pass
+ smtp.mailfrom=thelindquistgroup.com; dmarc=pass action=none
+ header.from=thelindquistgroup.com; dkim=pass header.d=thelindquistgroup.com;
+ arc=none
+Received: from CO6P220MB0451.NAMP220.PROD.OUTLOOK.COM (2603:10b6:303:13f::19)
+ by DM8P220MB0456.NAMP220.PROD.OUTLOOK.COM (2603:10b6:8:24::24) with Microsoft
+ SMTP Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.21.223.18; Wed, 22 Jul 2026 18:02:54 +0000
+Received: from CO6P220MB0451.NAMP220.PROD.OUTLOOK.COM
+ ([fe80::562:35b1:b77e:c030]) by CO6P220MB0451.NAMP220.PROD.OUTLOOK.COM
+ ([fe80::562:35b1:b77e:c030%5]) with mapi id 15.21.0223.017; Wed, 22 Jul 2026
+ 18:02:54 +0000
+From: Judeann Warner <judeannw@thelindquistgroup.com>
+To: B&H Employment & Consultancy Inc. <info@bhemployment.com>
+Subject: RE: Free Candidate Referrals (Nepali, Bhutanese, Tibetan & Hindi
+ Speaking) - B&H Employment
+Thread-Topic: Free Candidate Referrals (Nepali, Bhutanese, Tibetan & Hindi
+ Speaking) - B&H Employment
+Thread-Index: AQHdGgRGTgNGSbNqkU2jdUJFDuxU3rZ51JVw
+Date: Wed, 22 Jul 2026 18:02:54 +0000
+Message-ID:
+ <CO6P220MB0451072D620165DF829BBD7DDEC12@CO6P220MB0451.NAMP220.PROD.OUTLOOK.COM>
+References: <178474334048.1552.18249623592002984717@bhemployment.com>
+In-Reply-To: <178474334048.1552.18249623592002984717@bhemployment.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach:
+X-MS-TNEF-Correlator:
+authentication-results: dkim=none (message not signed)
+ header.d=none;dmarc=none action=none header.from=thelindquistgroup.com;
+x-ms-publictraffictype: Email
+x-ms-traffictypediagnostic: CO6P220MB0451:EE_|DM8P220MB0456:EE_
+x-ms-office365-filtering-correlation-id: aff95d00-fe55-4c38-2e03-08dee81b7467
+x-ms-exchange-senderadcheck: 1
+x-ms-exchange-antispam-relay: 0
+x-microsoft-antispam:
+ BCL:0;ARA:13230040|366016|23010399003|376014|1800799024|4133799003|38070700021|56012099006|10067099003|18002099003|22082099003;
+x-microsoft-antispam-message-info:
+ yn9s25g3NL64qfW9AIvEPj1skuXJUJH7+iqXYI4F9mccO2miXPEQJ43g3uD3gTdkLZunbyvxGdEyPN2tBRnDRj3GD5Ocl9ZhOHJ8+6v+Kyi4h96/J1ELUQsO6Yfl4yAm9TOWcE2fgpwtIiWNSrs/VU2QCu6+/yhhvaa2C5BleDAZxtxC8aSEw40VtZ55d2735qZSXeRLdmqNn0wNAHtJXuqeJWXKlAbie05Un56+oPjA3Rk7uHp1e3fjEn6q6/NGPG06PbSa+G0fe4E6U8M2sJnWpXxVMQYbkaWoTpmlQi0Fe5rrjrKKp3Xe/9sdbUgVBD8GwRBNHolkXFt969mRFNw9xfZq52V24Xa4DHNYbLuYFQwx6a651IYtaHNze2lgCWsZFxxiA/XF0gjwtFHzqtCBcigQD6/zBZZduA9e5BEfpk2squb9Qny0BAg1mbOIDXgzCCf0FJ+qZQH2I8p7c7Uq+YX04kG3zbkTjng+pWjW4bpnVzg7pXgvXn2HwFNDzgspFAgfR/cTzq1LMBBo4KUvryPnechMATGmqxQBwdH4zG8axCYntpWsSJCgZwioIxCxXYpQOq7d6bKrD8cuRvMPUnNyHaZhDy+/OnfbQ9ILIOoR223zJj2IEWWOdGWt/VU802vCwJ+i4gfG4xVfR7jkwirFftSoHOM7fmHLYoE=
+x-forefront-antispam-report:
+ CIP:255.255.255.255;CTRY:;LANG:en;SCL:1;SRV:;IPV:NLI;SFV:NSPM;H:CO6P220MB0451.NAMP220.PROD.OUTLOOK.COM;PTR:;CAT:NONE;SFS:(13230040)(366016)(23010399003)(376014)(1800799024)(4133799003)(38070700021)(56012099006)(10067099003)(18002099003)(22082099003);DIR:OUT;SFP:1102;
+x-ms-exchange-antispam-messagedata-chunkcount: 1
+x-ms-exchange-antispam-messagedata-0:
+ =?utf-8?B?OE1rejU5eVJyWFJXajI2bzB1QVp6Q1Z5WFRHMEt2MG1DVjNVS0RDbTNMNDhk?=
+ =?utf-8?B?Y2RBVmNtT0RWVzdGT2dUNEsvMmM2UCszRm96a3RmaUdzL2wwaXFqbGlUcHlW?=
+ =?utf-8?B?TkFjTk5FMUkyTGJ2WGtwWEtGN2xMZElsTTZUblJ4dDVRWThkTVU0UndYN3cw?=
+ =?utf-8?B?bWU5NjBqbnd1dytUalRPVzYxb1VRSllhWWt0TGE2aGJwd3Z4NGd6bDZteThw?=
+ =?utf-8?B?WGxibFVjajdsalMxYkcvOG82UjVhNEw4QXYxajFMeGo2Q2ROcTdWVkEzYWdT?=
+ =?utf-8?B?eE42Qm1HNS9pWWVKZjY2SXpuTDEyQ09vMVh6d2pQWG5rQ3VKdnF1c0Fla0xs?=
+ =?utf-8?B?RlFZS28rcWhsOXJYK0E2ckxWbmk4UmM3NTBPWm9tc1JrRHFFOTNkbHZ4cFJS?=
+ =?utf-8?B?Z1JjUnpNemdTOGU5MzYvblI3WGtKOTZTWkczNnhPMVZqaG43UE1ZOWRpWlJt?=
+ =?utf-8?B?WGVFa2tQem8xbFZaU3Z6cURVVzQvWUVCOWcvTlcvZjZOZjlSc3cxbG5objJJ?=
+ =?utf-8?B?NStZQUdrNW1GZldkdFpkZDJUVUplaXZpL29zSENDcGNhYzAyNGd5WFFWUUln?=
+ =?utf-8?B?aG1HY0IrTndXR0c1VGsrVlNucTkwWHB4QmxqQUpDSlM2b0xpMEs5S1VHZUtr?=
+ =?utf-8?B?b3lrQ0NLVWlIWThTZ0V5VW9YZ0xXanpvNER2VnVGa3laNDI3bFZTRVRmOVNE?=
+ =?utf-8?B?M3hLU2pCOXNnKzB1SGErRmtJRzFocnNLRWV3ckpuRlRPR2dGemYwZVdOdEt4?=
+ =?utf-8?B?YWNhTVZ6ei9ySEJ1TlRrNFYwVU9TVmgzN1pYc3VKWitHTHJLNkVzZmhrT3lq?=
+ =?utf-8?B?MHExRkRveXJzcXNvSkIrMXE2M0J3K29XTnVuRjVyMDZZRDEwdFA4L0JMMjVw?=
+ =?utf-8?B?MWh4OVVzdndDaElxYms2anlHbVN6di9uNnk1UDZ0bVUxa2Q5OW9PODAyeGYr?=
+ =?utf-8?B?UXZ6OXBUWktTUFkwUXlvUjQ3ZW5PWU90REJURkY3WHZaSy8xa01wM1hMNVRK?=
+ =?utf-8?B?WmNYVk5mcktEajhBc2wrUU44dDdvZFVyRWtDSVdEQnVFNUEweEd5WllIZmZ5?=
+ =?utf-8?B?MGtxUzNrVUN5OUk0aFU0K1ZRaWFVZlYydmwxQ25Jbi9VUEJFamd5K0RKRHFF?=
+ =?utf-8?B?M2RURW1XdDIva3RGemFkU3Y5LzBETUpGN3BQMSszY1hmZXhObk5Uc1dVWjg4?=
+ =?utf-8?B?WHdLdDcrY2k0bVdXY1A1ci9qTUpCKzJqTDB5YlR3OHlSRkxMOEpseXI1QWVk?=
+ =?utf-8?B?ZGYyQmU2OGVwbzk3cUFTMUZZSFN1TlRqNHdxa3Y1VkViRzVDNlFoNmYyTHdV?=
+ =?utf-8?B?cjRFVXN2SWJrbXQ5azJjWDJ0MktpWUcrQ2JDekhwTzZoMTZ2WGZBMGNxRk1J?=
+ =?utf-8?B?U0xIelpoN0o3d2EyYktzbVpKa0U2Um5jOGtCaTk2MUEyajZRYi83Vm5uNGQ3?=
+ =?utf-8?B?QnIzL2JOUVA0THNzakFvK3dEajIzOHREcTFFZkcxb21aT2hXWEU1L1NWeS81?=
+ =?utf-8?B?cU9UYmdaL1VUZncyQlYraWFpVGo5MStXdDZmTWpHNEk0Q3ZyUFAvNlFjNTVB?=
+ =?utf-8?B?WlBySG80L1haTGxpQWFXdUhWc0dyTEVFRXZUU1RrcmFiT0dyNkJYWWtRa2Jh?=
+ =?utf-8?B?OXdiWTFuNmh5WlJTTFNPS1RRbkx3TWNDMjdqMnBCNDVmaERqMXQrdWY2SVJ4?=
+ =?utf-8?B?RWVKVWI2MzdsK1NqWXQxVHNybjlhaTNSbjdXTktqT0Fha3BxOFVFUkZZelR1?=
+ =?utf-8?B?ZlpyOU5hS0dXL1p4WlhqdVBYWXpSQWI1UVloanlRbEdlNGtkNFd4TjZCaVEz?=
+ =?utf-8?B?SENjZEQvWjdoenlYU0txbEhmRWhIUk5Qb0tYbGpNaUZPb1lnTVUrdHM1WXpn?=
+ =?utf-8?B?ODNkVFowMnZiYWFtT3NDaHUrS2JzWjVmTW1NMnp1U2k4di95V1Uwci9jUUpH?=
+ =?utf-8?B?VXBwNHJRTnVHRVZRQWJJcEFjOUR3UjBtaEFLdTUrVDVyQ2lUTFFRdVFHUktX?=
+ =?utf-8?B?bVlWVXlmeUlHaE9HN3hzeG9QaXFrQ2JzbHZtekYzalFlRUtmbisrSUc0dXEw?=
+ =?utf-8?B?c2s1Q2JMMHJveW4zMEVqZ1p3QWR2RCtzVG5NZ2FFRmQvdkpSUm01a0R1QjM4?=
+ =?utf-8?B?ZWd1TXIvalN4alZZbjY2OFN0NlNqN0R2Nkx3Mk1uSytDcGplK3VMd1Q4aGN1?=
+ =?utf-8?B?MklGVUFtcHRJYkppYWNZcktndklrZkRaUXhKS2FlTWxiNDU3eFNJWDNVVVNM?=
+ =?utf-8?B?WGJCc3gzVEJtOFJEeHF5V09KejE1cVRCNXJwK0VOL1BRdmhFMDNDN2FEaWE5?=
+ =?utf-8?B?REFlMmVPZjlPUG8xVExmaWh4ZGs3VW96clRVTXl0T0xFZjhtNlFJUDFXVHc2?=
+ =?utf-8?Q?18UfDfPIXhrmvFq4=3D?=
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: base64
+MIME-Version: 1.0
+X-Exchange-RoutingPolicyChecked:
+	BM5feqwmYO7LCd+3ZTES7QDjLKIqhvhtDLaErvMdgo2xj7+jikbSAbVmtaxeq72Wj5nATk8PrVtDtEmDvpZdI9/4PFfTwQRZEC9RL5J17v+SkPzrVGNVj48vpJ1jHexx0w5k+FPDQ8kK1vhB5gpZRIlOOoqd1t7JYalmqA/ew4BRI3kX14jgnuh2QqFXKvqDP5qyu5yGlHGVhFoWwUjYpGWTv8mHqLYJaZ90nk2GQ15vwcTZLdyMtKhsJFIW3bWOnAj0oIZtCVhfZVnSKWIEQSGUCUVRIMWHRzUmQ7qeSERDrw1dP86ERcCcYGs9oUe+O1QQ0OFJIDYHxkPpiXGLHw==
+X-OriginatorOrg: thelindquistgroup.com
+X-MS-Exchange-CrossTenant-AuthAs: Internal
+X-MS-Exchange-CrossTenant-AuthSource: CO6P220MB0451.NAMP220.PROD.OUTLOOK.COM
+X-MS-Exchange-CrossTenant-Network-Message-Id: aff95d00-fe55-4c38-2e03-08dee81b7467
+X-MS-Exchange-CrossTenant-originalarrivaltime: 22 Jul 2026 18:02:54.7529
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Hosted
+X-MS-Exchange-CrossTenant-id: 81071cb2-d38d-42c8-a8de-ccfb2d23759b
+X-MS-Exchange-CrossTenant-mailboxtype: HOSTED
+X-MS-Exchange-CrossTenant-userprincipalname: d3HPrqxEC+YqPtC2X26nk6WKnHyTt9+QAWAwlGFwH7dbuHa2q+sbfBXZw8itb2rQI7pe8apSDpfEn5cxZjztAtpenWEQVVJSPMQqA8W9VPU=
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: DM8P220MB0456
+X-MDID: 1784743377-CTeipccW_UWZ
+X-PPE-STACK: {"stack":"us3"}
+X-MDID-O:
+ us3;ut7;1784743377;CTeipccW_UWZ;<judeannw@thelindquistgroup.com>;34b9e9c228e242a3cdde54707a26cc59
+X-PPE-TRUSTED: V=1;DIR=OUT;
+X-Spam-Status: No, score=-3.2
+X-Spam-Score: -31
+X-Spam-Bar: ---
+X-Ham-Report: Spam detection software, running on the system "server019.our-control-panel.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Not interested. Judeann Warner The Lindquist Group New York
+    Office | 260 Madison Avenue, 8th Floor | New York, NY 10016 | D: 646.863.4600
+    | O: 212.644.0990 Greenwich | Miami | New York | Palm Beach 
+ Content analysis details:   (-3.2 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 RCVD_IN_DNSWL_BLOCKED  RBL: ADMINISTRATOR NOTICE: The query to DNSWL
+                             was blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#DnsBlocklists-dnsbl-block
+                              for more information.
+                             [148.163.129.49 listed in list.dnswl.org]
+ -2.5 RCVD_IN_HOSTKARMA_W    RBL: Sender listed in HOSTKARMA-WHITE
+                       [148.163.129.49 listed in hostkarma.junkemailfilter.com]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was blocked.
+                             See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URI: thelindquistgroup.com]
+ -0.0 SPF_HELO_PASS          SPF: HELO matches SPF record
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily valid
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from author's
+                             domain
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+  0.5 GB_GEN_REDIR_URL       Redirector found in href link
+ -1.0 RCVD_IN_MSPIKE_H5      RBL: Excellent reputation (+5)
+                             [148.163.129.49 listed in wl.mailspike.net]
+ -0.0 RCVD_IN_MSPIKE_WL      Mailspike good senders
+X-Spam-Flag: NO
+
+Tm90IGludGVyZXN0ZWQuIA0KDQpKdWRlYW5uIFdhcm5lcg0KVGhlIExpbmRxdWlzdCBHcm91cA0K
+TmV3IFlvcmsgT2ZmaWNlIHwgMjYwIE1hZGlzb24gQXZlbnVlLCA4dGggRmxvb3IgfCBOZXcgWW9y
+aywgTlnCoCAxMDAxNiB8IEQ6IDY0Ni44NjMuNDYwMCB8IE86IDIxMi42NDQuMDk5MA0KDQpHcmVl
+bndpY2ggfCBNaWFtaSB8IE5ldyBZb3JrIHwgUGFsbSBCZWFjaA0KDQpUaGUgbGVhZGluZyBwcml2
+YXRlIHN0YWZmaW5nIGNvbXBhbnkgaW4gdGhlIFUuUy4gc2VydmluZyBwcml2YXRlIHJlc2lkZW5j
+ZXMgYW5kIGJ1c2luZXNzZXMgc2luY2UgMTg5MC4NCg0Kd3d3LnRoZWxpbmRxdWlzdGdyb3VwLmNv
+bQ0KDQotLS0tLU9yaWdpbmFsIE1lc3NhZ2UtLS0tLQ0KRnJvbTogQiZIIEVtcGxveW1lbnQgJiBD
+b25zdWx0YW5jeSBJbmMuIDxpbmZvQGJoZW1wbG95bWVudC5jb20+IA0KU2VudDogV2VkbmVzZGF5
+LCBKdWx5IDIyLCAyMDI2IDI6MDIgUE0NClRvOiBKdWRlYW5uIFdhcm5lciA8anVkZWFubndAdGhl
+bGluZHF1aXN0Z3JvdXAuY29tPg0KU3ViamVjdDogUmU6IEZyZWUgQ2FuZGlkYXRlIFJlZmVycmFs
+cyAoTmVwYWxpLCBCaHV0YW5lc2UsIFRpYmV0YW4gJiBIaW5kaSBTcGVha2luZykgLSBCJkggRW1w
+bG95bWVudA0KDQpIaSBUaGVsaW5kcXVpc3Rncm91cCBUZWFtLA0KDQpJIHdhbnRlZCB0byBmb2xs
+b3cgdXAgYnJpZWZseS4gSSBrbm93IHN0YWZmaW5nIGFnZW5jaWVzIG9mdGVuIHJlY2VpdmUgcmVx
+dWVzdHMgZnJvbSBTb3V0aCBBc2lhbiBmYW1pbGllcyB3aG8gcHJlZmVyIG5hbm5pZXMgb3IgaG91
+c2VrZWVwZXJzIGZhbWlsaWFyIHdpdGggdGhlaXIgbGFuZ3VhZ2UgYW5kIGN1bHR1cmUuIFNpbmNl
+IHdlIG9mZmVyIHByZS1zY3JlZW5lZCBOZXBhbGkvSGluZGktc3BlYWtpbmcgY2FuZGlkYXRlcyBh
+dCB6ZXJvIHBsYWNlbWVudCBjb3N0IHRvIHlvdXIgYWdlbmN5LCBJIHdhbnRlZCB0byBzZWUgaWYg
+eW91IGhhdmUgYW55IGFjdGl2ZSBwbGFjZW1lbnRzIHdlIGNvdWxkIGFzc2lzdCB3aXRoLg0KDQpJ
+ZiB5b3Ugd291bGQgbGlrZSB0byBjb25uZWN0IGJyaWVmbHkgdG8gc2VlIHdoYXQgY2FuZGlkYXRl
+cyB3ZSBoYXZlIGF2YWlsYWJsZSwgcGxlYXNlIGxldCBtZSBrbm93Lg0KDQpQbGVhc2UgZmVlbCBm
+cmVlIHRvIHJlYWNoIG1lIGF0Og0K8J+TniAoOTI5KSAzODUtNjE3Nw0K8J+TpyBiaC5qb2JhZ2Vu
+Y3lAZ21haWwuY29tDQrwn4yQIGh0dHBzOi8vdXJsZGVmZW5zZS5wcm9vZnBvaW50LmNvbS92Mi91
+cmw/dT1odHRwLTNBX193d3cuYmhlbXBsb3ltZW50LmNvbSZkPUR3SUdhUSZjPWV1R1pzdGNhVERs
+bHZpbUVOOGI3alhyd3FPZi12NUFfQ2RwZ25WZmlpTU0mcj1RRzhYZVZzcHFLNEs3Sko5d0RqWDJr
+VmVrVTlRUmZqTzVYQkJRUVp5NWtZJm09MVE2NWdDSWhiYUozWkVnWnlwNG1rWER5ZmpPQUpTYjFK
+dU96eXMwZmUwTGprN1FnQzZkTEUzbzRzejJLN0RlLSZzPXJDQ1V5SWE3YUF3ZElLNk5tQml4Y3dQ
+ZHhrWkJnc0VaZlN1TGFvcG5vS2cmZT0NCvCfk40gMzctNTEgNzV0aCBTdCwgU3VpdGUgMUEsIEph
+Y2tzb24gSGVpZ2h0cywgTlkgMTEzNzINCg0KVGhhbmsgeW91IGZvciB5b3VyIHRpbWUuDQoNCldh
+cm0gcmVnYXJkcywNCkJpa2FzIEogQm9oYXJhDQo=

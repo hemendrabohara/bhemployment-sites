@@ -1,0 +1,178 @@
+Return-Path: <bh.jobagency@gmail.com>
+Delivered-To: hiring@bhemployment.com
+Received: from server019.our-control-panel.com
+	by server019.our-control-panel.com with LMTP
+	id hObsGD5Ejml6Bw0AaDcOIg
+	(envelope-from <bh.jobagency@gmail.com>)
+	for <hiring@bhemployment.com>; Fri, 13 Feb 2026 03:06:02 +0545
+Return-path: <bh.jobagency@gmail.com>
+Envelope-to: hiring@bhemployment.com
+Delivery-date: Fri, 13 Feb 2026 03:06:02 +0545
+Received: from mail-yx1-f66.google.com ([74.125.224.66]:60863)
+	by server019.our-control-panel.com with esmtps  (TLS1.3) tls TLS_AES_128_GCM_SHA256
+	(Exim 4.99.1)
+	(envelope-from <bh.jobagency@gmail.com>)
+	id 1vqe7U-00000003Znk-0qCu
+	for hiring@bhemployment.com;
+	Fri, 13 Feb 2026 03:06:02 +0545
+Received: by mail-yx1-f66.google.com with SMTP id 956f58d0204a3-64ae2ce2fe1so299468d50.1
+        for <hiring@bhemployment.com>; Thu, 12 Feb 2026 13:20:40 -0800 (PST)
+ARC-Seal: i=1; a=rsa-sha256; t=1770931219; cv=none;
+        d=google.com; s=arc-20240605;
+        b=O/jPhLmhXO1rDR+9hz/9BGTeK/R7useJ3hoKWtSETd+iyXtM7l1MUBfwz8RopY6c85
+         pApGkLy2L0iIX2kpyJJGErFaRYve6WwLRGRznyKJvwXQm9QuHPKXID8q0GZAc7eH0h+9
+         LJkLiUThi77VJ4yu/sIG1lT/lGINPtnepZHZY0ghCAty9MIhk0/VmnXuYiWrGeyhyd2K
+         FS2baFXHArahX6JwbUyS06z8cWxGgTLhltDIs/TVwgeJey5DgzLpCgbCs1c5PVQnyvUf
+         4Pfht1Mb5c4WAJ5X2EVIAG6Q59bExCvSeC0Yf0LQffvFJgKlt0ij8t1wL/tenTElN/u/
+         inmw==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20240605;
+        h=to:subject:message-id:date:from:mime-version:dkim-signature;
+        bh=s/ebimQ+xAwCYXK1Ocem/mlF5PJpgmLkYt4wdFS2xm8=;
+        fh=DX+Slt7mNm6QdYWSiON2O/BrkrY2FDnPVgNcg43Sa08=;
+        b=AjcVwj8jHqr6OV29iuq5ME0qk6VdX/2j2dFtgGr7tu3R43LKjdBaMHbrBsUXXkNYo7
+         z3vura4WztGBFeTdS0H0bBZsYazsJIvQAQRyDDBHje7swto0X0Id8Fu2vrzELNPvR6Ik
+         gLdjCfVGWSUOzMu7idf16zohT7zM0qJz5aG1HarXyMzoUbxTwMVqMBMcnvIdctCYfLLw
+         7UiIcbDKy5U3wa9UcPMetEs0/j1h7CmlODV0IZjBdZPUxKRFRAaWk65quFXep+3RcBnE
+         NR3wa3yPx7i/TkFzQdrhgwZWFVoEIGYLUlEr2B1cHjHU15eRGYF8nDFn+w+ejaTFQ/16
+         2YnA==;
+        darn=bhemployment.com
+ARC-Authentication-Results: i=1; mx.google.com; arc=none
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20230601; t=1770931219; x=1771536019; darn=bhemployment.com;
+        h=to:subject:message-id:date:from:mime-version:from:to:cc:subject
+         :date:message-id:reply-to;
+        bh=s/ebimQ+xAwCYXK1Ocem/mlF5PJpgmLkYt4wdFS2xm8=;
+        b=V4sVPfT/SNUPVC94vfxONByaPqU13rGceWbTbQtJYcxd1kNtEt0/Iw6ynjfzvV2Aaz
+         W3VRF6vLmWgyKuBPslNi9r3Ey9P16esv+mhOLG4o+HJO35ZnIZ4mlIQ8x4rZ7Yh/eCEJ
+         bj8Kx9TkYPkZyOXlF2uy+Y1YRxOpizkTUbrh3VBGFdT4YbxVKYvuYv5A5j/zVhlJigYz
+         hupNGNGQp8RkmU9ck4C1LbVTwYu2+Mdes7z+1r2EG869oU3SbM07H98D1RxSNPi3StB2
+         AayvJ8LJbo/M21sqlstVMUZVUsBKXz5yRRtvO2xQCpgQD6g1dsu/D3YqxXQOI5lajQKQ
+         C9Kw==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1770931219; x=1771536019;
+        h=to:subject:message-id:date:from:mime-version:x-gm-gg
+         :x-gm-message-state:from:to:cc:subject:date:message-id:reply-to;
+        bh=s/ebimQ+xAwCYXK1Ocem/mlF5PJpgmLkYt4wdFS2xm8=;
+        b=sBbFHSDKGBhdCaQBWPrM9I+Q9mfWWPH/tSap+pyXxfwNqhWTzUDoTetuMVTuAG+83Y
+         x4ACii66/EG+GB6V+rHGcOr9Tdg27AdqhBrlTZftr3u8zVGzOpsAgkhrsqJP4sqxNchH
+         PMzxmNvmSXQq9NckEWNXnPF9ofYXOnsW4Mdl2+Yrg04S7krwMOWE8VHcajrpCb+tQ7eS
+         /1yQ6wa6oI+IOrq8ECLHxRJsLemAPELH1hGJRPST4GeJkMtijLvhEpq783p3/E1P4Bn/
+         xPop6+KPS9Ylp6NcoO6Phpq3wk3rB7gUmjv/YGzbzAHkbPWKNBn3kngbF8I4bDf6TJf2
+         RDLw==
+X-Gm-Message-State: AOJu0YxdrBV95NacUs6Nf703Gcm0HfHykC4HvyD5QVTBEdWef33LqwQA
+	33B2LoMbu1EL0ceG5BN8eEi11sC6hn9hR8OGdfhqN3qmgrcOxIRc2PJp8pM3MzjlgxXWXC9lFsa
+	UfEKbPj0kl+SK370l03G9KPsijASl0G4vASOb1M+kHQ==
+X-Gm-Gg: AZuq6aKmoV7VnKIuCSGqWwE8i9KYUJ3AHSSmbqY9T/jTJYuanLQsP1/VqOmpfyH41Fl
+	+AoIEIiJWdQxMORNe9SFOnWDtOfMu9NuqO2aJGUJ6tKE78SCGwvvFPsyOXrVd+Wqae2cex+zWPr
+	G/pmx3wzXrWPKY/ji9218AOOEjApBhrAqSQ6xYTKgrwyKBk+DagFPKfOENtedh2UTrCPd8c/QJZ
+	o/WfgAF1RgfYMB4ftdBOPRqWJw2qiWDG/3rwar2ZhR9n+jbQkylBiPTQTEqNRuzM1qyQyK8iEdV
+	wE9E6Nc=
+X-Received: by 2002:a05:690e:69b:b0:64a:e372:1cab with SMTP id
+ 956f58d0204a3-64c14afe0c2mr357256d50.32.1770931219300; Thu, 12 Feb 2026
+ 13:20:19 -0800 (PST)
+MIME-Version: 1.0
+From: "B&H Agency & Consultancy" <bh.jobagency@gmail.com>
+Date: Thu, 12 Feb 2026 16:20:08 -0500
+X-Gm-Features: AZwV_QhrixSORxIM9pRZuzV--0OiMpSad7cJtgwVhN1vV95lIDvrshh_VYNywHA
+Message-ID: <CAM-dQ2aJ6G00qAqSW9y0svOG4qCvDY5McdxsNWgMC1kP4UPh_g@mail.gmail.com>
+Subject: hello
+To: hiring@bhemployment.com
+Content-Type: multipart/alternative; boundary="0000000000003f83e5064aa70e71"
+X-Spam-Status: No, score=2.7
+X-Spam-Score: 27
+X-Spam-Bar: ++
+X-Ham-Report: Spam detection software, running on the system "server019.our-control-panel.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Testing -- B&H Employment & Consultancy Inc Bikash J. Bohara
+    Managing Director _ +929-385-6177|+347-680-2869 _ hiring@bhemployment.com
+    bh.jobagency@gmail.com _ www.bhemployment.com _ 37-51 75th St [...]
+    
+ Content analysis details:   (2.7 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was blocked.
+                             See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URI: bhemployment.com]
+  0.0 RCVD_IN_DNSWL_BLOCKED  RBL: ADMINISTRATOR NOTICE: The query to DNSWL
+                             was blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#DnsBlocklists-dnsbl-block
+                              for more information.
+                             [74.125.224.66 listed in list.dnswl.org]
+  1.2 RCVD_IN_BL_SPAMCOP_NET RBL: Received via a relay in bl.spamcop.net
+               [Blocked - see <https://www.spamcop.net/bl.shtml?74.125.224.66>]
+  0.0 RCVD_IN_MSPIKE_H2      RBL: Average reputation (+2)
+                             [74.125.224.66 listed in wl.mailspike.net]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.0 ARC_SIGNED             Message has a ARC signature
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from author's
+                             domain
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+  0.0 ARC_VALID              Message has a valid ARC signature
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily valid
+  0.0 RCVD_IN_VALIDITY_SAFE_BLOCKED RBL: ADMINISTRATOR NOTICE: The query to
+                              Validity was blocked.  See
+                             https://knowledge.validity.com/hc/en-us/articles/20961730681243
+                              for more information.
+                             [74.125.224.66 listed in sa-accredit.habeas.com]
+  0.0 RCVD_IN_VALIDITY_CERTIFIED_BLOCKED RBL: ADMINISTRATOR NOTICE: The
+                             query to Validity was blocked.  See
+                             https://knowledge.validity.com/hc/en-us/articles/20961730681243
+                              for more information.
+                          [74.125.224.66 listed in sa-trusted.bondedsender.org]
+  0.0 RCVD_IN_VALIDITY_RPBL_BLOCKED RBL: ADMINISTRATOR NOTICE: The query to
+                              Validity was blocked.  See
+                             https://knowledge.validity.com/hc/en-us/articles/20961730681243
+                              for more information.
+                             [74.125.224.66 listed in bl.score.senderscore.com]
+  0.0 FREEMAIL_FROM          Sender email is commonly abused enduser mail provider
+                             [bh.jobagency(at)gmail.com]
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  1.6 HTML_IMAGE_ONLY_12     BODY: HTML: images with 800-1200 bytes of words
+  0.0 T_REMOTE_IMAGE         Message contains an external image
+X-Spam-Flag: NO
+
+--0000000000003f83e5064aa70e71
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+Testing
+
+--=20
+B&H Employment & Consultancy Inc
+Bikash J. Bohara
+Managing Director
+=F0=9F=93=9E +929-385-6177|+347-680-2869
+=F0=9F=93=A7 hiring@bhemployment.com bh.jobagency@gmail.com
+=F0=9F=8C=90 www.bhemployment.com
+=F0=9F=8F=A2 37-51 75th St. 1A, Jackson Heights, NY 11372
+"Right People, Right Job, Right Place"
+
+--0000000000003f83e5064aa70e71
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><div>Testing</div><div><br></div><span class=3D"gmail_sign=
+ature_prefix">-- </span><br><div dir=3D"ltr" class=3D"gmail_signature" data=
+-smartmail=3D"gmail_signature"><div dir=3D"ltr"><a href=3D"http:///" target=
+=3D"_blank"></a><div><img width=3D"96" height=3D"96" src=3D"https://ci3.goo=
+gleusercontent.com/mail-sig/AIorK4yr8ltJBA8S3e-Y30Y-Tgm7AscCBp6YRmp0HspwrFd=
+zGRpydSPc9it7z66Le0bmohxBWdUBI-ZJhtya"></div><div>B&amp;H Employment &amp; =
+Consultancy Inc=C2=A0=C2=A0</div><div><div>Bikash J. Bohara=C2=A0=C2=A0</di=
+v><div>Managing Director=C2=A0=C2=A0</div></div><div>=F0=9F=93=9E +929-385-=
+6177|+347-680-2869=C2=A0=C2=A0</div><div>=F0=9F=93=A7=C2=A0<a href=3D"mailt=
+o:hiring@bhemployment.com" target=3D"_blank">hiring@bhemployment.com</a>=C2=
+=A0<a href=3D"mailto:bh.jobagency@gmail.com" target=3D"_blank">bh.jobagency=
+@gmail.com</a>=C2=A0=C2=A0</div><div>=F0=9F=8C=90 <a href=3D"http://www.bhe=
+mployment.com" target=3D"_blank">www.bhemployment.com</a>=C2=A0=C2=A0</div>=
+<div>=F0=9F=8F=A2 37-51 75th St. 1A, Jackson Heights, NY 11372=C2=A0=C2=A0<=
+/div><div>&quot;Right People, Right Job, Right Place&quot;</div><div><br></=
+div></div></div></div>
+
+--0000000000003f83e5064aa70e71--

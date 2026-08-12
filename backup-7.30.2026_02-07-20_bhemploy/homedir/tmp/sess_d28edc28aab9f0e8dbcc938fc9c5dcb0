@@ -1,0 +1,100 @@
+ PMA_token |s:32:"7856305439217a652255215d68532864"; HMAC_secret |s:16:"]lG$^_MsN_W3IT'j";auth_type|s:3:"env";browser_access_time|a:1:{s:7:"default";i:1743931342;}encryption_key|s:32:"g„+3Ø›Ð°"!¿z£rõÐ&ñ}@®ÓzÉ;ÔùPI";relation|a:1:{i:1;a:41:{s:7:"version";s:5:"5.2.2";s:4:"user";N;s:2:"db";N;s:8:"bookmark";N;s:15:"central_columns";N;s:11:"column_info";N;s:17:"designer_settings";N;s:16:"export_templates";N;s:8:"favorite";N;s:7:"history";N;s:16:"navigationhiding";N;s:9:"pdf_pages";N;s:6:"recent";N;s:8:"relation";N;s:13:"savedsearches";N;s:12:"table_coords";N;s:10:"table_info";N;s:13:"table_uiprefs";N;s:8:"tracking";N;s:10:"userconfig";N;s:10:"usergroups";N;s:5:"users";N;s:12:"bookmarkwork";b:0;s:8:"mimework";b:0;s:18:"centralcolumnswork";b:0;s:8:"commwork";b:0;s:9:"menuswork";b:0;s:20:"designersettingswork";b:0;s:11:"displaywork";b:0;s:19:"exporttemplateswork";b:0;s:12:"favoritework";b:0;s:7:"navwork";b:0;s:7:"pdfwork";b:0;s:10:"recentwork";b:0;s:7:"relwork";b:0;s:17:"savedsearcheswork";b:0;s:11:"historywork";b:0;s:12:"trackingwork";b:0;s:11:"uiprefswork";b:0;s:14:"userconfigwork";b:0;s:8:"allworks";b:0;}}userconfig|a:2:{s:2:"db";a:1:{s:12:"Console/Mode";s:8:"collapse";}s:2:"ts";i:1743931302;}two_factor_check|b:1;cache|a:2:{s:8:"server_1";a:4:{s:15:"userprefs_mtime";i:1743931302;s:14:"userprefs_type";s:7:"session";s:12:"config_mtime";i:1742846846;s:9:"userprefs";a:1:{s:7:"Console";a:1:{s:4:"Mode";s:8:"collapse";}}}s:25:"server_1_cpses_bh4e0boqsu";a:18:{s:17:"is_create_db_priv";b:0;s:14:"is_reload_priv";b:0;s:12:"db_to_create";s:0:"";s:30:"dbs_where_create_table_allowed";a:1:{i:0;s:15:"bhemploy\_admin";}s:11:"dbs_to_test";b:0;s:9:"proc_priv";b:0;s:10:"table_priv";b:0;s:8:"col_priv";b:0;s:7:"db_priv";b:0;s:11:"binary_logs";a:0:{}s:18:"menu-levels-server";a:13:{s:9:"databases";s:9:"Databases";s:3:"sql";s:3:"SQL";s:6:"status";s:6:"Status";s:6:"rights";s:5:"Users";s:6:"export";s:6:"Export";s:6:"import";s:6:"Import";s:8:"settings";s:8:"Settings";s:6:"binlog";s:10:"Binary log";s:11:"replication";s:11:"Replication";s:4:"vars";s:9:"Variables";s:7:"charset";s:8:"Charsets";s:7:"plugins";s:7:"Plugins";s:6:"engine";s:7:"Engines";}s:14:"menu-levels-db";a:14:{s:9:"structure";s:9:"Structure";s:3:"sql";s:3:"SQL";s:6:"search";s:6:"Search";s:5:"query";s:5:"Query";s:6:"export";s:6:"Export";s:6:"import";s:6:"Import";s:9:"operation";s:10:"Operations";s:10:"privileges";s:10:"Privileges";s:8:"routines";s:8:"Routines";s:6:"events";s:6:"Events";s:8:"triggers";s:8:"Triggers";s:8:"tracking";s:8:"Tracking";s:8:"designer";s:8:"Designer";s:15:"central_columns";s:15:"Central columns";}s:19:"profiling_supported";b:1;s:17:"menu-levels-table";a:11:{s:6:"browse";s:6:"Browse";s:9:"structure";s:9:"Structure";s:3:"sql";s:3:"SQL";s:6:"search";s:6:"Search";s:6:"insert";s:6:"Insert";s:6:"export";s:6:"Export";s:6:"import";s:6:"Import";s:10:"privileges";s:10:"Privileges";s:9:"operation";s:10:"Operations";s:8:"tracking";s:8:"Tracking";s:8:"triggers";s:8:"Triggers";}s:12:"is_superuser";b:0;s:14:"mysql_cur_user";s:26:"cpses_bh4e0boqsu@localhost";s:12:"is_grantuser";b:0;s:13:"is_createuser";b:0;}}tmpval|a:16:{s:14:"favoriteTables";a:1:{i:1;a:0:{}}s:12:"recentTables";a:1:{i:1;a:1:{i:0;a:2:{s:2:"db";s:14:"bhemploy_admin";s:5:"table";s:5:"users";}}}s:18:"table_limit_offset";i:0;s:21:"table_limit_offset_db";s:14:"bhemploy_admin";s:5:"query";a:10:{s:32:"409009eae6d57112fa1f24117f4f35d0";a:8:{s:3:"sql";s:936:"-- Jobs table
+CREATE TABLE IF NOT EXISTS jobs (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    user_id INT NOT NULL,
+    company_name VARCHAR(100) NOT NULL,
+    title VARCHAR(100) NOT NULL,
+    description TEXT NOT NULL,
+    requirements TEXT NOT NULL,
+    location VARCHAR(100) NOT NULL,
+    job_type ENUM('full-time', 'part-time', 'contract', 'temporary', 'internship') NOT NULL,
+    salary_min DECIMAL(10, 2),
+    salary_max DECIMAL(10, 2),
+    experience_level ENUM('entry', 'mid', 'senior', 'executive') NOT NULL,
+    application_instructions TEXT,
+    contact_email VARCHAR(100) NOT NULL,
+    contact_phone VARCHAR(20),
+    views INT DEFAULT 0,
+    applications INT DEFAULT 0,
+    is_active TINYINT(1) DEFAULT 1,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+    FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE
+);";s:12:"repeat_cells";i:100;s:8:"max_rows";i:25;s:3:"pos";i:0;s:6:"pftext";s:1:"P";s:18:"relational_display";s:1:"K";s:9:"geoOption";s:4:"GEOM";s:14:"display_binary";b:1;}s:32:"50481fe575c21639d92007039a6ab063";a:8:{s:3:"sql";s:595:"-- Job Applications table
+CREATE TABLE IF NOT EXISTS job_applications (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    job_id INT NOT NULL,
+    user_id INT NOT NULL,
+    resume_path VARCHAR(255) NOT NULL,
+    cover_letter TEXT,
+    status ENUM('pending', 'reviewed', 'interviewed', 'offered', 'rejected') DEFAULT 'pending',
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+    FOREIGN KEY (job_id) REFERENCES jobs(id) ON DELETE CASCADE,
+    FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE
+);";s:12:"repeat_cells";i:100;s:8:"max_rows";i:25;s:3:"pos";i:0;s:6:"pftext";s:1:"P";s:18:"relational_display";s:1:"K";s:9:"geoOption";s:4:"GEOM";s:14:"display_binary";b:1;}s:32:"9fae8d9ac70584b709334773b2214f5c";a:8:{s:3:"sql";s:393:"-- Saved Jobs table
+CREATE TABLE IF NOT EXISTS saved_jobs (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    job_id INT NOT NULL,
+    user_id INT NOT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    FOREIGN KEY (job_id) REFERENCES jobs(id) ON DELETE CASCADE,
+    FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE,
+    UNIQUE KEY unique_saved_job (job_id, user_id)
+);";s:12:"repeat_cells";i:100;s:8:"max_rows";i:25;s:3:"pos";i:0;s:6:"pftext";s:1:"P";s:18:"relational_display";s:1:"K";s:9:"geoOption";s:4:"GEOM";s:14:"display_binary";b:1;}s:32:"3d0832f2fdee46f61ae00320bc0fe2fa";a:8:{s:3:"sql";s:402:"-- Services table
+CREATE TABLE IF NOT EXISTS services (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    title VARCHAR(100) NOT NULL,
+    description TEXT NOT NULL,
+    icon VARCHAR(50) NOT NULL,
+    order_position INT NOT NULL,
+    is_active TINYINT(1) DEFAULT 1,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
+);";s:12:"repeat_cells";i:100;s:8:"max_rows";i:25;s:3:"pos";i:0;s:6:"pftext";s:1:"P";s:18:"relational_display";s:1:"K";s:9:"geoOption";s:4:"GEOM";s:14:"display_binary";b:1;}s:32:"37b87d6e8a20b3145310326d1c833c14";a:8:{s:3:"sql";s:358:"-- Contact Messages table
+CREATE TABLE IF NOT EXISTS contact_messages (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(100) NOT NULL,
+    email VARCHAR(100) NOT NULL,
+    phone VARCHAR(20),
+    subject VARCHAR(200) NOT NULL,
+    message TEXT NOT NULL,
+    is_read TINYINT(1) DEFAULT 0,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);";s:12:"repeat_cells";i:100;s:8:"max_rows";i:25;s:3:"pos";i:0;s:6:"pftext";s:1:"P";s:18:"relational_display";s:1:"K";s:9:"geoOption";s:4:"GEOM";s:14:"display_binary";b:1;}s:32:"7e0bf9c5c3f51491eef829f144dfb237";a:8:{s:3:"sql";s:270:"-- Site Settings table
+CREATE TABLE IF NOT EXISTS site_settings (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    setting_key VARCHAR(50) NOT NULL UNIQUE,
+    setting_value TEXT NOT NULL,
+    updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
+);";s:12:"repeat_cells";i:100;s:8:"max_rows";i:25;s:3:"pos";i:0;s:6:"pftext";s:1:"P";s:18:"relational_display";s:1:"K";s:9:"geoOption";s:4:"GEOM";s:14:"display_binary";b:1;}s:32:"1bbb4a9b2aebfa5f06fff6e52b59e2db";a:8:{s:3:"sql";s:1136:"-- Initial data for Services table
+INSERT INTO services (title, description, icon, order_position) VALUES
+('Job Placement', 'We match qualified candidates with suitable job opportunities across various industries, ensuring a perfect fit for both parties.', 'fas fa-search', 1),
+('Resume Building', 'Our experts help you create professional resumes that highlight your skills and experience, increasing your chances of getting hired.', 'fas fa-file-alt', 2),
+('Recruitment Services', 'We offer comprehensive recruitment solutions for businesses looking to hire talented professionals for their team.', 'fas fa-users', 3),
+('Career Counseling', 'Get professional guidance on career development, job transitions, and skill enhancement to advance in your professional journey.', 'fas fa-comments', 4),
+('Interview Preparation', 'We prepare candidates for successful interviews with mock sessions, feedback, and industry-specific guidance.', 'fas fa-handshake', 5),
+('HR Consulting', 'We provide businesses with expert HR consulting services to optimize their workforce management and recruitment processes.', 'fas fa-chart-line', 6);";s:12:"repeat_cells";i:100;s:8:"max_rows";i:25;s:3:"pos";i:0;s:6:"pftext";s:1:"P";s:18:"relational_display";s:1:"K";s:9:"geoOption";s:4:"GEOM";s:14:"display_binary";b:1;}s:32:"71e37aeb387f8afc0115cc250d37d953";a:8:{s:3:"sql";s:328:"-- Initial admin user (password: admin123)
+-- The password hash below is for 'admin123' using PASSWORD_DEFAULT
+INSERT INTO users (username, email, password, first_name, last_name, role, is_verified) VALUES
+('admin', 'admin@bh.com', '$2y$10$cBNlTb1WQ5aJ2RMrVK4UXeRc5JKtNKJW2kLa1PZLzp0eRnF8loTnO', 'Admin', 'User', 'admin', 1);";s:12:"repeat_cells";i:100;s:8:"max_rows";i:25;s:3:"pos";i:0;s:6:"pftext";s:1:"P";s:18:"relational_display";s:1:"K";s:9:"geoOption";s:4:"GEOM";s:14:"display_binary";b:1;}s:32:"da346f798d67696b01d4fdbe9c72c3f9";a:8:{s:3:"sql";s:645:"-- Initial site settings
+INSERT INTO site_settings (setting_key, setting_value) VALUES
+('site_title', 'B&H Employment & Consultancy Inc'),
+('site_description', 'Professional employment agency connecting qualified candidates with top employers'),
+('contact_email', 'bh.jobagency@gmail.com'),
+('contact_phone', '(1)347680-2869'),
+('contact_address', '37-51 75th St.1A, Jackson Heights, NY 11372'),
+('social_facebook', 'https://facebook.com/bhemployment'),
+('social_twitter', 'https://twitter.com/bhemployment'),
+('social_linkedin', 'https://linkedin.com/company/bhemployment'),
+('social_instagram', 'https://instagram.com/bhemployment');";s:12:"repeat_cells";i:100;s:8:"max_rows";i:25;s:3:"pos";i:0;s:6:"pftext";s:1:"P";s:18:"relational_display";s:1:"K";s:9:"geoOption";s:4:"GEOM";s:14:"display_binary";b:1;}s:32:"0e0c570bf0a009659ba7b747190af841";a:8:{s:3:"sql";s:21:"SELECT * FROM `users`";s:12:"repeat_cells";i:100;s:8:"max_rows";i:25;s:3:"pos";i:0;s:6:"pftext";s:1:"P";s:18:"relational_display";s:1:"K";s:9:"geoOption";s:4:"GEOM";s:14:"display_binary";b:1;}}s:6:"pftext";s:1:"P";s:18:"relational_display";s:1:"K";s:9:"geoOption";s:4:"GEOM";s:14:"display_binary";b:1;s:12:"display_blob";b:0;s:19:"hide_transformation";b:0;s:3:"pos";i:0;s:8:"max_rows";i:25;s:12:"repeat_cells";i:100;s:20:"possible_as_geometry";b:1;s:13:"table_uiprefs";a:1:{i:1;a:1:{s:14:"bhemploy_admin";a:1:{s:5:"users";a:0:{}}}}}git_location|N;is_git_revision|b:0;ConfigFile1|a:4:{s:28:"PmaNoRelation_DisableWarning";b:1;s:12:"ShowCreateDb";b:0;s:7:"Console";a:1:{s:4:"Mode";s:8:"collapse";}s:7:"Servers";a:1:{i:1;a:2:{s:7:"only_db";s:0:"";s:7:"hide_db";s:0:"";}}}debug|a:0:{}flashMessages|a:0:{}Import_message|a:2:{s:7:"message";N;s:11:"go_back_url";s:53:"index.php?route=/database/structure&db=bhemploy_admin";}is_multi_query|b:0;sql_history|a:3:{i:0;a:3:{s:2:"db";s:14:"bhemploy_admin";s:5:"table";s:0:"";s:8:"sqlquery";s:645:"-- Initial site settings
+INSERT INTO site_settings (setting_key, setting_value) VALUES
+('site_title', 'B&H Employment & Consultancy Inc'),
+('site_description', 'Professional employment agency connecting qualified candidates with top employers'),
+('contact_email', 'bh.jobagency@gmail.com'),
+('contact_phone', '(1)347680-2869'),
+('contact_address', '37-51 75th St.1A, Jackson Heights, NY 11372'),
+('social_facebook', 'https://facebook.com/bhemployment'),
+('social_twitter', 'https://twitter.com/bhemployment'),
+('social_linkedin', 'https://linkedin.com/company/bhemployment'),
+('social_instagram', 'https://instagram.com/bhemployment');";}i:1;a:3:{s:2:"db";s:14:"bhemploy_admin";s:5:"table";s:5:"users";s:8:"sqlquery";s:21:"SELECT * FROM `users`";}i:2;a:3:{s:2:"db";s:14:"bhemploy_admin";s:5:"table";s:5:"users";s:8:"sqlquery";s:21:"SELECT * FROM `users`";}}errors|a:0:{}

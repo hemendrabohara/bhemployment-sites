@@ -1,0 +1,38 @@
+; cPanel first:126.0.11 (update_time):1785355781 Cpanel::ZoneFile::VERSION:1.3 hostname:server019.our-control-panel.com latest:136.0.32
+; Zone file for bhemployment.com
+$TTL 14400
+bhemployment.com.	86400	IN	SOA	ch1.protozoahost.com.	aanuxd.gmail.com.	(
+						2026072901 ;Serial Number
+						3600 ;refresh
+						1800 ;retry
+						1209600 ;expire
+						86400	)
+bhemployment.com.	86400	IN	NS	ch1.protozoahost.com.
+bhemployment.com.	86400	IN	NS	ch2.protozoahost.com.
+bhemployment.com.	14400	IN	A	136.243.117.33
+bhemployment.com.	14400	IN	MX	0	bhemployment.com.
+mail	14400	IN	CNAME	bhemployment.com.
+www	14400	IN	CNAME	bhemployment.com.
+ftp	14400	IN	A	136.243.117.33
+bhemployment.com.	14400	IN	TXT	"v=spf1 +a +mx +ip4:168.119.138.253 ~all"
+whm	14400	IN	A	136.243.117.33
+webdisk	14400	IN	A	136.243.117.33
+cpcalendars	14400	IN	A	136.243.117.33
+cpanel	14400	IN	A	136.243.117.33
+cpcontacts	14400	IN	A	136.243.117.33
+webmail	14400	IN	A	136.243.117.33
+_dmarc	14400	IN	TXT	"v=DMARC1\; p=none\;"
+default._domainkey	14400	IN	TXT	"v=DKIM1\; k=rsa\; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA0465ierOdGE2pJk72XMocaoiMRWRl71fO4SpqizNITIko6eE0e8wP86krwY/9dhE5qWis7kGGXa4IWGPbURGlnssEiPAOF01REAyphuqgU0dJ0mcUmbCcQqrM2rmaYjIRZCeEMxeUugoP9BPHEMVgmrJzATwpBYyqttSKX3HBl4v8mSt8e+dJ4diCsqUfhK4r" "kCJx4CJX9LnconhjzI39CYb8O3vRCPwCYNyKl+4jR57iQXVq1bmcnF8scfbv0hrdVFBA8jUUQ7ClXSLV2Gqd7a37YX2d0jdIdDBv5K3NNnsE+3BIoN3aX5Ypp9VDnSYlT5sXuxrVTx0zf1JotfADwIDAQAB\;"
+_cpanel-dcv-test-record	14400	IN	TXT	"_cpanel-dcv-test-record=TtMlRJ9oWFSV9si8qnirSGVIgWpg46Z1R1CkM5nbh4Az5CLb1zCGnvYwIoy__m2f"
+_acme-challenge	14400	IN	TXT	"pLHbrIJ7fKOZpu-utRvMSCvvwvOo2bV_fe_A7G8ZIG4"
+_caldavs._tcp	14400	IN	SRV	0	0	2080	bhemployment.com.
+_caldavs._tcp	14400	IN	TXT	"path=/"
+_carddav._tcp	14400	IN	SRV	0	0	2079	bhemployment.com.
+_carddav._tcp	14400	IN	TXT	"path=/"
+autodiscover	14400	IN	A	136.243.117.33
+autoconfig	14400	IN	A	136.243.117.33
+_autodiscover._tcp	14400	IN	SRV	0	0	443	cpanelemaildiscovery.cpanel.net.
+_carddavs._tcp	14400	IN	SRV	0	0	2080	bhemployment.com.
+_carddavs._tcp	14400	IN	TXT	"path=/"
+_caldav._tcp	14400	IN	SRV	0	0	2079	bhemployment.com.
+_caldav._tcp	14400	IN	TXT	"path=/%2%2

@@ -1,0 +1,230 @@
+Return-Path: <veerutyagihjddjj@gmail.com>
+Delivered-To: info@bhemployment.com
+Received: from server019.our-control-panel.com
+	by server019.our-control-panel.com with LMTP
+	id 2uSuGNasJmrD9g8AaDcOIg
+	(envelope-from <veerutyagihjddjj@gmail.com>)
+	for <info@bhemployment.com>; Mon, 08 Jun 2026 17:36:50 +0545
+Return-path: <veerutyagihjddjj@gmail.com>
+Envelope-to: info@bhemployment.com
+Delivery-date: Mon, 08 Jun 2026 17:36:50 +0545
+Received: from mail-pf1-f178.google.com ([209.85.210.178]:58764)
+	by server019.our-control-panel.com with esmtps  (TLS1.3) tls TLS_AES_128_GCM_SHA256
+	(Exim 4.99.4)
+	(envelope-from <veerutyagihjddjj@gmail.com>)
+	id 1wWYWC-00000004Nlx-02I1
+	for info@bhemployment.com;
+	Mon, 08 Jun 2026 17:36:50 +0545
+Received: by mail-pf1-f178.google.com with SMTP id d2e1a72fcca58-8423f1e2f8eso3179652b3a.1
+        for <info@bhemployment.com>; Mon, 08 Jun 2026 04:51:27 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20251104; t=1780919466; x=1781524266; darn=bhemployment.com;
+        h=content-language:thread-index:mime-version:message-id:date:subject
+         :to:from:from:to:cc:subject:date:message-id:reply-to;
+        bh=GIG+/IOB4rbbuPj8+b5TNDd1D4kf7FizIg/3Fazxhyo=;
+        b=gg712ujJt9ttkeOklRGiBMFvaLoYk02jC0XRCmTGaHeaALOk44UvvAgk3wX9FqOIqL
+         zdG/UmePR6uegRDuKQDuCehRZlWmreRt6SaKPfzKCiDeDKL4gYsvjhRq23kqLShUiq+Q
+         0RoN/yEo9Q9gYU4LEsMKhK7mAgQkE13ECRTq6/EM2Q8sJjRTlnEqURtAiR8FF3JHm1ZF
+         n9UhajXuYZcElUJWM41a2i452VJdO6QBfmA2D2POsWf/+M1k2fS32injVry75Qr8ArHZ
+         yEzR9c9scUzygj99a6Ju98Rma6Sf7/zZr8sKDeoghZbgQ86/cAvKuO3tJaDIVNcFiRRZ
+         3EGA==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20251104; t=1780919466; x=1781524266;
+        h=content-language:thread-index:mime-version:message-id:date:subject
+         :to:from:x-gm-gg:x-gm-message-state:from:to:cc:subject:date
+         :message-id:reply-to;
+        bh=GIG+/IOB4rbbuPj8+b5TNDd1D4kf7FizIg/3Fazxhyo=;
+        b=kCmjj2I7zTZjNrt1Kw75Q1TZ4iwNPv7ER8DnpXVMee86N+5p10ePwEdGwkdTTVpgad
+         oQ0ZOvECXHUNUUYIWfBV9xdUdbHX2tRRF9NpaeYRA+8fe6Jc/W7X5WUgYw1wCMaCJPWy
+         wNHpn7yaGkXBHWWxDbHJevclTG22MfCB/XOGbJ3Ji8RhE4PcbNLvJ7jxeZfRbm2bmGQc
+         HEAoSfH/RqKJYMlE14BVZpmmG8b0qOZo7+1eT1CqyT0bbU+ehHACRrmTxxNDQhPWPEr8
+         diRFp3L8RBLQizoN9HPO7UjJfFDWG69Ha084ljhHoed1SiKW8nSlO15R0j/3lxJttjnF
+         MTfQ==
+X-Gm-Message-State: AOJu0Yyz86JLCl3MPnYEgJutwGXAJzJA/VgdPW3dFU54q9xqHFVMhtZQ
+	rKQZivcIJvty2/zKDEoXkxd+xmEB0Llr6z5S/KyIxqskVWtxdAAfYqf6mAqfha3j
+X-Gm-Gg: Acq92OEBzRyC+SWKUsg/h6N8AI2AZe5gowB3DUbcAYGmPWDniszCIo25r7V5iG1vZgW
+	xwOLjCPvG8aqVDSoqvFbahSuNQ1H9QihTTltAa2+5QSdfAHq4TQqLW0Dt1xRVnRlu5kwlZddQBA
+	jhAgWf8dJx6A+Gh0DYHwk2fSUbLzCPRktDrHtA91ZcbLS3pklpkZhKecGv2Ib7Ww1b2T/YDf46D
+	9JaiwomSOs6WKFZcHXe+5wGxitWBBEro7t+RDnaHKpnoWMNFNsE0PT2oPWRbXT/hyJfSeeFspgR
+	weANAU5EmNV1sXN1JA3jyofl2/poR1UhDeWZnjmBZRC0QAMiLkuwIeMrAdC/iXI3SKLt3lsTX7S
+	CRon5PHoVadiC68XRh11MNaadWnreONOzWMvu17YadJfepnuv9fFfbdI74VKcA/zyrgxW9liYl+
+	kgU9Pm1nkIhuifJmA0aFGVAIJ7ox1u9RwJmDN8sO+ABa1ch1mxB4PxQn0KPtz4zgPXcFEsw0aMu
+	iMoiGt08YdkdmOzIbhYqK9rIQ==
+X-Received: by 2002:a05:6a00:b89:b0:82f:9407:d167 with SMTP id d2e1a72fcca58-842b0f0aa33mr15716837b3a.38.1780919466083;
+        Mon, 08 Jun 2026 04:51:06 -0700 (PDT)
+Received: from DESKTOPGV5VHC4 (87.128.83.103.broadband.rapidnet.in. [103.83.128.87])
+        by smtp.gmail.com with ESMTPSA id d2e1a72fcca58-8428236d543sm21924458b3a.23.2026.06.08.04.51.04
+        for <info@bhemployment.com>
+        (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128);
+        Mon, 08 Jun 2026 04:51:05 -0700 (PDT)
+From: "Veeru Tyagi" <veerutyagihjddjj@gmail.com>
+To: <info@bhemployment.com>
+Subject: RE: Chief Recruiter
+Date: Mon, 8 Jun 2026 17:20:05 +0530
+Message-ID: <11e401dcf73d$16549560$42fdc020$@gmail.com>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_000_11E5_01DCF76B.300CD160"
+X-Mailer: Microsoft Outlook 16.0
+Thread-Index: Adz3PND9WSDFXFD/ROCEiakuI/GUww==
+Content-Language: en-gb
+X-Spam-Status: No, score=1.8
+X-Spam-Score: 18
+X-Spam-Bar: +
+X-Ham-Report: Spam detection software, running on the system "server019.our-control-panel.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Hi, info@bhemployment.com Interested in learning more? Let's
+    talk - can we schedule a quick call this or next week? Many thanks! 
+ Content analysis details:   (1.8 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 RCVD_IN_DNSWL_BLOCKED  RBL: ADMINISTRATOR NOTICE: The query to DNSWL
+                             was blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#DnsBlocklists-dnsbl-block
+                              for more information.
+                             [209.85.210.178 listed in list.dnswl.org]
+  0.0 RCVD_IN_MSPIKE_H3      RBL: Good reputation (+3)
+                             [209.85.210.178 listed in wl.mailspike.net]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from author's
+                             domain
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily valid
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+  0.0 RCVD_IN_MSPIKE_WL      Mailspike good senders
+  1.0 HK_RANDOM_FROM         From username looks random
+  1.0 HK_RANDOM_ENVFROM      Envelope sender username looks random
+  0.0 FREEMAIL_FROM          Sender email is commonly abused enduser mail provider
+                             [veerutyagihjddjj(at)gmail.com]
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+X-Spam-Flag: NO
+
+This is a multipart message in MIME format.
+
+------=_NextPart_000_11E5_01DCF76B.300CD160
+Content-Type: text/plain;
+	charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+
+Hi, info@bhemployment.com
+
+ 
+
+Interested in learning more? Let's talk - can we schedule a quick call this
+or next week?
+
+ 
+
+Many thanks!
+
+ 
+
+From: Veeru Tyagi
+Sent: Friday, January 16, 2026, 7:04 PM
+To: 'info@bhemployment.com' <info@bhemployment.com>
+Subject: Chief Recruiter
+
+
+
+Hello, info@bhemployment.com
+
+Need help with recruitment? We have expertise in IT, Healthcare, Accounting,
+Hospitality, Warehousing, Logistics, Sales, Marketing, and more. Schedule a
+call with us to discuss it further. 
+
+Please let me know the day and time, and best contact number to reach you.
+Let's find your ideal team together!
+
+Regards,
+Veeru Tyagi
+
+
+------=_NextPart_000_11E5_01DCF76B.300CD160
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" =
+xmlns:o=3D"urn:schemas-microsoft-com:office:office" =
+xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" =
+xmlns=3D"http://www.w3.org/TR/REC-html40"><head><META =
+HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; =
+charset=3Dus-ascii"><meta name=3DGenerator content=3D"Microsoft Word 15 =
+(filtered medium)"><style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:8.0pt;
+	margin-left:0cm;
+	line-height:107%;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;
+	mso-ligatures:standardcontextual;
+	mso-fareast-language:EN-US;}
+p.MsoNoSpacing, li.MsoNoSpacing, div.MsoNoSpacing
+	{mso-style-priority:1;
+	margin:0cm;
+	font-size:12.0pt;
+	font-family:"Calibri",sans-serif;
+	mso-ligatures:standardcontextual;
+	mso-fareast-language:EN-US;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-family:"Calibri",sans-serif;
+	mso-fareast-language:EN-US;}
+.MsoPapDefault
+	{mso-style-type:export-only;
+	margin-bottom:8.0pt;
+	line-height:107%;}
+@page WordSection1
+	{size:612.0pt 792.0pt;
+	margin:72.0pt 72.0pt 72.0pt 72.0pt;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]--></head><body lang=3DEN-IN =
+style=3D'word-wrap:break-word'><div class=3DWordSection1><p =
+class=3DMsoNoSpacing><span lang=3DEN-US>Hi, =
+info@bhemployment.com</span></p><p class=3DMsoNoSpacing><span =
+lang=3DEN-US><o:p>&nbsp;</o:p></span></p><p class=3DMsoNoSpacing><span =
+lang=3DEN-US>Interested in learning more? Let&#8217;s talk - can we =
+schedule a quick call this or next week?</span></p><p =
+class=3DMsoNoSpacing><span lang=3DEN-US><o:p>&nbsp;</o:p></span></p><p =
+class=3DMsoNoSpacing><span lang=3DEN-US>Many thanks!</span></p><p =
+class=3DMsoNoSpacing><span lang=3DEN-US><o:p>&nbsp;</o:p></span></p><p =
+class=3DMsoNoSpacing><b><span lang=3DEN-US>From:</span></b><span =
+lang=3DEN-US> Veeru Tyagi<br><b>Sent:</b> Friday, January 16, 2026, 7:04 =
+PM<br><b>To:</b> 'info@bhemployment.com' =
+&lt;info@bhemployment.com&gt;<br><b>Subject:</b> Chief =
+Recruiter<br><br></span></p><p class=3DMsoNormal><span lang=3DEN-US =
+style=3D'font-size:12.0pt;line-height:107%'>Hello, =
+info@bhemployment.com<br><br><a name=3D"_Hlk163142987">Need help with =
+recruitment? We have expertise in IT, Healthcare, Accounting, =
+Hospitality, Warehousing, Logistics, Sales, Marketing, and more. =
+Schedule a call with us to discuss it further. =
+</a><o:p></o:p></span></p><p class=3DMsoNormal><span lang=3DEN-US =
+style=3D'font-size:12.0pt;line-height:107%'>Please let me know the day =
+and time, and best contact number to reach you. Let's find your ideal =
+team together!<o:p></o:p></span></p><p class=3DMsoNormal><span =
+lang=3DEN-US =
+style=3D'font-size:12.0pt;line-height:107%'>Regards,<br>Veeru =
+Tyagi<o:p></o:p></span></p></div></body></html>
+------=_NextPart_000_11E5_01DCF76B.300CD160--
+

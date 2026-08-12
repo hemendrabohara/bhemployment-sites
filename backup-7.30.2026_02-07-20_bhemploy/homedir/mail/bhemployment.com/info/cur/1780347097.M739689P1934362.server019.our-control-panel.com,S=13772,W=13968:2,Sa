@@ -1,0 +1,196 @@
+Return-Path: <info@nanniesbynoa.com>
+Delivered-To: info@bhemployment.com
+Received: from server019.our-control-panel.com
+	by server019.our-control-panel.com with LMTP
+	id 7RngK9nwHWoahB0AaDcOIg
+	(envelope-from <info@nanniesbynoa.com>)
+	for <info@bhemployment.com>; Tue, 02 Jun 2026 02:36:37 +0545
+Return-path: <info@nanniesbynoa.com>
+Envelope-to: info@bhemployment.com
+Delivery-date: Tue, 02 Jun 2026 02:36:37 +0545
+Received: from mail-westusazon11022112.outbound.protection.outlook.com ([52.101.43.112]:61528 helo=SJ2PR03CU001.outbound.protection.outlook.com)
+	by server019.our-control-panel.com with esmtps  (TLS1.3) tls TLS_AES_256_GCM_SHA384
+	(Exim 4.99.2)
+	(envelope-from <info@nanniesbynoa.com>)
+	id 1wU9bj-000000086my-3EzB
+	for info@bhemployment.com;
+	Tue, 02 Jun 2026 02:36:37 +0545
+ARC-Seal: i=1; a=rsa-sha256; s=arcselector10001; d=microsoft.com; cv=none;
+ b=LU03fBVq1M2bn+HevSGGnabKdz0wDbK79t+QkX+iKWP944rNps09L8TgIeoSwWhzfguuYs/EIxfOf2FEvfDGDTjjwQQCywAJpBJgaMdxhDW8Op4mlxNi6kgAEv39VbkrFSRrfAXStkdzG8I8Rt9mATY00eidMz9A8kwvIfea4ComxfOiTrlOcJG8A/vXMPZZRWNWbtW+k1xG7AlbCfib1gzG5x++grEI36C6zLYK95bZ3efDErKMs4IocUDkH7uyvslyBp0sVIC5+NKnbbJbJp6MFvnqxdhjgmAGadX0rq5CNGiPyjZRnFbagsOr3piC2Xh4Eh+ivB7xhXZcOQoW7Q==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector10001;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-AntiSpam-MessageData-ChunkCount:X-MS-Exchange-AntiSpam-MessageData-0:X-MS-Exchange-AntiSpam-MessageData-1;
+ bh=ZLOhtDg1nyOBJ4jZcnrgEUJvlHj13rxbcNnkhZLh+5s=;
+ b=MUHWH7B8ZgreLxoXQ+vp3MqBiTmVO+sxZen2+2YNCHCburbYx9qCD916DsCG7nUYuzz32/UzzmGlnXe0AP7W8mzcMPI9neKcepXN9F7Iws4m6zaGRddyws28M8gu0mo3RJJ0EyIBebE3QB6XAoWaZZs7ndhd4mStvOJ+0KCpryEOelBrNsp/R213Q4DjUGwLv0xo156t1N01aytLuQ97E50rGtd3IeVJKYeOQgnjrr/9ZbzyqZqiEOZPR7j3X75WuOq16rj98x1lyHzEgfMpHWQM8KHGdywBRi245hW6EAl3KLD5618POwCxvETMiSBT5fyEYQe7Mcnfwnaublxp6Q==
+ARC-Authentication-Results: i=1; mx.microsoft.com 1; spf=pass
+ smtp.mailfrom=nanniesbynoa.com; dmarc=pass action=none
+ header.from=nanniesbynoa.com; dkim=pass header.d=nanniesbynoa.com; arc=none
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+ d=NanniesbyNoa.onmicrosoft.com; s=selector2-NanniesbyNoa-onmicrosoft-com;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=ZLOhtDg1nyOBJ4jZcnrgEUJvlHj13rxbcNnkhZLh+5s=;
+ b=qqioHdR39b95gL53VYy6KFCMSbWYWv7xpMeH7R/bH2gOa0RknpwJfiQ2HeAzc6wXCchiHD9Qiuz+TxxNmV+gw/EKTvM3MbIaC6DH3yoErjiORL1YQ9qSRkOVFx2d4+UFZGqjPrhRwFJ8xPWZpzOWgFXs8jprDVZnAwkNNd/uM6U=
+Received: from LV8PR18MB6100.namprd18.prod.outlook.com (2603:10b6:408:233::8)
+ by PH3PPFB653D6886.namprd18.prod.outlook.com (2603:10b6:518:1::cc2) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.9818.21; Mon, 1 Jun
+ 2026 20:50:50 +0000
+Received: from LV8PR18MB6100.namprd18.prod.outlook.com
+ ([fe80::73c5:52f6:80a7:884f]) by LV8PR18MB6100.namprd18.prod.outlook.com
+ ([fe80::73c5:52f6:80a7:884f%6]) with mapi id 15.21.0071.015; Mon, 1 Jun 2026
+ 20:50:50 +0000
+From: Info <info@nanniesbynoa.com>
+To: "info@bhemployment.com" <info@bhemployment.com>
+Subject: RE: Partnership: Free Qualified Bilingual Childcare Applicants
+Thread-Topic: Partnership: Free Qualified Bilingual Childcare Applicants
+Thread-Index: AQHc8gGko34fyEBBg02I6+jvHw2QlrYqLKkA
+Date: Mon, 1 Jun 2026 20:50:50 +0000
+Message-ID:
+ <LV8PR18MB61008A837925AD680F7F32B3BD152@LV8PR18MB6100.namprd18.prod.outlook.com>
+References: <8513a719a0d84b8aa4cd9d86158861f5@bhemployment.com>
+In-Reply-To: <8513a719a0d84b8aa4cd9d86158861f5@bhemployment.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach:
+X-MS-TNEF-Correlator:
+authentication-results: dkim=none (message not signed)
+ header.d=none;dmarc=none action=none header.from=nanniesbynoa.com;
+x-ms-exchange-messagesentrepresentingtype: 1
+x-ms-publictraffictype: Email
+x-ms-traffictypediagnostic: LV8PR18MB6100:EE_|PH3PPFB653D6886:EE_
+x-ms-office365-filtering-correlation-id: 984cc420-7abb-4145-628b-08dec01f76af
+x-ms-exchange-senderadcheck: 1
+x-ms-exchange-antispam-relay: 0
+x-microsoft-antispam:
+ BCL:0;ARA:13230040|1800799024|376014|366016|22082099003|18002099003|56012099006|38070700021;
+x-microsoft-antispam-message-info:
+ ltHWYz7VrtfHTFYIuzEqaULLiZgeBiVwbdAXvU+FGkiGROooTbNDNDL0rcvI0x9uPy/yvBrM0Pu/KU1KpSOgba0tKJN3+BgtiOzeRRbGSO6Fs0vWIA4uktsI2FF2znYS+of3XOIn+ziVAWdDsY481BqYe3exFIdXvgspdBDy253W8nHvThwMBLx9p/qBohI/RhHMa0urLF0Ah0St/cm3BD1aeBFpG7yyb2c+Qpjb1OmeSf5FpSQZhlh3oNgoKEhC3DiXoqeYtabP0NaYDsBGTpYfKvwZ0NiQOUnIrKyR4EN8O4IQP5MoCxjw+P6qXLtr6FIw7SlKZcemm3XdpTBTTJlaPgXCVhDqnd6kNQ5BByQxZ0dBXQ7bi0NVZ5BERPRv0niBiR/bTij1rEQ19fJ6eazimgTT6uFeV1wVLk13OmXFXNsYoS0R0CsinesiTubZE67FS+Vv2MDchygnb7NEqi/StasQKI4EJxwmN2SdgPXSoyOLuTBVVlqDOjRx1QSRpt7yejpdSimMT85Dl4bgYx6esjA889rca9pj8c+9qgAoC1QlrQQmZ3JVIlVvLHffuHMbtGquA98nLZAdba/sBr9A4B0160je2IWIEjDfrEfUpIOUN7f9JjtypAK+rnYmKLOqtC42gMe3VprQj5xQjNVsg7LzVasOhx4Kje0xktfgTjJ/qfqD78+NTmdlA0u6
+x-forefront-antispam-report:
+ CIP:255.255.255.255;CTRY:;LANG:en;SCL:1;SRV:;IPV:NLI;SFV:NSPM;H:LV8PR18MB6100.namprd18.prod.outlook.com;PTR:;CAT:NONE;SFS:(13230040)(1800799024)(376014)(366016)(22082099003)(18002099003)(56012099006)(38070700021);DIR:OUT;SFP:1102;
+x-ms-exchange-antispam-messagedata-chunkcount: 1
+x-ms-exchange-antispam-messagedata-0:
+ =?utf-8?B?cklZVDVReFQ4YWszdXZoM2oyTzlmVkk4bVVSeldUeG1iNnM4b1Vxb0dHTThC?=
+ =?utf-8?B?a2cwSVVqUVhxaXVNdVJ6M2JTaVFYZG1WVHFLcmY0V1V1VHRLYnJ4aVpKenJn?=
+ =?utf-8?B?WmtTSVUzRktyTldpTEFFT25IQW4xLy9hdFJjdmV0T2RRRGg5ODNTamx1ZFNw?=
+ =?utf-8?B?UEROc0Ird2Q5RTJWVTJUUEpSYnZoRzI4RlhXQ2ZrVlEvTW5GU1JReVRkU2Vz?=
+ =?utf-8?B?MVlPY0pnbW1LUW1jV0k5Wjl3Mkxhc1lWRGs5dDVHeC92ditZcWJCL2hKb1BH?=
+ =?utf-8?B?LzVFUmt1Yk9WNUxwSkZYSVRQWnhJc2I5V3Q2R252cFFocFBnRjgzNDZidTJF?=
+ =?utf-8?B?S1BiNFQwVmRJaDg4ODNsbTkrcjhsbUlQa3MzY1ROV0FhWlV1cGg3OHoxd0NY?=
+ =?utf-8?B?U1N1Z2lUMG9HMVJ3bFhTa1MvaEZEQy9RZHVtYitkd3JCNjZySDBsYWNWeTNB?=
+ =?utf-8?B?MGlWQlBtWDBTYVNsaURoZ1N2NUhETHlUNGhtZ0FYZHAwaXY2SW1wazFkai9F?=
+ =?utf-8?B?V1NoUVhacDdiUzlmMkFkS0ZkS1ZuN2llSDdlYzZnRXh1bXdUY2J0eXhkV1Bp?=
+ =?utf-8?B?YzlKRnY0Mmk1V3YxY2VBcHdlbUdoVUg5c3FGb2lQOWdMazZMdmdCRWVPL2h3?=
+ =?utf-8?B?aWt3bElBL0VGcC92RTJCdGhkL1BYd0p5bVNiUDZwOFR1dGIrN21XRmx3SHlF?=
+ =?utf-8?B?NHVVZ0NaNEUzYUt5TUFsYXVwREcvcmo4b0ZnRTJkamVobjNsZnlmTTUwcnow?=
+ =?utf-8?B?T3dtM1hmZGlWcVhKVXdGQ0FtUzdqMXRGa2x6c3lLUk5vUytTY1pSTzVXV3BR?=
+ =?utf-8?B?aU41aS9RNy95UG9xUTIvQndhMWlSVzBVb2N2akJJVGFTN3dwL3dRQU9heTUr?=
+ =?utf-8?B?Njd0TVNGTXBtMTg0bWdCSjB4Y3pPR2VKWCtYb0ZFeFJHQXBNbTVmRks0VVVj?=
+ =?utf-8?B?Q0F2Y29DSWpzczRtOVo4UEJETzFqYnVZVW0rSDMweUZYSmhGQnBWOUVZSGJB?=
+ =?utf-8?B?NS8yY0dONW5ONmJqMU12cS9BTFc2Qm5EdEJMVmd0MkVNUXd6N3ZGSjRuY0cy?=
+ =?utf-8?B?RUZkeEJRaUNaQ2xhcm5ZK3o5L05aa0s1RkhUNE05cVZXNzd1cVdIOGlJdmw3?=
+ =?utf-8?B?VCsxOStoeCtkSkFhK2tLTDdIYmJMa0lJbWFMLzRDRWFaR2hLWGE3dUVSb3Mx?=
+ =?utf-8?B?K01uT3psZFNtU2EvY2d6eXd1RDBtbTAwQlMvNnVvbCtmWXNkb0JGWmlFd1Mv?=
+ =?utf-8?B?WFJORHVuZFdBTDN0YjN5UGdoYVRBL09yZW13ZlRMdmtOb3RNSGNTSitSOWxB?=
+ =?utf-8?B?eCt6dG12ZHlnV1pMK2YrZGlvNUg5NWUwdlNlZlJwS1pPZWNkTDU2VngvZkdM?=
+ =?utf-8?B?eUllM2NYTUFucnFiZ2poWm9hWnkvbC9HU2ZWRGJRZVY1VnVSM3k2SW5IUjNN?=
+ =?utf-8?B?eC9QUGdWN3UxdDVIYUd1UnpwWTJtd3YwMnlmL0hSazZNSkRxSVFFVXVoU3Bz?=
+ =?utf-8?B?WDZFWXRPMTlSSktNVEVGbHF2R21GbVAvZ3lFdmVzRkxneTFxOGNGSldaQjJk?=
+ =?utf-8?B?SFR2aWUvSnYyREFpQ1pVcEJwYWxUdW5nR242TDVYRGRqeTF6amdvQkJ5b2tm?=
+ =?utf-8?B?dVp2aVlETnpDUXRkRFltOTNGRTdNcDF2U2I5SFBaVG1HT0cyc2VCN0FFNld0?=
+ =?utf-8?B?K2Z6SUtiNmp5UkNXbTFYZTA1YXJxSGt6dXQ4bDVCaGs4NkZuSE5LclVPcStw?=
+ =?utf-8?B?NkhDenZVU1dvNk5SZ3krRjVMTFVZV2JjdDJwcEIrVU1oQUdhQTg0VHhjbEN6?=
+ =?utf-8?B?UjBjeStNTVhYMzBVbTlkbGhrU3Vqd0lwbHBjaUticWNnRXBMZkp0d254WHMz?=
+ =?utf-8?B?WnJhcG5helJqd3k1NVZweVo5bEl1WE1xdWVVRGNJZlBBdUI0Unc4RndCSnM1?=
+ =?utf-8?B?NS9uRTVVSWNuTUMxeHdDVkNJWkxMYit5djZ1UHJFb05VZGJVVWFqQnhLQ1Z0?=
+ =?utf-8?B?Mm1EdmRSekhJWmZuUE50OUlhdkFMcGhTV2NkWEpKbFN2aXZJVTB2cStYSzNS?=
+ =?utf-8?B?VmlQdS9sVFo1TnFXK3RjRTk2V1J5dy9DWXMrZGNhaFd4M0dmUFFrYm1KNU5X?=
+ =?utf-8?B?UUdSSXliallxbkR4K2NrVGhva2xNcVAvMlJneDE4RlozTU4xV0U3SGlmcVQ0?=
+ =?utf-8?B?K2dUZ1JWWGpKYlMvaFJSYnVjYWxSMzFZeWkyaE9FdVMxV2JybDJVTWlxOXlE?=
+ =?utf-8?B?L1djcGJvd2hSVjNzMHhtY043RFZyY0NhcHp2M3N6WHMxT0poZ2ZXMEVZUlVH?=
+ =?utf-8?B?aGh1ckRtUEtJeU1mcXIwdjlOSmI3TWpEK0RDaFFKc0JnS2Q3Zyt3UT09?=
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: base64
+MIME-Version: 1.0
+X-OriginatorOrg: nanniesbynoa.com
+X-MS-Exchange-CrossTenant-AuthAs: Internal
+X-MS-Exchange-CrossTenant-AuthSource: LV8PR18MB6100.namprd18.prod.outlook.com
+X-MS-Exchange-CrossTenant-Network-Message-Id: 984cc420-7abb-4145-628b-08dec01f76af
+X-MS-Exchange-CrossTenant-originalarrivaltime: 01 Jun 2026 20:50:50.0863
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Hosted
+X-MS-Exchange-CrossTenant-id: 66459dd1-a9dd-435f-9703-6887dd126d64
+X-MS-Exchange-CrossTenant-mailboxtype: HOSTED
+X-MS-Exchange-CrossTenant-userprincipalname: 8WdR8OM8GO3fRLlKHUyfD9zyuEhePce+2JJgExSfgco9eaEx4EOb5VNvvAsCxaFlO0gyPLmfDHVN/heVUfR0aQ==
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: PH3PPFB653D6886
+X-Spam-Status: No, score=0.0
+X-Spam-Score: 0
+X-Spam-Bar: /
+X-Ham-Report: Spam detection software, running on the system "server019.our-control-panel.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Hi Bikash, Thank you for reaching out and introducing B&H
+   Employment & Consultancy Inc. While we appreciate the offer to collaborate,
+    Nannies by Noa operates with an exclusive, internally vetted candidate pool.
+    We do not partner with other staffing agencies or accept external referrals,
+    [...] 
+ Content analysis details:   (0.0 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 RCVD_IN_DNSWL_BLOCKED  RBL: ADMINISTRATOR NOTICE: The query to DNSWL
+                             was blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#DnsBlocklists-dnsbl-block
+                              for more information.
+                             [52.101.43.112 listed in list.dnswl.org]
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was blocked.
+                             See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URI: nanniesbynoa.com]
+                             [URI: nanniesbynoa.onmicrosoft.com]
+  0.0 RCVD_IN_MSPIKE_H2      RBL: Average reputation (+2)
+                             [52.101.43.112 listed in wl.mailspike.net]
+ -0.0 SPF_HELO_PASS          SPF: HELO matches SPF record
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily valid
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+X-Spam-Flag: NO
+
+SGkgQmlrYXNoLA0KDQpUaGFuayB5b3UgZm9yIHJlYWNoaW5nIG91dCBhbmQgaW50cm9kdWNpbmcg
+QiZIIEVtcGxveW1lbnQgJiBDb25zdWx0YW5jeSBJbmMuDQoNCldoaWxlIHdlIGFwcHJlY2lhdGUg
+dGhlIG9mZmVyIHRvIGNvbGxhYm9yYXRlLCBOYW5uaWVzIGJ5IE5vYSBvcGVyYXRlcyB3aXRoIGFu
+IGV4Y2x1c2l2ZSwgaW50ZXJuYWxseSB2ZXR0ZWQgY2FuZGlkYXRlIHBvb2wuIFdlIGRvIG5vdCBw
+YXJ0bmVyIHdpdGggb3RoZXIgc3RhZmZpbmcgYWdlbmNpZXMgb3IgYWNjZXB0IGV4dGVybmFsIHJl
+ZmVycmFscywgYXMgd2UgcHJlZmVyIHRvIG1hbmFnZSBvdXIgZW50aXJlIHJlY3J1aXRtZW50IGFu
+ZCBzY3JlZW5pbmcgcHJvY2VzcyBpbi1ob3VzZSB0byBlbnN1cmUgdGhlIHNwZWNpZmljIGNhbGli
+ZXIgb2YgY2FyZSBvdXIgZmFtaWxpZXMgZXhwZWN0Lg0KDQpXZSB3aXNoIHlvdSB0aGUgYmVzdCBv
+ZiBsdWNrIHdpdGggeW91ciByZWNydWl0bWVudCBlZmZvcnRzLg0KDQpCZXN0IHJlZ2FyZHMsDQrC
+oA0KVGhlIFRlYW0gYXQgTmFubmllcyBieSBOb2ENCsKgDQppbmZvQG5hbm5pZXNieW5vYS5jb20N
+CigyMTIpIDMzMy02NDExDQoxMzQ1IEF2ZSBvZiB0aGUgQW1lcmljYXMsIDJuZMKgRkwsIE5ldyBZ
+b3JrLCBOWSAxMDEwNQ0Kd3d3Lm5hbm5pZXNieW5vYS5jb20NCsKgDQrCoMKgwqAgDQrCoA0KwqAN
+Cg0KLS0tLS1PcmlnaW5hbCBNZXNzYWdlLS0tLS0NCkZyb206IGluZm9AYmhlbXBsb3ltZW50LmNv
+bSA8aW5mb0BiaGVtcGxveW1lbnQuY29tPiANClNlbnQ6IE1vbmRheSwgSnVuZSAxLCAyMDI2IDQ6
+MDMgUE0NClRvOiBJbmZvIDxpbmZvQG5hbm5pZXNieW5vYS5jb20+DQpTdWJqZWN0OiBQYXJ0bmVy
+c2hpcDogRnJlZSBRdWFsaWZpZWQgQmlsaW5ndWFsIENoaWxkY2FyZSBBcHBsaWNhbnRzDQoNCkRl
+YXIgTmFubmllcyBieSBOb2EgVGVhbSwNCg0KSSBob3BlIHRoaXMgZW1haWwgZmluZHMgeW91IHdl
+bGwuDQoNCkkgd2FudGVkIHRvIGJyaWVmbHkgaW50cm9kdWNlIEImSCBFbXBsb3ltZW50ICYgQ29u
+c3VsdGFuY3kgSW5jLiBXZSBhcmUgYW4gZW1wbG95bWVudCBhZ2VuY3kgYmFzZWQgaW4gSmFja3Nv
+biBIZWlnaHRzLCBOWSwgc3BlY2lhbGl6aW5nIGluIGxvY2FsaXplZCwgbXVsdGlsaW5ndWFsIHJl
+Y3J1aXRtZW50Lg0KDQpXZSBhcmUgY3VycmVudGx5IGxvb2tpbmcgdG8gY29sbGFib3JhdGUgd2l0
+aCBwcmVtaWVyIE5ZQyBjaGlsZGNhcmUgZmlybXMgYnkgb2ZmZXJpbmcgYWNjZXNzIHRvIG91ciBh
+Y3RpdmUgdGFsZW50IHBvb2wgb2YgTmFubmllcyBhbmQgQmFieXNpdHRlcnMuIA0KV2UgZmVhdHVy
+ZSBjYW5kaWRhdGVzIHdobyBhcmU6DQrigKIgRmx1ZW50IGJpbGluZ3VhbCBzcGVha2VycyAoSGlu
+ZGkgYW5kIEVuZ2xpc2gpLg0K4oCiIExlZ2FsIHdvcmtlcnMgKEdyZWVuIENhcmQgaG9sZGVycyBh
+bmQgQ2l0aXplbnMpLg0K4oCiIEJhY2tlZCBieSAyIHRvIDMgeWVhcnMgb2Ygc3Ryb25nIGxvY2Fs
+IHJlZmVyZW5jZXMuDQrigKIgQXZhaWxhYmxlIGZvciBib3RoIGxpdmUtaW4gYW5kIGxpdmUtb3V0
+IHNldHVwcy4NCg0KQmVjYXVzZSB3ZSBhcmUgZm9jdXNlZCBvbiBleHBhbmRpbmcgb3VyIG5ldHdv
+cmssIEImSCBwcm92aWRlcyB0aGVzZSBxdWFsaWZpZWQgYXBwbGljYW50cyB0byB5b3VyIGFnZW5j
+eSBmb3IgZnJlZS4gVGhlcmUgaXMgbm8gY29zdCB0byB5b3UgdG8gcmVjZWl2ZSBvciByZXZpZXcg
+b3VyIGNhbmRpZGF0ZXPigJRnaXZpbmcgeW91IGEgcmlzay1mcmVlIHdheSB0byBtZWV0IGNsaWVu
+dCBkZW1hbmRzIGZvciBiaWxpbmd1YWwgY2hpbGRjYXJlLg0KDQpMZXQgbWUga25vdyBpZiB5b3Ug
+aGF2ZSBhbnkgYWN0aXZlIG9wZW5pbmdzIHRoYXQgbWF0Y2ggdGhpcyBwcm9maWxlLCBvciBpZiB5
+b3UnZCBiZSBvcGVuIHRvIGEgcXVpY2sgNS1taW51dGUgaW50cm9kdWN0b3J5IGNhbGwgdGhpcyB3
+ZWVrLg0KDQpCZXN0IHJlZ2FyZHMsDQoNCkJpa2FzaCBKLiBCb2hhcmENCk1hbmFnaW5nIERpcmVj
+dG9yDQpCJkggRW1wbG95bWVudCAmIENvbnN1bHRhbmN5IEluYy4NClBob25lOiArOTI5LTM4NS02
+MTc3IC8gKzkyOS00MzUtOTAwNQ0KDQo=

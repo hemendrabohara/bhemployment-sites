@@ -1,0 +1,284 @@
+Return-Path: <bounce+3ff332.2568ca-july18=bhemployment.com@comm3.sulekhainfo.com>
+Delivered-To: july18@bhemployment.com
+Received: from server019.our-control-panel.com
+	by server019.our-control-panel.com with LMTP
+	id o3ZlONptXWqAkSQAaDcOIg
+	(envelope-from <bounce+3ff332.2568ca-july18=bhemployment.com@comm3.sulekhainfo.com>)
+	for <july18@bhemployment.com>; Mon, 20 Jul 2026 06:22:46 +0545
+Return-path: <bounce+3ff332.2568ca-july18=bhemployment.com@comm3.sulekhainfo.com>
+Envelope-to: july18@bhemployment.com
+Delivery-date: Mon, 20 Jul 2026 06:22:46 +0545
+Received: from k22.kb8c70eb.use4.send.mailgun.net ([204.220.184.22]:38154)
+	by server019.our-control-panel.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+	(Exim 4.99.4)
+	(envelope-from <bounce+3ff332.2568ca-july18=bhemployment.com@comm3.sulekhainfo.com>)
+	id 1wlc0v-0000000A3Co-1sCB
+	for july18@bhemployment.com;
+	Mon, 20 Jul 2026 06:22:46 +0545
+DKIM-Signature: a=rsa-sha256; v=1; c=relaxed/relaxed; d=sulekhainfo.com; q=dns/txt; s=acl; t=1784507823; x=1784515023;
+ h=Content-Type: Mime-Version: Date: From: From: Subject: Subject: To: To: Message-Id: Sender: Sender;
+ bh=PuCbudyf1VWFYDzS3I9FZddbzXeL6Wlrv9+d9ZZvT7c=;
+ b=zp1oZxClE8YZbu/yvwnk2M7Pux3+s21pUVDq+1CJknBXWKWQa2zzWj91vRu2wQjNu16yOjTUFcl0M5MhYScopNtcN9rVUShrQ7ZNTibwvjf0JYr+SSbn7poa8HtXzXNd2RWi/euqBQ998bWUs4jWWietUNdAFwEm4kLDbEhoWic=
+X-Mailgun-Sid: WyI5N2Y2ZCIsImp1bHkxOEBiaGVtcGxveW1lbnQuY29tIiwiMjU2OGNhIl0=
+Received: from o130.smtp-out.aclmobile.net (o130.smtp-out.aclmobile.net
+ [103.54.236.130]) by
+ 4758581948aa3e54721512ea067a4e230f728438fcce92f634f1b897b3bae5a6 with SMTP id
+ 6a5d6daf9a22e9766002fc97 (version=TLS1.3, cipher=TLS_AES_128_GCM_SHA256);
+ Mon, 20 Jul 2026 00:37:03 GMT
+X-Mailgun-Sending-Ip: 204.220.184.22
+Sender: sulekha.care@sulekhainfo.com
+Message-Id: A.1784507822936406837.35390.1167.5.1.0.0.1#july18@bhemployment.com
+To: july18@bhemployment.com
+Subject: =?UTF-8?q?You=E2=80=99ve_received_a_new_request_-_'B&H_Employment_&_Consu?= =?UTF-8?q?ltancy_INC'?=
+From: Sulekha Care Services  <sulekha.care@sulekhainfo.com>
+Date: Mon, 20 Jul 2026 06:07:02 +0530
+Mime-Version: 1.0
+X-Unique-Id: A.1784507822936406837.35390.1167.5.1.0.0.1#july18@bhemployment.com#{"XAPIheader":"xapi-8c580016-2232-4f80-a1ff-7d3c6d786dd6"}
+Content-Type: multipart/alternative;
+ boundary=3c1ebbb3eed32fdc69b16df3576c33a7f88e9392f52cc7e4182624f7ab12
+X-Spam-Status: No, score=2.1
+X-Spam-Score: 21
+X-Spam-Bar: ++
+X-Ham-Report: Spam detection software, running on the system "server019.our-control-panel.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Dear Bh Employment, You have received a Nanny requirement
+    from Bhavna . Contact details: Name: Bhavna Email: mehtabhavna12@yahoo.com
+    Mobile No: 5164514311 Job Location: Mcallen, TX Message: Hi, I fou [...] 
+ Content analysis details:   (2.1 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 RCVD_IN_DNSWL_BLOCKED  RBL: ADMINISTRATOR NOTICE: The query to DNSWL
+                             was blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#DnsBlocklists-dnsbl-block
+                              for more information.
+                             [204.220.184.22 listed in list.dnswl.org]
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was blocked.
+                             See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URI: aclemails.com]
+                             [URI: sulekha.com]
+                             [URI: sulekhainfo.com]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily valid
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from author's
+                             domain
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  0.3 MPART_ALT_DIFF         BODY: HTML and text parts are different
+  0.1 MIME_HTML_ONLY         BODY: Message only has text/html MIME parts
+  0.6 HTML_MIME_NO_HTML_TAG  HTML-only message, but there is no HTML tag
+  1.2 INVALID_MSGID          Message-Id is not valid, according to RFC 2822
+  0.0 T_REMOTE_IMAGE         Message contains an external image
+X-Spam-Flag: NO
+
+--3c1ebbb3eed32fdc69b16df3576c33a7f88e9392f52cc7e4182624f7ab12
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset=UTF-8
+
+<table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" width=3D"100%" heig=
+ht=3D"100%" style=3D"border:none;background-color:#fff;">
+  <tbody>
+    <tr>
+      <td style=3D"padding:20px;">
+        <center>
+          <table class=3D"mailer-wid-mob" cellpadding=3D"0" cellspacing=3D"=
+0" border=3D"0" width=3D"650" style=3D"margin:auto;width:650px;">
+            <tbody>
+              <tr>
+                <td style=3D"padding:0;">
+                  <table width=3D"100%" border=3D"0" cellspacing=3D"0" cell=
+padding=3D"0" background=3D"#ffffff;">
+                    <tbody>
+                      <tr>
+                        <td style=3D"background-color:#fff;padding:0 20px 1=
+5px 20px;"><a href=3D"https://trkt.aclemails.com/v1/r/mtznwF7WXSJON6BiDsJII=
+sGHBHc3TZi7Vw%2FNZjdETOybGYnxV6rOJNyqH8%2B0o95btRC7f6loItSUStuLYuz5o5Vx4rzI=
+mk8vGqbMfBDzK6X3CrUARFnaAD9kJt7Jlp%2FPDkndBXIf0iRRq7SAaNRk8eEfD3jqbnDlw77JV=
+0Mlm7scSSOGtHSsjIr3Y1w6XqbSZfXVQpydHup%2F42CjYkvBKl654coHXCNzspt%2B2PsIjs5p=
+rZG5OfXk4%2Fka3POa3jQl0pp0" target=3D"_blank" style=3D"width: 100%; font-si=
+ze:14px;"><img src=3D"http://usimg.sulekha.io/cdn/localservices/images/loca=
+lservices_2018-08-09-01-40-55-597.png" alt=3D"Care services" title=3D"http:=
+//daycare.sulekha.com/"></a></td>
+                      </tr>
+                      <tr>
+                        <td style=3D"padding:0;border:solid 1px #fff;">
+                          <table cellpadding=3D"0" cellspacing=3D"0" border=
+=3D"0" width=3D"100%">
+                            <tbody>
+                              <tr>
+                                <td style=3D"border:solid 1px #e7e7e7;">
+                                  <table cellpadding=3D"0" cellspacing=3D"0=
+" border=3D"0" width=3D"100%">
+                                    <tbody>
+                                      <tr>
+                                        <td style=3D"font-family:Roboto,Hel=
+vetica,Arial,sans-serif;color:#333;font-size:18px;line-height:20px;padding:=
+20px 20px 2px 20px;font-weight:bold;text-align:left;text-transform:capitali=
+ze;">
+                                                  Dear Bh Employment,
+                                                </td>
+                                      </tr>
+                                      <tr>
+                                        <td style=3D"font-family:Roboto,Hel=
+vetica,Arial,sans-serif;color:#000;font-size:15px;line-height:24px;padding:=
+5px 20px 0 20px;text-align:left;">
+                                                  You have received a <stro=
+ng style=3D"color: #009903; font-weight: bold; font-size:15px; ">Nanny</str=
+ong> requirement  from <strong style=3D"color: #009903; font-weight: bold; =
+font-size:15px;text-transform: capitalize;">Bhavna .
+                                                  </strong></td>
+                                      </tr>
+                                      <tr>
+                                        <td style=3D"font-family:Roboto,Hel=
+vetica,Arial,sans-serif;color:#000;font-size:15px;line-height:24px;padding:=
+10px 20px 0 20px;text-align:left;"><b>Contact details:</b></td>
+                                      </tr>
+                                      <tr>
+                                        <td style=3D"font-family:Roboto,Hel=
+vetica,Arial,sans-serif;color:#000;font-size:15px;line-height:24px;padding:=
+10px 20px 0 20px;text-align:left;text-transform: capitalize;"><b>Name: </b>=
+Bhavna </td>
+                                      </tr>
+                                      <tr>
+                                        <td style=3D"font-family:Roboto,Hel=
+vetica,Arial,sans-serif;color:#000;font-size:15px;line-height:24px;padding:=
+10px 20px 0 20px;text-align:left;"><b>Email: </b>mehtabhavna12@yahoo.com</t=
+d>
+                                      </tr>
+                                      <tr>
+                                        <td style=3D"font-family:Roboto,Hel=
+vetica,Arial,sans-serif;color:#000;font-size:15px;line-height:24px;padding:=
+10px 20px 0 20px;text-align:left;"><b>Mobile No: </b>5164514311</td>
+                                      </tr>
+                                      <tr>
+                                        <td style=3D"font-family:Roboto,Hel=
+vetica,Arial,sans-serif;color:#000;font-size:15px;line-height:24px;padding:=
+10px 20px 0 20px;text-align:left;"><b>Job Location: </b>Mcallen, TX</td>
+                                      </tr>
+                                      <tr>
+                                        <td style=3D"font-family:Roboto,Hel=
+vetica,Arial,sans-serif;color:#000;font-size:15px;line-height:24px;padding:=
+10px 20px 0 20px;text-align:left;"><b>Message: </b>Hi, I found your care ne=
+eds on Sulekha and would like to find out more about it. Please do contact =
+me.</td>
+                                      </tr>
+                                      <tr>
+                                        <td style=3D"font-family:Roboto,Hel=
+vetica,Arial,sans-serif;color:#000;font-size:15px;line-height:24px;padding:=
+10px 20px 0 20px;text-align:left;"><b>
+                                                          To get more detai=
+ls on your Nanny, click on the <a href=3D"https://trkt.aclemails.com/v1/r/v=
+zylAsoGkzq4rZjmNE%2FKgWA0uy0gbfRA6SsE4wP%2FvZLqvyvgsGkQEWRCEz1zBsb6QXUuL%2F=
+d%2FLzHVnW%2F9JK5ffcCjbqcttjAwy9gXXWdhVXHlgcdRPtSOlyVsfubPPHdxmtCt6uKMKtPD%=
+2BynoTgobQwHpryiI6AXafTw%2F8ryFZrm0zNTRm8QEvDdLJa%2FC69mCU1Rg6EjJBC%2FsD20u=
+gOeQxTaraWiHaYM6c9Z%2Fpgjd552gx3GmZ%2B7RZKg1aYgGisZ27lBGJVjxe6bBUDDJJ4Fy5DH=
+V7Q%3D%3D"> dashboard</a>.
+                                                        </b></td>
+                                      </tr>
+                                      <tr><br></tr>
+                                      <tr><br></tr>
+                                      <tr>
+                                        <td style=3D"padding:0 20px 15px 20=
+px;"><br><table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" width=3D"1=
+00%">
+                                            <tbody>
+                                              <tr>
+                                                <td style=3D"padding:15px 2=
+0px 0 0;color:#212121;font-family:Roboto;Arial,sans-serif;font-size:15px;li=
+ne-height:22px;">Thanks & Regards,</td>
+                                              </tr>
+                                              <tr>
+                                                <td style=3D"padding:4px 20=
+px 5px 0;color:#333;font-family:Roboto;Arial,sans-serif;font-size:14px;line=
+-height:20px;"><a href=3D"https://trkt.aclemails.com/v1/r/JVw5aARLwj2mWXZ1F=
+CQRs27VcE4WtzbL5%2BTBRq9d5PUIGqHNsjxE90XhM4VSA7scYOU5SBhiFOLBoU4MiiIeLpaMij=
+WRL7ZVhTruTgZTvqlEhPhLmmsyWa%2BgAHyaltMQeu0G4O15KaOFMO9rLGZJPRZXZttMOe0hVI4=
+i3Im5eQDtMK2KhZPOpFRGTvQVTn26nwCdwiakF1MXDw%2BmXKk9LhYXvo%2BHnDjqxPLaGsCaTy=
+8RVzsd8jxfjWu%2FNFHmtL1sRzU%3D" target=3D"_blank" style=3D"color:#30A4EA;te=
+xt-decoration:none;font-family:Roboto;Arial,sans-serif;font-size:16px;line-=
+height:20px;">Sulekha Care Services</a></td>
+                                              </tr>
+                                            </tbody>
+                                          </table>
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td style=3D"padding:0 0 15px 0;">
+                          <table cellpadding=3D"0" cellspacing=3D"0" border=
+=3D"0" width=3D"100%">
+                            <tbody>
+                              <tr>
+                                <td style=3D"border:solid 1px #e7e7e7;">
+                                  <table cellpadding=3D"0" cellspacing=3D"0=
+" border=3D"0" width=3D"100%">
+                                    <tbody>
+                                      <tr>
+                                        <td style=3D"padding:15px 20px 15px=
+ 20px;color:#777;font-family:Roboto;Arial,sans-serif;font-size:13px;line-he=
+ight:20px;">
+                                                  If you have any questions=
+, please email to our friendly customer support team on <a href=3D"mailto:u=
+s.sulekha@sulekha.net" style=3D"font-family:Roboto, Arial, Helvetica, sans-=
+serif;font-size:14px;color:#30A4EA;text-decoration:none;">us.sulekha@sulekh=
+a.net</a> or call us @ <a style=3D"font-family:Arial,sans-serif;font-size:1=
+4px;color:#30A4EA;text-decoration:none;" href=3D"tel:1-512-788-5300">1-512-=
+788-5300</a> (Mon to Fri - 11am to 8pm =E2=80=93 EST) and we'll be happy to=
+ help you.
+                                                </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </td>
+              </tr>
+              <tr>
+                <td style=3D"padding:5px;background-color:#e4e4e4;">
+                  <p style=3D"color:#666;font-family:Roboto;Arial,sans-seri=
+f;font-size:12px;line-height:18px;margin:10px;text-align:center;">
+                            =C2=A9 2026 Copyright Sulekha.com | <a href=3D"=
+https://trkt.aclemails.com/v1/r/wzLEJZO1A2sEP7ZUFksOEfOAL61dP6Z2ALusAToNw9A=
+8HsnNvnshtKolyEopY4Z4iKEmo%2FnxTf%2FcwidFHfcypgMHgj60IM%2FHpZTFCw83vPnzibys=
+cry5W4I579TrfYm306G47VftGAfMsyak9gJBTnRPciWhE7Lxhh%2FHaJXWGpEuGNsyR2C%2FD8p=
+7SJ%2BER79Tu0O2haz6APuOUs8rT7GNG%2FHklsr5X2t1zf0cc2bkX67YG8YQ6KcWDOfRCKf2KF=
+bKFpw7Yt560VDmpjpY" target=3D"_blank" style=3D"color:#30A4EA;font-weight: n=
+ormal;text-decoration: none;">Privacy Policy</a> | <a href=3D"https://trkt.=
+aclemails.com/v1/r/GysadyRoavvOGVAeO5VDdM%2B%2BKsiUk2AtDDa8r2f4PwYzyVeVhbjA=
+sFNRPOwX6Khqdcvh%2F5vC%2FQHTKS0eDzKuFWDyJZBHy0sk%2BGtR2kfIskZraiwvNhSQVXQ6M=
+CkVjbP3yjDIfT%2BnI6RG5v0O%2BLFK8AQxYRUJUOQkTLKUnJXuuSQdUkiwpwR%2Fw3nbT8EiBR=
+xx10J%2B2e10Hh8NbLwZDLr%2BItQqigMLCT1yd18JLTtc1hSxIFQQ1wWb%2F9ySbMPXESMUakR=
+BxA%3D%3D" style=3D"color:#30A4EA;font-weight: normal;text-decoration: none=
+;" target=3D"_blank">Terms & Conditions</a> | All Rights Reserved
+                          </p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </center>
+      </td>
+    </tr>
+  </tbody>
+</table><img src=3D"https://trkt.aclemails.com/v1/w/ItJPL2W78UxzKMknb40tSup=
+P8C4CEL%2FSwcZYqi07xZoOuaCgR0iLtOo6au89yC5quNEKCeJD0VzVaq1PB%2F9aSEdAKg25tG=
+97sH1KFH%2BOPB5%2Fq7NjZhN4f8e%2FUtVxvybSKNPeAI4yZ4B%2FNn%2Fiw%2FwxTmJlXAQ4T=
+ncCmfek6xOWCXEoi%2BhTFpft0ZMGL1XX3lQfht0HtQCk8EdfDQxELRB2pw%3D%3D"  width=
+=3D"1" height=3D"1" border=3D"0">
+--3c1ebbb3eed32fdc69b16df3576c33a7f88e9392f52cc7e4182624f7ab12--

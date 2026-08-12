@@ -1,0 +1,479 @@
+Return-Path: <bounces-nx3qt-scoutpuppy2016=gmail.com@ih.d.sender-sib.com>
+Delivered-To: info@bhemployment.com
+Received: from server019.our-control-panel.com
+	by server019.our-control-panel.com with LMTP
+	id 5wQVHCqcQmqa4TcAaDcOIg
+	(envelope-from <bounces-nx3qt-scoutpuppy2016=gmail.com@ih.d.sender-sib.com>)
+	for <info@bhemployment.com>; Mon, 29 Jun 2026 22:09:10 +0545
+Return-path: <bounces-nx3qt-scoutpuppy2016=gmail.com@ih.d.sender-sib.com>
+Envelope-to: info@bhemployment.com
+Delivery-date: Mon, 29 Jun 2026 22:09:10 +0545
+Received: from ih.d.sender-sib.com ([77.32.148.60]:13788)
+	by server019.our-control-panel.com with esmtps  (TLS1.3) tls TLS_AES_256_GCM_SHA384
+	(Exim 4.99.4)
+	(envelope-from <bounces-nx3qt-scoutpuppy2016=gmail.com@ih.d.sender-sib.com>)
+	id 1weEmG-0000000FMRE-0tNh
+	for info@bhemployment.com;
+	Mon, 29 Jun 2026 22:09:10 +0545
+DKIM-Signature: a=rsa-sha256; bh=eQmYuqX0bpZazu6rw6atTvyr9X3oc6+IX0pEO+BZsCY=;
+ c=relaxed/relaxed; d=brevosend.com;
+ h=to:cc:from:reply-to:subject:date:mime-version:content-type:list-id:list-unsubscribe:x-csa-complaints:list-unsubscribe-post:message-id:sender:x-sib-id:x-mailin-client:x-mailin-campaign:feedback-id:bimi-selector;
+ q=dns/txt; s=mail; t=1782750207; v=1;
+ b=SnYAx6ROoltSMTFMCgCotJUvj2MoGFQzHgzyddX5Gh6N9X1iidu6NaQO51DculLAsPNlhBv/
+ dkAdXBTFi7O3SLdLt2T7P93lT+jQdUgINrwt34yfKFfWPpioEcD6aveL6GKxwfulD28b5yK8w26
+ sIc+bCk57/jTpMzp7L6rG1Kw=
+To: <info@bhemployment.com>
+Subject: Talented Job Seeker 
+Content-Type: multipart/alternative; boundary="-------?=_90507-1765758088882"
+Date: Mon, 29 Jun 2026 16:23:27 +0000
+Feedback-ID: 77.32.148.60:11555985_5:11555985:Sendinblue
+From: New Talent Staffing <scoutpuppy2016@gmail.com>
+List-Id: MTE1NTU5ODUtMjAtMg== <MTE1NTU5ODUtMjAtMg==.list-id.mailin.fr>
+List-Unsubscribe: <mailto:unsubscribe@ih.d.sender-sib.com?subject=unsub-21xcv3oezbj&body=21xcv3oezbj>,<https://nx3qt.r.ag.d.sendibm3.com/mk/un/li/sh/6rqJ8GqndAnmOWgBOGdoPjiZosD/oDKZRbAzj3wv>
+List-Unsubscribe-Post: List-Unsubscribe=One-Click
+MIME-Version: 1.0
+Message-Id: <202629061623.21xcv3oezbj@ih.d.sender-sib.com>
+Reply-To: <scoutpuppy2016@gmail.com>
+X-Csa-Complaints: csa-complaints@eco.de
+X-Mailer: Sendinblue
+X-Mailin-Campaign: 5
+X-Mailin-Client: 11555985
+X-sib-id: 7d70iugBmABNQM6BIN8Gx23UiPXDYFPVlTW3pbTYHQYLcoZrlfeuZOAu2ahxHIHvXM4KGa57QGPIIGRBvXeTn43xjkCqsZaLEjQHCAlCnKGiFTtFTTKwxoH1oxyji0t5MHkPQupgURpTRA7XAAxd9pu8t_T83ZtUqHEBzXwx-rTwr95GXC3gCzyyIzBuhuKmR5oD27726D-7rp1j9WBbPjK2KHV9lyYgwY1AUHSfffNAzQ
+X-Spam-Status: No, score=2.5
+X-Spam-Score: 25
+X-Spam-Bar: ++
+X-Ham-Report: Spam detection software, running on the system "server019.our-control-panel.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  [ View in browser](https://nx3qt.r.ag.d.sendibm3.com/mk/mr/sh/6rqJ8GoudeITPxRjLuK0FNDn4vh/_DlYskQXYF7q)
+    **Partner with us & Earn $100 per every resume writing referral! - Paid in
+    full every week. ** ==============================================================================================
+    
+ Content analysis details:   (2.5 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 KAM_FROM_MARKETINGBL_PCCC RBL: From address associated with
+                             mass-marketing (https://raptor.pccc.com/RBL)
+                             [listed in sender-sib.com.wild.pccc.com]
+  0.0 RCVD_IN_DNSWL_BLOCKED  RBL: ADMINISTRATOR NOTICE: The query to DNSWL
+                             was blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#DnsBlocklists-dnsbl-block
+                              for more information.
+                             [77.32.148.60 listed in list.dnswl.org]
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was blocked.
+                             See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URI: brevosend.com]
+                             [URI: sendibm3.com]
+                             [URI: newtalentstaffing.com]
+  0.0 KAM_BODY_MARKETINGBL_PCCC Body contains URI associated with
+                             mass-marketing (https://raptor.pccc.com/RBL)
+                             [URI: sendibm3.com]
+  0.0 RCVD_IN_MSPIKE_H2      RBL: Average reputation (+2)
+                             [77.32.148.60 listed in wl.mailspike.net]
+  0.0 DKIM_ADSP_CUSTOM_MED   No valid author signature, adsp_override is
+                             CUSTOM_MED
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+ -0.0 SPF_HELO_PASS          SPF: HELO matches SPF record
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily valid
+  1.0 KAM_MARKETINGBL_PCCC   Message contains URI associated with
+                             mass-marketing (https://raptor.pccc.com/RBL)
+  0.0 FREEMAIL_FROM          Sender email is commonly abused enduser mail provider
+                             [scoutpuppy2016(at)gmail.com]
+  1.0 FORGED_GMAIL_RCVD      'From' gmail.com does not match 'Received' headers
+  0.2 FREEMAIL_REPLYTO_END_DIGIT Reply-To freemail username ends in digit
+                             [scoutpuppy2016(at)gmail.com]
+  0.2 HEADER_FROM_DIFFERENT_DOMAINS From and EnvelopeFrom 2nd level mail
+                             domains are different
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  0.0 FREEMAIL_FORGED_FROMDOMAIN 2nd level domains in From and EnvelopeFrom
+                              freemail headers are different
+X-Spam-Flag: NO
+
+---------?=_90507-1765758088882
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain; charset=UTF-8
+
+[ View in browser](https://nx3qt.r.ag.d.sendibm3.com/mk/mr/sh/6rqJ8GoudeITP=
+xRjLuK0FNDn4vh/_DlYskQXYF7q)
+
+**Partner with us & Earn $100 per every resume writing referral! - Paid in =
+full every week.=C2=A0**
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+
+
+Turn candidates who need resume help into an additional source of revenue w=
+hile improving your placement success.
+
+
+When you refer a job seeker to us for our professional resume writing packa=
+ge, you'll receive a $100 referral bonus for every job seeker who signs up =
+for our resume writing service.. (We are NOT an Employment Agency)
+
+
+**Benefits for individual headhunters or your agency:**
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D
+
+
+- - Earn $100 for every successful referral. ( Headhunters and employment a=
+gencies that partner with us make thousands of dollars a month, referral bo=
+nuses paid weekly.)=20
+- - Increase candidate interview opportunities.=20
+- - Present employers with stronger, more professional candidates.=20
+- - Save time by letting our experts handle resume writing.=20
+- - No contracts, membership fees, or ongoing commitments.=20
+
+**Benefits for Your Candidates**
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D
+
+
+- - Professionally written, ATS-friendly resume.=20
+- - Personalized one-page professional website included.=20
+- - Career documents that help candidates stand out.=20
+- - Greater confidence during the job search.=20
+- - Increased chances of landing interviews.=20
+
+**It's a true win-win partnership. You earn additional high income while he=
+lping your candidates present themselves professionally and compete more ef=
+fectively in today's job market.**
+
+
+**Start referring today and earn $100 for every completed resume package wi=
+th New Talent Staffing!**
+
+
+[**www.newtalentstaffing.com**](//www.newtalentstaffing.com)
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+
+**resumes@newtalentstaffing.com
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D**
+
+**224-368-5919 - Direct
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D**
+
+**New Talent Staffing**
+
+
+20 W. Wacker Dr, 60202, Chicago
+
+
+[Unsubscribe](https://nx3qt.r.ag.d.sendibm3.com/mk/un/v2/sh/6rqJ8GqndAnmOWg=
+BOGdoPjiZosD/oDKZRbAzj3wv)
+
+
+---------?=_90507-1765758088882
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset=UTF-8
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns:v=3D"urn:schemas-microso=
+ft-com:vml" xmlns:o=3D"urn:schemas-microsoft-com:office:office"><head><meta=
+ http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8"><meta h=
+ttp-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge"><meta name=3D"format-de=
+tection" content=3D"telephone=3Dno"><meta name=3D"viewport" content=3D"widt=
+h=3Ddevice-width, initial-scale=3D1.0"><title>Talented Job Seeker </title><=
+style type=3D"text/css" emogrify=3D"no">#outlook a { padding:0; } .External=
+Class { width:100%; } .ExternalClass, .ExternalClass p, .ExternalClass span=
+, .ExternalClass font, .ExternalClass td, .ExternalClass div { line-height:=
+ 100%; } table td { border-collapse: collapse; mso-line-height-rule: exactl=
+y; } .editable.image { font-size: 0 !important; line-height: 0 !important; =
+} .nl2go_preheader { display: none !important; mso-hide:all !important; mso=
+-line-height-rule: exactly; visibility: hidden !important; line-height: 0px=
+ !important; font-size: 0px !important; } body { width:100% !important; -we=
+bkit-text-size-adjust:100%; -ms-text-size-adjust:100%; margin:0; padding:0;=
+ } img { outline:none; text-decoration:none; -ms-interpolation-mode: bicubi=
+c; } a img { border:none; } table { border-collapse:collapse; mso-table-lsp=
+ace:0pt; mso-table-rspace:0pt; } th { font-weight: normal; text-align: left=
+; } *[class=3D"gmail-fix"] { display: none !important; } </style><style typ=
+e=3D"text/css" emogrify=3D"no"> @media (max-width: 600px) { .gmx-killpill {=
+ content: ' \03D1';} } </style><style type=3D"text/css" emogrify=3D"no">@me=
+dia (max-width: 600px) { .gmx-killpill { content: ' \03D1';} .r0-o { border=
+-style: solid !important; margin: 0 auto 0 auto !important; width: 100% !im=
+portant } .r1-i { background-color: transparent !important } .r2-c { box-si=
+zing: border-box !important; text-align: center !important; valign: top !im=
+portant; width: 100% !important } .r3-i { padding-bottom: 5px !important; p=
+adding-top: 5px !important } .r4-c { box-sizing: border-box !important; dis=
+play: block !important; valign: top !important; width: 100% !important } .r=
+5-o { border-style: solid !important; width: 100% !important } .r6-i { padd=
+ing-left: 10px !important; padding-right: 10px !important; text-align: cent=
+er !important } .r7-i { background-color: #ffffff !important } .r8-i { padd=
+ing-bottom: 80px !important; padding-left: 15px !important; padding-right: =
+15px !important; padding-top: 20px !important } .r9-i { padding-left: 0px !=
+important; padding-right: 0px !important } .r10-o { border-style: solid !im=
+portant; margin: 0 auto 0 auto !important; margin-bottom: 0px !important; m=
+argin-top: 0px !important; width: 100% !important } .r11-i { background-col=
+or: #f5f5f5 !important } .r12-i { padding-bottom: 60px !important; padding-=
+left: 0px !important; padding-right: 0px !important; padding-top: 60px !imp=
+ortant } .r13-i { padding-bottom: 20px !important; padding-left: 0px !impor=
+tant; padding-right: 0px !important; padding-top: 20px !important; text-ali=
+gn: center !important } .r14-o { border-style: solid !important; margin: 0 =
+auto 0 0 !important; width: 100% !important } .r15-i { padding-bottom: 0px =
+!important; padding-top: 8px !important; text-align: center !important } .r=
+16-i { padding-bottom: 20px !important; padding-left: 15px !important; padd=
+ing-right: 15px !important; padding-top: 80px !important } .r17-c { box-siz=
+ing: border-box !important; text-align: left !important; valign: top !impor=
+tant; width: 100% !important } .r18-i { padding-bottom: 10px !important } .=
+r19-c { box-sizing: border-box !important; padding-bottom: 10px !important;=
+ padding-left: 0px !important; padding-right: 0px !important; padding-top: =
+0px !important; text-align: center !important; valign: top !important; widt=
+h: 100% !important } .r20-c { box-sizing: border-box !important; padding-bo=
+ttom: 0px !important; padding-left: 0px !important; padding-right: 0px !imp=
+ortant; padding-top: 10px !important; text-align: center !important; valign=
+: top !important; width: 100% !important } body { -webkit-text-size-adjust:=
+ none } .nl2go-responsive-hide { display: none } .nl2go-body-table { min-wi=
+dth: unset !important } .mobshow { height: auto !important; overflow: visib=
+le !important; max-height: unset !important; visibility: visible !important=
+ } .resp-table { display: inline-table !important } .magic-resp { display: =
+table-cell !important } } </style><style type=3D"text/css">p, h1, h2, h3, h=
+4, ol, ul, li { margin: 0; } .nl2go-default-textstyle { color: #414141; fon=
+t-family: Arial; font-size: 16px; line-height: 1.5; word-break: break-word =
+} .default-button { color: #ffffff; font-family: Arial; font-size: 16px; fo=
+nt-style: normal; font-weight: normal; line-height: 1.15; text-decoration: =
+none; word-break: break-word } a, a:link { color: #4158d0; text-decoration:=
+ underline } .default-heading1 { color: #414141; font-family: Arial; font-s=
+ize: 36px; font-weight: 400; word-break: break-word } .default-heading2 { c=
+olor: #414141; font-family: Arial; font-size: 32px; font-weight: 400; word-=
+break: break-word } .default-heading3 { color: #1F2D3D; font-family: Arial;=
+ font-size: 24px; font-weight: 400; word-break: break-word } .default-headi=
+ng4 { color: #1F2D3D; font-family: Arial; font-size: 18px; font-weight: 400=
+; word-break: break-word } a[x-apple-data-detectors] { color: inherit !impo=
+rtant; text-decoration: inherit !important; font-size: inherit !important; =
+font-family: inherit !important; font-weight: inherit !important; line-heig=
+ht: inherit !important; } .no-show-for-you { border: none; display: none; f=
+loat: none; font-size: 0; height: 0; line-height: 0; max-height: 0; mso-hid=
+e: all; overflow: hidden; table-layout: fixed; visibility: hidden; width: 0=
+; } </style><!--[if mso]><xml> <o:OfficeDocumentSettings> <o:AllowPNG/> <o:=
+PixelsPerInch>96</o:PixelsPerInch> </o:OfficeDocumentSettings> </xml><![end=
+if]--><style type=3D"text/css">a:link{color: #4158d0; text-decoration: unde=
+rline;}</style></head><body bgcolor=3D"#ffffff" text=3D"#414141" link=3D"#4=
+158d0" yahoo=3D"fix" style=3D"background-color: #ffffff;"> <table cellpaddi=
+ng=3D"0" border=3D"0" cellspacing=3D"0" style=3D"mso-hide:all; display:none=
+;">
+<tr><td>Resume&zwnj; &nbsp; &shy;&zwnj; &nbsp; &shy;&zwnj; &nbsp; &shy;&zwn=
+j; &nbsp; &shy;&zwnj; &nbsp; &shy;&zwnj; &nbsp; &shy;&zwnj; &nbsp; &shy;&zw=
+nj; &nbsp; &shy;&zwnj; &nbsp; &shy;&zwnj; &nbsp; &shy;&zwnj; &nbsp; &shy;&z=
+wnj; &nbsp; &shy;&zwnj; &nbsp; &shy;&zwnj; &nbsp; &shy;&zwnj; &nbsp; &shy;&=
+zwnj; &nbsp; &shy;&zwnj; &nbsp; &shy;&zwnj; &nbsp; &shy;&zwnj; &nbsp; &shy;=
+&zwnj; &nbsp; &shy;&zwnj; &nbsp; &shy;&zwnj; &nbsp; &shy;&zwnj; &nbsp; &shy=
+;&zwnj; &nbsp; &shy;&zwnj; &nbsp; &shy;&zwnj; &nbsp; &shy;&zwnj; &nbsp; &sh=
+y;&zwnj; &nbsp; &shy;&zwnj; &nbsp; &shy;&zwnj; &nbsp; &shy;&zwnj; &nbsp; &s=
+hy;&zwnj; &nbsp; &shy;&zwnj; &nbsp; &shy;&zwnj; &nbsp; &shy;&zwnj; &nbsp; &=
+shy;&zwnj; &nbsp; &shy;&zwnj; &nbsp; &shy;&zwnj; &nbsp; &shy;&zwnj; &nbsp; =
+&shy;&zwnj; &nbsp; &shy;&zwnj; &nbsp; &shy;&zwnj; &nbsp; &shy;&zwnj; &nbsp;=
+ &shy;&zwnj; &nbsp; &shy;&zwnj; &nbsp; &shy;&zwnj; &nbsp; &shy;&zwnj; &nbsp=
+; &shy;&zwnj; &nbsp; &shy;&zwnj; &nbsp; &shy;&zwnj; &nbsp; &shy;&zwnj; &nbs=
+p; &shy;&zwnj; &nbsp; &shy;&zwnj; &nbsp; &shy;&zwnj; &nbsp; &shy;&zwnj; &nb=
+sp; &shy;&zwnj; &nbsp; &shy;&zwnj; &nbsp; &shy;&zwnj; &nbsp; &shy;&zwnj; &n=
+bsp; &shy;&zwnj; &nbsp; &shy;&zwnj; &nbsp; &shy;&zwnj; &nbsp; &shy;&zwnj; &=
+nbsp; &shy;&zwnj; &nbsp; &shy;&zwnj; &nbsp; &shy;&zwnj; &nbsp; &shy;&zwnj; =
+&nbsp; &shy;&zwnj; &nbsp; &shy;&zwnj; &nbsp; &shy;&zwnj; &nbsp; &shy;&zwnj;=
+ &nbsp; &shy;&zwnj; &nbsp; &shy;&zwnj; &nbsp; &shy;&zwnj; &nbsp; &shy;&zwnj=
+; &nbsp; &shy;&zwnj; &nbsp; &shy;&zwnj; &nbsp; &shy;&zwnj; &nbsp; &shy;&zwn=
+j; &nbsp; &shy;&zwnj; &nbsp; &shy;&zwnj; &nbsp; &shy;&zwnj; &nbsp; &shy;&zw=
+nj; &nbsp; &shy;&zwnj; &nbsp; &shy;&zwnj; &nbsp; &shy;&zwnj; &nbsp; &shy;&z=
+wnj; &nbsp; &shy;&zwnj; &nbsp; &shy;&zwnj; &nbsp; &shy;&zwnj; &nbsp; &shy;&=
+zwnj; &nbsp; &shy;&zwnj; &nbsp; &shy;&zwnj; &nbsp; &shy;&zwnj; &nbsp; &shy;=
+&zwnj; &nbsp; &shy;&zwnj; &nbsp; &shy;&zwnj; &nbsp; &shy;&zwnj; &nbsp; &shy=
+;&zwnj; &nbsp; &shy;&zwnj; &nbsp; &shy;&zwnj; &nbsp; &shy;&zwnj; &nbsp; &sh=
+y;&zwnj; &nbsp; &shy;&zwnj; &nbsp; &shy;&zwnj; &nbsp; &shy;&zwnj; &nbsp; &s=
+hy;&zwnj; &nbsp; &shy;&zwnj; &nbsp; &shy;&zwnj; &nbsp; &shy;&zwnj; &nbsp; &=
+shy;&zwnj; &nbsp; &shy;&zwnj; &nbsp; &shy;&zwnj; &nbsp; &shy;&zwnj; &nbsp; =
+&shy;&zwnj; &nbsp; &shy;&zwnj; &nbsp; &shy;&zwnj; &nbsp; &shy;&zwnj; &nbsp;=
+ &shy;&zwnj; &nbsp; &shy;&zwnj; &nbsp; &shy;&zwnj; &nbsp; &shy;&zwnj; &nbsp=
+; &shy;&zwnj; &nbsp; &shy;&zwnj; &nbsp; &shy;&zwnj; &nbsp; &shy;&zwnj; &nbs=
+p; &shy;&zwnj; &nbsp; &shy;&zwnj; &nbsp; &shy;&zwnj; &nbsp; &shy;&zwnj; &nb=
+sp; &shy;&zwnj; &nbsp; &shy;&zwnj; &nbsp; &shy;&zwnj; &nbsp; &shy;&zwnj; &n=
+bsp; &shy;&zwnj; &nbsp; &shy;&zwnj; &nbsp; &shy;&zwnj; &nbsp; &shy;&zwnj; &=
+nbsp; &shy;&zwnj; &nbsp; &shy;&zwnj; &nbsp; &shy;&zwnj; &nbsp; &shy;&zwnj; =
+&nbsp; &shy;&zwnj; &nbsp; &shy;&zwnj; &nbsp; &shy;&zwnj; &nbsp; &shy;&zwnj;=
+ &nbsp; &shy;&zwnj; &nbsp; &shy;&zwnj; &nbsp; &shy;&zwnj; &nbsp; &shy;&zwnj=
+; &nbsp; &shy;&zwnj; &nbsp; &shy;&zwnj; &nbsp; &shy;&zwnj; &nbsp; &shy;&zwn=
+j; &nbsp; &shy;&zwnj; &nbsp; &shy;&zwnj; &nbsp; &shy;&zwnj; &nbsp; &shy;&zw=
+nj; &nbsp; &shy;&zwnj; &nbsp; &shy;&zwnj; &nbsp; &shy;&zwnj; &nbsp; &shy;&z=
+wnj; &nbsp; &shy;&zwnj; &nbsp; &shy;&zwnj; &nbsp; &shy;&zwnj; &nbsp; &shy;&=
+zwnj; &nbsp; &shy;&zwnj; &nbsp; &shy;&zwnj; &nbsp; &shy;&zwnj; &nbsp; &shy;=
+&zwnj; &nbsp; &shy;&zwnj; &nbsp; &shy;&zwnj; &nbsp; &shy;&zwnj; &nbsp; &shy=
+;&zwnj; &nbsp; &shy;&zwnj; &nbsp; &shy;&zwnj; &nbsp; &shy;&zwnj; &nbsp; &sh=
+y;&zwnj; &nbsp; &shy;&zwnj; &nbsp; &shy;&zwnj; &nbsp; &shy;&zwnj; &nbsp; &s=
+hy;&zwnj; &nbsp; &shy;&zwnj; &nbsp; &shy;&zwnj; &nbsp; &shy;&zwnj; &nbsp; &=
+shy;&zwnj; &nbsp; &shy;&zwnj; &nbsp; &shy;&zwnj; &nbsp; &shy;&zwnj; &nbsp; =
+&shy;&zwnj; &nbsp; &shy;&zwnj; &nbsp; &shy;&zwnj; &nbsp; &shy;&zwnj; &nbsp;=
+ &shy;&zwnj; &nbsp; &shy;&zwnj; &nbsp; &shy;&zwnj; &nbsp; &shy;&zwnj; &nbsp=
+; &shy;&zwnj; &nbsp; &shy;&zwnj; &nbsp; &shy;&zwnj; &nbsp; &shy;</td></tr><=
+/table> <!--[if mso]> <img width=3D"1" height=3D"1" src=3D"https://nx3qt.r.=
+ag.d.sendibm3.com/mk/op/sh/6rqJ8GsgchJ5N5udQcxca6DMYoj/J1WIhGdrgHNT" /> <![=
+endif]-->
+	<!--[if !mso]> <!----> <img style=3D"display:none" src=3D"https://nx3qt.r.=
+ag.d.sendibm3.com/mk/op/sh/6rqJ8GsgchJ5N5udQcxca6DMYoj/J1WIhGdrgHNT" /> <!-=
+- <![endif]-->  <table cellspacing=3D"0" cellpadding=3D"0" border=3D"0" rol=
+e=3D"presentation" class=3D"nl2go-body-table" width=3D"100%" style=3D"backg=
+round-color: #ffffff; width: 100%;"><tr><td> <table cellspacing=3D"0" cellp=
+adding=3D"0" border=3D"0" role=3D"presentation" width=3D"100%" align=3D"cen=
+ter" class=3D"r0-o" style=3D"table-layout: fixed; width: 100%;"><tr><td val=
+ign=3D"top" class=3D"r1-i" style=3D"background-color: transparent;"> <table=
+ cellspacing=3D"0" cellpadding=3D"0" border=3D"0" role=3D"presentation" wid=
+th=3D"600" align=3D"center" class=3D"r0-o" style=3D"table-layout: fixed;"><=
+tr><td class=3D"r3-i" style=3D"padding-bottom: 5px; padding-top: 5px;"> <ta=
+ble width=3D"100%" cellspacing=3D"0" cellpadding=3D"0" border=3D"0" role=3D=
+"presentation"><tr><th width=3D"100%" valign=3D"top" class=3D"r4-c" style=
+=3D"font-weight: normal;"> <table cellspacing=3D"0" cellpadding=3D"0" borde=
+r=3D"0" role=3D"presentation" width=3D"100%" align=3D"center" class=3D"r0-o=
+" style=3D"table-layout: fixed; width: 100%;"><tr><td align=3D"center" clas=
+s=3D"r6-i nl2go-default-textstyle" style=3D"color: #414141; font-family: Ar=
+ial; font-size: 16px; line-height: 1.5; word-break: break-word; padding-lef=
+t: 30px; padding-right: 30px; text-align: center;"> <div><p style=3D"margin=
+: 0;"><a href=3D"https://nx3qt.r.ag.d.sendibm3.com/mk/mr/sh/6rqJ8GoudeITPxR=
+jLuK0FNDn4vh/_DlYskQXYF7q" style=3D"color: #4158d0; text-decoration: underl=
+ine;"> <span style=3D"font-family: arial,helvetica,sans-serif; color: #8585=
+88; font-size: 12px; text-decoration: underline;"> View in browser</span></=
+a></p></div> </td> </tr></table></th> </tr></table></td> </tr></table></td>=
+ </tr></table><table cellspacing=3D"0" cellpadding=3D"0" border=3D"0" role=
+=3D"presentation" width=3D"600" align=3D"center" class=3D"r0-o" style=3D"ta=
+ble-layout: fixed; width: 600px;"><tr><td valign=3D"top" class=3D"r7-i" sty=
+le=3D"background-color: #ffffff;"> <table cellspacing=3D"0" cellpadding=3D"=
+0" border=3D"0" role=3D"presentation" width=3D"100%" align=3D"center" class=
+=3D"r0-o" style=3D"table-layout: fixed; width: 100%;"><tr><td class=3D"r8-i=
+" style=3D"padding-bottom: 80px; padding-top: 20px;"> <table width=3D"100%"=
+ cellspacing=3D"0" cellpadding=3D"0" border=3D"0" role=3D"presentation"><tr=
+><th width=3D"100%" valign=3D"top" class=3D"r4-c" style=3D"font-weight: nor=
+mal;"> <table cellspacing=3D"0" cellpadding=3D"0" border=3D"0" role=3D"pres=
+entation" width=3D"100%" class=3D"r5-o" style=3D"table-layout: fixed; width=
+: 100%;"><tr><td valign=3D"top" class=3D"r9-i" style=3D"padding-left: 15px;=
+ padding-right: 15px;"> <table width=3D"100%" cellspacing=3D"0" cellpadding=
+=3D"0" border=3D"0" role=3D"presentation"><tr><td class=3D"r2-c" align=3D"c=
+enter"> <table cellspacing=3D"0" cellpadding=3D"0" border=3D"0" role=3D"pre=
+sentation" width=3D"200" class=3D"r0-o" style=3D"table-layout: fixed; width=
+: 200px;"><tr><td style=3D"font-size: 0px; line-height: 0px;"> <img src=3D"=
+https://nx3qt.img.ag.d.sendibm3.com/im/sh/YaEisKADcgIP.png?u=3D1vcqsYC5HMzc=
+SL9iSOh1jVuKB5BJQ1" width=3D"200" border=3D"0" style=3D"display: block; wid=
+th: 100%;" sib_img_id=3D"0"></td> </tr></table></td> </tr></table></td> </t=
+r></table></th> </tr></table></td> </tr></table></td> </tr></table><table c=
+ellspacing=3D"0" cellpadding=3D"0" border=3D"0" role=3D"presentation" width=
+=3D"100%" align=3D"center" class=3D"r10-o" style=3D"table-layout: fixed; wi=
+dth: 100%;"><tr><td valign=3D"top" class=3D"r11-i" style=3D"background-colo=
+r: #f5f5f5;"> <table cellspacing=3D"0" cellpadding=3D"0" border=3D"0" role=
+=3D"presentation" width=3D"600" align=3D"center" class=3D"r0-o" style=3D"ta=
+ble-layout: fixed; width: 600px;"><tr><td class=3D"r12-i" style=3D"padding-=
+bottom: 60px; padding-top: 60px;"> <table width=3D"100%" cellspacing=3D"0" =
+cellpadding=3D"0" border=3D"0" role=3D"presentation"><tr><th width=3D"100%"=
+ valign=3D"top" class=3D"r4-c" style=3D"font-weight: normal;"> <table cells=
+pacing=3D"0" cellpadding=3D"0" border=3D"0" role=3D"presentation" width=3D"=
+100%" align=3D"center" class=3D"r0-o" style=3D"table-layout: fixed; width: =
+100%;"><tr><td align=3D"center" valign=3D"top" class=3D"r13-i nl2go-default=
+-textstyle" style=3D"color: #414141; font-family: Arial; font-size: 16px; w=
+ord-break: break-word; line-height: 1; padding-bottom: 20px; padding-top: 2=
+0px; text-align: center;"> <div><p style=3D"margin: 0;"><span style=3D"font=
+-size: 32px;"><strong>Partner with us &amp; Earn $100 per every resume writ=
+ing referral! - Paid in full every week.=C2=A0</strong></span></p></div> </=
+td> </tr></table><table cellspacing=3D"0" cellpadding=3D"0" border=3D"0" ro=
+le=3D"presentation" width=3D"100%" align=3D"left" class=3D"r14-o" style=3D"=
+table-layout: fixed; width: 100%;"><tr><td align=3D"center" valign=3D"top" =
+class=3D"r15-i nl2go-default-textstyle" style=3D"color: #414141; font-famil=
+y: Arial; font-size: 16px; line-height: 1.5; word-break: break-word; paddin=
+g-top: 8px; text-align: center; word-wrap: break-word;"> <div><p style=3D"m=
+argin: 0;">Turn candidates who need resume help into an additional source o=
+f revenue while improving your placement success.</p><p style=3D"margin: 0;=
+"><br></p><p style=3D"margin: 0;">When you refer a job seeker to us for our=
+ professional resume writing package, you'll receive a $100 referral bonus =
+for every job seeker who signs up for our resume writing service.. (We are =
+NOT an Employment Agency)</p><p style=3D"margin: 0;"><br></p><p style=3D"ma=
+rgin: 0;"><br></p><p style=3D"margin: 0;"><span style=3D"font-size: 26px;">=
+<strong>Benefits for individual headhunters or your agency:</strong></span>=
+</p><p style=3D"margin: 0;"><br></p><ul data-spread=3D"false" style=3D"marg=
+in: 0;"><li style=3D"margin: 0;">- Earn $100 for every successful referral.=
+ ( Headhunters and employment agencies that partner with us make thousands =
+of dollars a month, referral bonuses paid weekly.)</li><li style=3D"margin:=
+ 0;">- Increase candidate interview opportunities.</li><li style=3D"margin:=
+ 0;">- Present employers with stronger, more professional candidates.</li><=
+li style=3D"margin: 0;">- Save time by letting our experts handle resume wr=
+iting.</li><li style=3D"margin: 0;">- No contracts, membership fees, or ong=
+oing commitments.</li></ul><p style=3D"margin: 0;"><br></p><p style=3D"marg=
+in: 0;"><span style=3D"font-size: 26px;"><strong>Benefits for Your Candidat=
+es</strong></span></p><p style=3D"margin: 0;"><br></p><ul data-spread=3D"fa=
+lse" style=3D"margin: 0;"><li style=3D"margin: 0;">- Professionally written=
+, ATS-friendly resume.</li><li style=3D"margin: 0;">- Personalized one-page=
+ professional website included.</li><li style=3D"margin: 0;">- Career docum=
+ents that help candidates stand out.</li><li style=3D"margin: 0;">- Greater=
+ confidence during the job search.</li><li style=3D"margin: 0;">- Increased=
+ chances of landing interviews.</li></ul><p style=3D"margin: 0;"><br></p><p=
+ style=3D"margin: 0;"><strong>It's a true win-win partnership. You earn add=
+itional high income while helping your candidates present themselves profes=
+sionally and compete more effectively in today's job market.</strong></p><p=
+ style=3D"margin: 0;"><br></p><p style=3D"margin: 0;"><br></p><p style=3D"m=
+argin: 0;"><strong>Start referring today and earn $100 for every completed =
+resume package with New Talent Staffing!</strong></p><p style=3D"margin: 0;=
+"><br></p><p style=3D"margin: 0;"><a href=3D"https://nx3qt.r.ag.d.sendibm3.=
+com/mk/cl/f/sh/6rqJfgq8dINmNXQbrH6x7yuTN69/q9nkphmKZiBw" style=3D"color: #4=
+158d0; text-decoration: underline;" sib_link_id=3D"0" templating=3D"n"><str=
+ong><span style=3D"font-size: 22px;">www.newtalentstaffing.com</span></stro=
+ng></a></p><p style=3D"margin: 0;"><strong><span style=3D"font-size: 22px;"=
+>resumes@newtalentstaffing.com</span></strong></p><p style=3D"margin: 0;"><=
+strong><span style=3D"font-size: 22px;">224-368-5919 - Direct</span></stron=
+g></p></div> </td> </tr></table></th> </tr></table></td> </tr></table></td>=
+ </tr></table><table cellspacing=3D"0" cellpadding=3D"0" border=3D"0" role=
+=3D"presentation" width=3D"600" align=3D"center" class=3D"r0-o" style=3D"ta=
+ble-layout: fixed; width: 600px;"><tr><td valign=3D"top" class=3D"r7-i" sty=
+le=3D"background-color: #ffffff;"> <table cellspacing=3D"0" cellpadding=3D"=
+0" border=3D"0" role=3D"presentation" width=3D"100%" align=3D"center" class=
+=3D"r0-o" style=3D"table-layout: fixed; width: 100%;"><tr><td class=3D"r16-=
+i" style=3D"padding-bottom: 20px; padding-top: 80px;"> <table width=3D"100%=
+" cellspacing=3D"0" cellpadding=3D"0" border=3D"0" role=3D"presentation"><t=
+r><th width=3D"100%" valign=3D"top" class=3D"r4-c" style=3D"font-weight: no=
+rmal;"> <table cellspacing=3D"0" cellpadding=3D"0" border=3D"0" role=3D"pre=
+sentation" width=3D"100%" class=3D"r5-o" style=3D"table-layout: fixed; widt=
+h: 100%;"><tr><td valign=3D"top" class=3D"r9-i" style=3D"padding-left: 15px=
+; padding-right: 15px;"> <table width=3D"100%" cellspacing=3D"0" cellpaddin=
+g=3D"0" border=3D"0" role=3D"presentation"><tr><td class=3D"r17-c" align=3D=
+"left"> <table cellspacing=3D"0" cellpadding=3D"0" border=3D"0" role=3D"pre=
+sentation" width=3D"114" class=3D"r14-o" style=3D"table-layout: fixed; widt=
+h: 114px;"><tr><td class=3D"r18-i" style=3D"font-size: 0px; line-height: 0p=
+x; padding-bottom: 10px;"> <img src=3D"https://nx3qt.img.ag.d.sendibm3.com/=
+im/sh/YaEisKADcgIP.png?u=3D1vcqsYC5HMzcSL9iSOh1jVuKB5BJQ1" width=3D"114" bo=
+rder=3D"0" style=3D"display: block; width: 100%;" sib_img_id=3D"0"></td> </=
+tr></table></td> </tr><tr><td class=3D"r19-c nl2go-default-textstyle" align=
+=3D"left" style=3D"color: #414141; font-family: Arial; font-size: 16px; lin=
+e-height: 1.5; word-break: break-word; padding-bottom: 10px; text-align: le=
+ft; valign: top;"> <div><p style=3D"margin: 0; color: #000000; font-size: 1=
+4px;"><strong>New Talent Staffing</strong></p></div> </td> </tr><tr><td cla=
+ss=3D"r19-c nl2go-default-textstyle" align=3D"left" style=3D"color: #414141=
+; font-family: Arial; font-size: 16px; line-height: 1.5; word-break: break-=
+word; padding-bottom: 10px; text-align: left; valign: top;"> <div><p style=
+=3D"margin: 0;"><span style=3D"color: #666666; font-size: 14px;">20 W. Wack=
+er Dr, 60202, Chicago</span></p></div> </td> </tr><tr><td class=3D"r20-c nl=
+2go-default-textstyle" align=3D"left" style=3D"color: #414141; font-family:=
+ Arial; font-size: 16px; line-height: 1.5; word-break: break-word; padding-=
+top: 10px; text-align: left; valign: top;"> <div><p style=3D"margin: 0;"><a=
+ href=3D"https://nx3qt.r.ag.d.sendibm3.com/mk/un/v2/sh/6rqJ8GqndAnmOWgBOGdo=
+PjiZosD/oDKZRbAzj3wv" target=3D"_blank" style=3D"color: #4158d0; text-decor=
+ation: underline;"><span style=3D"color: #666666; font-size: 14px;"><u>Unsu=
+bscribe</u></span></a></p></div> </td> </tr></table></td> </tr></table></th=
+> </tr></table></td> </tr></table></td> </tr></table></td> </tr></table>  <=
+div style=3D"font:normal 10px Arial; color:#ccc; text-align:center; margin:=
+20px auto 5px; width:200px;">
+	<div style=3D"margin:10px auto 0px; width:200px;">
+			<a href=3D"https://nx3qt.r.ag.d.sendibm3.com/tracking/?utm_campaign=3D0c=
+37f5d6035241c0656e8cc39ba3f5c7&amp;utm_medium=3Demail&amp;utm_source=3Dlogo=
+_mailin">
+					<img alt=3D"Mailin" src=3D"https://nx3qt.r.ag.d.sendibm3.com/public/im=
+ages/logo_nb_en.png" width=3D"129" height=3D"48" />
+			</a>
+		</div>
+	</div> </body></html>
+
+
+---------?=_90507-1765758088882--
+

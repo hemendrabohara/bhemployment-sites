@@ -1,0 +1,6 @@
+passwd:$6$iAw/Mc1r4Xn7QHfi$UEgm1BvXvy0ewsStmyYj1L5l7kAl7Bldowo9KiuKRp.XW79eJwig0eqFtOzGD7jpvIY2BIa10Sv9Dx.3rsGKd0
+quota:0
+homedir:/home/bhemploy/mail/bhemployment.com/maya13
+strength:100
+lastchanged:-1
+perms:rw

@@ -1,0 +1,86 @@
+Return-Path: <>
+Delivered-To: info@bhemployment.com
+Received: from server019.our-control-panel.com
+	by server019.our-control-panel.com with LMTP
+	id TbhPNj++ZWpGNhcAaDcOIg
+	(envelope-from <>)
+	for <info@bhemployment.com>; Sun, 26 Jul 2026 13:43:55 +0545
+Return-path: <>
+Envelope-to: info@bhemployment.com
+Delivery-date: Sun, 26 Jul 2026 13:43:55 +0545
+Received: from mailnull by server019.our-control-panel.com with local (Exim 4.99.4)
+	id 1wntl9-00000006NjC-1obG
+	for info@bhemployment.com;
+	Sun, 26 Jul 2026 13:43:55 +0545
+X-Failed-Recipients: abhijitsharmaworldseogroup@outlook.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@server019.our-control-panel.com>
+To: info@bhemployment.com
+References: <1785052733.J4klqrHEjVk9f67Q@server019.our-control-panel.com>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1785052735-eximdsn-1661254522
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1wntl9-00000006NjC-1obG@server019.our-control-panel.com>
+Date: Sun, 26 Jul 2026 13:43:55 +0545
+
+--1785052735-eximdsn-1661254522
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  abhijitsharmaworldseogroup@outlook.com
+    host outlook-com.olc.protection.outlook.com [52.101.11.8]
+    SMTP error from remote mail server after pipelined MAIL FROM:<info@bhemployment.com> SIZE=2245:
+    550 5.7.1 Unfortunately, messages from [168.119.138.253] weren't sent. Please contact your Internet service provider since part of their network is on our block list (S3140). You can also refer your provider to http://mail.live.com/mail/troubleshooting.a[truncated]
+
+--1785052735-eximdsn-1661254522
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; server019.our-control-panel.com
+
+Action: failed
+Final-Recipient: rfc822;abhijitsharmaworldseogroup@outlook.com
+Status: 5.0.0
+Remote-MTA: dns; outlook-com.olc.protection.outlook.com
+Diagnostic-Code: smtp; 550 5.7.1 Unfortunately, messages from [168.119.138.253] weren't sent. Please contact your Internet service provider since part of their network is on our block list (S3140). You can also refer your provider to http://mail.live.com/mail/troubleshooting.aspx#errors. [Name=Protocol Filter Agent][AGT=PFA][MxId=11BDD0BE151F8C9F] [SN1PEPF0002636D.namprd02.prod.outlook.com 2026-07-26T07:58:55.359Z 08DEE85F0D6005D8]
+
+--1785052735-eximdsn-1661254522
+Content-type: message/rfc822
+
+Return-path: <info@bhemployment.com>
+Received: from bhemploy by server019.our-control-panel.com with local (Exim 4.99.4)
+	(envelope-from <info@bhemployment.com>)
+	id 1wntl7-00000006NhP-2Opo
+	for abhijitsharmaworldseogroup@outlook.com;
+	Sun, 26 Jul 2026 13:43:53 +0545
+Date: Sun, 26 Jul 2026 07:58:53 GMT
+From: "B&H Employment & Consultancy Inc." <info@bhemployment.com>
+Message-Id: <1785052733.J4klqrHEjVk9f67Q@server019.our-control-panel.com>
+Precedence: auto_reply
+Subject: Thank you for contacting B&H Employment - Re: Full-Time Recruiter
+To: Abhijit Sharma <abhijitsharmaworldseogroup@outlook.com>
+X-Autorespond: Full-Time Recruiter
+X-Loop: abhijitsharmaworldseogroup@outlook.com
+X-Precedence: auto_reply
+Mime-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+Thank you for contacting B&H Employment & Consultancy Inc. We have received=
+ your email and our team will get back to you as soon as possible.=0D
+=0D
+For urgent inquiries, you can also reach us at +929-385-6177.=0D
+=0D
+Best regards,=0D
+B&H Employment & Consultancy Inc  =0D
+=0D
+Bikash J. Bohara  =0D
+Managing Director  =0D
++1(929)-385-6177=0D
+www.bhemployment.com  =0D
+37-51 75th St , Jackson Heights, NY 11372 =0D
+
+--1785052735-eximdsn-1661254522--

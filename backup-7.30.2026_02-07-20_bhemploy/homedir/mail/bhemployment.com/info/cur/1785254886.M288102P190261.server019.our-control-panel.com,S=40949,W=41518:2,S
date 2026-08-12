@@ -1,0 +1,569 @@
+Return-Path: <membership@msg.business-edge-ihg.com>
+Delivered-To: info@bhemployment.com
+Received: from server019.our-control-panel.com
+	by server019.our-control-panel.com with LMTP
+	id jrQLEObTaGo15wIAaDcOIg
+	(envelope-from <membership@msg.business-edge-ihg.com>)
+	for <info@bhemployment.com>; Tue, 28 Jul 2026 21:53:06 +0545
+Return-path: <membership@msg.business-edge-ihg.com>
+Envelope-to: info@bhemployment.com
+Delivery-date: Tue, 28 Jul 2026 21:53:06 +0545
+Received: from emx024.instillerhq.com ([185.105.64.24]:34769)
+	by server019.our-control-panel.com with esmtps  (TLS1.3) tls TLS_AES_256_GCM_SHA384
+	(Exim 4.99.4)
+	(envelope-from <membership@msg.business-edge-ihg.com>)
+	id 1wokLc-00000000nJ0-3SjS
+	for info@bhemployment.com;
+	Tue, 28 Jul 2026 21:53:06 +0545
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; s=dkim1024; d=msg.business-edge-ihg.com;
+ h=Date:To:From:Reply-To:Subject:List-Unsubscribe-Post:List-Unsubscribe:
+ MIME-Version:Content-Type:Message-ID; i=membership@msg.business-edge-ihg.com;
+ bh=372cgWGg9xAUolNz5SM6TnNA7XJMsk38bsCjTVj1dJ4=;
+ b=KXwUC+Bveh/12FK6xNh6zspNlTt+SrFdwWdPBuWK/d8BLM5vBSF4FiN3mlSoRUCr0dM9C4LIzZ1E
+   bsFNYneJ2x/XuHRvB34zX2+U+5QpdZePIfhBlPpieTGGOEbuKt1YTVztysqHsrnAfoo+P5l27ysy
+   cvPy3l6Ke0au05GL1JM=
+Received: by emx024.instillerhq.com id hd39ro3d1qkk for <info@bhemployment.com>; Tue, 28 Jul 2026 17:07:19 +0100 (envelope-from <membership@msg.business-edge-ihg.com>)
+Date: Tue, 28 Jul 2026 17:07:18 +0100
+To: "info@bhemployment.com" <info@bhemployment.com>
+From: "IHG Business Edge (USA)" <membership@msg.business-edge-ihg.com>
+Reply-To: "IHG Business Edge (USA)" <membership@business-edge-ihg.com>
+Subject: Business travel savings start here
+x-track-version: 4
+x-track-source: instiller_golive
+x-track-spooler-id: 360372
+x-track-spooler-split-id: 360372
+x-track-spooler-segment-id: 647749
+x-job: instiller_golive_SMTP_EC_360372-376046__ihg__pd3848m11_usa_cold_2_20260728_140000
+x-virtual-mta: golive-high-volume-unknown
+x-dkim-options: d=msg.business-edge-ihg.com
+x-report-abuse: abuse@msg.business-edge-ihg.com
+x-render: ldex-outbound-001.instillerhq.com
+Feedback-ID: 360372-376046__ihg__pd3848m11_usa_cold_2_20260728_140000:ihg:CAMPAIGN:golive
+x-track-contact-id: 193942551
+List-Unsubscribe-Post: List-Unsubscribe=One-Click
+List-Unsubscribe: <https://msg-trk.business-edge-ihg.com/profile/S-360372@o8FU0Yp88pqWLb4RYZB_Kz0r3SdIXL1tzwIT-vsZCJM.@9>,<mailto:list-unsubscribe-vaah0r-5oul0n.avtk@msg.business-edge-ihg.com>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="b1_c88211c18873853c04876f60655cb2eb"
+Message-ID: <0.0.42.AA8.1DD1EAB2ACB3EAA.0@emx024.instillerhq.com>
+X-Spam-Status: No, score=4.3
+X-Spam-Score: 43
+X-Spam-Bar: ++++
+X-Ham-Report: Spam detection software, running on the system "server019.our-control-panel.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Join IHG Business Edge for free and access exclusive member
+    rates. JOIN NOW (businessedge.ihg.com/s/registration?language=en_US&DigEnSD)
+    Lower travel costs without compromising comfort 
+ Content analysis details:   (4.3 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was blocked.
+                             See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URI: cloud.microsoft]
+                             [URI: ihg-businessedge.com]
+  0.0 RCVD_IN_DNSWL_BLOCKED  RBL: ADMINISTRATOR NOTICE: The query to DNSWL
+                             was blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#DnsBlocklists-dnsbl-block
+                              for more information.
+                             [185.105.64.24 listed in list.dnswl.org]
+  4.5 RCVD_IN_MSPIKE_L4      RBL: Bad reputation (-4)
+                             [185.105.64.24 listed in bl.mailspike.net]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily valid
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from author's
+                             domain
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+  0.0 RCVD_IN_MSPIKE_BL      Mailspike blocklisted
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  0.0 HTML_IMAGE_RATIO_04    BODY: HTML has a low ratio of text to image area
+X-Spam-Flag: NO
+
+
+--b1_c88211c18873853c04876f60655cb2eb
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+Join IHG Business Edge for free and access exclusive member rates.=0A=0AJOI=
+N NOW (businessedge.ihg.com/s/registration?language=3Den_US&DigEnSD)=0A=0AL=
+ower travel costs without compromising comfort=0A=0AEvery business trip is =
+an opportunity to save. With IHG Business Edge, you'll enjoy access to excl=
+usive member rates designed to help stretch your travel budget further.=0A=
+=0AWhether you're booking a single overnight stay or multiple trips through=
+out the year, those savings can quickly add up. Plus, you'll have access to=
+ nearly 7,000 IHG hotels worldwide, offering convenient options wherever bu=
+siness takes you.=0A=0AEnrollment is free, and you'll start enjoying benefi=
+ts from your very first stay. With IHG Business Edge, saving on travel has =
+never been easier.=0A=0AJOIN NOW (businessedge.ihg.com/s/registration?langu=
+age=3Den_US&DigEnSD)=0A=0ANeed more helping enrolling?Request a call back h=
+ere (https://bookings.cloud.microsoft/book/IHGBusinessEdgeProgramOverview@I=
+HG.onmicrosoft.com/?ismsaljsauthenabled)=0A=0ATo be taken off future email =
+communications, click here (https://msg-trk.business-edge-ihg.com/profile/S=
+-360372@o8FU0Yp88pqWLb4RYZB_Kz0r3SdIXL1tzwIT-vsZCJM.@1).=0A=0A
+
+--b1_c88211c18873853c04876f60655cb2eb
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html>=0A<html lang=3D"en" xmlns:o=3D"urn:schemas-microsoft-com:of=
+fice:office" xmlns:v=3D"urn:schemas-microsoft-com:vml">=0A<head>=0A=09=0A=
+=09<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8"=
+><meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=3D1=
+.0"><!--[if mso]>=0A<xml><w:WordDocument xmlns:w=3D"urn:schemas-microsoft-c=
+om:office:word"><w:DontUseAdvancedTypographyReadingMail/></w:WordDocument>=
+=0A<o:OfficeDocumentSettings><o:PixelsPerInch>96</o:PixelsPerInch><o:AllowP=
+NG/></o:OfficeDocumentSettings></xml>=0A<![endif]--><!--[if !mso]><!--><!--=
+<![endif]-->=0A=09<style type=3D"text/css">* {=0A=09=09=09box-sizing: borde=
+r-box;=0A=09=09}=0A=0A=09=09body {=0A=09=09=09margin: 0;=0A=09=09=09padding=
+: 0;=0A=09=09}=0A=0A=09=09a[x-apple-data-detectors] {=0A=09=09=09color: inh=
+erit !important;=0A=09=09=09text-decoration: inherit !important;=0A=09=09}=
+=0A=0A=09=09#MessageViewBody a {=0A=09=09=09color: inherit;=0A=09=09=09text=
+-decoration: none;=0A=09=09}=0A=0A=09=09p {=0A=09=09=09line-height: inherit=
+=0A=09=09}=0A=0A=09=09.desktop_hide,=0A=09=09.desktop_hide table {=0A=09=09=
+=09mso-hide: all;=0A=09=09=09display: none;=0A=09=09=09max-height: 0px;=0A=
+=09=09=09overflow: hidden;=0A=09=09}=0A=0A=09=09.image_block img+div {=0A=
+=09=09=09display: none;=0A=09=09}=0A=0A=09=09sup,=0A=09=09sub {=0A=09=09=09=
+font-size: 75%;=0A=09=09=09line-height: 0;=0A=09=09}=0A=0A=09=09@media (max=
+-width: 560px) {=0A=09=09=09.image_block div.fullWidth {=0A=09=09=09=09max-=
+width: 100% !important;=0A=09=09=09}=0A=0A=09=09=09.row-content {=0A=09=09=
+=09=09width: 100% !important;=0A=09=09=09}=0A=0A=09=09=09.stack .column {=
+=0A=09=09=09=09width: 100%;=0A=09=09=09=09display: block;=0A=09=09=09}=0A=
+=0A=09=09=09.mobile_hide {=0A=09=09=09=09min-height: 0;=0A=09=09=09=09max-h=
+eight: 0;=0A=09=09=09=09max-width: 0;=0A=09=09=09=09display: none;=0A=09=09=
+=09=09overflow: hidden;=0A=09=09=09=09font-size: 0;=0A=09=09=09}=0A=0A=09=
+=09=09.desktop_hide,=0A=09=09=09.desktop_hide table {=0A=09=09=09=09display=
+: table !important;=0A=09=09=09=09max-height: none !important;=0A=09=09=09}=
+=0A=09=09}=0A=09</style>=0A=09<!--[if mso ]><style>sup, sub { font-size: 10=
+0% !important; } sup { mso-text-raise:10% } sub { mso-text-raise:-10% }</st=
+yle> <![endif]-->=0A<title>Business travel savings start here</title></head=
+>=0A<body class=3D"body" style=3D"margin: 0; padding: 0; -webkit-text-size-=
+adjust: none; text-size-adjust: none; background-color: #ffffff;">=0A<div c=
+lass=3D"preheader" style=3D"display:none;font-size:1px;color:#333333;line-h=
+eight:1px;max-height:0px;max-width:0px;opacity:0;overflow:hidden;">Join IHG=
+ Business Edge for free and access exclusive member rates.</div>=0A=0A<tabl=
+e border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"nl-container" r=
+ole=3D"presentation" style=3D"mso-table-lspace: 0pt; mso-table-rspace: 0pt;=
+ background-color: #ffffff;" width=3D"100%">=0A=09<tbody>=0A=09=09<tr>=0A=
+=09=09=09<td>=0A=09=09=09<table align=3D"center" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" class=3D"row row-1" role=3D"presentation" style=3D=
+"mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width=3D"100%">=0A=09=09=09=
+=09<tbody>=0A=09=09=09=09=09<tr>=0A=09=09=09=09=09=09<td>=0A=09=09=09=09=09=
+=09<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0"=
+ class=3D"row-content stack" role=3D"presentation" style=3D"mso-table-lspac=
+e: 0pt; mso-table-rspace: 0pt; color: #000000; width: 540px; margin: 0 auto=
+;" width=3D"540">=0A=09=09=09=09=09=09=09<tbody>=0A=09=09=09=09=09=09=09=09=
+<tr>=0A=09=09=09=09=09=09=09=09=09<td class=3D"column column-1" style=3D"ms=
+o-table-lspace: 0pt; mso-table-rspace: 0pt; font-weight: 400; text-align: l=
+eft; vertical-align: top;" width=3D"100%">=0A=09=09=09=09=09=09=09=09=09<ta=
+ble border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" =
+style=3D"mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width=3D"100%">=0A=
+=09=09=09=09=09=09=09=09=09=09<tbody>=0A=09=09=09=09=09=09=09=09=09=09=09<t=
+r>=0A=09=09=09=09=09=09=09=09=09=09=09=09<td class=3D"col-pad" style=3D"pad=
+ding-bottom:5px;padding-top:5px;">=0A=09=09=09=09=09=09=09=09=09=09=09=09<t=
+able border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"image_block =
+block-1" role=3D"presentation" style=3D"mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;" width=3D"100%">=0A=09=09=09=09=09=09=09=09=09=09=09=09=09<tbody=
+>=0A=09=09=09=09=09=09=09=09=09=09=09=09=09=09<tr>=0A=09=09=09=09=09=09=09=
+=09=09=09=09=09=09=09=09<td align=3D"center" class=3D"pad" style=3D"width:1=
+00%;">=0A=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<div style=3D"max-wid=
+th: 162px;"><img alt=3D"IHG Business Edge Logo" height=3D"auto" src=3D"http=
+s://ihg-businessedge.com/img/6a0617892ebe0.png" style=3D"display: block; he=
+ight: auto; border: 0; width: 100%;" title=3D"IHG Business Edge Logo" width=
+=3D"162"></div>=0A=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</td>=0A=09=
+=09=09=09=09=09=09=09=09=09=09=09=09=09</tr>=0A=09=09=09=09=09=09=09=09=09=
+=09=09=09=09</tbody>=0A=09=09=09=09=09=09=09=09=09=09=09=09</table>=0A=0A=
+=09=09=09=09=09=09=09=09=09=09=09=09<table border=3D"0" cellpadding=3D"10" =
+cellspacing=3D"0" class=3D"button_block block-2" role=3D"presentation" styl=
+e=3D"mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width=3D"100%">=0A=09=
+=09=09=09=09=09=09=09=09=09=09=09=09<tbody>=0A=09=09=09=09=09=09=09=09=09=
+=09=09=09=09=09<tr>=0A=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<td alig=
+n=3D"center" class=3D"pad"><a href=3D"https://msg-trk.business-edge-ihg.com=
+/email/S-360372@1306352@o8FU0Yp88pqWLb4RYZB_Kz0r3SdIXL1tzwIT-vsZCJM.@" styl=
+e=3D"color:#ffffff;text-decoration:none;" target=3D"_blank"><!--[if mso]>=
+=0A<v:roundrect xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:w=3D"urn:sc=
+hemas-microsoft-com:office:word" href=3D"https://msg-trk.business-edge-ihg.=
+com/email/S-360372@1306355@o8FU0Yp88pqWLb4RYZB_Kz0r3SdIXL1tzwIT-vsZCJM.@" s=
+tyle=3D"height:42px;width:120px;v-text-anchor:middle;" arcsize=3D"0%" fillc=
+olor=3D"#000000">=0A<v:stroke dashstyle=3D"Solid" weight=3D"0px" color=3D"#=
+000000"/>=0A<w:anchorlock/>=0A<v:textbox inset=3D"0px,0px,0px,0px">=0A<cent=
+er dir=3D"false" style=3D"color:#ffffff;font-family:sans-serif;font-size:16=
+px">=0A<![endif]--><span class=3D"button" style=3D"background-color: #00000=
+0; border-bottom: 0px solid transparent; border-left: 0px solid transparent=
+; border-radius: 0px; border-right: 0px solid transparent; border-top: 0px =
+solid transparent; color: #ffffff; display: inline-block; font-family: Aria=
+l, Helvetica, sans-serif; font-size: 16px; font-weight: 400; mso-border-alt=
+: none; text-align: center; width: auto; word-break: keep-all; letter-spaci=
+ng: normal;"><span class=3D"btn-pad" style=3D"word-break: break-word; paddi=
+ng-left: 20px; padding-right: 20px; padding-top: 5px; padding-bottom: 5px; =
+display: block;"><span style=3D"word-break: break-word; line-height: 32px;"=
+>JOIN NOW</span></span></span><!--[if mso]></center></v:textbox></v:roundre=
+ct><![endif]--></a></td>=0A=09=09=09=09=09=09=09=09=09=09=09=09=09=09</tr>=
+=0A=09=09=09=09=09=09=09=09=09=09=09=09=09</tbody>=0A=09=09=09=09=09=09=09=
+=09=09=09=09=09</table>=0A=09=09=09=09=09=09=09=09=09=09=09=09</td>=0A=09=
+=09=09=09=09=09=09=09=09=09=09</tr>=0A=09=09=09=09=09=09=09=09=09=09</tbody=
+>=0A=09=09=09=09=09=09=09=09=09</table>=0A=09=09=09=09=09=09=09=09=09</td>=
+=0A=09=09=09=09=09=09=09=09</tr>=0A=09=09=09=09=09=09=09</tbody>=0A=09=09=
+=09=09=09=09</table>=0A=09=09=09=09=09=09</td>=0A=09=09=09=09=09</tr>=0A=09=
+=09=09=09</tbody>=0A=09=09=09</table>=0A=0A=09=09=09<table align=3D"center"=
+ border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"row row-2" role=
+=3D"presentation" style=3D"mso-table-lspace: 0pt; mso-table-rspace: 0pt;" w=
+idth=3D"100%">=0A=09=09=09=09<tbody>=0A=09=09=09=09=09<tr>=0A=09=09=09=09=
+=09=09<td>=0A=09=09=09=09=09=09<table align=3D"center" border=3D"0" cellpad=
+ding=3D"0" cellspacing=3D"0" class=3D"row-content stack" role=3D"presentati=
+on" style=3D"mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-radius: 0=
+; color: #000000; width: 540px; margin: 0 auto;" width=3D"540">=0A=09=09=09=
+=09=09=09=09<tbody>=0A=09=09=09=09=09=09=09=09<tr>=0A=09=09=09=09=09=09=09=
+=09=09<td class=3D"column column-1" style=3D"mso-table-lspace: 0pt; mso-tab=
+le-rspace: 0pt; font-weight: 400; text-align: left; vertical-align: top;" w=
+idth=3D"8.333333333333334%">=0A=09=09=09=09=09=09=09=09=09<table border=3D"=
+0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-t=
+able-lspace: 0pt; mso-table-rspace: 0pt;" width=3D"100%">=0A=09=09=09=09=09=
+=09=09=09=09=09<tbody>=0A=09=09=09=09=09=09=09=09=09=09=09<tr>=0A=09=09=09=
+=09=09=09=09=09=09=09=09=09<td class=3D"col-pad" style=3D"padding-bottom:5p=
+x;padding-top:5px;">=0A=09=09=09=09=09=09=09=09=09=09=09=09<table border=3D=
+"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"empty_block block-1" role=
+=3D"presentation" style=3D"mso-table-lspace: 0pt; mso-table-rspace: 0pt;" w=
+idth=3D"100%">=0A=09=09=09=09=09=09=09=09=09=09=09=09=09<tbody>=0A=09=09=09=
+=09=09=09=09=09=09=09=09=09=09=09<tr>=0A=09=09=09=09=09=09=09=09=09=09=09=
+=09=09=09=09<td class=3D"pad">=0A=09=09=09=09=09=09=09=09=09=09=09=09=09=09=
+=09<div>&nbsp;</div>=0A=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</td>=
+=0A=09=09=09=09=09=09=09=09=09=09=09=09=09=09</tr>=0A=09=09=09=09=09=09=09=
+=09=09=09=09=09=09</tbody>=0A=09=09=09=09=09=09=09=09=09=09=09=09</table>=
+=0A=09=09=09=09=09=09=09=09=09=09=09=09</td>=0A=09=09=09=09=09=09=09=09=09=
+=09=09</tr>=0A=09=09=09=09=09=09=09=09=09=09</tbody>=0A=09=09=09=09=09=09=
+=09=09=09</table>=0A=09=09=09=09=09=09=09=09=09</td>=0A=09=09=09=09=09=09=
+=09=09=09<td class=3D"column column-2" style=3D"mso-table-lspace: 0pt; mso-=
+table-rspace: 0pt; font-weight: 400; text-align: left; vertical-align: top;=
+" width=3D"83.33333333333333%">=0A=09=09=09=09=09=09=09=09=09<table border=
+=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt;" width=3D"100%">=0A=09=09=09=
+=09=09=09=09=09=09=09<tbody>=0A=09=09=09=09=09=09=09=09=09=09=09<tr>=0A=09=
+=09=09=09=09=09=09=09=09=09=09=09<td class=3D"col-pad" style=3D"padding-bot=
+tom:5px;padding-top:5px;">=0A=09=09=09=09=09=09=09=09=09=09=09=09<table bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"image_block block-1"=
+ role=3D"presentation" style=3D"mso-table-lspace: 0pt; mso-table-rspace: 0p=
+t;" width=3D"100%">=0A=09=09=09=09=09=09=09=09=09=09=09=09=09<tbody>=0A=09=
+=09=09=09=09=09=09=09=09=09=09=09=09=09<tr>=0A=09=09=09=09=09=09=09=09=09=
+=09=09=09=09=09=09<td align=3D"center" class=3D"pad" style=3D"width:100%;">=
+=0A=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<div class=3D"fullWidth" st=
+yle=3D"max-width: 405px;"><img alt=3D"" height=3D"auto" src=3D"https://busi=
+ness-edgeihg.com/img/6a5629ef02d6d.png" style=3D"display: block; height: au=
+to; border: 0; width: 100%;" title=3D"" width=3D"405"></div>=0A=09=09=09=09=
+=09=09=09=09=09=09=09=09=09=09=09</td>=0A=09=09=09=09=09=09=09=09=09=09=09=
+=09=09=09</tr>=0A=09=09=09=09=09=09=09=09=09=09=09=09=09</tbody>=0A=09=09=
+=09=09=09=09=09=09=09=09=09=09</table>=0A=09=09=09=09=09=09=09=09=09=09=09=
+=09</td>=0A=09=09=09=09=09=09=09=09=09=09=09</tr>=0A=09=09=09=09=09=09=09=
+=09=09=09</tbody>=0A=09=09=09=09=09=09=09=09=09</table>=0A=09=09=09=09=09=
+=09=09=09=09</td>=0A=09=09=09=09=09=09=09=09=09<td class=3D"column column-3=
+" style=3D"mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-weight: 400; =
+text-align: left; vertical-align: top;" width=3D"8.333333333333334%">=0A=09=
+=09=09=09=09=09=09=09=09<table border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" role=3D"presentation" style=3D"mso-table-lspace: 0pt; mso-table-rspa=
+ce: 0pt;" width=3D"100%">=0A=09=09=09=09=09=09=09=09=09=09<tbody>=0A=09=09=
+=09=09=09=09=09=09=09=09=09<tr>=0A=09=09=09=09=09=09=09=09=09=09=09=09<td c=
+lass=3D"col-pad" style=3D"padding-bottom:5px;padding-top:5px;">=0A=09=09=09=
+=09=09=09=09=09=09=09=09=09<table border=3D"0" cellpadding=3D"0" cellspacin=
+g=3D"0" class=3D"empty_block block-1" role=3D"presentation" style=3D"mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt;" width=3D"100%">=0A=09=09=09=09=09=
+=09=09=09=09=09=09=09=09<tbody>=0A=09=09=09=09=09=09=09=09=09=09=09=09=09=
+=09<tr>=0A=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<td class=3D"pad">=
+=0A=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<div>&nbsp;</div>=0A=09=09=
+=09=09=09=09=09=09=09=09=09=09=09=09=09</td>=0A=09=09=09=09=09=09=09=09=09=
+=09=09=09=09=09</tr>=0A=09=09=09=09=09=09=09=09=09=09=09=09=09</tbody>=0A=
+=09=09=09=09=09=09=09=09=09=09=09=09</table>=0A=09=09=09=09=09=09=09=09=09=
+=09=09=09</td>=0A=09=09=09=09=09=09=09=09=09=09=09</tr>=0A=09=09=09=09=09=
+=09=09=09=09=09</tbody>=0A=09=09=09=09=09=09=09=09=09</table>=0A=09=09=09=
+=09=09=09=09=09=09</td>=0A=09=09=09=09=09=09=09=09</tr>=0A=09=09=09=09=09=
+=09=09</tbody>=0A=09=09=09=09=09=09</table>=0A=09=09=09=09=09=09</td>=0A=09=
+=09=09=09=09</tr>=0A=09=09=09=09</tbody>=0A=09=09=09</table>=0A=0A=09=09=09=
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" cl=
+ass=3D"row row-3" role=3D"presentation" style=3D"mso-table-lspace: 0pt; mso=
+-table-rspace: 0pt;" width=3D"100%">=0A=09=09=09=09<tbody>=0A=09=09=09=09=
+=09<tr>=0A=09=09=09=09=09=09<td>=0A=09=09=09=09=09=09<table align=3D"center=
+" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"row-content sta=
+ck" role=3D"presentation" style=3D"mso-table-lspace: 0pt; mso-table-rspace:=
+ 0pt; border-radius: 0; color: #000000; width: 540px; margin: 0 auto;" widt=
+h=3D"540">=0A=09=09=09=09=09=09=09<tbody>=0A=09=09=09=09=09=09=09=09<tr>=0A=
+=09=09=09=09=09=09=09=09=09<td class=3D"column column-1" style=3D"mso-table=
+-lspace: 0pt; mso-table-rspace: 0pt; font-weight: 400; text-align: left; ve=
+rtical-align: top;" width=3D"8.333333333333334%">=0A=09=09=09=09=09=09=09=
+=09=09<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"prese=
+ntation" style=3D"mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width=3D"1=
+00%">=0A=09=09=09=09=09=09=09=09=09=09<tbody>=0A=09=09=09=09=09=09=09=09=09=
+=09=09<tr>=0A=09=09=09=09=09=09=09=09=09=09=09=09<td class=3D"col-pad" styl=
+e=3D"padding-bottom:5px;padding-top:5px;">=0A=09=09=09=09=09=09=09=09=09=09=
+=09=09<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"empt=
+y_block block-1" role=3D"presentation" style=3D"mso-table-lspace: 0pt; mso-=
+table-rspace: 0pt;" width=3D"100%">=0A=09=09=09=09=09=09=09=09=09=09=09=09=
+=09<tbody>=0A=09=09=09=09=09=09=09=09=09=09=09=09=09=09<tr>=0A=09=09=09=09=
+=09=09=09=09=09=09=09=09=09=09=09<td class=3D"pad">=0A=09=09=09=09=09=09=09=
+=09=09=09=09=09=09=09=09<div>&nbsp;</div>=0A=09=09=09=09=09=09=09=09=09=09=
+=09=09=09=09=09</td>=0A=09=09=09=09=09=09=09=09=09=09=09=09=09=09</tr>=0A=
+=09=09=09=09=09=09=09=09=09=09=09=09=09</tbody>=0A=09=09=09=09=09=09=09=09=
+=09=09=09=09</table>=0A=09=09=09=09=09=09=09=09=09=09=09=09</td>=0A=09=09=
+=09=09=09=09=09=09=09=09=09</tr>=0A=09=09=09=09=09=09=09=09=09=09</tbody>=
+=0A=09=09=09=09=09=09=09=09=09</table>=0A=09=09=09=09=09=09=09=09=09</td>=
+=0A=09=09=09=09=09=09=09=09=09<td class=3D"column column-2" style=3D"mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; font-weight: 400; text-align: left;=
+ vertical-align: top;" width=3D"83.33333333333333%">=0A=09=09=09=09=09=09=
+=09=09=09<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"pr=
+esentation" style=3D"mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width=
+=3D"100%">=0A=09=09=09=09=09=09=09=09=09=09<tbody>=0A=09=09=09=09=09=09=09=
+=09=09=09=09<tr>=0A=09=09=09=09=09=09=09=09=09=09=09=09<td class=3D"col-pad=
+" style=3D"padding-bottom:5px;padding-top:5px;">=0A=09=09=09=09=09=09=09=09=
+=09=09=09=09<table border=3D"0" cellpadding=3D"10" cellspacing=3D"0" class=
+=3D"heading_block block-1" role=3D"presentation" style=3D"mso-table-lspace:=
+ 0pt; mso-table-rspace: 0pt;" width=3D"100%">=0A=09=09=09=09=09=09=09=09=09=
+=09=09=09=09<tbody>=0A=09=09=09=09=09=09=09=09=09=09=09=09=09=09<tr>=0A=09=
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09<td align=3D"center" class=3D"pad=
+" style=3D"width:100%;">=0A=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<h1=
+ style=3D"margin: 0; color: #000000; direction: ltr; font-family: Arial, He=
+lvetica, sans-serif; font-size: 21px; font-weight: 700; letter-spacing: nor=
+mal; line-height: 1.2; text-align: left; margin-top: 0; margin-bottom: 0; m=
+so-line-height-alt: 25px;"><span class=3D"tinyMce-placeholder" style=3D"wor=
+d-break: break-word;">Lower travel costs without compromising comfort</span=
+></h1>=0A=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</td>=0A=09=09=09=09=
+=09=09=09=09=09=09=09=09=09=09</tr>=0A=09=09=09=09=09=09=09=09=09=09=09=09=
+=09</tbody>=0A=09=09=09=09=09=09=09=09=09=09=09=09</table>=0A=0A=09=09=09=
+=09=09=09=09=09=09=09=09=09<table border=3D"0" cellpadding=3D"10" cellspaci=
+ng=3D"0" class=3D"paragraph_block block-2" role=3D"presentation" style=3D"m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt; word-break: break-word;" width=
+=3D"100%">=0A=09=09=09=09=09=09=09=09=09=09=09=09=09<tbody>=0A=09=09=09=09=
+=09=09=09=09=09=09=09=09=09=09<tr>=0A=09=09=09=09=09=09=09=09=09=09=09=09=
+=09=09=09<td class=3D"pad">=0A=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=
+<div style=3D"color:#101112;direction:ltr;font-family:Arial, Helvetica, san=
+s-serif;font-size:15px;font-weight:400;letter-spacing:0px;line-height:1.2;t=
+ext-align:left;mso-line-height-alt:18px;">=0A=09=09=09=09=09=09=09=09=09=09=
+=09=09=09=09=09<p style=3D"margin: 0;">Every business trip is an opportunit=
+y to save. With <strong>IHG Business Edge</strong>, you'll enjoy access to =
+exclusive member rates designed to help stretch your travel budget further.=
+</p>=0A=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</div>=0A=09=09=09=09=
+=09=09=09=09=09=09=09=09=09=09=09</td>=0A=09=09=09=09=09=09=09=09=09=09=09=
+=09=09=09</tr>=0A=09=09=09=09=09=09=09=09=09=09=09=09=09</tbody>=0A=09=09=
+=09=09=09=09=09=09=09=09=09=09</table>=0A=0A=09=09=09=09=09=09=09=09=09=09=
+=09=09<table border=3D"0" cellpadding=3D"10" cellspacing=3D"0" class=3D"par=
+agraph_block block-3" role=3D"presentation" style=3D"mso-table-lspace: 0pt;=
+ mso-table-rspace: 0pt; word-break: break-word;" width=3D"100%">=0A=09=09=
+=09=09=09=09=09=09=09=09=09=09=09<tbody>=0A=09=09=09=09=09=09=09=09=09=09=
+=09=09=09=09<tr>=0A=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<td class=
+=3D"pad">=0A=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<div style=3D"colo=
+r:#101112;direction:ltr;font-family:Arial, Helvetica, sans-serif;font-size:=
+15px;font-weight:400;letter-spacing:0px;line-height:1.2;text-align:left;mso=
+-line-height-alt:18px;">=0A=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<p =
+style=3D"margin: 0;">Whether you're booking a single overnight stay or mult=
+iple trips throughout the year, those savings can quickly add up. Plus, you=
+'ll have access to nearly 7,000 IHG hotels worldwide, offering convenient o=
+ptions wherever business takes you.</p>=0A=09=09=09=09=09=09=09=09=09=09=09=
+=09=09=09=09</div>=0A=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</td>=0A=
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09</tr>=0A=09=09=09=09=09=09=09=09=
+=09=09=09=09=09</tbody>=0A=09=09=09=09=09=09=09=09=09=09=09=09</table>=0A=
+=0A=09=09=09=09=09=09=09=09=09=09=09=09<table border=3D"0" cellpadding=3D"1=
+0" cellspacing=3D"0" class=3D"paragraph_block block-4" role=3D"presentation=
+" style=3D"mso-table-lspace: 0pt; mso-table-rspace: 0pt; word-break: break-=
+word;" width=3D"100%">=0A=09=09=09=09=09=09=09=09=09=09=09=09=09<tbody>=0A=
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09<tr>=0A=09=09=09=09=09=09=09=09=
+=09=09=09=09=09=09=09<td class=3D"pad">=0A=09=09=09=09=09=09=09=09=09=09=09=
+=09=09=09=09<div style=3D"color:#101112;direction:ltr;font-family:Arial, He=
+lvetica, sans-serif;font-size:15px;font-weight:400;letter-spacing:0px;line-=
+height:1.2;text-align:left;mso-line-height-alt:18px;">=0A=09=09=09=09=09=09=
+=09=09=09=09=09=09=09=09=09<p style=3D"margin: 0;">Enrollment is free, and =
+you'll start enjoying benefits from your very first stay. With IHG Business=
+ Edge, saving on travel has never been easier.</p>=0A=09=09=09=09=09=09=09=
+=09=09=09=09=09=09=09=09</div>=0A=09=09=09=09=09=09=09=09=09=09=09=09=09=09=
+=09</td>=0A=09=09=09=09=09=09=09=09=09=09=09=09=09=09</tr>=0A=09=09=09=09=
+=09=09=09=09=09=09=09=09=09</tbody>=0A=09=09=09=09=09=09=09=09=09=09=09=09<=
+/table>=0A=09=09=09=09=09=09=09=09=09=09=09=09</td>=0A=09=09=09=09=09=09=09=
+=09=09=09=09</tr>=0A=09=09=09=09=09=09=09=09=09=09</tbody>=0A=09=09=09=09=
+=09=09=09=09=09</table>=0A=09=09=09=09=09=09=09=09=09</td>=0A=09=09=09=09=
+=09=09=09=09=09<td class=3D"column column-3" style=3D"mso-table-lspace: 0pt=
+; mso-table-rspace: 0pt; font-weight: 400; text-align: left; vertical-align=
+: top;" width=3D"8.333333333333334%">=0A=09=09=09=09=09=09=09=09=09<table b=
+order=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" style=
+=3D"mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width=3D"100%">=0A=09=09=
+=09=09=09=09=09=09=09=09<tbody>=0A=09=09=09=09=09=09=09=09=09=09=09<tr>=0A=
+=09=09=09=09=09=09=09=09=09=09=09=09<td class=3D"col-pad" style=3D"padding-=
+bottom:5px;padding-top:5px;">=0A=09=09=09=09=09=09=09=09=09=09=09=09<table =
+border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"empty_block block=
+-1" role=3D"presentation" style=3D"mso-table-lspace: 0pt; mso-table-rspace:=
+ 0pt;" width=3D"100%">=0A=09=09=09=09=09=09=09=09=09=09=09=09=09<tbody>=0A=
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09<tr>=0A=09=09=09=09=09=09=09=09=
+=09=09=09=09=09=09=09<td class=3D"pad">=0A=09=09=09=09=09=09=09=09=09=09=09=
+=09=09=09=09<div>&nbsp;</div>=0A=09=09=09=09=09=09=09=09=09=09=09=09=09=09=
+=09</td>=0A=09=09=09=09=09=09=09=09=09=09=09=09=09=09</tr>=0A=09=09=09=09=
+=09=09=09=09=09=09=09=09=09</tbody>=0A=09=09=09=09=09=09=09=09=09=09=09=09<=
+/table>=0A=09=09=09=09=09=09=09=09=09=09=09=09</td>=0A=09=09=09=09=09=09=09=
+=09=09=09=09</tr>=0A=09=09=09=09=09=09=09=09=09=09</tbody>=0A=09=09=09=09=
+=09=09=09=09=09</table>=0A=09=09=09=09=09=09=09=09=09</td>=0A=09=09=09=09=
+=09=09=09=09</tr>=0A=09=09=09=09=09=09=09</tbody>=0A=09=09=09=09=09=09</tab=
+le>=0A=09=09=09=09=09=09</td>=0A=09=09=09=09=09</tr>=0A=09=09=09=09</tbody>=
+=0A=09=09=09</table>=0A=0A=09=09=09<table align=3D"center" border=3D"0" cel=
+lpadding=3D"0" cellspacing=3D"0" class=3D"row row-4" role=3D"presentation" =
+style=3D"mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width=3D"100%">=0A=
+=09=09=09=09<tbody>=0A=09=09=09=09=09<tr>=0A=09=09=09=09=09=09<td>=0A=09=09=
+=09=09=09=09<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" class=3D"row-content stack" role=3D"presentation" style=3D"mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; border-radius: 0; color: #000000; w=
+idth: 540px; margin: 0 auto;" width=3D"540">=0A=09=09=09=09=09=09=09<tbody>=
+=0A=09=09=09=09=09=09=09=09<tr>=0A=09=09=09=09=09=09=09=09=09<td class=3D"c=
+olumn column-1" style=3D"mso-table-lspace: 0pt; mso-table-rspace: 0pt; font=
+-weight: 400; text-align: left; vertical-align: top;" width=3D"100%">=0A=09=
+=09=09=09=09=09=09=09=09<table border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" role=3D"presentation" style=3D"mso-table-lspace: 0pt; mso-table-rspa=
+ce: 0pt;" width=3D"100%">=0A=09=09=09=09=09=09=09=09=09=09<tbody>=0A=09=09=
+=09=09=09=09=09=09=09=09=09<tr>=0A=09=09=09=09=09=09=09=09=09=09=09=09<td c=
+lass=3D"col-pad" style=3D"padding-bottom:5px;padding-top:5px;">=0A=09=09=09=
+=09=09=09=09=09=09=09=09=09<table border=3D"0" cellpadding=3D"10" cellspaci=
+ng=3D"0" class=3D"button_block block-1" role=3D"presentation" style=3D"mso-=
+table-lspace: 0pt; mso-table-rspace: 0pt;" width=3D"100%">=0A=09=09=09=09=
+=09=09=09=09=09=09=09=09=09<tbody>=0A=09=09=09=09=09=09=09=09=09=09=09=09=
+=09=09<tr>=0A=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<td align=3D"cent=
+er" class=3D"pad"><a href=3D"https://msg-trk.business-edge-ihg.com/email/S-=
+360372@1306353@o8FU0Yp88pqWLb4RYZB_Kz0r3SdIXL1tzwIT-vsZCJM.@" style=3D"colo=
+r:#ffffff;text-decoration:none;" target=3D"_blank"><!--[if mso]>=0A<v:round=
+rect xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:w=3D"urn:schemas-micro=
+soft-com:office:word" href=3D"https://msg-trk.business-edge-ihg.com/email/S=
+-360372@1306356@o8FU0Yp88pqWLb4RYZB_Kz0r3SdIXL1tzwIT-vsZCJM.@" style=3D"hei=
+ght:42px;width:120px;v-text-anchor:middle;" arcsize=3D"0%" fillcolor=3D"#00=
+0000">=0A<v:stroke dashstyle=3D"Solid" weight=3D"0px" color=3D"#000000"/>=
+=0A<w:anchorlock/>=0A<v:textbox inset=3D"0px,0px,0px,0px">=0A<center dir=3D=
+"false" style=3D"color:#ffffff;font-family:sans-serif;font-size:16px">=0A<!=
+[endif]--><span class=3D"button" style=3D"background-color: #000000; border=
+-bottom: 0px solid transparent; border-left: 0px solid transparent; border-=
+radius: 0px; border-right: 0px solid transparent; border-top: 0px solid tra=
+nsparent; color: #ffffff; display: inline-block; font-family: Arial, Helvet=
+ica, sans-serif; font-size: 16px; font-weight: 400; mso-border-alt: none; t=
+ext-align: center; width: auto; word-break: keep-all; letter-spacing: norma=
+l;"><span class=3D"btn-pad" style=3D"word-break: break-word; padding-left: =
+20px; padding-right: 20px; padding-top: 5px; padding-bottom: 5px; display: =
+block;"><span style=3D"word-break: break-word; line-height: 32px;">JOIN NOW=
+</span></span></span><!--[if mso]></center></v:textbox></v:roundrect><![end=
+if]--></a></td>=0A=09=09=09=09=09=09=09=09=09=09=09=09=09=09</tr>=0A=09=09=
+=09=09=09=09=09=09=09=09=09=09=09</tbody>=0A=09=09=09=09=09=09=09=09=09=09=
+=09=09</table>=0A=0A=09=09=09=09=09=09=09=09=09=09=09=09<table border=3D"0"=
+ cellpadding=3D"10" cellspacing=3D"0" class=3D"paragraph_block block-2" rol=
+e=3D"presentation" style=3D"mso-table-lspace: 0pt; mso-table-rspace: 0pt; w=
+ord-break: break-word;" width=3D"100%">=0A=09=09=09=09=09=09=09=09=09=09=09=
+=09=09<tbody>=0A=09=09=09=09=09=09=09=09=09=09=09=09=09=09<tr>=0A=09=09=09=
+=09=09=09=09=09=09=09=09=09=09=09=09<td class=3D"pad">=0A=09=09=09=09=09=09=
+=09=09=09=09=09=09=09=09=09<div style=3D"color:#101112;direction:ltr;font-f=
+amily:Arial, Helvetica, sans-serif;font-size:11px;font-weight:400;letter-sp=
+acing:0px;line-height:1.2;text-align:center;mso-line-height-alt:13px;">=0A=
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<p style=3D"margin: 0;">Need m=
+ore helping enrolling?<br>=0A=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09R=
+equest a call back <a href=3D"https://msg-trk.business-edge-ihg.com/email/S=
+-360372@1306354@o8FU0Yp88pqWLb4RYZB_Kz0r3SdIXL1tzwIT-vsZCJM.@" rel=3D"noope=
+ner" style=3D"text-decoration: underline; color: #7747FF;" target=3D"_blank=
+">here</a></p>=0A=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</div>=0A=09=
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09</td>=0A=09=09=09=09=09=09=09=09=
+=09=09=09=09=09=09</tr>=0A=09=09=09=09=09=09=09=09=09=09=09=09=09</tbody>=
+=0A=09=09=09=09=09=09=09=09=09=09=09=09</table>=0A=09=09=09=09=09=09=09=09=
+=09=09=09=09</td>=0A=09=09=09=09=09=09=09=09=09=09=09</tr>=0A=09=09=09=09=
+=09=09=09=09=09=09</tbody>=0A=09=09=09=09=09=09=09=09=09</table>=0A=09=09=
+=09=09=09=09=09=09=09</td>=0A=09=09=09=09=09=09=09=09</tr>=0A=09=09=09=09=
+=09=09=09</tbody>=0A=09=09=09=09=09=09</table>=0A=09=09=09=09=09=09</td>=0A=
+=09=09=09=09=09</tr>=0A=09=09=09=09</tbody>=0A=09=09=09</table>=0A=0A=09=09=
+=09<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0"=
+ class=3D"row row-5" role=3D"presentation" style=3D"mso-table-lspace: 0pt; =
+mso-table-rspace: 0pt;" width=3D"100%">=0A=09=09=09=09<tbody>=0A=09=09=09=
+=09=09<tr>=0A=09=09=09=09=09=09<td>=0A=09=09=09=09=09=09<table align=3D"cen=
+ter" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"row-content =
+stack" role=3D"presentation" style=3D"mso-table-lspace: 0pt; mso-table-rspa=
+ce: 0pt; border-radius: 0; color: #000000; width: 540px; margin: 0 auto;" w=
+idth=3D"540">=0A=09=09=09=09=09=09=09<tbody>=0A=09=09=09=09=09=09=09=09<tr>=
+=0A=09=09=09=09=09=09=09=09=09<td class=3D"column column-1" style=3D"mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; font-weight: 400; text-align: left;=
+ vertical-align: top;" width=3D"8.333333333333334%">=0A=09=09=09=09=09=09=
+=09=09=09<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"pr=
+esentation" style=3D"mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width=
+=3D"100%">=0A=09=09=09=09=09=09=09=09=09=09<tbody>=0A=09=09=09=09=09=09=09=
+=09=09=09=09<tr>=0A=09=09=09=09=09=09=09=09=09=09=09=09<td class=3D"col-pad=
+" style=3D"padding-bottom:5px;padding-top:5px;">=0A=09=09=09=09=09=09=09=09=
+=09=09=09=09<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=
+=3D"empty_block block-1" role=3D"presentation" style=3D"mso-table-lspace: 0=
+pt; mso-table-rspace: 0pt;" width=3D"100%">=0A=09=09=09=09=09=09=09=09=09=
+=09=09=09=09<tbody>=0A=09=09=09=09=09=09=09=09=09=09=09=09=09=09<tr>=0A=09=
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09<td class=3D"pad">=0A=09=09=09=09=
+=09=09=09=09=09=09=09=09=09=09=09<div>&nbsp;</div>=0A=09=09=09=09=09=09=09=
+=09=09=09=09=09=09=09=09</td>=0A=09=09=09=09=09=09=09=09=09=09=09=09=09=09<=
+/tr>=0A=09=09=09=09=09=09=09=09=09=09=09=09=09</tbody>=0A=09=09=09=09=09=09=
+=09=09=09=09=09=09</table>=0A=09=09=09=09=09=09=09=09=09=09=09=09</td>=0A=
+=09=09=09=09=09=09=09=09=09=09=09</tr>=0A=09=09=09=09=09=09=09=09=09=09</tb=
+ody>=0A=09=09=09=09=09=09=09=09=09</table>=0A=09=09=09=09=09=09=09=09=09</t=
+d>=0A=09=09=09=09=09=09=09=09=09<td class=3D"column column-2" style=3D"mso-=
+table-lspace: 0pt; mso-table-rspace: 0pt; font-weight: 400; text-align: lef=
+t; vertical-align: top;" width=3D"83.33333333333333%">=0A=09=09=09=09=09=09=
+=09=09=09<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"pr=
+esentation" style=3D"mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width=
+=3D"100%">=0A=09=09=09=09=09=09=09=09=09=09<tbody>=0A=09=09=09=09=09=09=09=
+=09=09=09=09<tr>=0A=09=09=09=09=09=09=09=09=09=09=09=09<td class=3D"col-pad=
+" style=3D"padding-bottom:5px;padding-top:5px;">=0A=09=09=09=09=09=09=09=09=
+=09=09=09=09<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=
+=3D"image_block block-1" role=3D"presentation" style=3D"mso-table-lspace: 0=
+pt; mso-table-rspace: 0pt;" width=3D"100%">=0A=09=09=09=09=09=09=09=09=09=
+=09=09=09=09<tbody>=0A=09=09=09=09=09=09=09=09=09=09=09=09=09=09<tr>=0A=09=
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09<td align=3D"center" class=3D"pad=
+" style=3D"width:100%;">=0A=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<di=
+v style=3D"max-width: 450px;"><img alt=3D"" height=3D"auto" src=3D"https://=
+ihg-businessedge.com/img/6a0617ba5b70b.png" style=3D"display: block; height=
+: auto; border: 0; width: 100%;" title=3D"" width=3D"450"></div>=0A=09=09=
+=09=09=09=09=09=09=09=09=09=09=09=09=09</td>=0A=09=09=09=09=09=09=09=09=09=
+=09=09=09=09=09</tr>=0A=09=09=09=09=09=09=09=09=09=09=09=09=09</tbody>=0A=
+=09=09=09=09=09=09=09=09=09=09=09=09</table>=0A=0A=09=09=09=09=09=09=09=09=
+=09=09=09=09<table border=3D"0" cellpadding=3D"10" cellspacing=3D"0" class=
+=3D"paragraph_block block-2" role=3D"presentation" style=3D"mso-table-lspac=
+e: 0pt; mso-table-rspace: 0pt; word-break: break-word;" width=3D"100%">=0A=
+=09=09=09=09=09=09=09=09=09=09=09=09=09<tbody>=0A=09=09=09=09=09=09=09=09=
+=09=09=09=09=09=09<tr>=0A=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<td c=
+lass=3D"pad">=0A=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<div style=3D"=
+color:#101112;direction:ltr;font-family:Arial, Helvetica, sans-serif;font-s=
+ize:12px;font-weight:400;letter-spacing:0px;line-height:1.2;text-align:cent=
+er;mso-line-height-alt:14px;">=0A=09=09=09=09=09=09=09=09=09=09=09=09=09=09=
+=09<p style=3D"margin: 0;">To be taken off future email communications, <a =
+href=3D"https://msg-trk.business-edge-ihg.com/profile/S-360372@o8FU0Yp88pqW=
+Lb4RYZB_Kz0r3SdIXL1tzwIT-vsZCJM.@1" style=3D"text-decoration: underline; co=
+lor: #7747FF;" target=3D"_self">click here</a>.</p>=0A=09=09=09=09=09=09=09=
+=09=09=09=09=09=09=09=09</div>=0A=09=09=09=09=09=09=09=09=09=09=09=09=09=09=
+=09</td>=0A=09=09=09=09=09=09=09=09=09=09=09=09=09=09</tr>=0A=09=09=09=09=
+=09=09=09=09=09=09=09=09=09</tbody>=0A=09=09=09=09=09=09=09=09=09=09=09=09<=
+/table>=0A=09=09=09=09=09=09=09=09=09=09=09=09</td>=0A=09=09=09=09=09=09=09=
+=09=09=09=09</tr>=0A=09=09=09=09=09=09=09=09=09=09</tbody>=0A=09=09=09=09=
+=09=09=09=09=09</table>=0A=09=09=09=09=09=09=09=09=09</td>=0A=09=09=09=09=
+=09=09=09=09=09<td class=3D"column column-3" style=3D"mso-table-lspace: 0pt=
+; mso-table-rspace: 0pt; font-weight: 400; text-align: left; vertical-align=
+: top;" width=3D"8.333333333333334%">=0A=09=09=09=09=09=09=09=09=09<table b=
+order=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" style=
+=3D"mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width=3D"100%">=0A=09=09=
+=09=09=09=09=09=09=09=09<tbody>=0A=09=09=09=09=09=09=09=09=09=09=09<tr>=0A=
+=09=09=09=09=09=09=09=09=09=09=09=09<td class=3D"col-pad" style=3D"padding-=
+bottom:5px;padding-top:5px;">=0A=09=09=09=09=09=09=09=09=09=09=09=09<table =
+border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"empty_block block=
+-1" role=3D"presentation" style=3D"mso-table-lspace: 0pt; mso-table-rspace:=
+ 0pt;" width=3D"100%">=0A=09=09=09=09=09=09=09=09=09=09=09=09=09<tbody>=0A=
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09<tr>=0A=09=09=09=09=09=09=09=09=
+=09=09=09=09=09=09=09<td class=3D"pad">=0A=09=09=09=09=09=09=09=09=09=09=09=
+=09=09=09=09<div>&nbsp;</div>=0A=09=09=09=09=09=09=09=09=09=09=09=09=09=09=
+=09</td>=0A=09=09=09=09=09=09=09=09=09=09=09=09=09=09</tr>=0A=09=09=09=09=
+=09=09=09=09=09=09=09=09=09</tbody>=0A=09=09=09=09=09=09=09=09=09=09=09=09<=
+/table>=0A=09=09=09=09=09=09=09=09=09=09=09=09</td>=0A=09=09=09=09=09=09=09=
+=09=09=09=09</tr>=0A=09=09=09=09=09=09=09=09=09=09</tbody>=0A=09=09=09=09=
+=09=09=09=09=09</table>=0A=09=09=09=09=09=09=09=09=09</td>=0A=09=09=09=09=
+=09=09=09=09</tr>=0A=09=09=09=09=09=09=09</tbody>=0A=09=09=09=09=09=09</tab=
+le>=0A=09=09=09=09=09=09</td>=0A=09=09=09=09=09</tr>=0A=09=09=09=09</tbody>=
+=0A=09=09=09</table>=0A=09=09=09</td>=0A=09=09</tr>=0A=09</tbody>=0A</table=
+>=0A<!-- End --><a href=3D"https://msg-trk.business-edge-ihg.com/profile/S-=
+360372@o8FU0Yp88pqWLb4RYZB_Kz0r3SdIXL1tzwIT-vsZCJM.@16" class=3D"system_det=
+ection_link" style=3D"mso-hide:all;display:none;max-height:0px;max-width:0p=
+x;overflow:hidden;opacity:0;font-size:1px;line-height:1px;"></a><img src=3D=
+"https://msg-trk.business-edge-ihg.com/email/S-360372@@o8FU0Yp88pqWLb4RYZB_=
+Kz0r3SdIXL1tzwIT-vsZCJM.@1yu9A.jpg" alt=3D"open" height=3D"1" width=3D"1" /=
+></body>=0A</html>=0A
+
+
+--b1_c88211c18873853c04876f60655cb2eb--
+

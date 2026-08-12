@@ -1,0 +1,246 @@
+Return-Path: <bh.jobagency@gmail.com>
+Delivered-To: info@bhemployment.com
+Received: from server019.our-control-panel.com
+	by server019.our-control-panel.com with LMTP
+	id s7NEJXZjPWrPNC4AaDcOIg
+	(envelope-from <bh.jobagency@gmail.com>)
+	for <info@bhemployment.com>; Thu, 25 Jun 2026 23:05:54 +0545
+Return-path: <bh.jobagency@gmail.com>
+Envelope-to: info@bhemployment.com
+Delivery-date: Thu, 25 Jun 2026 23:05:54 +0545
+Received: from mail-yw1-f193.google.com ([209.85.128.193]:51302)
+	by server019.our-control-panel.com with esmtps  (TLS1.3) tls TLS_AES_128_GCM_SHA256
+	(Exim 4.99.4)
+	(envelope-from <bh.jobagency@gmail.com>)
+	id 1wcnky-0000000ChdA-1IWp
+	for info@bhemployment.com;
+	Thu, 25 Jun 2026 23:05:54 +0545
+Received: by mail-yw1-f193.google.com with SMTP id 00721157ae682-806c225f4d3so1839277b3.2
+        for <info@bhemployment.com>; Thu, 25 Jun 2026 10:20:32 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1782408011; cv=none;
+        d=google.com; s=arc-20260327;
+        b=hC3hAjOqW3SVF3uhcG6YRymNkyvqP0PJvY4avorpaO9b9m6wofrtemr18BlB0uIwij
+         NALAwjBPDfIQp7D1hDbJpucP+ChHg8irUywTQm7LLxb5ZOCnoII72qlAyeRROGZgXmxG
+         OxMUG6rLAQpgQ7HaCLR306zLcZcbyzCguH7e5OxMqyq7zCzKd7J0INg/kDiZXNP8NVbJ
+         OVfKQTky9af7EwQgtfsGu2FodRV5YWahbUlj1W5ewOJaiWwi87FCXAMTsDON5L8uMZb+
+         zk1xEbcMASCNvJdAvx/+GttaElEKxjjowL9i/h1+jxa+Vyb5WxGAC3E9TDcJ1i/QRMZl
+         Dqdw==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20260327;
+        h=cc:to:subject:message-id:date:from:in-reply-to:references
+         :mime-version:dkim-signature;
+        bh=lRH6BvydH6u1zz0I2eVPYml8qqnGuYYvLIynZ7WBNyk=;
+        fh=s9jZ5zfhT64GiW3QJsgvtSMpeUlkzG/Mn+OwAyq7cRw=;
+        b=F1XyBQgQ1bQMHY3yzZxX9728TexZekl9ZmSMsAVUPESaKjrk+QqADb+4Gnyb+pWxfv
+         FCWfCNi+CdFi9YnPRpTFpm3eiNknEjTtCImQReE/WD5/TxR7xNvIdaA7naf9S/txq7vd
+         bEecMZ6yDpWHI6EjCg133QYLOvMkABxSiL6sdf1xCQXupZCzhRhRMS8NwhF6nW2yl7U9
+         frVPuMTeFSmDTccE817LRvhu8HObzhPF0L/56570II212jjuitzKmhg+rjLQmPoRggqp
+         8CwCcdswvfHZNu2K/sFO8B+AzNVX6lRrQnoe7NLBnkI+/9xbz9t3XhEv5DqNtBzXaEk+
+         CvKw==;
+        darn=bhemployment.com
+ARC-Authentication-Results: i=1; mx.google.com; arc=none
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20251104; t=1782408011; x=1783012811; darn=bhemployment.com;
+        h=cc:to:subject:message-id:date:from:in-reply-to:references
+         :mime-version:from:to:cc:subject:date:message-id:reply-to;
+        bh=lRH6BvydH6u1zz0I2eVPYml8qqnGuYYvLIynZ7WBNyk=;
+        b=IYfICL1SPhno/xBsxsZPSkrlyvZgQoDjIdOfgU2MrJWhPZng7wUyT7sq1nKTVJY1mb
+         4FLQj909QPF/2A7f4bd4L6riOW2Dunwsn5pcAzw5/Of+3H1Z9H4P2hxkivbUpn0Nezia
+         NxFR2oXWNZKUFOxIbb+lYobl2WWG+TSWrXuEobdoWSrKXVsvgWNhhUlZzYgtLM+UMM2s
+         /rx1FHYmZy5RihgHEE5vfBskFsZAFGX8qwBZjsM4UCmvPAcdFJSSIRUtIciDHImv973n
+         WoOwra8I/FiOuKjuxu+Bebk+3Zgg90Bs2fOn3aCt1S4N04p1qQJuhVYDX+WIIHcNallT
+         ZV+g==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20251104; t=1782408011; x=1783012811;
+        h=cc:to:subject:message-id:date:from:in-reply-to:references
+         :mime-version:x-gm-gg:x-gm-message-state:from:to:cc:subject:date
+         :message-id:reply-to;
+        bh=lRH6BvydH6u1zz0I2eVPYml8qqnGuYYvLIynZ7WBNyk=;
+        b=rkBRqrvuxa40mAtbBV+MPeuO8DGVK/qqHGhE8oJpydpodNoLTLBj0BtkOh3br2miPF
+         vWrcBGs25mB6uj44fmb+PhsJ+0u174mzLzo1MTWG4HswIs3WfuU8B5kG23gqjKA+i3tH
+         ZYUkppr3PsJn5Dt77thj34f8O9DqwVVfqfGM76VklAtHcjWSp9kOkmz7z/T3dOVAWjaA
+         760USWHaILgncWDATTQ74Tu8o5CIbMUCAJkE7N3UotKzzDXoRMx0Ohj/GITQk23zCvCF
+         zGv43CZvMM4Bn5XIfM8ethNoRGU0apobRl+solpVrUBTFQh4pl6uJgSjyXhASaGxCwZo
+         ASPA==
+X-Gm-Message-State: AOJu0YwOUKgeqexcb/VLghnP2gUZ9ljCMBlkTyCfQXQg+g5TTQhH3b8M
+	f6MsGlCM6nPwBaoaCoEirnt4tvPV61XzFo9dYLrZXudF09mz+bdXKnVtfVAeUARc93h0FUAM+RZ
+	addihC4uHPoqcOAAkNHab081OZaKav6MRHLlc
+X-Gm-Gg: AfdE7ckOUAkfMxgioR/rcFabNxdGqV0YjeFuoONUohTBhjTTtOYT6Eoat4g8lRLlrIh
+	HY5v+iZ8UAX27XLCC4kZ/9bVx5s1cqRAhJ3lixa8m3PT7T9IIFF4G1CQuXGPp/puh2zaEEZlBpE
+	BP5Gb8ZAyA1Z66sjhcQ0Q7NNHmm1pJxj+YzbJZ4ECvqJWEF8jQpuj1w/dsl0I8DhZ402y36QqTq
+	r3oi688U8Uusf56KH9aB5CbPVrcnLEle7drqisYBiswMrr9xdsCdUkutd/X6Q/z78/7GajdnyuY
+	qKJ6ihBXfDKJgGIKZjJ6NOxkW3NhSQ==
+X-Received: by 2002:a05:690c:22c5:b0:7f0:182:b59a with SMTP id
+ 00721157ae682-80a67e04174mr36582397b3.10.1782408010689; Thu, 25 Jun 2026
+ 10:20:10 -0700 (PDT)
+MIME-Version: 1.0
+References: <CANrpXFAfaRsfbGz5t02pVAJcHBKhLDKgqrmw8cEF9_=MP4OVww@mail.gmail.com>
+In-Reply-To: <CANrpXFAfaRsfbGz5t02pVAJcHBKhLDKgqrmw8cEF9_=MP4OVww@mail.gmail.com>
+From: "B&H Employment & Consultancy INC" <bh.jobagency@gmail.com>
+Date: Thu, 25 Jun 2026 13:19:59 -0400
+X-Gm-Features: AVVi8CeKeCc6CJqisFAbgcv_88ik3e7Cqtm5PEFIquIgQJKpfh7Yfml4DLvMCOk
+Message-ID: <CAM-dQ2YxyhoQ494-YuHgEQDtygvFODHmg1Okm4xE0aQvTnJURg@mail.gmail.com>
+Subject: Re: Nanny/House Keeper needed in NJ
+To: Bijal Desai Tulsidas <bijaldt@gmail.com>
+Cc: info@bhemployment.com
+Content-Type: multipart/alternative; boundary="0000000000005270f006551734b0"
+X-Spam-Status: No, score=0.8
+X-Spam-Score: 8
+X-Spam-Bar: /
+X-Ham-Report: Spam detection software, running on the system "server019.our-control-panel.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Dear Bijal, Thank you for reaching out about the position
+   in Ridgewood, NJ. We have candidates who fit the description for childcare
+    and housekeeping. To help me narrow down the best fit, could you please let
+    me know the expected salary range for both live-in options? 
+ Content analysis details:   (0.8 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 RCVD_IN_DNSWL_BLOCKED  RBL: ADMINISTRATOR NOTICE: The query to DNSWL
+                             was blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#DnsBlocklists-dnsbl-block
+                              for more information.
+                             [209.85.128.193 listed in list.dnswl.org]
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was blocked.
+                             See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URI: bhemployment.com]
+  0.0 RCVD_IN_MSPIKE_H2      RBL: Average reputation (+2)
+                             [209.85.128.193 listed in wl.mailspike.net]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from author's
+                             domain
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily valid
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+  0.0 FREEMAIL_FROM          Sender email is commonly abused enduser mail provider
+                             [bh.jobagency(at)gmail.com]
+  0.0 HTML_IMAGE_ONLY_32     BODY: HTML: images with 2800-3200 bytes of words
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  1.0 URI_EXCESS_SLASHES     Too many slashes in URI, possible attempt to
+                             bypass spam filtering
+X-Spam-Flag: NO
+
+--0000000000005270f006551734b0
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+Dear Bijal,
+
+Thank you for reaching out about the position in Ridgewood, NJ. We have
+candidates who fit the description for childcare and housekeeping.
+
+To help me narrow down the best fit, could you please let me know the
+expected salary range for both live-in options?
+
+I will check our current profiles and send over suitable candidates soon.
+--
+
+On Thu, Jun 25, 2026 at 9:59=E2=80=AFAM Bijal Desai Tulsidas <bijaldt@gmail=
+.com>
+wrote:
+
+> Hello,
+>
+> I hope you are doing well.
+>
+> We are a family in Ridgewood, New Jersey, looking for a reliable,
+> long-term caregiver to support our family.
+>
+> We have a 6-year-old son who will be entering first grade, and we are
+> seeking someone who is experienced with school-aged children and can help
+> with housekeeping while the child is in school.
+>
+> We are looking for candidates who can provide a combination of childcare
+> and household management support, including help with laundry, cooking.
+>
+> We are open to discussing both live-in and live-out arrangements for the
+> right candidate and are hoping to find someone interested in a long-term
+> position.
+>
+> Please let me know what information you need from us and whether you have
+> candidates who may be a good fit.
+>
+> Thank you, and I look forward to hearing from you.
+>
+> Best regards,
+> Bijal Tulsidas
+>
+>
+
+--=20
+B&H Employment & Consultancy Inc
+Bikash J. Bohara
+Managing Director
+=F0=9F=93=9E +929-385-6177|+347-680-2869
+=F0=9F=93=A7 hiring@bhemployment.com bh.jobagency@gmail.com
+=F0=9F=8C=90 www.bhemployment.com
+=F0=9F=8F=A2 37-51 75th St. 1A, Jackson Heights, NY 11372
+"Right People, Right Job, Right Place"
+
+--0000000000005270f006551734b0
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">Dear Bijal,<br><br>Thank you for reaching out about the po=
+sition in Ridgewood, NJ. We have candidates who fit the description for chi=
+ldcare and housekeeping.<br><br>To help me narrow down the best fit, could =
+you please let me know the expected salary range for both live-in options?<=
+div><br>I will check our current profiles and send over suitable candidates=
+ soon.<br>--</div></div><br><div class=3D"gmail_quote gmail_quote_container=
+"><div dir=3D"ltr" class=3D"gmail_attr">On Thu, Jun 25, 2026 at 9:59=E2=80=
+=AFAM Bijal Desai Tulsidas &lt;<a href=3D"mailto:bijaldt@gmail.com">bijaldt=
+@gmail.com</a>&gt; wrote:<br></div><blockquote class=3D"gmail_quote" style=
+=3D"margin:0px 0px 0px 0.8ex;border-left:1px solid rgb(204,204,204);padding=
+-left:1ex"><div style=3D"font-size:inherit"><div style=3D"font-size:inherit=
+">
+
+<p>Hello,</p>
+<p>I hope you are doing well.</p>
+<p>We are a family in Ridgewood, New Jersey, looking for a reliable, long-t=
+erm caregiver to support our family.=C2=A0</p><p dir=3D"auto">We have a 6-y=
+ear-old son who will be entering first grade, and we are seeking someone wh=
+o is=C2=A0experienced with school-aged children and can help with housekeep=
+ing while the child is in school.</p><p dir=3D"auto"></p><div style=3D"font=
+-size:inherit"><div style=3D"font-size:inherit">
+
+<p dir=3D"auto">We are looking for candidates who can provide a combination=
+ of childcare and household management support, including help with laundry=
+, cooking.</p><p dir=3D"auto"><span style=3D"font-size:inherit">We are open=
+ to discussing both live-in and live-out arrangements for the right candida=
+te and are hoping to find someone interested in a long-term position.</span=
+><br></p></div></div><p></p><p dir=3D"auto"></p><div style=3D"font-size:inh=
+erit"><div style=3D"font-size:inherit">
+<p>Please let me know what information you need from us and whether you hav=
+e candidates who may be a good fit.</p>
+
+</div></div><div style=3D"font-size:inherit"><div style=3D"font-size:inheri=
+t">
+
+<p>Thank you, and I look forward to hearing from you.</p>
+<p>Best regards,</p>
+
+</div></div>Bijal Tulsidas<p></p>
+
+</div></div>
+</blockquote></div><div><br clear=3D"all"></div><div><br></div><span class=
+=3D"gmail_signature_prefix">-- </span><br><div dir=3D"ltr" class=3D"gmail_s=
+ignature"><div dir=3D"ltr"><a href=3D"http:///" target=3D"_blank"></a><div>=
+<img width=3D"96" height=3D"96" src=3D"https://ci3.googleusercontent.com/ma=
+il-sig/AIorK4yr8ltJBA8S3e-Y30Y-Tgm7AscCBp6YRmp0HspwrFdzGRpydSPc9it7z66Le0bm=
+ohxBWdUBI-ZJhtya"></div><div>B&amp;H Employment &amp; Consultancy Inc=C2=A0=
+=C2=A0</div><div><div>Bikash J. Bohara=C2=A0=C2=A0</div><div>Managing Direc=
+tor=C2=A0=C2=A0</div></div><div>=F0=9F=93=9E +929-385-6177|+347-680-2869=C2=
+=A0=C2=A0</div><div>=F0=9F=93=A7=C2=A0<a href=3D"mailto:hiring@bhemployment=
+.com" target=3D"_blank">hiring@bhemployment.com</a>=C2=A0<a href=3D"mailto:=
+bh.jobagency@gmail.com" target=3D"_blank">bh.jobagency@gmail.com</a>=C2=A0=
+=C2=A0</div><div>=F0=9F=8C=90 <a href=3D"http://www.bhemployment.com" targe=
+t=3D"_blank">www.bhemployment.com</a>=C2=A0=C2=A0</div><div>=F0=9F=8F=A2 37=
+-51 75th St. 1A, Jackson Heights, NY 11372=C2=A0=C2=A0</div><div>&quot;Righ=
+t People, Right Job, Right Place&quot;</div><div><br></div></div></div>
+
+--0000000000005270f006551734b0--

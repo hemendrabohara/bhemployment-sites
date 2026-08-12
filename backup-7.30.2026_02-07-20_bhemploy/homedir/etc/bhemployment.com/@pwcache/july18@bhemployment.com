@@ -1,0 +1,6 @@
+passwd:$6$gmqJsPWA87ywL7WB$7al.YsKGanr3jMe8m9oIHjqepgRB8AE8/sQOJSWSDhaSMv65.2mVl.VHWOpnugde3hT3XYD1GaynR80pTl57c0
+quota:0
+homedir:/home/bhemploy/mail/bhemployment.com/july18
+strength:100
+lastchanged:-1
+perms:rw

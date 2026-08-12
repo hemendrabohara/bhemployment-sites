@@ -1,0 +1,301 @@
+Return-Path: <info@debsdomesticagency.com>
+Delivered-To: info@bhemployment.com
+Received: from server019.our-control-panel.com
+	by server019.our-control-panel.com with LMTP
+	id EzuYFBxrGGrvoD0AaDcOIg
+	(envelope-from <info@debsdomesticagency.com>)
+	for <info@bhemployment.com>; Thu, 28 May 2026 22:04:40 +0545
+Return-path: <info@debsdomesticagency.com>
+Envelope-to: info@bhemployment.com
+Delivery-date: Thu, 28 May 2026 22:04:40 +0545
+Received: from sender4-op-o12.zoho.com ([136.143.188.12]:17207)
+	by server019.our-control-panel.com with esmtps  (TLS1.3) tls TLS_AES_256_GCM_SHA384
+	(Exim 4.99.2)
+	(envelope-from <info@debsdomesticagency.com>)
+	id 1wSdSM-0000000GwSN-0Dca
+	for info@bhemployment.com;
+	Thu, 28 May 2026 22:04:40 +0545
+ARC-Seal: i=1; a=rsa-sha256; t=1779985134; cv=none; 
+	d=zohomail.com; s=zohoarc; 
+	b=kTYEzdjN6jr7xYeaOkgONPb9i4PS0e9OBrWne5fl/GJoXCrFp3unTPJjsdHCglCthHHZKosNUJRCePTGzNaKtI/g86GK1bniKDKRtOSQxxfi1UL2siqmzR4px9A2FymEZ5Vj7LlDnVPLuve+RpqP5mDNUFYxYm4EgZbedSSSjCI=
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=zohomail.com; s=zohoarc; 
+	t=1779985134; h=Content-Type:Date:Date:From:From:In-Reply-To:MIME-Version:Message-ID:References:Subject:Subject:To:To:Message-Id:Reply-To:Cc; 
+	bh=KPzjvKxhDR5L2G4IyHvvetNzQgl9XSUhON1tg1YTFCc=; 
+	b=HXX/bB4qkqCaiL1aQVY1HXp5wFPWeCYp3BHttjOSPVqY7P6hZDFOKRn4z+0k5OeoLncobi+yRbHH7cePu0WpARxp9o0a/+dkDhjNhqEK4CxPcUnsrEcdqb6DHI45dcvGoAbbyFJC3fMx0S7ffcJgCFxZWLvEGR5oZ1/7Z2nCQZI=
+ARC-Authentication-Results: i=1; mx.zohomail.com;
+	dkim=pass  header.i=debsdomesticagency.com;
+	spf=pass  smtp.mailfrom=info@debsdomesticagency.com;
+	dmarc=pass header.from=<info@debsdomesticagency.com>
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed; t=1779985134;
+	s=zoho; d=debsdomesticagency.com; i=info@debsdomesticagency.com;
+	h=Date:Date:From:From:To:To:Message-Id:Message-Id:In-Reply-To:References:Subject:Subject:MIME-Version:Content-Type:Reply-To:Cc;
+	bh=KPzjvKxhDR5L2G4IyHvvetNzQgl9XSUhON1tg1YTFCc=;
+	b=3DvA/zxzIvN0RWM4VQOx9haOFWm8vpA/OoNo7bcBjs2csY4+mXSEyKyUxx3b8xcC
+	FF8ru5LwHbna9fH9dDezJlhxBTOAH2Z6Xgebycs4TOTqCj7hvK1+P/aXr2K6r99nQQO
+	RWTBAlvsLYl3RTK8czJx47/8++c7LQ3zQwZwQpMadxTWTKn6Fo2KZeM+FT4+UpcqsCv
+	HKNvY45oReW0wsqhMgZIkjLDA6K5zHOW72Cu9aXUz3XzHOWuB+r1H0QEtZbz0A5SK7W
+	lDVESljIfBsMzdp0jiTNghhF3vwmqD5h+G6XmgmpiHvTTi9/tdmBO5bWjWyrebu9obj
+	r8tFU1s99g==
+Received: from mail.zoho.com by mx.zohomail.com
+	with SMTP id 1779985132250179.69666720169084; Thu, 28 May 2026 09:18:52 -0700 (PDT)
+Date: Thu, 28 May 2026 07:18:52 -0900
+From: Deb's Domestic Agency <info@debsdomesticagency.com>
+To: "info" <info@bhemployment.com>
+Message-Id: <19e6f61aac5.1080949f4928298.1760868479028491229@debsdomesticagency.com>
+In-Reply-To: <e70546e0f94e595e3bffcdc0c00f4c85@bhemployment.com>
+References: <e70546e0f94e595e3bffcdc0c00f4c85@bhemployment.com>
+Subject: =?UTF-8?Q?Re:Free_Referral_=E2=80=94_Nepali_&_Hindi-Speaking_Nannies,_Ho?=
+ =?UTF-8?Q?usekeepers_&_Cooks_Available_Nationwide_(No_Fee_to_You)?=
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_16923571_455933354.1779985132229"
+Importance: Medium
+User-Agent: Zoho Mail
+X-Mailer: Zoho Mail
+X-Spam-Status: No, score=0.2
+X-Spam-Score: 2
+X-Spam-Bar: /
+X-Ham-Report: Spam detection software, running on the system "server019.our-control-panel.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Hi Bikash, Thank you for reaching out and for sharing more
+    about your agency and candidate network. Deb_s Domestic Agency specializes
+    in long-term private household staffing placements nationwide, primarily
+   for private principals, estates, and family office households. While requests
+    for specifica [...] 
+ Content analysis details:   (0.2 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 RCVD_IN_DNSWL_BLOCKED  RBL: ADMINISTRATOR NOTICE: The query to DNSWL
+                             was blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#DnsBlocklists-dnsbl-block
+                              for more information.
+                             [136.143.188.12 listed in list.dnswl.org]
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was blocked.
+                             See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URI: debsdomesticagency.com]
+                             [URI: bhemployment.com]
+  0.0 RCVD_IN_MSPIKE_H5      RBL: Excellent reputation (+5)
+                             [136.143.188.12 listed in wl.mailspike.net]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily valid
+  0.1 DKIM_INVALID           DKIM or DK signature exists, but is not valid
+  0.0 KAM_DMARC_STATUS       Test Rule for DKIM or SPF Failure with Strict
+                             Alignment
+  0.0 RCVD_IN_MSPIKE_WL      Mailspike good senders
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+X-Spam-Flag: NO
+
+------=_Part_16923571_455933354.1779985132229
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hi Bikash,
+
+Thank you for reaching out and for sharing more about your agency and candi=
+date network.
+
+Deb=E2=80=99s Domestic Agency specializes in long-term private household st=
+affing placements nationwide, primarily for private principals, estates, an=
+d family office households. While requests for specifically Nepali, Hindi-s=
+peaking, or South Asian culturally aligned candidates are relatively uncomm=
+on for our agency, we do occasionally receive specialized requests where la=
+nguage, cultural familiarity, or regional cooking experience are important =
+to a family.
+
+I appreciate you introducing your services and candidate pool. I would be o=
+pen to keeping your information on file as a potential resource should an a=
+ppropriate client need arise in the future.
+
+As our placements are highly relationship-driven and client-specific, any f=
+uture collaboration would likely be handled on a case-by-case basis followi=
+ng our normal screening and placement process.
+
+Thank you again for reaching out, and I wish you continued success with you=
+r agency.
+
+
+
+Warm regards,
+
+Ester Rodriguez DDA HR Recruiter
+
+DD Agency Staff=C2=A0|=C2=A0Deb=E2=80=99s Domestic Agency
+
+http://www.debsdomesticagency.com/ mailto:info@debsdomesticagency.com=20
+T: (855) 798-7708=C2=A0
+
+
+P: (512) 886-2008
+
+F: (505) 988-5295
+
+
+
+
+
+
+
+
+From:  <info@bhemployment.com>
+To: <info@debsdomesticagency.com>
+Date: Wed, 27 May 2026 13:42:06 -0900
+Subject: Free Referral =E2=80=94 Nepali & Hindi-Speaking Nannies, Housekeep=
+ers & Cooks Available Nationwide (No Fee to You)
+
+
+
+Hi Team,=20
+=20
+My name is Bikash J Bohara, and I am the founder of B&H Employment &=20
+Consultancy Inc, based in Jackson Heights, New York.=20
+=20
+I am reaching out to offer something that costs your agency nothing.=20
+=20
+We are an employment agency specializing exclusively in Nepali,=20
+Bhutanese, Tibetan, and Hindi-speaking household workers. We charge our=20
+candidates a placement fee =E2=80=94 we do NOT charge any fee to employers =
+or=20
+agencies. Our candidates are available to your clients completely free=20
+of cost to you.=20
+=20
+If your agency ever has a client looking for:=20
+=E2=80=A2 A Nepali or Hindi-speaking nanny or babysitter=20
+=E2=80=A2 A live-in or live-out housekeeper=20
+=E2=80=A2 A home cook familiar with South Asian cuisine=20
+=E2=80=A2 A home cleaner=20
+=20
+=E2=80=94 we can refer a pre-screened, available candidate to you at no cha=
+rge.=20
+=20
+About our candidates:=20
+=E2=9C=94 Nepali, Bhutanese, Tibetan & Hindi-speaking=20
+=E2=9C=94 Speak Nepali, Hindi & basic conversational English=20
+=E2=9C=94 Available for live-in and live-out positions=20
+=E2=9C=94 Open to placements anywhere in the USA=20
+=E2=9C=94 Experienced in childcare, housekeeping, cooking & cleaning=20
+=E2=9C=94 Hardworking, reliable, and culturally attuned to South Asian=20
+households=20
+=20
+This is especially valuable if your clients include Indian, Nepali,=20
+Bangladeshi, or South Asian families who prefer a caregiver or=20
+housekeeper who speaks their language and understands their culture.=20
+=20
+There is no cost, no contract, and no obligation =E2=80=94 just a simple=20
+referral whenever the right need arises.=20
+=20
+I would love to connect briefly and share more about the candidates we=20
+have available right now.=20
+=20
+Please feel free to reach me at:=20
+=F0=9F=93=9E (929) 385-6177=20
+=F0=9F=93=A7 mailto:bh.jobagency@gmail.com =20
+=F0=9F=8C=90 www.bhemployment.com=20
+=F0=9F=93=8D 37-51 75th St, Suite 1A, Jackson Heights, NY 11372=20
+=20
+Thank you for your time. I look forward to hearing from you.=20
+=20
+Warm regards,=20
+Bikas J Bohara
+------=_Part_16923571_455933354.1779985132229
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"><html><head>=
+<meta content=3D"text/html;charset=3DUTF-8" http-equiv=3D"Content-Type"></h=
+ead><body ><div style=3D"font-family: &quot;Times New Roman&quot;; font-siz=
+e: 10pt;"><p>Hi Bikash,<br></p><p>Thank you for reaching out and for sharin=
+g more about your agency and candidate network.<br></p><p>Deb=E2=80=99s Dom=
+estic Agency specializes in long-term private household staffing placements=
+ nationwide, primarily for private principals, estates, and family office h=
+ouseholds. While requests for specifically Nepali, Hindi-speaking, or South=
+ Asian culturally aligned candidates are relatively uncommon for our agency=
+, we do occasionally receive specialized requests where language, cultural =
+familiarity, or regional cooking experience are important to a family.<br><=
+/p><p>I appreciate you introducing your services and candidate pool. I woul=
+d be open to keeping your information on file as a potential resource shoul=
+d an appropriate client need arise in the future.<br></p><p>As our placemen=
+ts are highly relationship-driven and client-specific, any future collabora=
+tion would likely be handled on a case-by-case basis following our normal s=
+creening and placement process.<br></p><p>Thank you again for reaching out,=
+ and I wish you continued success with your agency.<br></p><p><br></p><div>=
+Warm regards,<br></div><div><span class=3D"font" style=3D"font-family:&quot=
+;Times New Roman&quot;"><span class=3D"size" style=3D"font-size:13.3333px">=
+<span style=3D"font-size:13.3333px" class=3D"size"><span style=3D"font-fami=
+ly:&quot;times new roman&quot;, serif" class=3D"font">E<span>ster Rodriguez=
+ DDA HR Recruiter</span></span></span></span></span><br></div><div><span cl=
+ass=3D"font" style=3D"font-family:&quot;Times New Roman&quot;"><span class=
+=3D"size" style=3D"font-size:13.3333px">DD Agency Staff&nbsp;|&nbsp;Deb=E2=
+=80=99s Domestic Agency</span></span><br></div><div id=3D"Zm-_Id_-Sgn" data=
+-sigid=3D"4585508000000015005" data-zbluepencil-ignore=3D"true"><div dir=3D=
+"ltr" style=3D"color:rgb(34, 34, 34); font-family:Arial, Helvetica, sans-se=
+rif; font-size:small; font-style:normal; font-weight:400; letter-spacing:no=
+rmal; orphans:2; text-indent:0px; text-transform:none; widows:2; word-spaci=
+ng:0px; white-space:normal; background-color:rgb(255, 255, 255)"><div><span=
+ class=3D"font" style=3D"font-family:&quot;times new roman&quot;, serif"><a=
+ href=3D"http://www.debsdomesticagency.com/" target=3D"_blank" style=3D"col=
+or:rgb(17, 85, 204)">www.DebsDomesticAgency.com</a><br style=3D"font-size:1=
+3.3333px"></span><span class=3D"font" style=3D"font-family:&quot;Times New =
+Roman&quot;"><span class=3D"size" style=3D"font-size:13.3333px"><a href=3D"=
+mailto:info@debsdomesticagency.com" target=3D"_blank" style=3D"color:rgb(17=
+, 85, 204)">info@debsdomesticagency.com</a></span></span></div><div><span c=
+lass=3D"font" style=3D"font-family:&quot;Times New Roman&quot;"><span class=
+=3D"size" style=3D"font-size:13.3333px">T: (855) 798-7708&nbsp;</span></spa=
+n><br></div></div><div dir=3D"ltr" style=3D"color:rgb(34, 34, 34); font-fam=
+ily:Arial, Helvetica, sans-serif; font-size:small; font-style:normal; font-=
+weight:400; letter-spacing:normal; orphans:2; text-indent:0px; text-transfo=
+rm:none; widows:2; word-spacing:0px; white-space:normal; background-color:r=
+gb(255, 255, 255)"><span class=3D"font" style=3D"font-family:&quot;Times Ne=
+w Roman&quot;"><span class=3D"size" style=3D"font-size:13.3333px">P: (512) =
+886-2008</span></span><br></div><div dir=3D"ltr" style=3D"color:rgb(34, 34,=
+ 34); font-family:Arial, Helvetica, sans-serif; font-size:small; font-style=
+:normal; font-weight:400; letter-spacing:normal; orphans:2; text-indent:0px=
+; text-transform:none; widows:2; word-spacing:0px; white-space:normal; back=
+ground-color:rgb(255, 255, 255)"><span class=3D"font" style=3D"font-family:=
+&quot;Times New Roman&quot;"><span class=3D"size" style=3D"font-size:13.333=
+3px">F: (505) 988-5295</span></span><br></div></div><div><br></div><div cla=
+ss=3D"zmail_extra_hr" style=3D"border-top: 1px solid rgb(204, 204, 204); he=
+ight: 0px; margin-top: 10px; margin-bottom: 10px; line-height: 0px;"><br></=
+div><div class=3D"zmail_extra" data-zbluepencil-ignore=3D"true"><div><br></=
+div><div id=3D"Zm-_Id_-Sgn1">From:  &lt;info@bhemployment.com&gt;<br>To: &l=
+t;info@debsdomesticagency.com&gt;<br>Date: Wed, 27 May 2026 13:42:06 -0900<=
+br>Subject: Free Referral =E2=80=94 Nepali &amp; Hindi-Speaking Nannies, Ho=
+usekeepers &amp; Cooks Available Nationwide (No Fee to You)<br></div><div><=
+br></div><blockquote id=3D"blockquote_zmail" style=3D"margin: 0px;"><div>Hi=
+ Team, <br> <br>My name is Bikash J Bohara, and I am the founder of B&amp;H=
+ Employment &amp; <br>Consultancy Inc, based in Jackson Heights, New York. =
+<br> <br>I am reaching out to offer something that costs your agency nothin=
+g. <br> <br>We are an employment agency specializing exclusively in Nepali,=
+ <br>Bhutanese, Tibetan, and Hindi-speaking household workers. We charge ou=
+r <br>candidates a placement fee =E2=80=94 we do NOT charge any fee to empl=
+oyers or <br>agencies. Our candidates are available to your clients complet=
+ely free <br>of cost to you. <br> <br>If your agency ever has a client look=
+ing for: <br>=E2=80=A2 A Nepali or Hindi-speaking nanny or babysitter <br>=
+=E2=80=A2 A live-in or live-out housekeeper <br>=E2=80=A2 A home cook famil=
+iar with South Asian cuisine <br>=E2=80=A2 A home cleaner <br> <br>=E2=80=
+=94 we can refer a pre-screened, available candidate to you at no charge. <=
+br> <br>About our candidates: <br>=E2=9C=94 Nepali, Bhutanese, Tibetan &amp=
+; Hindi-speaking <br>=E2=9C=94 Speak Nepali, Hindi &amp; basic conversation=
+al English <br>=E2=9C=94 Available for live-in and live-out positions <br>=
+=E2=9C=94 Open to placements anywhere in the USA <br>=E2=9C=94 Experienced =
+in childcare, housekeeping, cooking &amp; cleaning <br>=E2=9C=94 Hardworkin=
+g, reliable, and culturally attuned to South Asian <br>households <br> <br>=
+This is especially valuable if your clients include Indian, Nepali, <br>Ban=
+gladeshi, or South Asian families who prefer a caregiver or <br>housekeeper=
+ who speaks their language and understands their culture. <br> <br>There is=
+ no cost, no contract, and no obligation =E2=80=94 just a simple <br>referr=
+al whenever the right need arises. <br> <br>I would love to connect briefly=
+ and share more about the candidates we <br>have available right now. <br> =
+<br>Please feel free to reach me at: <br>=F0=9F=93=9E (929) 385-6177 <br>=
+=F0=9F=93=A7 <a target=3D"_blank" href=3D"mailto:bh.jobagency@gmail.com">bh=
+.jobagency@gmail.com</a> <br>=F0=9F=8C=90 www.bhemployment.com <br>=F0=9F=
+=93=8D 37-51 75th St, Suite 1A, Jackson Heights, NY 11372 <br> <br>Thank yo=
+u for your time. I look forward to hearing from you. <br> <br>Warm regards,=
+ <br>Bikas J Bohara <br> <br></div></blockquote></div><div><br></div></div>=
+<br></body></html>
+------=_Part_16923571_455933354.1779985132229--
+

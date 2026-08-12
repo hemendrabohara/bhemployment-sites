@@ -1,0 +1,91 @@
+Return-Path: <barbara.bailey@facilitycleangroup.com>
+Delivered-To: info@bhemployment.com
+Received: from server019.our-control-panel.com
+	by server019.our-control-panel.com with LMTP
+	id BN3UM41jY2pQjiUAaDcOIg
+	(envelope-from <barbara.bailey@facilitycleangroup.com>)
+	for <info@bhemployment.com>; Fri, 24 Jul 2026 18:52:25 +0545
+Return-path: <barbara.bailey@facilitycleangroup.com>
+Envelope-to: info@bhemployment.com
+Delivery-date: Fri, 24 Jul 2026 18:52:25 +0545
+Received: from mail.facilitycleangroup.com ([82.39.175.21]:24673)
+	by server019.our-control-panel.com with esmtps  (TLS1.3) tls TLS_AES_256_GCM_SHA384
+	(Exim 4.99.4)
+	(envelope-from <barbara.bailey@facilitycleangroup.com>)
+	id 1wnFcb-0000000AJxv-2RYy
+	for info@bhemployment.com;
+	Fri, 24 Jul 2026 18:52:25 +0545
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+	d=facilitycleangroup.com; s=default; t=1784898404;
+	bh=JS6DgXQbXI6qbRkkd39SOksNhhNwL0epyBiGlDscsE0=;
+	h=From:To:Subject:Date;
+	b=eOBSrVsvgqCINHbJJyWS+xMuf8tQeO+afVNL02FRcB6fCtctoamZPyppTd9+WxfKK
+	 kWlQo6E22/ZYsUc2PnVxbWpze1qjQ5QzQgHR2BIoOoTBLYfcWUdsz2zySkUPHo0idw
+	 m+TlGBZku0eTGkg2e92Z2BWxxWqeN24JiGDs4HuaUt3d7g9ZtFwLeNvDV4MCQNpTvM
+	 sUSv9Jdh9SPHAemNaPGaysciMJz1PPKd9znJ3OJnzsfT1s0A5stbqzvr2oKcRbXQvO
+	 aTTIadGw7UEaYf1D4/+5wSzEO/Mm/d8ygsIMZMby8DgOjT0g3LufakLeZBOd1SQdHj
+	 Rh+p3X4nGpiWg==
+Received: from 019f943c-0bdb-7433-a64d-51a530207f63.local (ec2-107-20-97-130.compute-1.amazonaws.com [107.20.97.130])
+	by mail.janitorialserviceteam.com (Postfix) with ESMTPSA id E3FCB8C4730
+	for <info@bhemployment.com>; Fri, 24 Jul 2026 13:06:43 +0000 (UTC)
+Message-ID: <019f943c-0bdb-7433-a64d-51a530207f63@facilitycleangroup.com>
+From: Barbara Bailey <barbara.bailey@facilitycleangroup.com>
+To: info@bhemployment.com
+Subject: Request to Stop In
+Content-Transfer-Encoding: quoted-printable
+Date: Fri, 24 Jul 2026 13:06:42 +0000
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+X-Spam-Status: No, score=-0.2
+X-Spam-Score: -1
+X-Spam-Bar: /
+X-Ham-Report: Spam detection software, running on the system "server019.our-control-panel.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Hi there, I was looking up one of our clients on Google Maps
+    and noticed your facility nearby, so I thought I_d reach out. One of our
+    managers is scheduled to be near your area next week. 
+ Content analysis details:   (-0.2 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 RCVD_IN_DNSWL_BLOCKED  RBL: ADMINISTRATOR NOTICE: The query to DNSWL
+                             was blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#DnsBlocklists-dnsbl-block
+                              for more information.
+                             [82.39.175.21 listed in list.dnswl.org]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from author's
+                             domain
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily valid
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was blocked.
+                             See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URI: facilitycleangroup.com]
+X-Spam-Flag: NO
+
+Hi there,
+
+I was looking up one of our clients on Google Maps and noticed =
+your facility nearby, so I thought I=E2=80=99d reach out.
+
+One of our managers is scheduled to be near your area next week.
+
+Would you be open to a quick 10-minute walkthrough to get a cleaning quote =
+for your facility?
+
+Thanks,
+Barbara
+
+Barbara Bailey
+Strategic Account Development
+Cleaning Group Inc.
+1757 Veterans Hwy Suite =
+22 Islandia, NY=C2=A0
+
+If this is not relevant, please let me know.

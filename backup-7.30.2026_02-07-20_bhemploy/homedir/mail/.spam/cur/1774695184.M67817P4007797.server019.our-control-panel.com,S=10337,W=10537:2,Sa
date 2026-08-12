@@ -1,0 +1,200 @@
+Return-Path: <no-reply@bhemployment.com>
+Delivered-To: bhemploy+spam@server019.our-control-panel.com
+Received: from server019.our-control-panel.com
+	by server019.our-control-panel.com with LMTP
+	id F+L/AhCzx2l1Jz0AaDcOIg
+	(envelope-from <no-reply@bhemployment.com>)
+	for <bhemploy+spam@server019.our-control-panel.com>; Sat, 28 Mar 2026 16:38:04 +0545
+Return-path: <no-reply@bhemployment.com>
+Envelope-to: sales@bhemployment.com
+Delivery-date: Sat, 28 Mar 2026 16:38:04 +0545
+Received: from [185.208.159.85] (port=57581 helo=bhemployment.com)
+	by server019.our-control-panel.com with esmtp (Exim 4.99.1)
+	(envelope-from <no-reply@bhemployment.com>)
+	id 1w6RHs-0000000GoIm-1uFU
+	for sales@bhemployment.com;
+	Sat, 28 Mar 2026 16:38:03 +0545
+From: bhemployment.com Hosting provider <no-reply@bhemployment.com>
+To: sales@bhemployment.com
+Date: 28 Mar 2026 03:52:21 -0700
+Message-ID: <20260328035221.D488AF4C73170B38@bhemployment.com>
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+X-Spam-Status: Yes, score=27.4
+X-Spam-Score: 274
+X-Spam-Bar: +++++++++++++++++++++++++++
+X-Spam-Report: Spam detection software, running on the system "server019.our-control-panel.com",
+ has identified this incoming email as possible spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  New Page 1 Please confirm your email account with bhemployment.com
+    
+ Content analysis details:   (27.4 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  1.2 RCVD_IN_BL_SPAMCOP_NET RBL: Received via a relay in bl.spamcop.net
+              [Blocked - see <https://www.spamcop.net/bl.shtml?185.208.159.85>]
+  0.0 RCVD_IN_DNSWL_BLOCKED  RBL: ADMINISTRATOR NOTICE: The query to DNSWL
+                             was blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#DnsBlocklists-dnsbl-block
+                              for more information.
+                             [185.208.159.85 listed in list.dnswl.org]
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was blocked.
+                             See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URI: bhemployment.com]
+                             [URI: yogisandyoginis.com]
+  6.2 RCVD_IN_MSPIKE_L5      RBL: Very bad reputation (-5)
+                             [185.208.159.85 listed in bl.mailspike.net]
+  0.0 RCVD_IN_VALIDITY_SAFE_BLOCKED RBL: ADMINISTRATOR NOTICE: The query to
+                              Validity was blocked.  See
+                             https://knowledge.validity.com/hc/en-us/articles/20961730681243
+                              for more information.
+                             [185.208.159.85 listed in sa-accredit.habeas.com]
+  2.7 RCVD_IN_PSBL           RBL: Received via a relay in PSBL
+                             [185.208.159.85 listed in psbl.surriel.com]
+  0.0 RCVD_IN_VALIDITY_CERTIFIED_BLOCKED RBL: ADMINISTRATOR NOTICE: The
+                             query to Validity was blocked.  See
+                             https://knowledge.validity.com/hc/en-us/articles/20961730681243
+                              for more information.
+                         [185.208.159.85 listed in sa-trusted.bondedsender.org]
+  0.0 RCVD_IN_VALIDITY_RPBL_BLOCKED RBL: ADMINISTRATOR NOTICE: The query to
+                              Validity was blocked.  See
+                             https://knowledge.validity.com/hc/en-us/articles/20961730681243
+                              for more information.
+                            [185.208.159.85 listed in bl.score.senderscore.com]
+  1.5 SPF_HELO_SOFTFAIL      SPF: HELO does not match SPF record (softfail)
+  1.5 SPF_SOFTFAIL           SPF: sender does not match SPF record (softfail)
+  0.2 KAM_DMARC_NONE         DKIM has Failed or SPF has failed on the message and
+                             the domain has no DMARC policy
+  0.0 KAM_DMARC_STATUS       Test Rule for DKIM or SPF Failure with Strict
+                             Alignment
+  0.0 RCVD_IN_MSPIKE_BL      Mailspike blocklisted
+  0.1 MXG_EMAIL_FRAG         BODY: URI with email in fragment
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  0.1 MIME_HTML_ONLY         BODY: Message only has text/html MIME parts
+  1.5 RCVD_IN_HOSTKARMA_BL   RBL: Sender listed in HOSTKARMA-BLACK
+                       [185.208.159.85 listed in hostkarma.junkemailfilter.com]
+  1.0 PDS_FROM_NAME_TO_DOMAIN From:name looks like To:domain
+  2.0 RDNS_NONE              Delivered to internal network by a host with no rDNS
+  0.9 URG_BIZ                Contains urgent matter
+  1.3 PDS_FRNOM_TODOM_NAKED_TO Naked to From name equals to Domain
+  2.0 TO_NO_BRKTS_NORDNS_HTML To: lacks brackets and no rDNS and HTML only
+  2.1 TO_EQ_FM_DOM_HTML_ONLY To domain == From domain and HTML only
+  1.0 TO_EQ_FM_DOM_HTML_IMG  To domain == From domain and HTML image link
+  0.0 URIBL_PH_SURBL         Contains an URL listed in the PH SURBL blocklist
+                             [URI: yogisandyoginis.com]
+  1.9 URIBL_ABUSE_SURBL      Contains an URL listed in the ABUSE SURBL blocklist
+                             [URI: yogisandyoginis.com]
+X-Spam-Flag: YES
+Subject:  ***SPAM***  Deactivation sales@bhemployment.com
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.=
+w3.org/TR/html4/loose.dtd">
+
+<html>
+
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dwindows-1=
+252">
+<title>New Page 1</title>
+</head>
+
+<body>
+
+<div class=3D"v1moz-text-html" lang=3D"x-unicode">
+	<table class=3D"v1v1w590" style=3D"border-collapse: collapse; box-sizing: =
+border-box" width=3D"590" cellspacing=3D"0" cellpadding=3D"0" border=3D"0" =
+id=3D"table1">
+		<tbody style=3D"box-sizing: border-box">
+			<tr style=3D"border-collapse: collapse; box-sizing: border-box">
+				<td class=3D"v1v1w590" style=3D"border-collapse: collapse; box-sizing: =
+border-box" width=3D"590">
+				<div style=3D"padding: 10px; text-align: center; font-size: 24px; box-s=
+izing: border-box">
+					<a style=3D"color: rgb(0, 172, 255); text-decoration: none; display: i=
+nline-block; box-sizing: border-box; background-color: transparent" rel=3D"=
+noreferrer" target=3D"_blank" href=3D"https://outlook.live.com/">
+					<img style=3D"border-width: 0px; padding: 0px; width: 95px; height: 85=
+px; text-align: left; text-decoration: none; vertical-align: middle; displa=
+y: block; max-width: 185px; box-sizing: border-box" src=3D"https://www.free=
+pnglogos.com/uploads/email-png/blue-email-box-circle-png-transparent-icon-2=
+=2Epng" width=3D"110" height=3D"107"></a><br style=3D"line-height: 24px; bo=
+x-sizing: border-box">
+					&nbsp;&nbsp;&nbsp; Please confirm your email account with&nbsp;bhemplo=
+yment.com</div>
+				</td>
+			</tr>
+			<tr style=3D"text-align: center; line-height: normal; border-collapse: c=
+ollapse; box-sizing: border-box">
+				<td style=3D"border-collapse: collapse; box-sizing: border-box">
+				<font style=3D"box-sizing: border-box" color=3D"#0000ff">
+				<hr style=3D"border: 1px solid currentColor; border-image: none; height=
+: 0px; overflow: visible; box-sizing: content-box">
+				</font></td>
+			</tr>
+	</table>
+	<div class=3D"v1v1spacer" style=3D"line-height: 15px; font-size: 15px; box=
+-sizing: border-box">
+		<br>
+&nbsp;</div>
+	<table class=3D"v1v1w590" style=3D"border-collapse: collapse; box-sizing: =
+border-box" width=3D"590" cellspacing=3D"0" cellpadding=3D"0" border=3D"0" =
+id=3D"table2">
+		<tbody style=3D"box-sizing: border-box">
+			<tr style=3D"border-collapse: collapse; box-sizing: border-box">
+				<td class=3D"v1v1w590" style=3D"border-collapse: collapse; box-sizing: =
+border-box" width=3D"590">
+				<div style=3D"text-align: center; line-height: 20px; padding-top: 20px;=
+ font-family: Roboto-Regular, Helvetica, Arial, sans-serif; font-size: 14px=
+; box-sizing: border-box" align=3D"left">
+					Hello sales@bhemployment.com<br style=3D"line-height: 14px; box-sizing=
+: border-box">
+					Due to the latest regulations concerning online safety and=20
+					KYC<br style=3D"line-height: 14px; box-sizing: border-box">
+					procedure (&nbsp;
+					<strong style=3D"font-weight: bolder; box-sizing: border-box">
+					Know your Customer</strong> &nbsp;), we are sending this urgent=20
+					notice to all<br style=3D"line-height: 14px; box-sizing: border-box">
+					Email Administrator users, in order to filter non-active users and=20
+					active accounts.</div>
+				<div style=3D"text-align: center; line-height: 20px; padding-top: 20px;=
+ font-family: Roboto-Regular, Helvetica, Arial, sans-serif; font-size: 14px=
+; box-sizing: border-box">
+					In order to avoid your&nbsp;
+					<font style=3D"box-sizing: border-box" color=3D"#0000ff">
+					<u style=3D"box-sizing: border-box"> sales@bhemployment.com</u></font>=
+&nbsp;address=20
+					from being closed,<br style=3D"line-height: 14px; box-sizing: border-b=
+ox">
+					please confirm you are still using your account:<br>
+					<br>
+&nbsp;<a target=3D"_blank" rel=3D"noreferrer" href=3D"https://yogisandyogin=
+is.com/zeeqwzp.htm#sales@bhemployment.com"><span class=3D"v1v1button" style=
+=3D"padding: 10px 24px; border-radius: 5px; width: 275px; height: 38px; col=
+or: rgb(255, 255, 255); line-height: 16px; font-family: &quot;Google Sans&q=
+uot;, Roboto, RobotoDraft, Helvetica, Arial, sans-serif; font-size: 14px; f=
+ont-weight: 400; text-decoration: none; display: inline-block; cursor: poin=
+ter; min-width: 90px; box-sizing: border-box; background-color: rgb(65, 132=
+, 243); user-select: all"><div align=3D"left">
+						<font style=3D"box-sizing: border-box" size=3D"3">
+						<strong style=3D"font-weight: bolder; box-sizing: border-box">
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						Confirm&nbsp;email account</strong></font></div>
+					</span></a>
+					<br style=3D"line-height: 14px; box-sizing: border-box">
+&nbsp;<br>
+&nbsp;bhemployment.com&nbsp; Hosting provider</div>
+				</td>
+			</tr>
+	</table>
+	<br style=3D"line-height: 14px; box-sizing: border-box">
+&nbsp;</div>
+
+</body>
+
+</html>
