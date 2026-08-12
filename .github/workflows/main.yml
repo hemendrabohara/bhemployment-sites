@@ -1,0 +1,35 @@
+name: Extract Release Archive
+
+on:
+  workflow_dispatch: # Allows you to manually trigger this from the GitHub web UI
+
+jobs:
+  extract-and-commit:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      # 1. Checkout the repository code
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      # 2. Download the backup tar.gz from your Release
+      - name: Download Backup File
+        run: |
+          curl -L -o backup.tar.gz https://github.com/hemendrabohara/bhemployment-sites/releases/download/v1.0.0/backup-7.30.2026_02-07-20_bhemploy.tar.gz
+
+      # 3. Extract the tar.gz archive
+      - name: Extract Archive
+        run: |
+          tar -xzvf backup.tar.gz
+          rm backup.tar.gz # Remove the archive after extracting
+
+      # 4. Commit and push the extracted files back to main
+      - name: Commit and Push Extracted Files
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add .
+          git commit -m "Extract backup files via GitHub Action" || echo "No changes to commit"
+          git push origin main
