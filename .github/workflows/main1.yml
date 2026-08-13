@@ -1,10 +1,10 @@
-name: Extract Release Archive and Fix Submodules
+name: Extract Backup and Move Files to Root
 
 on:
   workflow_dispatch:
 
 jobs:
-  extract-and-commit:
+  extract-and-flatten:
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -22,20 +22,34 @@ jobs:
           tar -xzvf backup.tar.gz
           rm backup.tar.gz
 
-      # Fix for the blue unclickable folder issue
-      - name: Remove Nested Git Metadata
+      - name: Locate and Move public_html Files to Root
         run: |
-          # 1. Clear git index cache for public_html if treated as submodule
-          git rm --cached -r public_html || true
-          
-          # 2. Find and delete any hidden .git folders inside public_html
-          find public_html -name ".git" -exec rm -rf {} + || true
-          rm -f .gitmodules || true
+          # 1. Find where public_html actually lives in the extracted backup
+          PUBLIC_DIR=$(find . -type d -name "public_html" | head -n 1)
 
-      - name: Commit and Push Extracted Files
+          if [ -n "$PUBLIC_DIR" ]; then
+            echo "Found public_html at $PUBLIC_DIR"
+            
+            # Remove nested .git folders to avoid broken blue submodule folders
+            find "$PUBLIC_DIR" -name ".git" -exec rm -rf {} + || true
+            
+            # Copy all files (including hidden dotfiles) from public_html to repository root
+            shopt -s dotglob
+            cp -rn "$PUBLIC_DIR"/* . || true
+            
+            # Remove the empty public_html and backup folders
+            git rm -f --cached -r public_html || true
+            rm -rf public_html homedir || true
+          else
+            echo "public_html folder not found!"
+          fi
+
+      - name: Commit and Push All Extracted Files
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add .
-          git commit -m "Fix public_html folder and commit contents" || echo "No changes to commit"
+          
+          # Force add all files
+          git add -A
+          git commit -m "Extract and place all public_html files directly in root" || echo "No changes to commit"
           git push origin main
