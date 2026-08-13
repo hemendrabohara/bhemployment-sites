@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Builder</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- html2pdf Library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+</head>
+
+<body>
+    <div class="app-container">
+        <!-- LEFT SIDE: INPUT FORM -->
+        <div class="sidebar hide-on-print">
+            <h2>Resume Details</h2>
+
+            <div class="form-group">
+                <label>Full Name</label>
+                <input type="text" id="in-name" value="Joanna Smith">
+            </div>
+
+            <div class="form-group">
+                <label>Contact Info (Address, Email, Phone)</label>
+                <input type="text" id="in-contact"
+                    value="209 Lavender Terrace, New York, NY 10025 · joanna_smith@gmail.com · (000) 333-4444">
+            </div>
+
+            <div class="form-group">
+                <label>Summary</label>
+                <textarea id="in-summary"
+                    rows="5">Highly motivated and experienced professional, dedicated to achieving success. Proven track record of providing exceptional customer service while delivering outstanding care. Excellent communicator with skills in problem-solving and leadership. Effective at making a positive contribution to the mission and culture of organizations. Seeking a role that permits the ability to make a meaningful impact.</textarea>
+            </div>
+
+            <hr>
+
+            <h3>Education 1</h3>
+            <div class="form-group">
+                <label>Institution</label>
+                <input type="text" id="in-e1-inst" value="Baker University">
+            </div>
+            <div class="form-group">
+                <label>Location</label>
+                <input type="text" id="in-e1-loc" value="Manhattan, NY">
+            </div>
+            <div class="form-group">
+                <label>Degree</label>
+                <input type="text" id="in-e1-deg" value="Bachelor of Science, Psychology">
+            </div>
+            <div class="form-group">
+                <label>Date</label>
+                <input type="text" id="in-e1-date" value="Anticipated May 2025">
+            </div>
+            <div class="form-group">
+                <label>Additional Info (e.g. Minor)</label>
+                <input type="text" id="in-e1-det" value="Minor: Conflict Analysis and Trauma Studies">
+            </div>
+
+            <hr>
+            <h3>Education 2</h3>
+            <div class="form-group">
+                <label>Institution</label>
+                <input type="text" id="in-e2-inst" value="National Applied College">
+            </div>
+            <div class="form-group">
+                <label>Location</label>
+                <input type="text" id="in-e2-loc" value="New York, NY">
+            </div>
+            <div class="form-group">
+                <label>Degree</label>
+                <input type="text" id="in-e2-deg" value="Associates of Applied Science, Surgical Technology">
+            </div>
+            <div class="form-group">
+                <label>Date</label>
+                <input type="text" id="in-e2-date" value="June 2016">
+            </div>
+
+            <hr>
+            <h3>Work Experience 1</h3>
+            <div class="form-group">
+                <label>Company</label>
+                <input type="text" id="in-w1-comp" value="Favorite Health Staff Travel Agency">
+            </div>
+            <div class="form-group">
+                <label>Location</label>
+                <input type="text" id="in-w1-loc" value="New York, NY">
+            </div>
+            <div class="form-group">
+                <label>Role</label>
+                <input type="text" id="in-w1-role" value="Traveling Surgical Technician">
+            </div>
+            <div class="form-group">
+                <label>Date</label>
+                <input type="text" id="in-w1-date" value="February 2019 – Present">
+            </div>
+            <div class="form-group">
+                <label>Bullet Points (one per line)</label>
+                <textarea id="in-w1-desc"
+                    rows="4">Performed diagnostic testing using a Bowie-Dick Vacuum Leak test on pre-vacuum autoclave chamber sterilizers to ensure proper functioning of sterilization equipment.
+Assisted with surgery by passing sterile instruments, retracting tissue, and maintaining a sterile field.
+Collaborated with the operating room team to position patients for surgery as well as apply antiseptic alcohol prep solution with alcohol on patients to dry for 3 minutes before draping.</textarea>
+            </div>
+
+            <hr>
+            <h3>Work Experience 2</h3>
+            <div class="form-group">
+                <label>Company</label>
+                <input type="text" id="in-w2-comp" value="Trinity Medical Center">
+            </div>
+            <div class="form-group">
+                <label>Location</label>
+                <input type="text" id="in-w2-loc" value="Manhattan, NY">
+            </div>
+            <div class="form-group">
+                <label>Role</label>
+                <input type="text" id="in-w2-role" value="OB Surgical Technician">
+            </div>
+            <div class="form-group">
+                <label>Date</label>
+                <input type="text" id="in-w2-date" value="April 2018 – December 2019">
+            </div>
+            <div class="form-group">
+                <label>Bullet Points (one per line)</label>
+                <textarea id="in-w2-desc"
+                    rows="4">Prepared operating rooms by having sterile supplies required for delivery open and stand by supplies available if forceps or vacuums were needed to extract fetus.
+Monitored the operating room temperature prior to cesarean delivery to prevent neonatal hypothermia.
+Maintained a calm demeanor and acted swiftly during emergency crash cesarean deliveries where the fetus should be delivered in under one minute due to heavy bleeding or severe fetal distress.</textarea>
+            </div>
+
+            <hr>
+            <h3>Work Experience 3</h3>
+            <div class="form-group">
+                <label>Company</label>
+                <input type="text" id="in-w3-comp" value="General Community Hospital">
+            </div>
+            <div class="form-group">
+                <label>Location</label>
+                <input type="text" id="in-w3-loc" value="Boston, MA">
+            </div>
+            <div class="form-group">
+                <label>Role</label>
+                <input type="text" id="in-w3-role" value="Surgical Technician">
+            </div>
+            <div class="form-group">
+                <label>Date</label>
+                <input type="text" id="in-w3-date" value="June 2016 – April 2018">
+            </div>
+            <div class="form-group">
+                <label>Bullet Points (one per line)</label>
+                <textarea id="in-w3-desc" rows="4">Worked with the surgical team to prepare instruments and equipment for surgery.
+Communicated with OR staff to verify an accurate count of surgical sponges and instruments during wound closure.
+Followed safety procedures while cleaning blood and prep solution from the surgical sight.</textarea>
+            </div>
+
+            <hr>
+            <h3>Volunteer Experience</h3>
+            <div class="form-group">
+                <label>Organization</label>
+                <input type="text" id="in-v1-org" value="Crisis Text Line">
+            </div>
+            <div class="form-group">
+                <label>Location</label>
+                <input type="text" id="in-v1-loc" value="New York, NY">
+            </div>
+            <div class="form-group">
+                <label>Role</label>
+                <input type="text" id="in-v1-role" value="Volunteer">
+            </div>
+            <div class="form-group">
+                <label>Date</label>
+                <input type="text" id="in-v1-date" value="August 2024 – Present">
+            </div>
+            <div class="form-group">
+                <label>Bullet Points (one per line)</label>
+                <textarea id="in-v1-desc" rows="4">Provided emotional support through text conversations to people in need.
+Performed risk assessments to identify harmful situations in a remote setting.
+Referred texters to local resources to develop coping strategies as an essential part of their safety plan.
+Documented interactions and maintained confidentiality to protect the privacy of texters.</textarea>
+            </div>
+
+            <br>
+            <button id="download-btn">Download PDF</button>
+            <br><br>
+        </div>
+
+        <!-- RIGHT SIDE: RESUME PREVIEW -->
+        <div class="preview-area">
+            <div class="resume-wrapper">
+                <div class="resume" id="resume-content">
+
+                    <header>
+                        <h1 id="out-name">Joanna Smith</h1>
+                        <p id="out-contact">209 Lavender Terrace, New York, NY 10025 · joanna_smith@gmail.com · (000)
+                            333-4444</p>
+                    </header>
+
+                    <section>
+                        <h2>SUMMARY</h2>
+                        <div class="divider"></div>
+                        <p id="out-summary" class="block-text">Highly motivated and experienced professional, dedicated
+                            to achieving success. Proven track record of providing exceptional customer service while
+                            delivering outstanding care. Excellent communicator with skills in problem-solving and
+                            leadership. Effective at making a positive contribution to the mission and culture of
+                            organizations. Seeking a role that permits the ability to make a meaningful impact.</p>
+                    </section>
+
+                    <section>
+                        <h2>EDUCATION</h2>
+                        <div class="divider"></div>
+
+                        <div class="entry">
+                            <div class="entry-row">
+                                <div class="entry-left font-bold" id="out-e1-inst">Baker University</div>
+                                <div class="entry-right font-bold" id="out-e1-loc">Manhattan, NY</div>
+                            </div>
+                            <div class="entry-row">
+                                <div class="entry-left" id="out-e1-deg">Bachelor of Science, Psychology</div>
+                                <div class="entry-right" id="out-e1-date">Anticipated May 2025</div>
+                            </div>
+                            <div class="entry-row">
+                                <div class="entry-left" id="out-e1-det">Minor: Conflict Analysis and Trauma Studies
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="entry">
+                            <div class="entry-row">
+                                <div class="entry-left font-bold" id="out-e2-inst">National Applied College</div>
+                                <div class="entry-right font-bold" id="out-e2-loc">New York, NY</div>
+                            </div>
+                            <div class="entry-row">
+                                <div class="entry-left" id="out-e2-deg">Associates of Applied Science, Surgical
+                                    Technology</div>
+                                <div class="entry-right" id="out-e2-date">June 2016</div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section>
+                        <h2>WORK EXPERIENCE</h2>
+                        <div class="divider"></div>
+
+                        <div class="entry">
+                            <div class="entry-row">
+                                <div class="entry-left font-bold" id="out-w1-comp">Favorite Health Staff Travel Agency
+                                </div>
+                                <div class="entry-right font-bold" id="out-w1-loc">New York, NY</div>
+                            </div>
+                            <div class="entry-row">
+                                <div class="entry-left italic" id="out-w1-role">Traveling Surgical Technician</div>
+                                <div class="entry-right" id="out-w1-date">February 2019 – Present</div>
+                            </div>
+                            <ul id="out-w1-desc">
+                                <li>Performed diagnostic testing using a Bowie-Dick Vacuum Leak test on pre-vacuum
+                                    autoclave chamber sterilizers to ensure proper functioning of sterilization
+                                    equipment.</li>
+                                <li>Assisted with surgery by passing sterile instruments, retracting tissue, and
+                                    maintaining a sterile field.</li>
+                                <li>Collaborated with the operating room team to position patients for surgery as well
+                                    as apply antiseptic alcohol prep solution with alcohol on patients to dry for 3
+                                    minutes before draping.</li>
+                            </ul>
+                        </div>
+
+                        <div class="entry">
+                            <div class="entry-row">
+                                <div class="entry-left font-bold" id="out-w2-comp">Trinity Medical Center</div>
+                                <div class="entry-right font-bold" id="out-w2-loc">Manhattan, NY</div>
+                            </div>
+                            <div class="entry-row">
+                                <div class="entry-left italic" id="out-w2-role">OB Surgical Technician</div>
+                                <div class="entry-right" id="out-w2-date">April 2018 – December 2019</div>
+                            </div>
+                            <ul id="out-w2-desc">
+                                <li>Prepared operating rooms by having sterile supplies required for delivery open and
+                                    stand by supplies available if forceps or vacuums were needed to extract fetus.</li>
+                                <li>Monitored the operating room temperature prior to cesarean delivery to prevent
+                                    neonatal hypothermia.</li>
+                                <li>Maintained a calm demeanor and acted swiftly during emergency crash cesarean
+                                    deliveries where the fetus should be delivered in under one minute due to heavy
+                                    bleeding or severe fetal distress.</li>
+                            </ul>
+                        </div>
+
+                        <div class="entry">
+                            <div class="entry-row">
+                                <div class="entry-left font-bold" id="out-w3-comp">General Community Hospital</div>
+                                <div class="entry-right font-bold" id="out-w3-loc">Boston, MA</div>
+                            </div>
+                            <div class="entry-row">
+                                <div class="entry-left italic" id="out-w3-role">Surgical Technician</div>
+                                <div class="entry-right" id="out-w3-date">June 2016 – April 2018</div>
+                            </div>
+                            <ul id="out-w3-desc">
+                                <li>Worked with the surgical team to prepare instruments and equipment for surgery.</li>
+                                <li>Communicated with OR staff to verify an accurate count of surgical sponges and
+                                    instruments during wound closure.</li>
+                                <li>Followed safety procedures while cleaning blood and prep solution from the surgical
+                                    sight.</li>
+                            </ul>
+                        </div>
+                    </section>
+
+                    <section>
+                        <h2>VOLUNTEER EXPERIENCE</h2>
+                        <div class="divider"></div>
+
+                        <div class="entry">
+                            <div class="entry-row">
+                                <div class="entry-left font-bold" id="out-v1-org">Crisis Text Line</div>
+                                <div class="entry-right font-bold" id="out-v1-loc">New York, NY</div>
+                            </div>
+                            <div class="entry-row">
+                                <div class="entry-left italic" id="out-v1-role">Volunteer</div>
+                                <div class="entry-right" id="out-v1-date">August 2024 – Present</div>
+                            </div>
+                            <ul id="out-v1-desc">
+                                <li>Provided emotional support through text conversations to people in need.</li>
+                                <li>Performed risk assessments to identify harmful situations in a remote setting.</li>
+                                <li>Referred texters to local resources to develop coping strategies as an essential
+                                    part of their safety plan.</li>
+                                <li>Documented interactions and maintained confidentiality to protect the privacy of
+                                    texters.</li>
+                            </ul>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

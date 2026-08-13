@@ -1,0 +1,909 @@
+[14-Apr-2025 15:42:22 UTC] Error fetching appointments: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'preferred_date' in 'WHERE'
+[14-Apr-2025 15:42:22 UTC] Error fetching booked slots: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'admin_scheduled_time' in 'SELECT'
+[14-Apr-2025 18:20:25 UTC] ADMIN VERIFICATION DEBUG - User ID: 7, Setting verified to: 1, Raw POST data: {"user_id":"7","is_verified":"0","verification_notes":"","toggle_verification":""}
+[14-Apr-2025 18:20:25 UTC] ADMIN VERIFICATION DEBUG - Database update completed. Rows affected: 1
+[14-Apr-2025 18:20:25 UTC] PHP Warning:  Undefined array key "id" in /home/bhemploy/public_html/admin/manage-users.php on line 50
+[14-Apr-2025 18:20:25 UTC] PHP Warning:  Undefined array key "is_verified" in /home/bhemploy/public_html/admin/manage-users.php on line 52
+[14-Apr-2025 18:20:25 UTC] PHP Warning:  Undefined array key "is_verified" in /home/bhemploy/public_html/admin/manage-users.php on line 53
+[14-Apr-2025 18:20:25 UTC] ADMIN VERIFICATION DEBUG - Updated user data: {"id":null,"email":"hemendra.bohara@gmail.com","is_verified":null,"is_verified_type":"NULL"}
+[25-Apr-2025 18:43:16 UTC] Form submitted with title: Top 5 Benefits of Hiring a Nepali Nanny in NYC (Why NYC Families Trust Them)
+[25-Apr-2025 18:43:16 UTC] Content length: 8105
+[25-Apr-2025 18:43:16 UTC] Processing featured image upload: Top 5 Benefits of Hiring a Nepali Nanny in NYC (Why NYC Families Trust Them).jpg.JPG
+[25-Apr-2025 18:43:16 UTC] Featured image uploaded successfully: uploads/blog_images/blog_1745606596_1193.JPG
+[25-Apr-2025 18:43:16 UTC] Attempting to update blog post
+[25-Apr-2025 18:43:16 UTC] Blog post updated successfully
+[30-May-2025 18:11:10 UTC] Form submitted with title: Struggling to Find Store Staff? Our Nepali Workers Are Ready to Work
+[30-May-2025 18:11:10 UTC] Content length: 3783
+[30-May-2025 18:11:10 UTC] Generated slug: struggling-to-find-store-staff-our-nepali-workers-are-ready-to-work
+[30-May-2025 18:11:10 UTC] Processing featured image upload: nepali-store-assistant-helping-customer-7eleven-bh-employment.jpg
+[30-May-2025 18:11:10 UTC] Featured image uploaded successfully: uploads/blog_images/blog_1748628670_1058.jpg
+[30-May-2025 18:11:10 UTC] Attempting to insert blog post
+[30-May-2025 18:11:10 UTC] Error creating blog post: SQLSTATE[22007]: Invalid datetime format: 1366 Incorrect string value: '\xF0\x9F\x93\x9E <...' for column `bhemploy_admin`.`blog_posts`.`content` at row 1
+[30-May-2025 18:11:27 UTC] Form submitted with title: Struggling to Find Store Staff? Our Nepali Workers Are Ready to Work
+[30-May-2025 18:11:27 UTC] Content length: 3783
+[30-May-2025 18:11:27 UTC] Generated slug: struggling-to-find-store-staff-our-nepali-workers-are-ready-to-work
+[30-May-2025 18:11:27 UTC] Featured image upload error code: 4
+[30-May-2025 18:11:27 UTC] Attempting to insert blog post
+[30-May-2025 18:11:27 UTC] Error creating blog post: SQLSTATE[22007]: Invalid datetime format: 1366 Incorrect string value: '\xF0\x9F\x93\x9E <...' for column `bhemploy_admin`.`blog_posts`.`content` at row 1
+[30-May-2025 18:13:42 UTC] Form submitted with title: Struggling to Find Store Staff? Our Nepali Workers Are Ready to Work
+[30-May-2025 18:13:42 UTC] Content length: 3783
+[30-May-2025 18:13:42 UTC] Generated slug: struggling-to-find-store-staff-our-nepali-workers-are-ready-to-work
+[30-May-2025 18:13:42 UTC] Featured image upload error code: 4
+[30-May-2025 18:13:42 UTC] Attempting to insert blog post
+[30-May-2025 18:13:42 UTC] Error creating blog post: SQLSTATE[22007]: Invalid datetime format: 1366 Incorrect string value: '\xF0\x9F\x93\x9E <...' for column `bhemploy_admin`.`blog_posts`.`content` at row 1
+[31-May-2025 02:23:58 UTC] Form submitted with title: test
+[31-May-2025 02:23:58 UTC] Content length: 11
+[31-May-2025 02:23:58 UTC] Generated slug: test
+[31-May-2025 02:23:58 UTC] Processing featured image upload: about.png
+[31-May-2025 02:23:58 UTC] Featured image uploaded successfully: uploads/blog_images/blog_1748658238_2024.png
+[31-May-2025 02:23:58 UTC] Attempting to insert blog post
+[31-May-2025 02:23:58 UTC] Blog post created successfully with ID: 4
+[31-May-2025 02:34:14 UTC] Form submitted with title: Struggling to Find Store Staff? Our Nepali Workers Are Ready to Work
+[31-May-2025 02:34:14 UTC] Content length: 3645
+[31-May-2025 02:34:14 UTC] Generated slug: struggling-to-find-store-staff-our-nepali-workers-are-ready-to-work
+[31-May-2025 02:34:14 UTC] Featured image upload error code: 4
+[31-May-2025 02:34:14 UTC] Attempting to insert blog post
+[31-May-2025 02:34:14 UTC] Error creating blog post: SQLSTATE[22007]: Invalid datetime format: 1366 Incorrect string value: '\xF0\x9F\x93\x9E" ...' for column `bhemploy_admin`.`blog_posts`.`content` at row 1
+[31-May-2025 02:34:33 UTC] Form submitted with title: Struggling to Find Store Staff? Our Nepali Workers Are Ready to Work
+[31-May-2025 02:34:33 UTC] Content length: 3645
+[31-May-2025 02:34:33 UTC] Generated slug: struggling-to-find-store-staff-our-nepali-workers-are-ready-to-work
+[31-May-2025 02:34:33 UTC] Processing featured image upload: about.png
+[31-May-2025 02:34:33 UTC] Featured image uploaded successfully: uploads/blog_images/blog_1748658873_7764.png
+[31-May-2025 02:34:33 UTC] Attempting to insert blog post
+[31-May-2025 02:34:33 UTC] Error creating blog post: SQLSTATE[22007]: Invalid datetime format: 1366 Incorrect string value: '\xF0\x9F\x93\x9E" ...' for column `bhemploy_admin`.`blog_posts`.`content` at row 1
+[31-May-2025 03:42:00 UTC] Form submitted with title: test
+[31-May-2025 03:42:00 UTC] Content length: 3645
+[31-May-2025 03:42:00 UTC] Generated slug: test
+[31-May-2025 03:42:00 UTC] Generated excerpt: Why Choose Nepali Workers for Your Store
+Strong W...
+[31-May-2025 03:42:00 UTC] Processing featured image upload: 494834026_728326163039387_3796447609051517017_n.jpg
+[31-May-2025 03:42:00 UTC] Featured image uploaded successfully: uploads/blog_images/blog_1748662920_1340.jpg
+[31-May-2025 03:42:00 UTC] Attempting to insert blog post
+[31-May-2025 03:42:00 UTC] Error creating blog post: SQLSTATE[22007]: Invalid datetime format: 1366 Incorrect string value: '\xF0\x9F\x93\x9E" ...' for column `bhemploy_admin`.`blog_posts`.`content` at row 1
+[31-May-2025 03:59:25 UTC] Form submitted with title: test
+[31-May-2025 03:59:25 UTC] Content length: 3645
+[31-May-2025 03:59:25 UTC] Generated slug: test
+[31-May-2025 03:59:25 UTC] Processing featured image upload: 494834026_728326163039387_3796447609051517017_n.jpg
+[31-May-2025 03:59:25 UTC] Featured image uploaded successfully: uploads/blog_images/blog_1748663965_9230.jpg
+[31-May-2025 03:59:25 UTC] Attempting to insert blog post
+[31-May-2025 03:59:25 UTC] Error creating blog post: SQLSTATE[22007]: Invalid datetime format: 1366 Incorrect string value: '\xF0\x9F\x93\x9E" ...' for column `bhemploy_admin`.`blog_posts`.`content` at row 1
+[31-May-2025 04:00:54 UTC] Form submitted with title: Struggling to Find Store Staff? Our Nepali Workers Are Ready to Work
+[31-May-2025 04:00:54 UTC] Content length: 3310
+[31-May-2025 04:00:54 UTC] Generated slug: struggling-to-find-store-staff-our-nepali-workers-are-ready-to-work
+[31-May-2025 04:00:54 UTC] Featured image upload error code: 4
+[31-May-2025 04:00:54 UTC] Attempting to insert blog post
+[31-May-2025 04:00:54 UTC] Blog post created successfully with ID: 5
+[31-May-2025 04:01:52 UTC] Form submitted with title: Struggling to Find Store Staff? Our Nepali Workers Are Ready to Work
+[31-May-2025 04:01:52 UTC] Content length: 3310
+[31-May-2025 04:01:52 UTC] Processing featured image upload: 494834026_728326163039387_3796447609051517017_n.jpg
+[31-May-2025 04:01:52 UTC] Featured image uploaded successfully: uploads/blog_images/blog_1748664112_1223.jpg
+[31-May-2025 04:01:52 UTC] Attempting to update blog post
+[31-May-2025 04:01:52 UTC] Blog post updated successfully
+[04-Jun-2025 18:45:25 UTC] Error updating settings: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'site_title' for key 'setting_key'
+[06-Jun-2025 04:16:39 UTC] Error updating settings: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'site_title' for key 'setting_key'
+[06-Jun-2025 09:31:00 UTC] Error updating settings: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'site_title' for key 'setting_key'
+[06-Jun-2025 09:42:15 UTC] Site settings update attempt - User ID: 1
+[06-Jun-2025 09:42:15 UTC] Updated setting: site_title = B&amp;H Employment &amp; Consultancy INC
+[06-Jun-2025 09:42:15 UTC] Updated setting: site_description = Connecting qualified candidates with top employers for jobs in New York, USA, and job opportunities for Nepali people in the USA.
+[06-Jun-2025 09:42:15 UTC] Updated setting: contact_email = bh.jobagency@gmail.com
+[06-Jun-2025 09:42:15 UTC] Updated setting: contact_phone = +347-680-2869
+[06-Jun-2025 09:42:15 UTC] Updated setting: mobile_phone = +929-385-6177
+[06-Jun-2025 09:42:15 UTC] Updated setting: contact_address = 37-51 75th St.1A, Jackson Heights, NY 11372
+[06-Jun-2025 09:42:15 UTC] Updated setting: social_facebook = https://www.facebook.com/people/BH-EmploymentConsultancy-INC/61574994404445/
+[06-Jun-2025 09:42:15 UTC] Updated setting: social_twitter = https://twitter.com/bhemployment
+[06-Jun-2025 09:42:15 UTC] Updated setting: social_linkedin = https://linkedin.com/company/bhemployment
+[06-Jun-2025 09:42:15 UTC] Updated setting: social_instagram = https://www.instagram.com/bh.employment/
+[06-Jun-2025 09:42:15 UTC] Successfully updated 10 settings
+[10-Jun-2025 16:27:56 UTC] Error fetching appointments: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'preferred_date' in 'WHERE'
+[10-Jun-2025 16:27:56 UTC] Error fetching booked slots: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'admin_scheduled_time' in 'SELECT'
+[10-Jun-2025 16:28:05 UTC] Error fetching appointments: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'preferred_date' in 'WHERE'
+[10-Jun-2025 16:28:05 UTC] Error fetching booked slots: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'admin_scheduled_time' in 'SELECT'
+[10-Jun-2025 16:28:10 UTC] Error fetching appointments: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'preferred_date' in 'WHERE'
+[10-Jun-2025 16:28:10 UTC] Error fetching booked slots: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'admin_scheduled_time' in 'SELECT'
+[10-Jun-2025 16:28:15 UTC] Error fetching appointments: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'preferred_date' in 'WHERE'
+[10-Jun-2025 16:28:15 UTC] Error fetching booked slots: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'admin_scheduled_time' in 'SELECT'
+[10-Jun-2025 16:28:18 UTC] Error fetching appointments: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'preferred_date' in 'WHERE'
+[10-Jun-2025 16:28:18 UTC] Error fetching booked slots: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'admin_scheduled_time' in 'SELECT'
+[10-Jun-2025 16:28:36 UTC] Error fetching appointments: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'preferred_date' in 'WHERE'
+[10-Jun-2025 16:28:36 UTC] Error fetching booked slots: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'admin_scheduled_time' in 'SELECT'
+[10-Jun-2025 16:28:38 UTC] Error fetching appointments: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'preferred_date' in 'WHERE'
+[10-Jun-2025 16:28:38 UTC] Error fetching booked slots: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'admin_scheduled_time' in 'SELECT'
+[25-Jun-2025 19:10:04 UTC] ADMIN VERIFICATION DEBUG - User ID: 18, Setting verified to: 1, Raw POST data: {"user_id":"18","is_verified":"0","verification_notes":"","toggle_verification":""}
+[25-Jun-2025 19:10:04 UTC] ADMIN VERIFICATION DEBUG - Database update completed. Rows affected: 1
+[25-Jun-2025 19:10:04 UTC] PHP Warning:  Undefined array key "id" in /home/bhemploy/public_html/admin/manage-users.php on line 50
+[25-Jun-2025 19:10:04 UTC] PHP Warning:  Undefined array key "is_verified" in /home/bhemploy/public_html/admin/manage-users.php on line 52
+[25-Jun-2025 19:10:04 UTC] PHP Warning:  Undefined array key "is_verified" in /home/bhemploy/public_html/admin/manage-users.php on line 53
+[25-Jun-2025 19:10:04 UTC] ADMIN VERIFICATION DEBUG - Updated user data: {"id":null,"email":"jwild48@gmail.com","is_verified":null,"is_verified_type":"NULL"}
+[25-Jun-2025 19:11:05 UTC] ADMIN VERIFICATION DEBUG - User ID: 16, Setting verified to: 1, Raw POST data: {"user_id":"16","is_verified":"0","verification_notes":"","toggle_verification":""}
+[25-Jun-2025 19:11:05 UTC] ADMIN VERIFICATION DEBUG - Database update completed. Rows affected: 1
+[25-Jun-2025 19:11:05 UTC] PHP Warning:  Undefined array key "id" in /home/bhemploy/public_html/admin/manage-users.php on line 50
+[25-Jun-2025 19:11:05 UTC] PHP Warning:  Undefined array key "is_verified" in /home/bhemploy/public_html/admin/manage-users.php on line 52
+[25-Jun-2025 19:11:05 UTC] PHP Warning:  Undefined array key "is_verified" in /home/bhemploy/public_html/admin/manage-users.php on line 53
+[25-Jun-2025 19:11:05 UTC] ADMIN VERIFICATION DEBUG - Updated user data: {"id":null,"email":"m.khan789789065@gmail.com","is_verified":null,"is_verified_type":"NULL"}
+[25-Jun-2025 19:11:21 UTC] ADMIN VERIFICATION DEBUG - User ID: 15, Setting verified to: 1, Raw POST data: {"user_id":"15","is_verified":"0","verification_notes":"","toggle_verification":""}
+[25-Jun-2025 19:11:21 UTC] ADMIN VERIFICATION DEBUG - Database update completed. Rows affected: 1
+[25-Jun-2025 19:11:21 UTC] PHP Warning:  Undefined array key "id" in /home/bhemploy/public_html/admin/manage-users.php on line 50
+[25-Jun-2025 19:11:21 UTC] PHP Warning:  Undefined array key "is_verified" in /home/bhemploy/public_html/admin/manage-users.php on line 52
+[25-Jun-2025 19:11:21 UTC] PHP Warning:  Undefined array key "is_verified" in /home/bhemploy/public_html/admin/manage-users.php on line 53
+[25-Jun-2025 19:11:21 UTC] ADMIN VERIFICATION DEBUG - Updated user data: {"id":null,"email":"parasthapa990@gmail.com","is_verified":null,"is_verified_type":"NULL"}
+[25-Jun-2025 19:11:37 UTC] ADMIN VERIFICATION DEBUG - User ID: 14, Setting verified to: 1, Raw POST data: {"user_id":"14","is_verified":"0","verification_notes":"","toggle_verification":""}
+[25-Jun-2025 19:11:37 UTC] ADMIN VERIFICATION DEBUG - Database update completed. Rows affected: 1
+[25-Jun-2025 19:11:37 UTC] PHP Warning:  Undefined array key "id" in /home/bhemploy/public_html/admin/manage-users.php on line 50
+[25-Jun-2025 19:11:37 UTC] PHP Warning:  Undefined array key "is_verified" in /home/bhemploy/public_html/admin/manage-users.php on line 52
+[25-Jun-2025 19:11:37 UTC] PHP Warning:  Undefined array key "is_verified" in /home/bhemploy/public_html/admin/manage-users.php on line 53
+[25-Jun-2025 19:11:37 UTC] ADMIN VERIFICATION DEBUG - Updated user data: {"id":null,"email":"dechenmfa@gmail.com","is_verified":null,"is_verified_type":"NULL"}
+[25-Jun-2025 19:11:50 UTC] ADMIN VERIFICATION DEBUG - User ID: 13, Setting verified to: 1, Raw POST data: {"user_id":"13","is_verified":"0","verification_notes":"","toggle_verification":""}
+[25-Jun-2025 19:11:50 UTC] ADMIN VERIFICATION DEBUG - Database update completed. Rows affected: 1
+[25-Jun-2025 19:11:50 UTC] PHP Warning:  Undefined array key "id" in /home/bhemploy/public_html/admin/manage-users.php on line 50
+[25-Jun-2025 19:11:50 UTC] PHP Warning:  Undefined array key "is_verified" in /home/bhemploy/public_html/admin/manage-users.php on line 52
+[25-Jun-2025 19:11:50 UTC] PHP Warning:  Undefined array key "is_verified" in /home/bhemploy/public_html/admin/manage-users.php on line 53
+[25-Jun-2025 19:11:50 UTC] ADMIN VERIFICATION DEBUG - Updated user data: {"id":null,"email":"amandeula16@gmail.com","is_verified":null,"is_verified_type":"NULL"}
+[25-Jun-2025 19:12:06 UTC] ADMIN VERIFICATION DEBUG - User ID: 12, Setting verified to: 1, Raw POST data: {"user_id":"12","is_verified":"0","verification_notes":"","toggle_verification":""}
+[25-Jun-2025 19:12:06 UTC] ADMIN VERIFICATION DEBUG - Database update completed. Rows affected: 1
+[25-Jun-2025 19:12:06 UTC] PHP Warning:  Undefined array key "id" in /home/bhemploy/public_html/admin/manage-users.php on line 50
+[25-Jun-2025 19:12:06 UTC] PHP Warning:  Undefined array key "is_verified" in /home/bhemploy/public_html/admin/manage-users.php on line 52
+[25-Jun-2025 19:12:06 UTC] PHP Warning:  Undefined array key "is_verified" in /home/bhemploy/public_html/admin/manage-users.php on line 53
+[25-Jun-2025 19:12:06 UTC] ADMIN VERIFICATION DEBUG - Updated user data: {"id":null,"email":"harijankshitiz@gmail.com","is_verified":null,"is_verified_type":"NULL"}
+[25-Jun-2025 19:12:37 UTC] ADMIN VERIFICATION DEBUG - User ID: 8, Setting verified to: 1, Raw POST data: {"user_id":"8","is_verified":"0","verification_notes":"","toggle_verification":""}
+[25-Jun-2025 19:12:37 UTC] ADMIN VERIFICATION DEBUG - Database update completed. Rows affected: 1
+[25-Jun-2025 19:12:37 UTC] PHP Warning:  Undefined array key "id" in /home/bhemploy/public_html/admin/manage-users.php on line 50
+[25-Jun-2025 19:12:37 UTC] PHP Warning:  Undefined array key "is_verified" in /home/bhemploy/public_html/admin/manage-users.php on line 52
+[25-Jun-2025 19:12:37 UTC] PHP Warning:  Undefined array key "is_verified" in /home/bhemploy/public_html/admin/manage-users.php on line 53
+[25-Jun-2025 19:12:37 UTC] ADMIN VERIFICATION DEBUG - Updated user data: {"id":null,"email":"tdhondup234@gmail.com","is_verified":null,"is_verified_type":"NULL"}
+[25-Jun-2025 19:12:47 UTC] ADMIN VERIFICATION DEBUG - User ID: 11, Setting verified to: 1, Raw POST data: {"user_id":"11","is_verified":"0","verification_notes":"","toggle_verification":""}
+[25-Jun-2025 19:12:47 UTC] ADMIN VERIFICATION DEBUG - Database update completed. Rows affected: 1
+[25-Jun-2025 19:12:47 UTC] PHP Warning:  Undefined array key "id" in /home/bhemploy/public_html/admin/manage-users.php on line 50
+[25-Jun-2025 19:12:47 UTC] PHP Warning:  Undefined array key "is_verified" in /home/bhemploy/public_html/admin/manage-users.php on line 52
+[25-Jun-2025 19:12:47 UTC] PHP Warning:  Undefined array key "is_verified" in /home/bhemploy/public_html/admin/manage-users.php on line 53
+[25-Jun-2025 19:12:47 UTC] ADMIN VERIFICATION DEBUG - Updated user data: {"id":null,"email":"Jambayzangmo74@gmail.com","is_verified":null,"is_verified_type":"NULL"}
+[25-Jun-2025 19:12:56 UTC] ADMIN VERIFICATION DEBUG - User ID: 17, Setting verified to: 1, Raw POST data: {"user_id":"17","is_verified":"0","verification_notes":"","toggle_verification":""}
+[25-Jun-2025 19:12:56 UTC] ADMIN VERIFICATION DEBUG - Database update completed. Rows affected: 1
+[25-Jun-2025 19:12:56 UTC] PHP Warning:  Undefined array key "id" in /home/bhemploy/public_html/admin/manage-users.php on line 50
+[25-Jun-2025 19:12:56 UTC] PHP Warning:  Undefined array key "is_verified" in /home/bhemploy/public_html/admin/manage-users.php on line 52
+[25-Jun-2025 19:12:56 UTC] PHP Warning:  Undefined array key "is_verified" in /home/bhemploy/public_html/admin/manage-users.php on line 53
+[25-Jun-2025 19:12:56 UTC] ADMIN VERIFICATION DEBUG - Updated user data: {"id":null,"email":"anlansor@bientotmail.com","is_verified":null,"is_verified_type":"NULL"}
+[25-Jun-2025 19:13:40 UTC] ADMIN VERIFICATION DEBUG - User ID: 9, Setting verified to: 1, Raw POST data: {"user_id":"9","is_verified":"0","verification_notes":"","toggle_verification":""}
+[25-Jun-2025 19:13:40 UTC] ADMIN VERIFICATION DEBUG - Database update completed. Rows affected: 1
+[25-Jun-2025 19:13:40 UTC] PHP Warning:  Undefined array key "id" in /home/bhemploy/public_html/admin/manage-users.php on line 50
+[25-Jun-2025 19:13:40 UTC] PHP Warning:  Undefined array key "is_verified" in /home/bhemploy/public_html/admin/manage-users.php on line 52
+[25-Jun-2025 19:13:40 UTC] PHP Warning:  Undefined array key "is_verified" in /home/bhemploy/public_html/admin/manage-users.php on line 53
+[25-Jun-2025 19:13:40 UTC] ADMIN VERIFICATION DEBUG - Updated user data: {"id":null,"email":"prada.pablo@yahoo.com","is_verified":null,"is_verified_type":"NULL"}
+[25-Jun-2025 19:14:53 UTC] ADMIN VERIFICATION DEBUG - User ID: 10, Setting verified to: 1, Raw POST data: {"user_id":"10","is_verified":"0","verification_notes":"","toggle_verification":""}
+[25-Jun-2025 19:14:53 UTC] ADMIN VERIFICATION DEBUG - Database update completed. Rows affected: 1
+[25-Jun-2025 19:14:53 UTC] PHP Warning:  Undefined array key "id" in /home/bhemploy/public_html/admin/manage-users.php on line 50
+[25-Jun-2025 19:14:53 UTC] PHP Warning:  Undefined array key "is_verified" in /home/bhemploy/public_html/admin/manage-users.php on line 52
+[25-Jun-2025 19:14:53 UTC] PHP Warning:  Undefined array key "is_verified" in /home/bhemploy/public_html/admin/manage-users.php on line 53
+[25-Jun-2025 19:14:53 UTC] ADMIN VERIFICATION DEBUG - Updated user data: {"id":null,"email":"sherpakarma999@gmail.com","is_verified":null,"is_verified_type":"NULL"}
+[25-Jun-2025 19:24:13 UTC] Error fetching appointments: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'preferred_date' in 'WHERE'
+[25-Jun-2025 19:24:13 UTC] Error fetching booked slots: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'admin_scheduled_time' in 'SELECT'
+[26-Jun-2025 20:02:12 UTC] Error fetching appointments: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'preferred_date' in 'WHERE'
+[26-Jun-2025 20:02:12 UTC] Error fetching booked slots: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'admin_scheduled_time' in 'SELECT'
+[26-Jun-2025 21:01:24 UTC] Error fetching appointments: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'preferred_date' in 'WHERE'
+[26-Jun-2025 21:01:24 UTC] Error fetching booked slots: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'admin_scheduled_time' in 'SELECT'
+[02-Jul-2025 18:35:20 UTC] ADMIN VERIFICATION DEBUG - User ID: 22, Setting verified to: 1, Raw POST data: {"user_id":"22","is_verified":"0","verification_notes":"","toggle_verification":""}
+[02-Jul-2025 18:35:20 UTC] ADMIN VERIFICATION DEBUG - Database update completed. Rows affected: 1
+[02-Jul-2025 18:35:20 UTC] PHP Warning:  Undefined array key "id" in /home/bhemploy/public_html/admin/manage-users.php on line 50
+[02-Jul-2025 18:35:20 UTC] PHP Warning:  Undefined array key "is_verified" in /home/bhemploy/public_html/admin/manage-users.php on line 52
+[02-Jul-2025 18:35:20 UTC] PHP Warning:  Undefined array key "is_verified" in /home/bhemploy/public_html/admin/manage-users.php on line 53
+[02-Jul-2025 18:35:20 UTC] ADMIN VERIFICATION DEBUG - Updated user data: {"id":null,"email":"aliziamungal@gmail.com","is_verified":null,"is_verified_type":"NULL"}
+[02-Jul-2025 18:35:27 UTC] ADMIN VERIFICATION DEBUG - User ID: 21, Setting verified to: 1, Raw POST data: {"user_id":"21","is_verified":"0","verification_notes":"","toggle_verification":""}
+[02-Jul-2025 18:35:27 UTC] ADMIN VERIFICATION DEBUG - Database update completed. Rows affected: 1
+[02-Jul-2025 18:35:27 UTC] PHP Warning:  Undefined array key "id" in /home/bhemploy/public_html/admin/manage-users.php on line 50
+[02-Jul-2025 18:35:27 UTC] PHP Warning:  Undefined array key "is_verified" in /home/bhemploy/public_html/admin/manage-users.php on line 52
+[02-Jul-2025 18:35:27 UTC] PHP Warning:  Undefined array key "is_verified" in /home/bhemploy/public_html/admin/manage-users.php on line 53
+[02-Jul-2025 18:35:27 UTC] ADMIN VERIFICATION DEBUG - Updated user data: {"id":null,"email":"hisgtxif@bonjourfmail.com","is_verified":null,"is_verified_type":"NULL"}
+[02-Jul-2025 18:35:35 UTC] ADMIN VERIFICATION DEBUG - User ID: 20, Setting verified to: 1, Raw POST data: {"user_id":"20","is_verified":"0","verification_notes":"","toggle_verification":""}
+[02-Jul-2025 18:35:35 UTC] ADMIN VERIFICATION DEBUG - Database update completed. Rows affected: 1
+[02-Jul-2025 18:35:35 UTC] PHP Warning:  Undefined array key "id" in /home/bhemploy/public_html/admin/manage-users.php on line 50
+[02-Jul-2025 18:35:35 UTC] PHP Warning:  Undefined array key "is_verified" in /home/bhemploy/public_html/admin/manage-users.php on line 52
+[02-Jul-2025 18:35:35 UTC] PHP Warning:  Undefined array key "is_verified" in /home/bhemploy/public_html/admin/manage-users.php on line 53
+[02-Jul-2025 18:35:35 UTC] ADMIN VERIFICATION DEBUG - Updated user data: {"id":null,"email":"nquelrts@bonjourfmail.com","is_verified":null,"is_verified_type":"NULL"}
+[02-Jul-2025 18:35:41 UTC] ADMIN VERIFICATION DEBUG - User ID: 19, Setting verified to: 1, Raw POST data: {"user_id":"19","is_verified":"0","verification_notes":"","toggle_verification":""}
+[02-Jul-2025 18:35:41 UTC] ADMIN VERIFICATION DEBUG - Database update completed. Rows affected: 1
+[02-Jul-2025 18:35:41 UTC] PHP Warning:  Undefined array key "id" in /home/bhemploy/public_html/admin/manage-users.php on line 50
+[02-Jul-2025 18:35:41 UTC] PHP Warning:  Undefined array key "is_verified" in /home/bhemploy/public_html/admin/manage-users.php on line 52
+[02-Jul-2025 18:35:41 UTC] PHP Warning:  Undefined array key "is_verified" in /home/bhemploy/public_html/admin/manage-users.php on line 53
+[02-Jul-2025 18:35:41 UTC] ADMIN VERIFICATION DEBUG - Updated user data: {"id":null,"email":"rappu182@gmail.com","is_verified":null,"is_verified_type":"NULL"}
+[02-Jul-2025 19:35:19 UTC] Form submitted with title: Your Secret Weapon for the NYC Job Hunt: The 2025 Guide to Employment Agencies
+[02-Jul-2025 19:35:19 UTC] Content length: 4124
+[02-Jul-2025 19:35:19 UTC] Generated slug: your-secret-weapon-for-the-nyc-job-hunt-the-2025-guide-to-employment-agencies
+[02-Jul-2025 19:35:19 UTC] Featured image upload error code: 4
+[02-Jul-2025 19:35:19 UTC] Attempting to insert blog post
+[02-Jul-2025 19:35:19 UTC] Blog post created successfully with ID: 6
+[02-Jul-2025 19:41:32 UTC] Form submitted with title: The Ultimate Guide to Choosing an Employment Agency in NYC | B&amp;H Employment &amp; Consultancy
+[02-Jul-2025 19:41:32 UTC] Content length: 3844
+[02-Jul-2025 19:41:32 UTC] Generated slug: the-ultimate-guide-to-choosing-an-employment-agency-in-nyc-b-amp-h-employment-amp-consultancy
+[02-Jul-2025 19:41:32 UTC] Processing featured image upload: The Ultimate Guide to Choosing an Employment Agency in NYC  B&H Employment & Consultancy.jpg
+[02-Jul-2025 19:41:32 UTC] Featured image uploaded successfully: uploads/blog_images/blog_1751485292_9909.jpg
+[02-Jul-2025 19:41:32 UTC] Attempting to insert blog post
+[02-Jul-2025 19:41:32 UTC] Blog post created successfully with ID: 7
+[02-Jul-2025 19:43:01 UTC] Form submitted with title: Your Secret Weapon for the NYC Job Hunt: The 2025 Guide to Employment Agencies
+[02-Jul-2025 19:43:01 UTC] Content length: 4124
+[02-Jul-2025 19:43:01 UTC] Processing featured image upload: Your Secret Weapon for the NYC Job Hunt The 2025 Guide to Employment Agencies.jpg.jpg
+[02-Jul-2025 19:43:01 UTC] Featured image uploaded successfully: uploads/blog_images/blog_1751485381_8741.jpg
+[02-Jul-2025 19:43:01 UTC] Attempting to update blog post
+[02-Jul-2025 19:43:01 UTC] Blog post updated successfully
+[02-Jul-2025 19:45:17 UTC] Form submitted with title: The Ultimate Guide to Choosing an Employment Agency in NYC | B&amp;H Employment&amp;Consultancy INC
+[02-Jul-2025 19:45:17 UTC] Content length: 3871
+[02-Jul-2025 19:45:17 UTC] Generated new slug: the-ultimate-guide-to-choosing-an-employment-agency-in-nyc-b-amp-h-employment-amp-consultancy-inc
+[02-Jul-2025 19:45:17 UTC] Featured image upload error code: 4
+[02-Jul-2025 19:45:17 UTC] Attempting to update blog post
+[02-Jul-2025 19:45:17 UTC] Blog post updated successfully
+[02-Jul-2025 19:46:44 UTC] Form submitted with title: Your Secret Weapon for the NYC Job Hunt: The 2025 Guide to Employment Agencies
+[02-Jul-2025 19:46:44 UTC] Content length: 4056
+[02-Jul-2025 19:46:44 UTC] Featured image upload error code: 4
+[02-Jul-2025 19:46:44 UTC] Attempting to update blog post
+[02-Jul-2025 19:46:44 UTC] Blog post updated successfully
+[03-Jul-2025 20:07:00 UTC] Error fetching appointments: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'preferred_date' in 'WHERE'
+[03-Jul-2025 20:07:00 UTC] Error fetching booked slots: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'admin_scheduled_time' in 'SELECT'
+[03-Jul-2025 20:13:16 UTC] Form submitted with title: NYC Employment Agency
+[03-Jul-2025 20:13:16 UTC] Content length: 3871
+[03-Jul-2025 20:13:16 UTC] Generated new slug: nyc-employment-agency
+[03-Jul-2025 20:13:16 UTC] Featured image upload error code: 4
+[03-Jul-2025 20:13:16 UTC] Attempting to update blog post
+[03-Jul-2025 20:13:16 UTC] Blog post updated successfully
+[03-Jul-2025 20:20:03 UTC] Form submitted with title: NYC Job Hunt Guide (2025): Using an Employment Agency to Find Hidden Jobs
+[03-Jul-2025 20:20:03 UTC] Content length: 4056
+[03-Jul-2025 20:20:03 UTC] Generated new slug: nyc-job-hunt-guide-2025-using-an-employment-agency-to-find-hidden-jobs
+[03-Jul-2025 20:20:03 UTC] Featured image upload error code: 4
+[03-Jul-2025 20:20:03 UTC] Attempting to update blog post
+[03-Jul-2025 20:20:03 UTC] Blog post updated successfully
+[03-Jul-2025 20:24:59 UTC] Form submitted with title: 5 Reasons Your Resume Isn&#039;t Getting Interviews | B&amp;H Employment
+[03-Jul-2025 20:24:59 UTC] Content length: 5776
+[03-Jul-2025 20:24:59 UTC] Generated slug: 5-reasons-your-resume-isn-039-t-getting-interviews-b-amp-h-employment
+[03-Jul-2025 20:24:59 UTC] Featured image upload error code: 4
+[03-Jul-2025 20:24:59 UTC] Attempting to insert blog post
+[03-Jul-2025 20:24:59 UTC] Blog post created successfully with ID: 8
+[03-Jul-2025 20:27:46 UTC] Form submitted with title: How to Find a Trustworthy Nanny in NYC | B&amp;H Employment
+[03-Jul-2025 20:27:46 UTC] Content length: 4453
+[03-Jul-2025 20:27:46 UTC] Generated slug: how-to-find-a-trustworthy-nanny-in-nyc-b-amp-h-employment
+[03-Jul-2025 20:27:46 UTC] Featured image upload error code: 4
+[03-Jul-2025 20:27:46 UTC] Attempting to insert blog post
+[03-Jul-2025 20:27:46 UTC] Blog post created successfully with ID: 9
+[03-Jul-2025 20:28:05 UTC] Form submitted with title: How to Find a Trustworthy Nanny in NYC | B&amp;H Employment
+[03-Jul-2025 20:28:05 UTC] Content length: 4453
+[03-Jul-2025 20:28:05 UTC] Featured image upload error code: 4
+[03-Jul-2025 20:28:05 UTC] Attempting to update blog post
+[03-Jul-2025 20:28:05 UTC] Blog post updated successfully
+[03-Jul-2025 20:30:04 UTC] Form submitted with title: 5 Reasons Your Resume Isn&#039;t Getting Interviews | B&amp;H Employment
+[03-Jul-2025 20:30:04 UTC] Content length: 5776
+[03-Jul-2025 20:30:04 UTC] Featured image upload error code: 4
+[03-Jul-2025 20:30:04 UTC] Attempting to update blog post
+[03-Jul-2025 20:30:04 UTC] Blog post updated successfully
+[03-Jul-2025 20:31:31 UTC] Form submitted with title: Hiring a Housekeeper in NYC: A Guide to Finding Reliable Help
+[03-Jul-2025 20:31:31 UTC] Content length: 4860
+[03-Jul-2025 20:31:31 UTC] Generated slug: hiring-a-housekeeper-in-nyc-a-guide-to-finding-reliable-help
+[03-Jul-2025 20:31:31 UTC] Featured image upload error code: 4
+[03-Jul-2025 20:31:31 UTC] Attempting to insert blog post
+[03-Jul-2025 20:31:31 UTC] Blog post created successfully with ID: 10
+[03-Jul-2025 20:34:50 UTC] Form submitted with title: Reliable Staff for Your Store or Restaurant | B&amp;H Employment
+[03-Jul-2025 20:34:50 UTC] Content length: 3782
+[03-Jul-2025 20:34:50 UTC] Generated slug: reliable-staff-for-your-store-or-restaurant-b-amp-h-employment
+[03-Jul-2025 20:34:50 UTC] Featured image upload error code: 4
+[03-Jul-2025 20:34:50 UTC] Attempting to insert blog post
+[03-Jul-2025 20:34:50 UTC] Blog post created successfully with ID: 11
+[03-Jul-2025 20:35:01 UTC] Form submitted with title: Reliable Staff for Your Store or Restaurant | B&amp;H Employment
+[03-Jul-2025 20:35:01 UTC] Content length: 3782
+[03-Jul-2025 20:35:01 UTC] Featured image upload error code: 4
+[03-Jul-2025 20:35:01 UTC] Attempting to update blog post
+[03-Jul-2025 20:35:01 UTC] Blog post updated successfully
+[03-Jul-2025 20:35:24 UTC] Form submitted with title: How to Find a Trustworthy Nanny in NYC | B&amp;H Employment
+[03-Jul-2025 20:35:24 UTC] Content length: 4453
+[03-Jul-2025 20:35:24 UTC] Featured image upload error code: 4
+[03-Jul-2025 20:35:24 UTC] Attempting to update blog post
+[03-Jul-2025 20:35:24 UTC] Blog post updated successfully
+[03-Jul-2025 20:35:38 UTC] Form submitted with title: 5 Reasons Your Resume Isnt Getting Interviews | B&amp;amp;H Employment
+[03-Jul-2025 20:35:38 UTC] Content length: 5776
+[03-Jul-2025 20:35:38 UTC] Generated new slug: 5-reasons-your-resume-isnt-getting-interviews-b-amp-amp-h-employment
+[03-Jul-2025 20:35:38 UTC] Featured image upload error code: 4
+[03-Jul-2025 20:35:38 UTC] Attempting to update blog post
+[03-Jul-2025 20:35:38 UTC] Blog post updated successfully
+[03-Jul-2025 20:35:52 UTC] Form submitted with title: 5 Reasons Your Resume Isnt Getting Interviews | BH Employment
+[03-Jul-2025 20:35:52 UTC] Content length: 5776
+[03-Jul-2025 20:35:52 UTC] Generated new slug: 5-reasons-your-resume-isnt-getting-interviews-bh-employment
+[03-Jul-2025 20:35:52 UTC] Featured image upload error code: 4
+[03-Jul-2025 20:35:52 UTC] Attempting to update blog post
+[03-Jul-2025 20:35:52 UTC] Blog post updated successfully
+[03-Jul-2025 20:36:02 UTC] Form submitted with title: Reliable Staff for Your Store or Restaurant | BH Employment
+[03-Jul-2025 20:36:02 UTC] Content length: 3782
+[03-Jul-2025 20:36:02 UTC] Generated new slug: reliable-staff-for-your-store-or-restaurant-bh-employment
+[03-Jul-2025 20:36:02 UTC] Featured image upload error code: 4
+[03-Jul-2025 20:36:02 UTC] Attempting to update blog post
+[03-Jul-2025 20:36:02 UTC] Blog post updated successfully
+[03-Jul-2025 20:38:58 UTC] Form submitted with title: Find Authentic Indian Chefs in NYC | Tandoori &amp; Curry Experts
+[03-Jul-2025 20:38:58 UTC] Content length: 5548
+[03-Jul-2025 20:38:58 UTC] Generated slug: find-authentic-indian-chefs-in-nyc-tandoori-amp-curry-experts
+[03-Jul-2025 20:38:58 UTC] Featured image upload error code: 4
+[03-Jul-2025 20:38:58 UTC] Attempting to insert blog post
+[03-Jul-2025 20:38:58 UTC] Blog post created successfully with ID: 12
+[03-Jul-2025 20:39:14 UTC] Form submitted with title: Find Authentic Indian Chefs in NYC | Tandoori and Curry Experts
+[03-Jul-2025 20:39:14 UTC] Content length: 5548
+[03-Jul-2025 20:39:14 UTC] Generated new slug: find-authentic-indian-chefs-in-nyc-tandoori-and-curry-experts
+[03-Jul-2025 20:39:14 UTC] Featured image upload error code: 4
+[03-Jul-2025 20:39:14 UTC] Attempting to update blog post
+[03-Jul-2025 20:39:14 UTC] Blog post updated successfully
+[03-Jul-2025 20:41:46 UTC] Form submitted with title: Hire Reliable Nepali Staff for Your 7-Eleven | BH Employment
+[03-Jul-2025 20:41:46 UTC] Content length: 4333
+[03-Jul-2025 20:41:46 UTC] Generated slug: hire-reliable-nepali-staff-for-your-7-eleven-bh-employment
+[03-Jul-2025 20:41:46 UTC] Featured image upload error code: 4
+[03-Jul-2025 20:41:46 UTC] Attempting to insert blog post
+[03-Jul-2025 20:41:46 UTC] Blog post created successfully with ID: 13
+[03-Jul-2025 20:41:46 UTC] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string - int in /home/bhemploy/public_html/admin/manage-blogs.php:206
+Stack trace:
+#0 {main}
+  thrown in /home/bhemploy/public_html/admin/manage-blogs.php on line 206
+[03-Jul-2025 20:44:43 UTC] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string - int in /home/bhemploy/public_html/admin/manage-blogs.php:206
+Stack trace:
+#0 {main}
+  thrown in /home/bhemploy/public_html/admin/manage-blogs.php on line 206
+[09-Jul-2025 16:22:16 UTC] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string - int in /home/bhemploy/public_html/admin/manage-blogs.php:206
+Stack trace:
+#0 {main}
+  thrown in /home/bhemploy/public_html/admin/manage-blogs.php on line 206
+[09-Jul-2025 16:31:47 UTC] Form submitted with title: How to Choose the Best Employment Agency in New York | B&amp;H
+[09-Jul-2025 16:31:47 UTC] Content length: 4978
+[09-Jul-2025 16:31:47 UTC] Generated slug: how-to-choose-the-best-employment-agency-in-new-york-b-amp-h
+[09-Jul-2025 16:31:47 UTC] Featured image upload error code: 4
+[09-Jul-2025 16:31:47 UTC] Attempting to insert blog post
+[09-Jul-2025 16:31:47 UTC] Blog post created successfully with ID: 14
+[09-Jul-2025 16:31:47 UTC] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string - int in /home/bhemploy/public_html/admin/manage-blogs.php:206
+Stack trace:
+#0 {main}
+  thrown in /home/bhemploy/public_html/admin/manage-blogs.php on line 206
+[09-Jul-2025 17:55:15 UTC] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string - int in /home/bhemploy/public_html/admin/manage-blogs.php:206
+Stack trace:
+#0 {main}
+  thrown in /home/bhemploy/public_html/admin/manage-blogs.php on line 206
+[09-Jul-2025 17:55:22 UTC] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string - int in /home/bhemploy/public_html/admin/manage-blogs.php:206
+Stack trace:
+#0 {main}
+  thrown in /home/bhemploy/public_html/admin/manage-blogs.php on line 206
+[09-Jul-2025 17:55:26 UTC] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string - int in /home/bhemploy/public_html/admin/manage-blogs.php:206
+Stack trace:
+#0 {main}
+  thrown in /home/bhemploy/public_html/admin/manage-blogs.php on line 206
+[09-Jul-2025 17:55:29 UTC] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string - int in /home/bhemploy/public_html/admin/manage-blogs.php:206
+Stack trace:
+#0 {main}
+  thrown in /home/bhemploy/public_html/admin/manage-blogs.php on line 206
+[09-Jul-2025 17:57:34 UTC] Form submitted with title: Employment Agency in Jackson Heights for All Job Needs
+[09-Jul-2025 17:57:34 UTC] Content length: 3491
+[09-Jul-2025 17:57:34 UTC] Generated slug: employment-agency-in-jackson-heights-for-all-job-needs
+[09-Jul-2025 17:57:34 UTC] Featured image upload error code: 4
+[09-Jul-2025 17:57:34 UTC] Attempting to insert blog post
+[09-Jul-2025 17:57:34 UTC] Blog post created successfully with ID: 15
+[09-Jul-2025 17:57:34 UTC] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string - int in /home/bhemploy/public_html/admin/manage-blogs.php:206
+Stack trace:
+#0 {main}
+  thrown in /home/bhemploy/public_html/admin/manage-blogs.php on line 206
+[09-Jul-2025 17:57:38 UTC] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string - int in /home/bhemploy/public_html/admin/manage-blogs.php:206
+Stack trace:
+#0 {main}
+  thrown in /home/bhemploy/public_html/admin/manage-blogs.php on line 206
+[09-Jul-2025 18:05:33 UTC] Error fetching appointments: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'preferred_date' in 'WHERE'
+[09-Jul-2025 18:05:33 UTC] Error fetching booked slots: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'admin_scheduled_time' in 'SELECT'
+[09-Jul-2025 18:06:56 UTC] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string - int in /home/bhemploy/public_html/admin/manage-blogs.php:206
+Stack trace:
+#0 {main}
+  thrown in /home/bhemploy/public_html/admin/manage-blogs.php on line 206
+[09-Jul-2025 18:08:36 UTC] Form submitted with title: Why Online Reviews Matter for Choosing an Employment Agency
+[09-Jul-2025 18:08:36 UTC] Content length: 4137
+[09-Jul-2025 18:08:36 UTC] Generated slug: why-online-reviews-matter-for-choosing-an-employment-agency
+[09-Jul-2025 18:08:36 UTC] Featured image upload error code: 4
+[09-Jul-2025 18:08:36 UTC] Attempting to insert blog post
+[09-Jul-2025 18:08:36 UTC] Blog post created successfully with ID: 16
+[09-Jul-2025 18:08:37 UTC] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string - int in /home/bhemploy/public_html/admin/manage-blogs.php:206
+Stack trace:
+#0 {main}
+  thrown in /home/bhemploy/public_html/admin/manage-blogs.php on line 206
+[09-Jul-2025 18:08:40 UTC] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string - int in /home/bhemploy/public_html/admin/manage-blogs.php:206
+Stack trace:
+#0 {main}
+  thrown in /home/bhemploy/public_html/admin/manage-blogs.php on line 206
+[24-Jul-2025 17:24:58 UTC] Site settings update attempt - User ID: 1
+[24-Jul-2025 17:24:58 UTC] Updated setting: site_title = B&amp;H Employment &amp; Consultancy INC
+[24-Jul-2025 17:24:58 UTC] Updated setting: site_description = Connecting qualified candidates with top employers for jobs in New York, USA, and job opportunities for Nepali people in the USA.
+[24-Jul-2025 17:24:58 UTC] Updated setting: contact_email = bh.jobagency@gmail.com
+[24-Jul-2025 17:24:58 UTC] Updated setting: contact_phone = +347-680-2869
+[24-Jul-2025 17:24:58 UTC] Updated setting: mobile_phone = +929-385-6177
+[24-Jul-2025 17:24:58 UTC] Updated setting: contact_address = 37-51 75th St.1A, Jackson Heights, NY 11372
+[24-Jul-2025 17:24:58 UTC] Updated setting: social_facebook = https://www.facebook.com/people/BH-EmploymentConsultancy-INC/61574994404445/
+[24-Jul-2025 17:24:58 UTC] Updated setting: social_twitter = https://twitter.com/bhemployment
+[24-Jul-2025 17:24:58 UTC] Updated setting: social_linkedin = https://linkedin.com/company/bhemployment
+[24-Jul-2025 17:24:58 UTC] Updated setting: social_instagram = https://www.instagram.com/bh.employment/
+[24-Jul-2025 17:24:58 UTC] Successfully updated 10 settings
+[29-Aug-2025 19:42:01 UTC] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string - int in /home/bhemploy/public_html/admin/manage-blogs.php:206
+Stack trace:
+#0 {main}
+  thrown in /home/bhemploy/public_html/admin/manage-blogs.php on line 206
+[29-Aug-2025 19:45:07 UTC] Form submitted with title: Why Hire Nepali, Tibetan &amp; Bhutanese Workers from B&amp;H Employment in New York &amp; Across the USA
+[29-Aug-2025 19:45:07 UTC] Content length: 4506
+[29-Aug-2025 19:45:07 UTC] Generated slug: why-hire-nepali-tibetan-amp-bhutanese-workers-from-b-amp-h-employment-in-new-york-amp-across-the-usa
+[29-Aug-2025 19:45:07 UTC] Processing featured image upload: housekeeping.jpg
+[29-Aug-2025 19:45:07 UTC] Featured image uploaded successfully: uploads/blog_images/blog_1756496707_1733.jpg
+[29-Aug-2025 19:45:07 UTC] Attempting to insert blog post
+[29-Aug-2025 19:45:07 UTC] Error creating blog post: SQLSTATE[22007]: Invalid datetime format: 1366 Incorrect string value: '\xF0\x9F\x91\x89 <...' for column `bhemploy_admin`.`blog_posts`.`content` at row 1
+[29-Aug-2025 19:45:17 UTC] Form submitted with title: Why Hire Nepali, Tibetan &amp; Bhutanese Workers from B&amp;H Employment in New York &amp; Across the USA
+[29-Aug-2025 19:45:17 UTC] Content length: 4501
+[29-Aug-2025 19:45:17 UTC] Generated slug: why-hire-nepali-tibetan-amp-bhutanese-workers-from-b-amp-h-employment-in-new-york-amp-across-the-usa
+[29-Aug-2025 19:45:17 UTC] Featured image upload error code: 4
+[29-Aug-2025 19:45:17 UTC] Attempting to insert blog post
+[29-Aug-2025 19:45:17 UTC] Blog post created successfully with ID: 17
+[29-Aug-2025 19:45:17 UTC] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string - int in /home/bhemploy/public_html/admin/manage-blogs.php:206
+Stack trace:
+#0 {main}
+  thrown in /home/bhemploy/public_html/admin/manage-blogs.php on line 206
+[29-Aug-2025 19:45:23 UTC] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string - int in /home/bhemploy/public_html/admin/manage-blogs.php:206
+Stack trace:
+#0 {main}
+  thrown in /home/bhemploy/public_html/admin/manage-blogs.php on line 206
+[29-Aug-2025 19:48:17 UTC] Form submitted with title: Why Nepali, Tibetan &amp; Bhutanese Workers Are Ideal for Housekeeping and Nanny Jobs in New York
+[29-Aug-2025 19:48:17 UTC] Content length: 4329
+[29-Aug-2025 19:48:17 UTC] Generated slug: why-nepali-tibetan-amp-bhutanese-workers-are-ideal-for-housekeeping-and-nanny-jobs-in-new-york
+[29-Aug-2025 19:48:17 UTC] Featured image upload error code: 4
+[29-Aug-2025 19:48:17 UTC] Attempting to insert blog post
+[29-Aug-2025 19:48:17 UTC] Blog post created successfully with ID: 18
+[29-Aug-2025 19:48:17 UTC] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string - int in /home/bhemploy/public_html/admin/manage-blogs.php:206
+Stack trace:
+#0 {main}
+  thrown in /home/bhemploy/public_html/admin/manage-blogs.php on line 206
+[29-Aug-2025 19:48:20 UTC] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string - int in /home/bhemploy/public_html/admin/manage-blogs.php:206
+Stack trace:
+#0 {main}
+  thrown in /home/bhemploy/public_html/admin/manage-blogs.php on line 206
+[29-Aug-2025 19:48:42 UTC] ADMIN VERIFICATION DEBUG - User ID: 26, Setting verified to: 1, Raw POST data: {"user_id":"26","is_verified":"0","verification_notes":"","toggle_verification":""}
+[29-Aug-2025 19:48:42 UTC] ADMIN VERIFICATION DEBUG - Database update completed. Rows affected: 1
+[29-Aug-2025 19:48:42 UTC] PHP Warning:  Undefined array key "id" in /home/bhemploy/public_html/admin/manage-users.php on line 50
+[29-Aug-2025 19:48:42 UTC] PHP Warning:  Undefined array key "is_verified" in /home/bhemploy/public_html/admin/manage-users.php on line 52
+[29-Aug-2025 19:48:42 UTC] PHP Warning:  Undefined array key "is_verified" in /home/bhemploy/public_html/admin/manage-users.php on line 53
+[29-Aug-2025 19:48:42 UTC] ADMIN VERIFICATION DEBUG - Updated user data: {"id":null,"email":"mahimaa297@gmail.com","is_verified":null,"is_verified_type":"NULL"}
+[29-Aug-2025 19:48:51 UTC] ADMIN VERIFICATION DEBUG - User ID: 25, Setting verified to: 1, Raw POST data: {"user_id":"25","is_verified":"0","verification_notes":"","toggle_verification":""}
+[29-Aug-2025 19:48:51 UTC] ADMIN VERIFICATION DEBUG - Database update completed. Rows affected: 1
+[29-Aug-2025 19:48:51 UTC] PHP Warning:  Undefined array key "id" in /home/bhemploy/public_html/admin/manage-users.php on line 50
+[29-Aug-2025 19:48:51 UTC] PHP Warning:  Undefined array key "is_verified" in /home/bhemploy/public_html/admin/manage-users.php on line 52
+[29-Aug-2025 19:48:51 UTC] PHP Warning:  Undefined array key "is_verified" in /home/bhemploy/public_html/admin/manage-users.php on line 53
+[29-Aug-2025 19:48:51 UTC] ADMIN VERIFICATION DEBUG - Updated user data: {"id":null,"email":"waqar1_m@hotmail.com","is_verified":null,"is_verified_type":"NULL"}
+[29-Aug-2025 19:49:00 UTC] ADMIN VERIFICATION DEBUG - User ID: 24, Setting verified to: 1, Raw POST data: {"user_id":"24","is_verified":"0","verification_notes":"","toggle_verification":""}
+[29-Aug-2025 19:49:00 UTC] ADMIN VERIFICATION DEBUG - Database update completed. Rows affected: 1
+[29-Aug-2025 19:49:00 UTC] PHP Warning:  Undefined array key "id" in /home/bhemploy/public_html/admin/manage-users.php on line 50
+[29-Aug-2025 19:49:00 UTC] PHP Warning:  Undefined array key "is_verified" in /home/bhemploy/public_html/admin/manage-users.php on line 52
+[29-Aug-2025 19:49:00 UTC] PHP Warning:  Undefined array key "is_verified" in /home/bhemploy/public_html/admin/manage-users.php on line 53
+[29-Aug-2025 19:49:00 UTC] ADMIN VERIFICATION DEBUG - Updated user data: {"id":null,"email":"brandyheathco65@gmail.com","is_verified":null,"is_verified_type":"NULL"}
+[29-Aug-2025 19:49:05 UTC] ADMIN VERIFICATION DEBUG - User ID: 23, Setting verified to: 1, Raw POST data: {"user_id":"23","is_verified":"0","verification_notes":"","toggle_verification":""}
+[29-Aug-2025 19:49:05 UTC] ADMIN VERIFICATION DEBUG - Database update completed. Rows affected: 1
+[29-Aug-2025 19:49:05 UTC] PHP Warning:  Undefined array key "id" in /home/bhemploy/public_html/admin/manage-users.php on line 50
+[29-Aug-2025 19:49:05 UTC] PHP Warning:  Undefined array key "is_verified" in /home/bhemploy/public_html/admin/manage-users.php on line 52
+[29-Aug-2025 19:49:05 UTC] PHP Warning:  Undefined array key "is_verified" in /home/bhemploy/public_html/admin/manage-users.php on line 53
+[29-Aug-2025 19:49:05 UTC] ADMIN VERIFICATION DEBUG - Updated user data: {"id":null,"email":"jossyvlog@gmail.com","is_verified":null,"is_verified_type":"NULL"}
+[29-Sep-2025 16:29:02 UTC] ADMIN VERIFICATION DEBUG - User ID: 36, Setting verified to: 1, Raw POST data: {"user_id":"36","is_verified":"0","verification_notes":"","toggle_verification":""}
+[29-Sep-2025 16:29:02 UTC] ADMIN VERIFICATION DEBUG - Database update completed. Rows affected: 1
+[29-Sep-2025 16:29:02 UTC] PHP Warning:  Undefined array key "id" in /home/bhemploy/public_html/admin/manage-users.php on line 50
+[29-Sep-2025 16:29:02 UTC] PHP Warning:  Undefined array key "is_verified" in /home/bhemploy/public_html/admin/manage-users.php on line 52
+[29-Sep-2025 16:29:02 UTC] PHP Warning:  Undefined array key "is_verified" in /home/bhemploy/public_html/admin/manage-users.php on line 53
+[29-Sep-2025 16:29:02 UTC] ADMIN VERIFICATION DEBUG - Updated user data: {"id":null,"email":"namrata111rai@gmail.com","is_verified":null,"is_verified_type":"NULL"}
+[29-Sep-2025 16:29:18 UTC] ADMIN VERIFICATION DEBUG - User ID: 35, Setting verified to: 1, Raw POST data: {"user_id":"35","is_verified":"0","verification_notes":"","toggle_verification":""}
+[29-Sep-2025 16:29:18 UTC] ADMIN VERIFICATION DEBUG - Database update completed. Rows affected: 1
+[29-Sep-2025 16:29:18 UTC] PHP Warning:  Undefined array key "id" in /home/bhemploy/public_html/admin/manage-users.php on line 50
+[29-Sep-2025 16:29:18 UTC] PHP Warning:  Undefined array key "is_verified" in /home/bhemploy/public_html/admin/manage-users.php on line 52
+[29-Sep-2025 16:29:18 UTC] PHP Warning:  Undefined array key "is_verified" in /home/bhemploy/public_html/admin/manage-users.php on line 53
+[29-Sep-2025 16:29:18 UTC] ADMIN VERIFICATION DEBUG - Updated user data: {"id":null,"email":"sujan_501@hotmail.com","is_verified":null,"is_verified_type":"NULL"}
+[29-Sep-2025 16:29:31 UTC] ADMIN VERIFICATION DEBUG - User ID: 34, Setting verified to: 1, Raw POST data: {"user_id":"34","is_verified":"0","verification_notes":"","toggle_verification":""}
+[29-Sep-2025 16:29:31 UTC] ADMIN VERIFICATION DEBUG - Database update completed. Rows affected: 1
+[29-Sep-2025 16:29:31 UTC] PHP Warning:  Undefined array key "id" in /home/bhemploy/public_html/admin/manage-users.php on line 50
+[29-Sep-2025 16:29:31 UTC] PHP Warning:  Undefined array key "is_verified" in /home/bhemploy/public_html/admin/manage-users.php on line 52
+[29-Sep-2025 16:29:31 UTC] PHP Warning:  Undefined array key "is_verified" in /home/bhemploy/public_html/admin/manage-users.php on line 53
+[29-Sep-2025 16:29:31 UTC] ADMIN VERIFICATION DEBUG - Updated user data: {"id":null,"email":"yasodabhagwandat@yahoo.com","is_verified":null,"is_verified_type":"NULL"}
+[29-Sep-2025 16:29:54 UTC] ADMIN VERIFICATION DEBUG - User ID: 33, Setting verified to: 1, Raw POST data: {"user_id":"33","is_verified":"0","verification_notes":"","toggle_verification":""}
+[29-Sep-2025 16:29:54 UTC] ADMIN VERIFICATION DEBUG - Database update completed. Rows affected: 1
+[29-Sep-2025 16:29:54 UTC] PHP Warning:  Undefined array key "id" in /home/bhemploy/public_html/admin/manage-users.php on line 50
+[29-Sep-2025 16:29:54 UTC] PHP Warning:  Undefined array key "is_verified" in /home/bhemploy/public_html/admin/manage-users.php on line 52
+[29-Sep-2025 16:29:54 UTC] PHP Warning:  Undefined array key "is_verified" in /home/bhemploy/public_html/admin/manage-users.php on line 53
+[29-Sep-2025 16:29:54 UTC] ADMIN VERIFICATION DEBUG - Updated user data: {"id":null,"email":"dhaliwalindu000@gmail.com","is_verified":null,"is_verified_type":"NULL"}
+[29-Sep-2025 16:30:12 UTC] ADMIN VERIFICATION DEBUG - User ID: 32, Setting verified to: 1, Raw POST data: {"user_id":"32","is_verified":"0","verification_notes":"","toggle_verification":""}
+[29-Sep-2025 16:30:12 UTC] ADMIN VERIFICATION DEBUG - Database update completed. Rows affected: 1
+[29-Sep-2025 16:30:12 UTC] PHP Warning:  Undefined array key "id" in /home/bhemploy/public_html/admin/manage-users.php on line 50
+[29-Sep-2025 16:30:12 UTC] PHP Warning:  Undefined array key "is_verified" in /home/bhemploy/public_html/admin/manage-users.php on line 52
+[29-Sep-2025 16:30:12 UTC] PHP Warning:  Undefined array key "is_verified" in /home/bhemploy/public_html/admin/manage-users.php on line 53
+[29-Sep-2025 16:30:12 UTC] ADMIN VERIFICATION DEBUG - Updated user data: {"id":null,"email":"mr.bikramgurung@gmail.com","is_verified":null,"is_verified_type":"NULL"}
+[29-Sep-2025 16:30:45 UTC] ADMIN VERIFICATION DEBUG - User ID: 28, Setting verified to: 1, Raw POST data: {"user_id":"28","is_verified":"0","verification_notes":"","toggle_verification":""}
+[29-Sep-2025 16:30:45 UTC] ADMIN VERIFICATION DEBUG - Database update completed. Rows affected: 1
+[29-Sep-2025 16:30:45 UTC] PHP Warning:  Undefined array key "id" in /home/bhemploy/public_html/admin/manage-users.php on line 50
+[29-Sep-2025 16:30:45 UTC] PHP Warning:  Undefined array key "is_verified" in /home/bhemploy/public_html/admin/manage-users.php on line 52
+[29-Sep-2025 16:30:45 UTC] PHP Warning:  Undefined array key "is_verified" in /home/bhemploy/public_html/admin/manage-users.php on line 53
+[29-Sep-2025 16:30:45 UTC] ADMIN VERIFICATION DEBUG - Updated user data: {"id":null,"email":"u.genevieve.k@gmail.com","is_verified":null,"is_verified_type":"NULL"}
+[29-Sep-2025 16:31:23 UTC] ADMIN VERIFICATION DEBUG - User ID: 27, Setting verified to: 1, Raw POST data: {"user_id":"27","is_verified":"0","verification_notes":"","toggle_verification":""}
+[29-Sep-2025 16:31:23 UTC] ADMIN VERIFICATION DEBUG - Database update completed. Rows affected: 1
+[29-Sep-2025 16:31:23 UTC] PHP Warning:  Undefined array key "id" in /home/bhemploy/public_html/admin/manage-users.php on line 50
+[29-Sep-2025 16:31:23 UTC] PHP Warning:  Undefined array key "is_verified" in /home/bhemploy/public_html/admin/manage-users.php on line 52
+[29-Sep-2025 16:31:23 UTC] PHP Warning:  Undefined array key "is_verified" in /home/bhemploy/public_html/admin/manage-users.php on line 53
+[29-Sep-2025 16:31:23 UTC] ADMIN VERIFICATION DEBUG - Updated user data: {"id":null,"email":"pradipdhungana09@gmail.com","is_verified":null,"is_verified_type":"NULL"}
+[13-Oct-2025 19:29:46 UTC] Error fetching appointments: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'preferred_date' in 'WHERE'
+[13-Oct-2025 19:29:46 UTC] Error fetching booked slots: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'admin_scheduled_time' in 'SELECT'
+[13-Oct-2025 19:29:55 UTC] Error fetching appointments: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'preferred_date' in 'WHERE'
+[13-Oct-2025 19:29:55 UTC] Error fetching booked slots: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'admin_scheduled_time' in 'SELECT'
+[13-Oct-2025 19:29:58 UTC] Error fetching appointments: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'preferred_date' in 'WHERE'
+[13-Oct-2025 19:29:58 UTC] Error fetching booked slots: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'admin_scheduled_time' in 'SELECT'
+[01-Dec-2025 20:54:26 UTC] ADMIN VERIFICATION DEBUG - User ID: 37, Setting verified to: 1, Raw POST data: {"user_id":"37","is_verified":"0","verification_notes":"","toggle_verification":""}
+[01-Dec-2025 20:54:26 UTC] ADMIN VERIFICATION DEBUG - Database update completed. Rows affected: 1
+[01-Dec-2025 20:54:26 UTC] PHP Warning:  Undefined array key "id" in /home/bhemploy/public_html/admin/manage-users.php on line 50
+[01-Dec-2025 20:54:26 UTC] PHP Warning:  Undefined array key "is_verified" in /home/bhemploy/public_html/admin/manage-users.php on line 52
+[01-Dec-2025 20:54:26 UTC] PHP Warning:  Undefined array key "is_verified" in /home/bhemploy/public_html/admin/manage-users.php on line 53
+[01-Dec-2025 20:54:26 UTC] ADMIN VERIFICATION DEBUG - Updated user data: {"id":null,"email":"ddorjee47@gmail.com","is_verified":null,"is_verified_type":"NULL"}
+[01-Dec-2025 20:54:40 UTC] ADMIN VERIFICATION DEBUG - User ID: 38, Setting verified to: 1, Raw POST data: {"user_id":"38","is_verified":"0","verification_notes":"","toggle_verification":""}
+[01-Dec-2025 20:54:40 UTC] ADMIN VERIFICATION DEBUG - Database update completed. Rows affected: 1
+[01-Dec-2025 20:54:40 UTC] PHP Warning:  Undefined array key "id" in /home/bhemploy/public_html/admin/manage-users.php on line 50
+[01-Dec-2025 20:54:40 UTC] PHP Warning:  Undefined array key "is_verified" in /home/bhemploy/public_html/admin/manage-users.php on line 52
+[01-Dec-2025 20:54:40 UTC] PHP Warning:  Undefined array key "is_verified" in /home/bhemploy/public_html/admin/manage-users.php on line 53
+[01-Dec-2025 20:54:40 UTC] ADMIN VERIFICATION DEBUG - Updated user data: {"id":null,"email":"lezette25@gmail.com","is_verified":null,"is_verified_type":"NULL"}
+[01-Dec-2025 20:54:48 UTC] ADMIN VERIFICATION DEBUG - User ID: 45, Setting verified to: 1, Raw POST data: {"user_id":"45","is_verified":"0","verification_notes":"","toggle_verification":""}
+[01-Dec-2025 20:54:48 UTC] ADMIN VERIFICATION DEBUG - Database update completed. Rows affected: 1
+[01-Dec-2025 20:54:48 UTC] PHP Warning:  Undefined array key "id" in /home/bhemploy/public_html/admin/manage-users.php on line 50
+[01-Dec-2025 20:54:48 UTC] PHP Warning:  Undefined array key "is_verified" in /home/bhemploy/public_html/admin/manage-users.php on line 52
+[01-Dec-2025 20:54:48 UTC] PHP Warning:  Undefined array key "is_verified" in /home/bhemploy/public_html/admin/manage-users.php on line 53
+[01-Dec-2025 20:54:48 UTC] ADMIN VERIFICATION DEBUG - Updated user data: {"id":null,"email":"amyyilmaz97@gmail.com","is_verified":null,"is_verified_type":"NULL"}
+[01-Dec-2025 20:54:52 UTC] ADMIN VERIFICATION DEBUG - User ID: 44, Setting verified to: 1, Raw POST data: {"user_id":"44","is_verified":"0","verification_notes":"","toggle_verification":""}
+[01-Dec-2025 20:54:52 UTC] ADMIN VERIFICATION DEBUG - Database update completed. Rows affected: 1
+[01-Dec-2025 20:54:52 UTC] PHP Warning:  Undefined array key "id" in /home/bhemploy/public_html/admin/manage-users.php on line 50
+[01-Dec-2025 20:54:52 UTC] PHP Warning:  Undefined array key "is_verified" in /home/bhemploy/public_html/admin/manage-users.php on line 52
+[01-Dec-2025 20:54:52 UTC] PHP Warning:  Undefined array key "is_verified" in /home/bhemploy/public_html/admin/manage-users.php on line 53
+[01-Dec-2025 20:54:52 UTC] ADMIN VERIFICATION DEBUG - Updated user data: {"id":null,"email":"spema413@gmail.com","is_verified":null,"is_verified_type":"NULL"}
+[01-Dec-2025 20:54:57 UTC] ADMIN VERIFICATION DEBUG - User ID: 43, Setting verified to: 1, Raw POST data: {"user_id":"43","is_verified":"0","verification_notes":"","toggle_verification":""}
+[01-Dec-2025 20:54:57 UTC] ADMIN VERIFICATION DEBUG - Database update completed. Rows affected: 1
+[01-Dec-2025 20:54:57 UTC] PHP Warning:  Undefined array key "id" in /home/bhemploy/public_html/admin/manage-users.php on line 50
+[01-Dec-2025 20:54:57 UTC] PHP Warning:  Undefined array key "is_verified" in /home/bhemploy/public_html/admin/manage-users.php on line 52
+[01-Dec-2025 20:54:57 UTC] PHP Warning:  Undefined array key "is_verified" in /home/bhemploy/public_html/admin/manage-users.php on line 53
+[01-Dec-2025 20:54:57 UTC] ADMIN VERIFICATION DEBUG - Updated user data: {"id":null,"email":"dolaphen31@gmail.com","is_verified":null,"is_verified_type":"NULL"}
+[01-Dec-2025 20:55:01 UTC] ADMIN VERIFICATION DEBUG - User ID: 42, Setting verified to: 1, Raw POST data: {"user_id":"42","is_verified":"0","verification_notes":"","toggle_verification":""}
+[01-Dec-2025 20:55:01 UTC] ADMIN VERIFICATION DEBUG - Database update completed. Rows affected: 1
+[01-Dec-2025 20:55:01 UTC] PHP Warning:  Undefined array key "id" in /home/bhemploy/public_html/admin/manage-users.php on line 50
+[01-Dec-2025 20:55:01 UTC] PHP Warning:  Undefined array key "is_verified" in /home/bhemploy/public_html/admin/manage-users.php on line 52
+[01-Dec-2025 20:55:01 UTC] PHP Warning:  Undefined array key "is_verified" in /home/bhemploy/public_html/admin/manage-users.php on line 53
+[01-Dec-2025 20:55:01 UTC] ADMIN VERIFICATION DEBUG - Updated user data: {"id":null,"email":"vistasix@yahoo.com","is_verified":null,"is_verified_type":"NULL"}
+[01-Dec-2025 20:55:06 UTC] ADMIN VERIFICATION DEBUG - User ID: 41, Setting verified to: 1, Raw POST data: {"user_id":"41","is_verified":"0","verification_notes":"","toggle_verification":""}
+[01-Dec-2025 20:55:06 UTC] ADMIN VERIFICATION DEBUG - Database update completed. Rows affected: 1
+[01-Dec-2025 20:55:06 UTC] PHP Warning:  Undefined array key "id" in /home/bhemploy/public_html/admin/manage-users.php on line 50
+[01-Dec-2025 20:55:06 UTC] PHP Warning:  Undefined array key "is_verified" in /home/bhemploy/public_html/admin/manage-users.php on line 52
+[01-Dec-2025 20:55:06 UTC] PHP Warning:  Undefined array key "is_verified" in /home/bhemploy/public_html/admin/manage-users.php on line 53
+[01-Dec-2025 20:55:06 UTC] ADMIN VERIFICATION DEBUG - Updated user data: {"id":null,"email":"shaktinaidoo@gmail.com","is_verified":null,"is_verified_type":"NULL"}
+[01-Dec-2025 20:55:10 UTC] ADMIN VERIFICATION DEBUG - User ID: 40, Setting verified to: 1, Raw POST data: {"user_id":"40","is_verified":"0","verification_notes":"","toggle_verification":""}
+[01-Dec-2025 20:55:10 UTC] ADMIN VERIFICATION DEBUG - Database update completed. Rows affected: 1
+[01-Dec-2025 20:55:10 UTC] PHP Warning:  Undefined array key "id" in /home/bhemploy/public_html/admin/manage-users.php on line 50
+[01-Dec-2025 20:55:10 UTC] PHP Warning:  Undefined array key "is_verified" in /home/bhemploy/public_html/admin/manage-users.php on line 52
+[01-Dec-2025 20:55:10 UTC] PHP Warning:  Undefined array key "is_verified" in /home/bhemploy/public_html/admin/manage-users.php on line 53
+[01-Dec-2025 20:55:10 UTC] ADMIN VERIFICATION DEBUG - Updated user data: {"id":null,"email":"ratujotos@gmail.com","is_verified":null,"is_verified_type":"NULL"}
+[01-Dec-2025 20:55:14 UTC] ADMIN VERIFICATION DEBUG - User ID: 39, Setting verified to: 1, Raw POST data: {"user_id":"39","is_verified":"0","verification_notes":"","toggle_verification":""}
+[01-Dec-2025 20:55:14 UTC] ADMIN VERIFICATION DEBUG - Database update completed. Rows affected: 1
+[01-Dec-2025 20:55:14 UTC] PHP Warning:  Undefined array key "id" in /home/bhemploy/public_html/admin/manage-users.php on line 50
+[01-Dec-2025 20:55:14 UTC] PHP Warning:  Undefined array key "is_verified" in /home/bhemploy/public_html/admin/manage-users.php on line 52
+[01-Dec-2025 20:55:14 UTC] PHP Warning:  Undefined array key "is_verified" in /home/bhemploy/public_html/admin/manage-users.php on line 53
+[01-Dec-2025 20:55:14 UTC] ADMIN VERIFICATION DEBUG - Updated user data: {"id":null,"email":"matildacalderon5@gmail.com","is_verified":null,"is_verified_type":"NULL"}
+[06-Dec-2025 17:32:07 UTC] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string - int in /home/bhemploy/public_html/admin/manage-blogs.php:206
+Stack trace:
+#0 {main}
+  thrown in /home/bhemploy/public_html/admin/manage-blogs.php on line 206
+[06-Dec-2025 17:32:15 UTC] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string - int in /home/bhemploy/public_html/admin/manage-blogs.php:206
+Stack trace:
+#0 {main}
+  thrown in /home/bhemploy/public_html/admin/manage-blogs.php on line 206
+[06-Dec-2025 18:10:16 UTC] Form submitted with title: Why Nepali Workers Are in High Demand in NYC’s Restaurants &amp; Retail Stores
+[06-Dec-2025 18:10:16 UTC] Content length: 11963
+[06-Dec-2025 18:10:16 UTC] Generated slug: why-nepali-workers-are-in-high-demand-in-nyc-s-restaurants-amp-retail-stores
+[06-Dec-2025 18:10:16 UTC] Featured image upload error code: 4
+[06-Dec-2025 18:10:16 UTC] Attempting to insert blog post
+[06-Dec-2025 18:10:16 UTC] Error creating blog post: SQLSTATE[22007]: Invalid datetime format: 1366 Incorrect string value: '\xF0\x9F\x93\x9E O...' for column `bhemploy_admin`.`blog_posts`.`content` at row 1
+[06-Dec-2025 18:10:29 UTC] Form submitted with title: Why Nepali Workers Are in High Demand in NYC’s Restaurants &amp; Retail Stores
+[06-Dec-2025 18:10:29 UTC] Content length: 11953
+[06-Dec-2025 18:10:29 UTC] Generated slug: why-nepali-workers-are-in-high-demand-in-nyc-s-restaurants-amp-retail-stores
+[06-Dec-2025 18:10:29 UTC] Featured image upload error code: 4
+[06-Dec-2025 18:10:29 UTC] Attempting to insert blog post
+[06-Dec-2025 18:10:29 UTC] Error creating blog post: SQLSTATE[22007]: Invalid datetime format: 1366 Incorrect string value: '\xE2\x9C\x94 Fa...' for column `bhemploy_admin`.`blog_posts`.`content` at row 1
+[06-Dec-2025 18:11:20 UTC] Form submitted with title: Why Nepali Workers Are in High Demand in NYC’s Restaurants &amp; Retail Stores
+[06-Dec-2025 18:11:20 UTC] Content length: 11806
+[06-Dec-2025 18:11:20 UTC] Generated slug: why-nepali-workers-are-in-high-demand-in-nyc-s-restaurants-amp-retail-stores
+[06-Dec-2025 18:11:20 UTC] Featured image upload error code: 4
+[06-Dec-2025 18:11:20 UTC] Attempting to insert blog post
+[06-Dec-2025 18:11:20 UTC] Blog post created successfully with ID: 19
+[06-Dec-2025 18:11:20 UTC] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string - int in /home/bhemploy/public_html/admin/manage-blogs.php:206
+Stack trace:
+#0 {main}
+  thrown in /home/bhemploy/public_html/admin/manage-blogs.php on line 206
+[06-Dec-2025 18:13:59 UTC] Form submitted with title: How to Hire Reliable Staff Fast in NYC: A Complete Guide for Small Business Owners
+[06-Dec-2025 18:13:59 UTC] Content length: 13789
+[06-Dec-2025 18:13:59 UTC] Generated slug: how-to-hire-reliable-staff-fast-in-nyc-a-complete-guide-for-small-business-owners
+[06-Dec-2025 18:13:59 UTC] Featured image upload error code: 4
+[06-Dec-2025 18:13:59 UTC] Attempting to insert blog post
+[06-Dec-2025 18:13:59 UTC] Blog post created successfully with ID: 20
+[06-Dec-2025 18:13:59 UTC] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string - int in /home/bhemploy/public_html/admin/manage-blogs.php:206
+Stack trace:
+#0 {main}
+  thrown in /home/bhemploy/public_html/admin/manage-blogs.php on line 206
+[06-Dec-2025 18:17:13 UTC] Form submitted with title: Top Reasons Indian &amp; American Families Prefer Nepali Nannies in NYC
+[06-Dec-2025 18:17:13 UTC] Content length: 13254
+[06-Dec-2025 18:17:13 UTC] Generated slug: top-reasons-indian-amp-american-families-prefer-nepali-nannies-in-nyc
+[06-Dec-2025 18:17:13 UTC] Featured image upload error code: 4
+[06-Dec-2025 18:17:13 UTC] Attempting to insert blog post
+[06-Dec-2025 18:17:13 UTC] Blog post created successfully with ID: 21
+[06-Dec-2025 18:17:13 UTC] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string - int in /home/bhemploy/public_html/admin/manage-blogs.php:206
+Stack trace:
+#0 {main}
+  thrown in /home/bhemploy/public_html/admin/manage-blogs.php on line 206
+[06-Dec-2025 18:19:54 UTC] Form submitted with title: Affordable Nanny Services in NYC That Offer Background Checks
+[06-Dec-2025 18:19:54 UTC] Content length: 7572
+[06-Dec-2025 18:19:54 UTC] Generated slug: affordable-nanny-services-in-nyc-that-offer-background-checks
+[06-Dec-2025 18:19:54 UTC] Featured image upload error code: 4
+[06-Dec-2025 18:19:54 UTC] Attempting to insert blog post
+[06-Dec-2025 18:19:54 UTC] Blog post created successfully with ID: 22
+[06-Dec-2025 18:19:54 UTC] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string - int in /home/bhemploy/public_html/admin/manage-blogs.php:206
+Stack trace:
+#0 {main}
+  thrown in /home/bhemploy/public_html/admin/manage-blogs.php on line 206
+[06-Dec-2025 18:20:26 UTC] Form submitted with title: Affordable Nanny Services in NYC That Offer Background Checks
+[06-Dec-2025 18:20:26 UTC] Content length: 7564
+[06-Dec-2025 18:20:26 UTC] Featured image upload error code: 4
+[06-Dec-2025 18:20:26 UTC] Attempting to update blog post
+[06-Dec-2025 18:20:26 UTC] Blog post updated successfully
+[06-Dec-2025 18:33:21 UTC] Form submitted with title: Affordable Nanny Services in NYC That Offer Background Checks
+[06-Dec-2025 18:33:21 UTC] Content length: 7564
+[06-Dec-2025 18:33:21 UTC] Featured image upload error code: 4
+[06-Dec-2025 18:33:21 UTC] Attempting to update blog post
+[06-Dec-2025 18:33:21 UTC] Blog post updated successfully
+[06-Dec-2025 18:33:26 UTC] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string - int in /home/bhemploy/public_html/admin/manage-blogs.php:206
+Stack trace:
+#0 {main}
+  thrown in /home/bhemploy/public_html/admin/manage-blogs.php on line 206
+[06-Dec-2025 18:33:36 UTC] Form submitted with title: Top Reasons Indian &amp;amp; American Families Prefer Nepali Nannies in NYC
+[06-Dec-2025 18:33:36 UTC] Content length: 13180
+[06-Dec-2025 18:33:36 UTC] Generated new slug: top-reasons-indian-amp-amp-american-families-prefer-nepali-nannies-in-nyc
+[06-Dec-2025 18:33:36 UTC] Featured image upload error code: 4
+[06-Dec-2025 18:33:36 UTC] Attempting to update blog post
+[06-Dec-2025 18:33:36 UTC] Blog post updated successfully
+[06-Dec-2025 18:33:39 UTC] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string - int in /home/bhemploy/public_html/admin/manage-blogs.php:206
+Stack trace:
+#0 {main}
+  thrown in /home/bhemploy/public_html/admin/manage-blogs.php on line 206
+[06-Dec-2025 18:33:49 UTC] Form submitted with title: How to Hire Reliable Staff Fast in NYC: A Complete Guide for Small Business Owners
+[06-Dec-2025 18:33:49 UTC] Content length: 13715
+[06-Dec-2025 18:33:49 UTC] Featured image upload error code: 4
+[06-Dec-2025 18:33:49 UTC] Attempting to update blog post
+[06-Dec-2025 18:33:49 UTC] Blog post updated successfully
+[06-Dec-2025 18:33:52 UTC] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string - int in /home/bhemploy/public_html/admin/manage-blogs.php:206
+Stack trace:
+#0 {main}
+  thrown in /home/bhemploy/public_html/admin/manage-blogs.php on line 206
+[06-Dec-2025 18:34:02 UTC] Form submitted with title: Why Nepali Workers Are in High Demand in NYC’s Restaurants &amp;amp; Retail Stores
+[06-Dec-2025 18:34:02 UTC] Content length: 11732
+[06-Dec-2025 18:34:02 UTC] Generated new slug: why-nepali-workers-are-in-high-demand-in-nyc-s-restaurants-amp-amp-retail-stores
+[06-Dec-2025 18:34:02 UTC] Featured image upload error code: 4
+[06-Dec-2025 18:34:02 UTC] Attempting to update blog post
+[06-Dec-2025 18:34:02 UTC] Blog post updated successfully
+[06-Dec-2025 18:34:04 UTC] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string - int in /home/bhemploy/public_html/admin/manage-blogs.php:206
+Stack trace:
+#0 {main}
+  thrown in /home/bhemploy/public_html/admin/manage-blogs.php on line 206
+[06-Dec-2025 18:35:23 UTC] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string - int in /home/bhemploy/public_html/admin/manage-blogs.php:206
+Stack trace:
+#0 {main}
+  thrown in /home/bhemploy/public_html/admin/manage-blogs.php on line 206
+[06-Dec-2025 18:36:45 UTC] Form submitted with title: The New York Employment Landscape: Essential Insights for NYC Small Businesses &amp; Households
+[06-Dec-2025 18:36:45 UTC] Content length: 9380
+[06-Dec-2025 18:36:45 UTC] Generated slug: the-new-york-employment-landscape-essential-insights-for-nyc-small-businesses-amp-households
+[06-Dec-2025 18:36:45 UTC] Featured image upload error code: 4
+[06-Dec-2025 18:36:45 UTC] Attempting to insert blog post
+[06-Dec-2025 18:36:45 UTC] Blog post created successfully with ID: 23
+[06-Dec-2025 18:36:45 UTC] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string - int in /home/bhemploy/public_html/admin/manage-blogs.php:206
+Stack trace:
+#0 {main}
+  thrown in /home/bhemploy/public_html/admin/manage-blogs.php on line 206
+[16-Dec-2025 20:50:55 UTC] ADMIN VERIFICATION DEBUG - User ID: 46, Setting verified to: 1, Raw POST data: {"user_id":"46","is_verified":"0","verification_notes":"","toggle_verification":""}
+[16-Dec-2025 20:50:55 UTC] ADMIN VERIFICATION DEBUG - Database update completed. Rows affected: 1
+[16-Dec-2025 20:50:55 UTC] PHP Warning:  Undefined array key "id" in /home/bhemploy/public_html/admin/manage-users.php on line 50
+[16-Dec-2025 20:50:55 UTC] PHP Warning:  Undefined array key "is_verified" in /home/bhemploy/public_html/admin/manage-users.php on line 52
+[16-Dec-2025 20:50:55 UTC] PHP Warning:  Undefined array key "is_verified" in /home/bhemploy/public_html/admin/manage-users.php on line 53
+[16-Dec-2025 20:50:55 UTC] ADMIN VERIFICATION DEBUG - Updated user data: {"id":null,"email":"florencio.jennyfer@icloud.com","is_verified":null,"is_verified_type":"NULL"}
+[16-Dec-2025 20:51:01 UTC] ADMIN VERIFICATION DEBUG - User ID: 47, Setting verified to: 1, Raw POST data: {"user_id":"47","is_verified":"0","verification_notes":"","toggle_verification":""}
+[16-Dec-2025 20:51:01 UTC] ADMIN VERIFICATION DEBUG - Database update completed. Rows affected: 1
+[16-Dec-2025 20:51:01 UTC] PHP Warning:  Undefined array key "id" in /home/bhemploy/public_html/admin/manage-users.php on line 50
+[16-Dec-2025 20:51:01 UTC] PHP Warning:  Undefined array key "is_verified" in /home/bhemploy/public_html/admin/manage-users.php on line 52
+[16-Dec-2025 20:51:01 UTC] PHP Warning:  Undefined array key "is_verified" in /home/bhemploy/public_html/admin/manage-users.php on line 53
+[16-Dec-2025 20:51:01 UTC] ADMIN VERIFICATION DEBUG - Updated user data: {"id":null,"email":"thapaashim0000@gmail.com","is_verified":null,"is_verified_type":"NULL"}
+[04-Jan-2026 22:31:28 UTC] ADMIN VERIFICATION DEBUG - User ID: 48, Setting verified to: 1, Raw POST data: {"user_id":"48","is_verified":"0","verification_notes":"","toggle_verification":""}
+[04-Jan-2026 22:31:28 UTC] ADMIN VERIFICATION DEBUG - Database update completed. Rows affected: 1
+[04-Jan-2026 22:31:28 UTC] PHP Warning:  Undefined array key "id" in /home/bhemploy/public_html/admin/manage-users.php on line 50
+[04-Jan-2026 22:31:28 UTC] PHP Warning:  Undefined array key "is_verified" in /home/bhemploy/public_html/admin/manage-users.php on line 52
+[04-Jan-2026 22:31:28 UTC] PHP Warning:  Undefined array key "is_verified" in /home/bhemploy/public_html/admin/manage-users.php on line 53
+[04-Jan-2026 22:31:28 UTC] ADMIN VERIFICATION DEBUG - Updated user data: {"id":null,"email":"monicaluraghi@gmail.com","is_verified":null,"is_verified_type":"NULL"}
+[04-Jan-2026 22:31:33 UTC] ADMIN VERIFICATION DEBUG - User ID: 49, Setting verified to: 1, Raw POST data: {"user_id":"49","is_verified":"0","verification_notes":"","toggle_verification":""}
+[04-Jan-2026 22:31:33 UTC] ADMIN VERIFICATION DEBUG - Database update completed. Rows affected: 1
+[04-Jan-2026 22:31:33 UTC] PHP Warning:  Undefined array key "id" in /home/bhemploy/public_html/admin/manage-users.php on line 50
+[04-Jan-2026 22:31:33 UTC] PHP Warning:  Undefined array key "is_verified" in /home/bhemploy/public_html/admin/manage-users.php on line 52
+[04-Jan-2026 22:31:33 UTC] PHP Warning:  Undefined array key "is_verified" in /home/bhemploy/public_html/admin/manage-users.php on line 53
+[04-Jan-2026 22:31:33 UTC] ADMIN VERIFICATION DEBUG - Updated user data: {"id":null,"email":"cheodra92@gmail.com","is_verified":null,"is_verified_type":"NULL"}
+[06-Jan-2026 21:38:42 UTC] ADMIN VERIFICATION DEBUG - User ID: 50, Setting verified to: 1, Raw POST data: {"user_id":"50","is_verified":"0","verification_notes":"","toggle_verification":""}
+[06-Jan-2026 21:38:42 UTC] ADMIN VERIFICATION DEBUG - Database update completed. Rows affected: 1
+[06-Jan-2026 21:38:42 UTC] PHP Warning:  Undefined array key "id" in /home/bhemploy/public_html/admin/manage-users.php on line 50
+[06-Jan-2026 21:38:42 UTC] PHP Warning:  Undefined array key "is_verified" in /home/bhemploy/public_html/admin/manage-users.php on line 52
+[06-Jan-2026 21:38:42 UTC] PHP Warning:  Undefined array key "is_verified" in /home/bhemploy/public_html/admin/manage-users.php on line 53
+[06-Jan-2026 21:38:42 UTC] ADMIN VERIFICATION DEBUG - Updated user data: {"id":null,"email":"noemicarchipulla@gmail.com","is_verified":null,"is_verified_type":"NULL"}
+[20-Jan-2026 17:36:51 UTC] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string - int in /home/bhemploy/public_html/admin/manage-blogs.php:206
+Stack trace:
+#0 {main}
+  thrown in /home/bhemploy/public_html/admin/manage-blogs.php on line 206
+[04-Mar-2026 21:43:33 UTC] ADMIN VERIFICATION DEBUG - User ID: 51, Setting verified to: 1, Raw POST data: {"user_id":"51","is_verified":"0","verification_notes":"","toggle_verification":""}
+[04-Mar-2026 21:43:33 UTC] ADMIN VERIFICATION DEBUG - Database update completed. Rows affected: 1
+[04-Mar-2026 21:43:33 UTC] PHP Warning:  Undefined array key "id" in /home/bhemploy/public_html/admin/manage-users.php on line 50
+[04-Mar-2026 21:43:33 UTC] PHP Warning:  Undefined array key "is_verified" in /home/bhemploy/public_html/admin/manage-users.php on line 52
+[04-Mar-2026 21:43:33 UTC] PHP Warning:  Undefined array key "is_verified" in /home/bhemploy/public_html/admin/manage-users.php on line 53
+[04-Mar-2026 21:43:33 UTC] ADMIN VERIFICATION DEBUG - Updated user data: {"id":null,"email":"bjonbruce@gmail.com","is_verified":null,"is_verified_type":"NULL"}
+[04-Mar-2026 21:43:38 UTC] ADMIN VERIFICATION DEBUG - User ID: 52, Setting verified to: 1, Raw POST data: {"user_id":"52","is_verified":"0","verification_notes":"","toggle_verification":""}
+[04-Mar-2026 21:43:38 UTC] ADMIN VERIFICATION DEBUG - Database update completed. Rows affected: 1
+[04-Mar-2026 21:43:38 UTC] PHP Warning:  Undefined array key "id" in /home/bhemploy/public_html/admin/manage-users.php on line 50
+[04-Mar-2026 21:43:38 UTC] PHP Warning:  Undefined array key "is_verified" in /home/bhemploy/public_html/admin/manage-users.php on line 52
+[04-Mar-2026 21:43:38 UTC] PHP Warning:  Undefined array key "is_verified" in /home/bhemploy/public_html/admin/manage-users.php on line 53
+[04-Mar-2026 21:43:38 UTC] ADMIN VERIFICATION DEBUG - Updated user data: {"id":null,"email":"ejeanpierre@gmail.com","is_verified":null,"is_verified_type":"NULL"}
+[04-Mar-2026 21:43:43 UTC] ADMIN VERIFICATION DEBUG - User ID: 57, Setting verified to: 1, Raw POST data: {"user_id":"57","is_verified":"0","verification_notes":"","toggle_verification":""}
+[04-Mar-2026 21:43:43 UTC] ADMIN VERIFICATION DEBUG - Database update completed. Rows affected: 1
+[04-Mar-2026 21:43:43 UTC] PHP Warning:  Undefined array key "id" in /home/bhemploy/public_html/admin/manage-users.php on line 50
+[04-Mar-2026 21:43:43 UTC] PHP Warning:  Undefined array key "is_verified" in /home/bhemploy/public_html/admin/manage-users.php on line 52
+[04-Mar-2026 21:43:43 UTC] PHP Warning:  Undefined array key "is_verified" in /home/bhemploy/public_html/admin/manage-users.php on line 53
+[04-Mar-2026 21:43:43 UTC] ADMIN VERIFICATION DEBUG - Updated user data: {"id":null,"email":"minsungbr@gmail.com","is_verified":null,"is_verified_type":"NULL"}
+[04-Mar-2026 21:43:48 UTC] ADMIN VERIFICATION DEBUG - User ID: 56, Setting verified to: 1, Raw POST data: {"user_id":"56","is_verified":"0","verification_notes":"","toggle_verification":""}
+[04-Mar-2026 21:43:48 UTC] ADMIN VERIFICATION DEBUG - Database update completed. Rows affected: 1
+[04-Mar-2026 21:43:48 UTC] PHP Warning:  Undefined array key "id" in /home/bhemploy/public_html/admin/manage-users.php on line 50
+[04-Mar-2026 21:43:48 UTC] PHP Warning:  Undefined array key "is_verified" in /home/bhemploy/public_html/admin/manage-users.php on line 52
+[04-Mar-2026 21:43:48 UTC] PHP Warning:  Undefined array key "is_verified" in /home/bhemploy/public_html/admin/manage-users.php on line 53
+[04-Mar-2026 21:43:48 UTC] ADMIN VERIFICATION DEBUG - Updated user data: {"id":null,"email":"mazimazi2308@gmail.com","is_verified":null,"is_verified_type":"NULL"}
+[04-Mar-2026 21:43:52 UTC] ADMIN VERIFICATION DEBUG - User ID: 55, Setting verified to: 1, Raw POST data: {"user_id":"55","is_verified":"0","verification_notes":"","toggle_verification":""}
+[04-Mar-2026 21:43:52 UTC] ADMIN VERIFICATION DEBUG - Database update completed. Rows affected: 1
+[04-Mar-2026 21:43:52 UTC] PHP Warning:  Undefined array key "id" in /home/bhemploy/public_html/admin/manage-users.php on line 50
+[04-Mar-2026 21:43:52 UTC] PHP Warning:  Undefined array key "is_verified" in /home/bhemploy/public_html/admin/manage-users.php on line 52
+[04-Mar-2026 21:43:52 UTC] PHP Warning:  Undefined array key "is_verified" in /home/bhemploy/public_html/admin/manage-users.php on line 53
+[04-Mar-2026 21:43:52 UTC] ADMIN VERIFICATION DEBUG - Updated user data: {"id":null,"email":"anjana.acharya405@gmail.com","is_verified":null,"is_verified_type":"NULL"}
+[04-Mar-2026 21:43:59 UTC] ADMIN VERIFICATION DEBUG - User ID: 54, Setting verified to: 1, Raw POST data: {"user_id":"54","is_verified":"0","verification_notes":"","toggle_verification":""}
+[04-Mar-2026 21:43:59 UTC] ADMIN VERIFICATION DEBUG - Database update completed. Rows affected: 1
+[04-Mar-2026 21:43:59 UTC] PHP Warning:  Undefined array key "id" in /home/bhemploy/public_html/admin/manage-users.php on line 50
+[04-Mar-2026 21:43:59 UTC] PHP Warning:  Undefined array key "is_verified" in /home/bhemploy/public_html/admin/manage-users.php on line 52
+[04-Mar-2026 21:43:59 UTC] PHP Warning:  Undefined array key "is_verified" in /home/bhemploy/public_html/admin/manage-users.php on line 53
+[04-Mar-2026 21:43:59 UTC] ADMIN VERIFICATION DEBUG - Updated user data: {"id":null,"email":"ahmedshariif90@gmail.com","is_verified":null,"is_verified_type":"NULL"}
+[04-Mar-2026 21:44:04 UTC] ADMIN VERIFICATION DEBUG - User ID: 53, Setting verified to: 1, Raw POST data: {"user_id":"53","is_verified":"0","verification_notes":"","toggle_verification":""}
+[04-Mar-2026 21:44:04 UTC] ADMIN VERIFICATION DEBUG - Database update completed. Rows affected: 1
+[04-Mar-2026 21:44:04 UTC] PHP Warning:  Undefined array key "id" in /home/bhemploy/public_html/admin/manage-users.php on line 50
+[04-Mar-2026 21:44:04 UTC] PHP Warning:  Undefined array key "is_verified" in /home/bhemploy/public_html/admin/manage-users.php on line 52
+[04-Mar-2026 21:44:04 UTC] PHP Warning:  Undefined array key "is_verified" in /home/bhemploy/public_html/admin/manage-users.php on line 53
+[04-Mar-2026 21:44:04 UTC] ADMIN VERIFICATION DEBUG - Updated user data: {"id":null,"email":"moontontlol321@gmail.com","is_verified":null,"is_verified_type":"NULL"}
+[04-Mar-2026 21:44:21 UTC] Error fetching appointments: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'preferred_date' in 'WHERE'
+[04-Mar-2026 21:44:21 UTC] Error fetching booked slots: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'admin_scheduled_time' in 'SELECT'
+[04-Mar-2026 21:45:04 UTC] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string - int in /home/bhemploy/public_html/admin/manage-blogs.php:206
+Stack trace:
+#0 {main}
+  thrown in /home/bhemploy/public_html/admin/manage-blogs.php on line 206
+[04-Mar-2026 21:45:34 UTC] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string - int in /home/bhemploy/public_html/admin/manage-blogs.php:206
+Stack trace:
+#0 {main}
+  thrown in /home/bhemploy/public_html/admin/manage-blogs.php on line 206
+[04-Mar-2026 21:45:44 UTC] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string - int in /home/bhemploy/public_html/admin/manage-blogs.php:206
+Stack trace:
+#0 {main}
+  thrown in /home/bhemploy/public_html/admin/manage-blogs.php on line 206
+[06-Mar-2026 19:28:45 UTC] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string - int in /home/bhemploy/public_html/admin/manage-blogs.php:206
+Stack trace:
+#0 {main}
+  thrown in /home/bhemploy/public_html/admin/manage-blogs.php on line 206
+[06-Mar-2026 19:28:59 UTC] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string - int in /home/bhemploy/public_html/admin/manage-blogs.php:206
+Stack trace:
+#0 {main}
+  thrown in /home/bhemploy/public_html/admin/manage-blogs.php on line 206
+[06-Mar-2026 19:29:03 UTC] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string - int in /home/bhemploy/public_html/admin/manage-blogs.php:206
+Stack trace:
+#0 {main}
+  thrown in /home/bhemploy/public_html/admin/manage-blogs.php on line 206
+[06-Mar-2026 19:29:10 UTC] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string - int in /home/bhemploy/public_html/admin/manage-blogs.php:206
+Stack trace:
+#0 {main}
+  thrown in /home/bhemploy/public_html/admin/manage-blogs.php on line 206
+[06-Mar-2026 19:29:14 UTC] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string - int in /home/bhemploy/public_html/admin/manage-blogs.php:206
+Stack trace:
+#0 {main}
+  thrown in /home/bhemploy/public_html/admin/manage-blogs.php on line 206
+[06-Mar-2026 19:29:18 UTC] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string - int in /home/bhemploy/public_html/admin/manage-blogs.php:206
+Stack trace:
+#0 {main}
+  thrown in /home/bhemploy/public_html/admin/manage-blogs.php on line 206
+[06-Mar-2026 19:29:22 UTC] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string - int in /home/bhemploy/public_html/admin/manage-blogs.php:206
+Stack trace:
+#0 {main}
+  thrown in /home/bhemploy/public_html/admin/manage-blogs.php on line 206
+[06-Mar-2026 19:29:31 UTC] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string - int in /home/bhemploy/public_html/admin/manage-blogs.php:206
+Stack trace:
+#0 {main}
+  thrown in /home/bhemploy/public_html/admin/manage-blogs.php on line 206
+[25-Apr-2026 18:30:47 UTC] ADMIN VERIFICATION DEBUG - User ID: 58, Setting verified to: 1, Raw POST data: {"user_id":"58","is_verified":"0","verification_notes":"","toggle_verification":""}
+[25-Apr-2026 18:30:47 UTC] ADMIN VERIFICATION DEBUG - Database update completed. Rows affected: 1
+[25-Apr-2026 18:30:47 UTC] PHP Warning:  Undefined array key "id" in /home/bhemploy/public_html/admin/manage-users.php on line 50
+[25-Apr-2026 18:30:47 UTC] PHP Warning:  Undefined array key "is_verified" in /home/bhemploy/public_html/admin/manage-users.php on line 52
+[25-Apr-2026 18:30:47 UTC] PHP Warning:  Undefined array key "is_verified" in /home/bhemploy/public_html/admin/manage-users.php on line 53
+[25-Apr-2026 18:30:47 UTC] ADMIN VERIFICATION DEBUG - Updated user data: {"id":null,"email":"dallisongude83@hotmail.com","is_verified":null,"is_verified_type":"NULL"}
+[25-Apr-2026 18:30:52 UTC] ADMIN VERIFICATION DEBUG - User ID: 59, Setting verified to: 1, Raw POST data: {"user_id":"59","is_verified":"0","verification_notes":"","toggle_verification":""}
+[25-Apr-2026 18:30:52 UTC] ADMIN VERIFICATION DEBUG - Database update completed. Rows affected: 1
+[25-Apr-2026 18:30:52 UTC] PHP Warning:  Undefined array key "id" in /home/bhemploy/public_html/admin/manage-users.php on line 50
+[25-Apr-2026 18:30:52 UTC] PHP Warning:  Undefined array key "is_verified" in /home/bhemploy/public_html/admin/manage-users.php on line 52
+[25-Apr-2026 18:30:52 UTC] PHP Warning:  Undefined array key "is_verified" in /home/bhemploy/public_html/admin/manage-users.php on line 53
+[25-Apr-2026 18:30:52 UTC] ADMIN VERIFICATION DEBUG - Updated user data: {"id":null,"email":"eliwiesenberg@gmail.com","is_verified":null,"is_verified_type":"NULL"}
+[25-Apr-2026 18:30:56 UTC] ADMIN VERIFICATION DEBUG - User ID: 60, Setting verified to: 1, Raw POST data: {"user_id":"60","is_verified":"0","verification_notes":"","toggle_verification":""}
+[25-Apr-2026 18:30:56 UTC] ADMIN VERIFICATION DEBUG - Database update completed. Rows affected: 1
+[25-Apr-2026 18:30:56 UTC] PHP Warning:  Undefined array key "id" in /home/bhemploy/public_html/admin/manage-users.php on line 50
+[25-Apr-2026 18:30:56 UTC] PHP Warning:  Undefined array key "is_verified" in /home/bhemploy/public_html/admin/manage-users.php on line 52
+[25-Apr-2026 18:30:56 UTC] PHP Warning:  Undefined array key "is_verified" in /home/bhemploy/public_html/admin/manage-users.php on line 53
+[25-Apr-2026 18:30:56 UTC] ADMIN VERIFICATION DEBUG - Updated user data: {"id":null,"email":"ruthiechuchu@gmail.com","is_verified":null,"is_verified_type":"NULL"}
+[28-Apr-2026 16:59:20 UTC] ADMIN VERIFICATION DEBUG - User ID: 61, Setting verified to: 1, Raw POST data: {"user_id":"61","is_verified":"0","verification_notes":"","toggle_verification":""}
+[28-Apr-2026 16:59:20 UTC] ADMIN VERIFICATION DEBUG - Database update completed. Rows affected: 1
+[28-Apr-2026 16:59:20 UTC] PHP Warning:  Undefined array key "id" in /home/bhemploy/public_html/admin/manage-users.php on line 50
+[28-Apr-2026 16:59:20 UTC] PHP Warning:  Undefined array key "is_verified" in /home/bhemploy/public_html/admin/manage-users.php on line 52
+[28-Apr-2026 16:59:20 UTC] PHP Warning:  Undefined array key "is_verified" in /home/bhemploy/public_html/admin/manage-users.php on line 53
+[28-Apr-2026 16:59:20 UTC] ADMIN VERIFICATION DEBUG - Updated user data: {"id":null,"email":"tenchoe0914@gmail.com","is_verified":null,"is_verified_type":"NULL"}
+[04-May-2026 19:40:56 UTC] ADMIN VERIFICATION DEBUG - User ID: 62, Setting verified to: 1, Raw POST data: {"user_id":"62","is_verified":"0","verification_notes":"","toggle_verification":""}
+[04-May-2026 19:40:56 UTC] ADMIN VERIFICATION DEBUG - Database update completed. Rows affected: 1
+[04-May-2026 19:40:56 UTC] PHP Warning:  Undefined array key "id" in /home/bhemploy/public_html/admin/manage-users.php on line 50
+[04-May-2026 19:40:56 UTC] PHP Warning:  Undefined array key "is_verified" in /home/bhemploy/public_html/admin/manage-users.php on line 52
+[04-May-2026 19:40:56 UTC] PHP Warning:  Undefined array key "is_verified" in /home/bhemploy/public_html/admin/manage-users.php on line 53
+[04-May-2026 19:40:56 UTC] ADMIN VERIFICATION DEBUG - Updated user data: {"id":null,"email":"ambupandey@live.com","is_verified":null,"is_verified_type":"NULL"}
+[04-May-2026 19:41:19 UTC] Error fetching appointments: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'preferred_date' in 'WHERE'
+[04-May-2026 19:41:19 UTC] Error fetching booked slots: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'admin_scheduled_time' in 'SELECT'
+[04-May-2026 19:43:11 UTC] Error fetching appointments: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'preferred_date' in 'WHERE'
+[04-May-2026 19:43:11 UTC] Error fetching booked slots: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'admin_scheduled_time' in 'SELECT'
+[04-May-2026 19:49:42 UTC] Error fetching appointments: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'preferred_date' in 'WHERE'
+[04-May-2026 19:49:42 UTC] Error fetching booked slots: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'admin_scheduled_time' in 'SELECT'
+[04-May-2026 19:51:50 UTC] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string - int in /home/bhemploy/public_html/admin/manage-blogs.php:206
+Stack trace:
+#0 {main}
+  thrown in /home/bhemploy/public_html/admin/manage-blogs.php on line 206
+[04-May-2026 19:53:15 UTC] PHP Warning:  require_once(config.php): Failed to open stream: No such file or directory in /home/bhemploy/public_html/admin/manage-candidates.php on line 3
+[04-May-2026 19:53:15 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'config.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/bhemploy/public_html/admin/manage-candidates.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/bhemploy/public_html/admin/manage-candidates.php on line 3
+[04-May-2026 19:53:18 UTC] PHP Warning:  require_once(config.php): Failed to open stream: No such file or directory in /home/bhemploy/public_html/admin/manage-candidates.php on line 3
+[04-May-2026 19:53:18 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'config.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/bhemploy/public_html/admin/manage-candidates.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/bhemploy/public_html/admin/manage-candidates.php on line 3
+[04-May-2026 19:53:44 UTC] PHP Warning:  require_once(config.php): Failed to open stream: No such file or directory in /home/bhemploy/public_html/admin/manage-candidates.php on line 3
+[04-May-2026 19:53:44 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'config.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/bhemploy/public_html/admin/manage-candidates.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/bhemploy/public_html/admin/manage-candidates.php on line 3
+[04-May-2026 19:54:06 UTC] Error fetching appointments: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'preferred_date' in 'WHERE'
+[04-May-2026 19:54:06 UTC] Error fetching booked slots: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'admin_scheduled_time' in 'SELECT'
+[04-May-2026 19:58:06 UTC] PHP Warning:  require_once(config.php): Failed to open stream: No such file or directory in /home/bhemploy/public_html/admin/manage-candidates.php on line 3
+[04-May-2026 19:58:06 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'config.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/bhemploy/public_html/admin/manage-candidates.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/bhemploy/public_html/admin/manage-candidates.php on line 3
+[04-May-2026 19:58:16 UTC] PHP Warning:  require_once(config.php): Failed to open stream: No such file or directory in /home/bhemploy/public_html/admin/manage-candidates.php on line 3
+[04-May-2026 19:58:16 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'config.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/bhemploy/public_html/admin/manage-candidates.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/bhemploy/public_html/admin/manage-candidates.php on line 3
+[04-May-2026 20:11:53 UTC] PHP Warning:  require_once(config.php): Failed to open stream: No such file or directory in /home/bhemploy/public_html/admin/manage-candidates.php on line 3
+[04-May-2026 20:11:53 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'config.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/bhemploy/public_html/admin/manage-candidates.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/bhemploy/public_html/admin/manage-candidates.php on line 3
+[04-May-2026 20:11:54 UTC] PHP Warning:  require_once(config.php): Failed to open stream: No such file or directory in /home/bhemploy/public_html/admin/manage-candidates.php on line 3
+[04-May-2026 20:11:54 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'config.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/bhemploy/public_html/admin/manage-candidates.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/bhemploy/public_html/admin/manage-candidates.php on line 3
+[04-May-2026 20:11:55 UTC] PHP Warning:  require_once(config.php): Failed to open stream: No such file or directory in /home/bhemploy/public_html/admin/manage-candidates.php on line 3
+[04-May-2026 20:11:55 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'config.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/bhemploy/public_html/admin/manage-candidates.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/bhemploy/public_html/admin/manage-candidates.php on line 3
+[04-May-2026 20:12:01 UTC] PHP Warning:  require_once(config.php): Failed to open stream: No such file or directory in /home/bhemploy/public_html/admin/manage-candidates.php on line 3
+[04-May-2026 20:12:01 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'config.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/bhemploy/public_html/admin/manage-candidates.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/bhemploy/public_html/admin/manage-candidates.php on line 3
+[04-May-2026 21:00:08 UTC] Error fetching appointments: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'preferred_date' in 'WHERE'
+[04-May-2026 21:00:08 UTC] Error fetching booked slots: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'admin_scheduled_time' in 'SELECT'
+[13-May-2026 16:14:58 UTC] Error fetching appointments: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'preferred_date' in 'WHERE'
+[13-May-2026 16:14:58 UTC] Error fetching booked slots: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'admin_scheduled_time' in 'SELECT'
