@@ -10,8 +10,11 @@ jobs:
       contents: write
 
     steps:
+      # Explicitly checkout main branch to avoid detached HEAD errors
       - name: Checkout Repository
         uses: actions/checkout@v4
+        with:
+          ref: main
 
       - name: Download Backup File
         run: |
@@ -20,36 +23,37 @@ jobs:
       - name: Extract Archive
         run: |
           tar -xzvf backup.tar.gz
-          rm backup.tar.gz
+          rm -f backup.tar.gz
 
-      - name: Kill Submodule Cache and Move Files
+      - name: Clean Submodules and Extract Files
         run: |
-          # 1. Locate public_html
+          # 1. Remove all hidden .git folders inside extracted files
+          find . -maxdepth 4 -name ".git" -not -path "./.git*" -exec rm -rf {} + 2>/dev/null || true
+
+          # 2. Untrack public_html safely without failing if it doesn't exist
+          if git ls-files --error-unmatch public_html >/dev/null 2>&1; then
+            git rm --cached -r -f public_html || true
+          fi
+          rm -f .gitmodules
+
+          # 3. Find public_html directory inside the archive
           PUBLIC_DIR=$(find . -type d -name "public_html" | head -n 1)
 
           if [ -n "$PUBLIC_DIR" ]; then
-            # 2. Delete all nested hidden .git folders so Git stops thinking it's a sub-repo
-            find . -name ".git" -not -path "./.git*" -exec rm -rf {} + || true
-            
-            # 3. Force Git to untrack public_html and any modules
-            git rm --cached -r public_html || true
-            git rm --cached -f public_html || true
-            rm -f .gitmodules || true
-
-            # 4. Copy ALL files (including hidden ones) from public_html directly to repository root
+            echo "Found public_html at $PUBLIC_DIR"
             shopt -s dotglob
             cp -rn "$PUBLIC_DIR"/* . || true
-
-            # 5. Delete empty public_html/homedir folders so they don't block root
             rm -rf public_html homedir || true
           fi
 
-      - name: Commit and Force Push Clean Files
+      - name: Commit and Push Clean Files
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
 
-          # Stage all real files and remove cached submodule pointers
+          # Stage all files
           git add -A
-          git commit -m "Completely remove blue submodule and move all website files to root" || echo "No changes to commit"
+          
+          # Commit and push
+          git commit -m "Extract all website files to root and clear submodules" || echo "Nothing to commit"
           git push origin main
