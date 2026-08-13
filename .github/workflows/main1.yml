@@ -1,10 +1,10 @@
-name: Extract Backup and Move Files to Root
+name: Unsubmodule and Extract All Files
 
 on:
   workflow_dispatch:
 
 jobs:
-  extract-and-flatten:
+  fix-and-extract:
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -22,34 +22,34 @@ jobs:
           tar -xzvf backup.tar.gz
           rm backup.tar.gz
 
-      - name: Locate and Move public_html Files to Root
+      - name: Kill Submodule Cache and Move Files
         run: |
-          # 1. Find where public_html actually lives in the extracted backup
+          # 1. Locate public_html
           PUBLIC_DIR=$(find . -type d -name "public_html" | head -n 1)
 
           if [ -n "$PUBLIC_DIR" ]; then
-            echo "Found public_html at $PUBLIC_DIR"
+            # 2. Delete all nested hidden .git folders so Git stops thinking it's a sub-repo
+            find . -name ".git" -not -path "./.git*" -exec rm -rf {} + || true
             
-            # Remove nested .git folders to avoid broken blue submodule folders
-            find "$PUBLIC_DIR" -name ".git" -exec rm -rf {} + || true
-            
-            # Copy all files (including hidden dotfiles) from public_html to repository root
+            # 3. Force Git to untrack public_html and any modules
+            git rm --cached -r public_html || true
+            git rm --cached -f public_html || true
+            rm -f .gitmodules || true
+
+            # 4. Copy ALL files (including hidden ones) from public_html directly to repository root
             shopt -s dotglob
             cp -rn "$PUBLIC_DIR"/* . || true
-            
-            # Remove the empty public_html and backup folders
-            git rm -f --cached -r public_html || true
+
+            # 5. Delete empty public_html/homedir folders so they don't block root
             rm -rf public_html homedir || true
-          else
-            echo "public_html folder not found!"
           fi
 
-      - name: Commit and Push All Extracted Files
+      - name: Commit and Force Push Clean Files
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          
-          # Force add all files
+
+          # Stage all real files and remove cached submodule pointers
           git add -A
-          git commit -m "Extract and place all public_html files directly in root" || echo "No changes to commit"
+          git commit -m "Completely remove blue submodule and move all website files to root" || echo "No changes to commit"
           git push origin main
