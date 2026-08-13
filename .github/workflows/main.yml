@@ -1,35 +1,55 @@
-name: Extract Release Archive
+name: Unsubmodule and Extract All Files
 
 on:
-  workflow_dispatch: # Allows you to manually trigger this from the GitHub web UI
+  workflow_dispatch:
 
 jobs:
-  extract-and-commit:
+  fix-and-extract:
     runs-on: ubuntu-latest
     permissions:
       contents: write
 
     steps:
-      # 1. Checkout the repository code
       - name: Checkout Repository
         uses: actions/checkout@v4
 
-      # 2. Download the backup tar.gz from your Release
       - name: Download Backup File
         run: |
           curl -L -o backup.tar.gz https://github.com/hemendrabohara/bhemployment-sites/releases/download/v1.0.0/backup-7.30.2026_02-07-20_bhemploy.tar.gz
 
-      # 3. Extract the tar.gz archive
       - name: Extract Archive
         run: |
           tar -xzvf backup.tar.gz
-          rm backup.tar.gz # Remove the archive after extracting
+          rm backup.tar.gz
 
-      # 4. Commit and push the extracted files back to main
-      - name: Commit and Push Extracted Files
+      - name: Kill Submodule Cache and Move Files
+        run: |
+          # 1. Locate public_html
+          PUBLIC_DIR=$(find . -type d -name "public_html" | head -n 1)
+
+          if [ -n "$PUBLIC_DIR" ]; then
+            # 2. Delete all nested hidden .git folders so Git stops thinking it's a sub-repo
+            find . -name ".git" -not -path "./.git*" -exec rm -rf {} + || true
+            
+            # 3. Force Git to untrack public_html and any modules
+            git rm --cached -r public_html || true
+            git rm --cached -f public_html || true
+            rm -f .gitmodules || true
+
+            # 4. Copy ALL files (including hidden ones) from public_html directly to repository root
+            shopt -s dotglob
+            cp -rn "$PUBLIC_DIR"/* . || true
+
+            # 5. Delete empty public_html/homedir folders so they don't block root
+            rm -rf public_html homedir || true
+          fi
+
+      - name: Commit and Force Push Clean Files
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add .
-          git commit -m "Extract backup files via GitHub Action" || echo "No changes to commit"
+
+          # Stage all real files and remove cached submodule pointers
+          git add -A
+          git commit -m "Completely remove blue submodule and move all website files to root" || echo "No changes to commit"
           git push origin main
